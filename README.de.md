@@ -44,6 +44,14 @@ Deine Daten bleiben auf deinem Gerät. GateTap überträgt keine Zugangsdaten od
 
 Die optionale Absturzberichterstattung kann jederzeit deaktiviert werden.
 
+Lies die vollständigen [Datenschutzbestimmungen](legal/de-DE/privacy-policy.de.md) und [Nutzungsbedingungen](legal/de-DE/terms-of-use.de.md).
+
+---
+
+## Kontakt
+
+Für Fragen, Feedback oder Support kontaktiere [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+
 ---
 
 ## Hinweis

@@ -44,6 +44,14 @@ Your data stays on your device. GateTap does not send your credentials or comman
 
 Crash reporting (optional) can be disabled at any time.
 
+Read the full [Privacy Policy](legal/en-US/privacy-policy.md) and [Terms of Use](legal/en-US/terms-of-use.md).
+
+---
+
+## Contact
+
+For questions, feedback, or support, contact [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+
 ---
 
 ## Note

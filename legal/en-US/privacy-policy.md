@@ -1,0 +1,62 @@
+<!--
+Generated from GateTap app legal JSON.
+Do not edit manually.
+Version: 1.1
+Last updated: 2026-04-27
+-->
+
+# Privacy Policy
+
+**Version:** 1.1  
+**Last updated:** 2026-04-27
+
+## 1. Overview
+GateTap respects your privacy. This App is designed to operate primarily on your device and within your local network.
+
+## 2. Data Collection
+GateTap does not collect, store, or transmit personal data to external servers for functional use of the App.
+
+The App may store the following information locally on your device:
+- IP addresses of configured devices
+- Login credentials (optional, if you choose to save them)
+
+This data never leaves your device.
+
+## 3. Crash Reporting (Optional)
+GateTap uses a third-party service provided by Google Firebase Crashlytics to collect anonymous crash reports in order to improve app stability.
+
+Crash reports may include:
+- Device type and operating system version
+- App version
+- Technical information about the crash
+
+No personal data or credentials are included in crash reports.
+
+You can disable crash reporting at any time in the app settings.
+
+## 4. Network Communication
+GateTap communicates directly with your configured devices over your local network. No command or credential data is routed through external servers.
+
+## 5. No Tracking
+GateTap does not use tracking technologies, advertising identifiers, or profiling.
+
+## 6. Security
+All sensitive data remains on your device. You are responsible for securing your device using system-level protections (e.g., passcode, Face ID).
+
+## 7. Third-Party Systems
+GateTap interacts with third-party hardware systems. The security and behavior of those systems are outside the control of the App.
+
+## 8. Changes
+This Privacy Policy may be updated in the future. Changes will be reflected in the App.
+
+## 9. Contact
+For privacy-related questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
+
+
+---
+
+🌍 **This Document is available in other Languages:**  
+🇺🇸 English | [🇩🇪 Deutsch](../de-DE/privacy-policy.de.md)
+
+---
+
