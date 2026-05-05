@@ -36,6 +36,8 @@ GateTap richtet sich an technisch versierte Nutzer und erfordert eine manuelle K
 
 GateTap funktioniert mit Systemen, die eine Weboberfläche bereitstellen. Die Kompatibilität hängt von deiner Hardware ab.
 
+Lies die vollständige [Einrichtungsanleitung](setup-guide.de.md).
+
 ---
 
 ## Datenschutz

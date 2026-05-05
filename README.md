@@ -36,6 +36,8 @@ GateTap is designed for advanced users and requires manual setup:
 
 GateTap works with systems that expose a built-in web interface. Compatibility depends on your hardware configuration.
 
+Read the full [Setup Guide](setup-guide.en.md).
+
 ---
 
 ## Privacy first
