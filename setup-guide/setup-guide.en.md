@@ -7,11 +7,14 @@ Language: en
 
 # Setup Guide
 
+---
+
+🌍 **This Document is available in other Languages:**  
+🇺🇸 English | [🇩🇪 Deutsch](setup-guide.de.md) | [🌐 ar](setup-guide.ar.md) | [🌐 ca](setup-guide.ca.md) | [🌐 cs](setup-guide.cs.md) | [🌐 da](setup-guide.da.md) | [🌐 el](setup-guide.el.md) | [🌐 es](setup-guide.es.md) | [🌐 es-MX](setup-guide.es-MX.md) | [🌐 fi](setup-guide.fi.md) | [🌐 fr](setup-guide.fr.md) | [🌐 he](setup-guide.he.md) | [🌐 hi](setup-guide.hi.md) | [🌐 hr](setup-guide.hr.md) | [🌐 hu](setup-guide.hu.md) | [🌐 id](setup-guide.id.md) | [🌐 it](setup-guide.it.md) | [🌐 ja](setup-guide.ja.md) | [🌐 ko](setup-guide.ko.md) | [🌐 ms](setup-guide.ms.md) | [🌐 nb](setup-guide.nb.md) | [🌐 nl](setup-guide.nl.md) | [🌐 pl](setup-guide.pl.md) | [🌐 pt-BR](setup-guide.pt-BR.md) | [🌐 pt-PT](setup-guide.pt-PT.md) | [🌐 ro](setup-guide.ro.md) | [🌐 ru](setup-guide.ru.md) | [🌐 sk](setup-guide.sk.md) | [🌐 sv](setup-guide.sv.md) | [🌐 th](setup-guide.th.md) | [🌐 tr](setup-guide.tr.md) | [🌐 uk](setup-guide.uk.md) | [🌐 vi](setup-guide.vi.md) | [🇨🇳 中文](setup-guide.zh-Hans.md) | [🇨🇳 中文](setup-guide.zh-Hant.md)
+
+---
+
 Connect GateTap to your access controller
-
-## Other available languages
-
-- [Deutsch](setup-guide.de.md)
 
 ## Before you start
 
@@ -58,7 +61,7 @@ Look for:
 The IP address will usually look like:
 `192.168.x.x` or `10.0.x.x`
 
-![Router connected devices example](assets/setup-guide/en/setup_guide_img_01.png)
+![Router connected devices example](../assets/setup-guide/en/img_01.png)
 
 
 ## Option C: Scan your network
@@ -71,7 +74,7 @@ Scan your network and try opening discovered IP addresses in Safari, for example
 
 If the controller’s login page appears, you’ve found the correct address.
 
-![Network scanner example](assets/setup-guide/en/setup_guide_img_02.png)
+![Network scanner example](../assets/setup-guide/en/img_02.png)
 
 
 ## Step 2: Add the controller in GateTap

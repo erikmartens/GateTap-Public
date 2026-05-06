@@ -7,11 +7,14 @@ Language: de
 
 # Einrichtungsanleitung
 
+---
+
+🌍 **Dieses Dokument ist in anderen Sprachen verfügbar:**  
+[🇺🇸 English](setup-guide.en.md) | 🇩🇪 Deutsch | [🌐 ar](setup-guide.ar.md) | [🌐 ca](setup-guide.ca.md) | [🌐 cs](setup-guide.cs.md) | [🌐 da](setup-guide.da.md) | [🌐 el](setup-guide.el.md) | [🌐 es](setup-guide.es.md) | [🌐 es-MX](setup-guide.es-MX.md) | [🌐 fi](setup-guide.fi.md) | [🌐 fr](setup-guide.fr.md) | [🌐 he](setup-guide.he.md) | [🌐 hi](setup-guide.hi.md) | [🌐 hr](setup-guide.hr.md) | [🌐 hu](setup-guide.hu.md) | [🌐 id](setup-guide.id.md) | [🌐 it](setup-guide.it.md) | [🌐 ja](setup-guide.ja.md) | [🌐 ko](setup-guide.ko.md) | [🌐 ms](setup-guide.ms.md) | [🌐 nb](setup-guide.nb.md) | [🌐 nl](setup-guide.nl.md) | [🌐 pl](setup-guide.pl.md) | [🌐 pt-BR](setup-guide.pt-BR.md) | [🌐 pt-PT](setup-guide.pt-PT.md) | [🌐 ro](setup-guide.ro.md) | [🌐 ru](setup-guide.ru.md) | [🌐 sk](setup-guide.sk.md) | [🌐 sv](setup-guide.sv.md) | [🌐 th](setup-guide.th.md) | [🌐 tr](setup-guide.tr.md) | [🌐 uk](setup-guide.uk.md) | [🌐 vi](setup-guide.vi.md) | [🇨🇳 中文](setup-guide.zh-Hans.md) | [🇨🇳 中文](setup-guide.zh-Hant.md)
+
+---
+
 GateTap mit deinem Zutrittscontroller verbinden
-
-## Andere verfügbare Sprachen
-
-- [English](setup-guide.en.md)
 
 ## Bevor du beginnst
 
@@ -58,7 +61,7 @@ Suche nach:
 Die IP-Adresse sieht meist so aus:
 `192.168.x.x` oder `10.0.x.x`
 
-![Beispiel für verbundene Geräte im Router](assets/setup-guide/de/setup_guide_img_01.png)
+![Beispiel für verbundene Geräte im Router](../assets/setup-guide/de/img_01.png)
 
 
 ## Option C: Netzwerk scannen
@@ -71,7 +74,7 @@ Scanne dein Netzwerk und öffne gefundene IP-Adressen im Browser, z. B.:
 
 Wenn die Login-Seite erscheint, hast du die richtige Adresse gefunden.
 
-![Beispiel für eine Netzwerk-Scanner-App](assets/setup-guide/de/setup_guide_img_02.png)
+![Beispiel für eine Netzwerk-Scanner-App](../assets/setup-guide/de/img_02.png)
 
 
 ## Schritt 2: Controller in GateTap hinzufügen
