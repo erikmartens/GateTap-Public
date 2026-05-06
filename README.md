@@ -3,50 +3,42 @@
 ---
 
 🌍 **This Document is available in other Languages:**  
-🇺🇸 English | [🇩🇪 Deutsch](README.de.md)
+🇺🇸 English | [🇩🇪 Deutsch](README.de.md) | [🇸🇦 العربية](README.ar.md) | [🇪🇸 Català](README.ca.md) | [🇨🇿 Čeština](README.cs.md) | [🇩🇰 Dansk](README.da.md) | [🇬🇷 Ελληνικά](README.el.md) | [🇪🇸 Español](README.es.md) | [🇲🇽 Español (México)](README.es-MX.md) | [🇫🇮 Suomi](README.fi.md) | [🇫🇷 Français](README.fr.md) | [🇮🇱 עברית](README.he.md) | [🇮🇳 हिन्दी](README.hi.md) | [🇭🇷 Hrvatski](README.hr.md) | [🇭🇺 Magyar](README.hu.md) | [🇮🇩 Bahasa Indonesia](README.id.md) | [🇮🇹 Italiano](README.it.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko.md) | [🇲🇾 Bahasa Melayu](README.ms.md) | [🇳🇴 Norsk Bokmål](README.nb.md) | [🇳🇱 Nederlands](README.nl.md) | [🇵🇱 Polski](README.pl.md) | [🇧🇷 Português (Brasil)](README.pt-BR.md) | [🇵🇹 Português (Portugal)](README.pt-PT.md) | [🇷🇴 Română](README.ro.md) | [🇷🇺 Русский](README.ru.md) | [🇸🇰 Slovenčina](README.sk.md) | [🇸🇪 Svenska](README.sv.md) | [🇹🇭 ไทย](README.th.md) | [🇹🇷 Türkçe](README.tr.md) | [🇺🇦 Українська](README.uk.md) | [🇻🇳 Tiếng Việt](README.vi.md) | [🇨🇳 简体中文](README.zh-Hans.md) | [🇹🇼 繁體中文](README.zh-Hant.md)
 
 ---
 
-_**Stop struggling with outdated web interfaces.**_
+_**Instant Door & Gate Control**_
 
-Many access control systems rely on slow, hard-to-use browser pages just to open a door or gate. GateTap gives you a fast, modern, and touch-friendly way to control your system directly from your iPhone.
+GateTap lets you control compatible local access controllers from your iPhone while you are inside your own network.
 
-Built for local networks, GateTap connects directly to your access controller — no cloud, no accounts, no delays.
+The app connects directly to your controller. No cloud account is required for door and gate commands.
 
 ---
 
 ## Features
 
-• One-tap door & gate control  
-• Fast login with stored credentials (optional)  
-• 🔐 Optional Face ID / Touch ID protection  
-• Works entirely within your local network  
-• Clean, touch-optimized interface  
-• No cloud connection required  
+- Open doors and gates from the Access tab.
+- Store the controller address and optionally save credentials locally.
+- Use temporary credentials for the current app session.
+- Protect the app with Face ID, Touch ID, or your device passcode.
+- Read setup, privacy, and terms documents from the same source used by the app.
 
 ---
 
 ## Setup
 
-GateTap is designed for advanced users and requires manual setup:
+Use the setup guide to find your controller, sign in, and connect GateTap.
 
-1. Enter your device's local IP address  
-2. Provide your login credentials  
-3. Test connection and start controlling your system  
-
-GateTap works with systems that expose a built-in web interface. Compatibility depends on your hardware configuration.
-
-Read the full [Setup Guide](setup-guide/setup-guide.en.md).
+[Open the setup guide](setup-guide/setup-guide.en.md)
 
 ---
 
-## Privacy first
+## Privacy and Terms
 
-Your data stays on your device. GateTap does not send your credentials or commands to external servers.
+GateTap is designed for local control. Review the current privacy policy and terms of use before using it with your access controller.
 
-Crash reporting (optional) can be disabled at any time.
-
-Read the full [Privacy Policy](legal/en-US/privacy-policy.md) and [Terms of Use](legal/en-US/terms-of-use.md).
+[Privacy Policy](legal/en-US/privacy-policy.md)  
+[Terms of Use](legal/en-US/terms-of-use.md)
 
 ---
 
@@ -56,6 +48,6 @@ For questions, feedback, or support, contact [erikmartens.developer@gmail.com](m
 
 ---
 
-## Note
+## Important Note
 
-GateTap is an independent app and is not affiliated with any hardware manufacturer.
+GateTap is an independent app and is not affiliated with access controller manufacturers or vendors. Use it only with systems you are authorized to control.
