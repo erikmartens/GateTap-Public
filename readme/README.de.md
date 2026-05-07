@@ -7,42 +7,96 @@
 
 ---
 
-_**Schluss mit veralteten Weboberflächen.**_
+# GateTap
 
-Viele Zutrittskontrollsysteme nutzen langsame und schwer bedienbare Webseiten, nur um ein Tor oder eine Tür zu öffnen. GateTap bietet eine schnelle, moderne und touch-optimierte Lösung direkt auf deinem iPhone.
+_**Eine moderne iPhone-Oberfläche für kompatible webbasierte Zutrittskontrollsysteme.**_
 
-GateTap wurde für lokale Netzwerke entwickelt und verbindet sich direkt mit deinem Zugangssystem – ohne Cloud, ohne Accounts, ohne Verzögerung.
+Viele Zutrittskontrollsysteme nutzen noch immer veraltete Weboberflächen, nur um ein Tor oder eine Tür zu öffnen. GateTap ersetzt langsame und umständliche Browserseiten durch eine schnelle und touch-optimierte Bedienung direkt auf dem iPhone.
+
+GateTap wurde für lokale Netzwerke entwickelt und verbindet sich direkt mit kompatiblen Zugangssystemen – ohne Cloud-Dienste, Abonnements oder externe Accounts.
 
 ---
 
 ## Funktionen
 
-• Öffnen von Toren & Türen mit einem Tap  
-• Schneller Login mit gespeicherten Zugangsdaten (optional)  
+• ☑️ Öffnen von Toren & Türen mit einem Tap  
+• ⚡ Schneller Login mit sicher gespeicherten Zugangsdaten (optional)  
 • 🔐 Optionaler Schutz über Face ID / Touch ID  
-• Funktioniert vollständig im lokalen Netzwerk  
-• Saubere, touch-optimierte Oberfläche  
-• Keine Cloud-Verbindung erforderlich  
+• 📡 Direkte Kommunikation im lokalen Netzwerk  
+• 📱 Saubere, touch-optimierte Oberfläche  
+• ☁️ Keine Cloud-Verbindung erforderlich  
+• 🖥️ Entwickelt für webbasierte Embedded-Controller  
+
+---
+
+## Kompatibilität
+
+GateTap wurde für bestimmte Ethernet- oder Wi-Fi-fähige Zutrittscontroller entwickelt, die eine integrierte browserbasierte Verwaltungsoberfläche bereitstellen.
+
+Kompatible Systeme bieten typischerweise:
+- lokalen Zugriff über IP-Adresse
+- integrierte Weboberflächen
+- Browser-Login
+- Steuerung von Relais oder Zutrittsfunktionen über die Weboberfläche
+
+Die Kompatibilität hängt unter anderem ab von:
+- Controller-Modell
+- Firmware-Version
+- Aufbau der Weboberfläche
+- Netzwerkkonfiguration
+
+### Nicht kompatibel mit
+
+GateTap ist in der Regel **nicht kompatibel** mit:
+- reinen Cloud-Systemen
+- Bluetooth-only Öffnern
+- einfachen Funkfernbedienungen
+- Controllern ohne Weboberfläche
+- generischen Lesegeräten ohne Netzwerkcontroller
 
 ---
 
 ## Einrichtung
 
-GateTap richtet sich an technisch versierte Nutzer und erfordert eine manuelle Konfiguration:
+GateTap richtet sich an technisch versierte Nutzer und erfordert eine manuelle Konfiguration.
 
-1. Eingabe der lokalen IP-Adresse des Geräts  
+1. Eingabe der lokalen IP-Adresse des Controllers  
 2. Eingabe der Zugangsdaten  
-3. Verbindung testen und System steuern  
-
-GateTap funktioniert mit Systemen, die eine Weboberfläche bereitstellen. Die Kompatibilität hängt von deiner Hardware ab.
+3. Verbindung testen  
+4. System direkt über das iPhone steuern  
 
 Lies die vollständige [Einrichtungsanleitung](../setup-guide/setup-guide.de.md).
 
 ---
 
+## Support & Kompatibilität
+
+Da sich Zutrittskontrollsysteme je nach Hersteller und Firmware stark unterscheiden können, kann die Kompatibilität nicht für alle Systeme garantiert werden.
+
+Falls dein System aktuell nicht unterstützt wird, kann eine Unterstützung dennoch möglich sein.
+
+Für eine Kompatibilitätsprüfung können Nutzer folgende Informationen bereitstellen:
+- Screenshots der Weboberfläche
+- exportierte HTML-Seiten
+- Controller-Modell
+- Firmware-Informationen
+
+Wenn technisch möglich, können gemeinsam mit Nutzern Kompatibilitätsverbesserungen entwickelt und über TestFlight-Builds getestet werden.
+
+Bitte beachte, dass dieser Prozess technisch sein kann und aktive Mitarbeit beim Testen erfordert.
+
+---
+
 ## Datenschutz
 
-Deine Daten bleiben auf deinem Gerät. GateTap überträgt keine Zugangsdaten oder Befehle an externe Server.
+Deine Daten bleiben auf deinem Gerät.
+
+GateTap überträgt keine:
+- Zugangsdaten
+- Steuerbefehle
+- Controllerdaten
+
+an externe Server.
 
 Die optionale Absturzberichterstattung kann jederzeit deaktiviert werden.
 
@@ -52,7 +106,9 @@ Lies die vollständigen [Datenschutzbestimmungen](../legal/de-DE/privacy-policy.
 
 ## Kontakt
 
-Für Fragen, Feedback oder Support kontaktiere [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+Für Support, Kompatibilitätsfragen oder Feedback:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
