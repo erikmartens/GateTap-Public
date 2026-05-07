@@ -7,44 +7,98 @@
 
 ---
 
-_**Stop struggling with outdated web interfaces.**_
+# GateTap
 
-Many access control systems rely on slow, hard-to-use browser pages just to open a door or gate. GateTap gives you a fast, modern, and touch-friendly way to control your system directly from your iPhone.
+_**A modern iPhone interface for compatible web-managed access control systems.**_
 
-Built for local networks, GateTap connects directly to your access controller — no cloud, no accounts, no delays.
+Many access control systems still rely on outdated browser interfaces just to open a gate or trigger a relay. GateTap replaces slow, hard-to-use web pages with a fast, touch-optimized experience designed for iPhone.
+
+Built for local networks, GateTap connects directly to compatible access controllers — without cloud services, subscriptions, or external accounts.
 
 ---
 
 ## Features
 
-• One-tap door & gate control  
-• Fast login with stored credentials (optional)  
+• ☑️ One-tap gate & door control  
+• ⚡ Fast login with securely stored credentials (optional)  
 • 🔐 Optional Face ID / Touch ID protection  
-• Works entirely within your local network  
-• Clean, touch-optimized interface  
-• No cloud connection required  
+• 📡 Direct local network communication  
+• 📱 Clean, touch-optimized interface  
+• ☁️ No cloud connection required  
+• 🖥️ Designed for embedded web-managed controllers  
+
+---
+
+## Compatibility
+
+GateTap is designed for certain Ethernet or Wi-Fi enabled access controllers that provide a built-in browser-based management interface.
+
+Compatible systems typically provide:
+- local IP-based access
+- embedded web administration pages
+- browser login functionality
+- relay or access control through the web interface
+
+Compatibility depends on:
+- controller model
+- firmware version
+- web interface structure
+- network configuration
+
+### Not compatible with
+
+GateTap is generally **not compatible** with:
+- cloud-only systems
+- Bluetooth-only openers
+- standalone remotes
+- controllers without web interfaces
+- generic readers without network controllers
 
 ---
 
 ## Setup
 
-GateTap is designed for advanced users and requires manual setup:
+GateTap is intended for technically experienced users and requires manual configuration.
 
-1. Enter your device's local IP address  
+1. Enter your controller's local IP address  
 2. Provide your login credentials  
-3. Test connection and start controlling your system  
-
-GateTap works with systems that expose a built-in web interface. Compatibility depends on your hardware configuration.
+3. Test the connection  
+4. Start controlling your system directly from your iPhone  
 
 Read the full [Setup Guide](setup-guide/setup-guide.en.md).
 
 ---
 
-## Privacy first
+## Support & Compatibility Assistance
 
-Your data stays on your device. GateTap does not send your credentials or commands to external servers.
+Because access control hardware varies significantly between manufacturers and firmware versions, compatibility cannot be guaranteed for all systems.
 
-Crash reporting (optional) can be disabled at any time.
+If your controller is not currently supported, support may still be possible.
+
+Users can contact support and provide:
+- screenshots of the controller web interface
+- exported HTML pages
+- controller model information
+- firmware details
+
+When feasible, compatibility improvements may be developed and tested together with users through TestFlight beta builds.
+
+Please note that this process can be technical and may require active collaboration during testing.
+
+---
+
+## Privacy First
+
+Your data stays on your device.
+
+GateTap does not send:
+- credentials
+- commands
+- controller data
+
+to external servers.
+
+Optional crash reporting can be disabled at any time.
 
 Read the full [Privacy Policy](legal/en-US/privacy-policy.md) and [Terms of Use](legal/en-US/terms-of-use.md).
 
@@ -52,10 +106,12 @@ Read the full [Privacy Policy](legal/en-US/privacy-policy.md) and [Terms of Use]
 
 ## Contact
 
-For questions, feedback, or support, contact [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+For support, compatibility questions, or feedback:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Note
+## Disclaimer
 
-GateTap is an independent app and is not affiliated with any hardware manufacturer.
+GateTap is an independent application and is not affiliated with or endorsed by any access control hardware manufacturer.
