@@ -56,6 +56,22 @@ GateTap is generally **not compatible** with:
 
 ---
 
+## Try Before You Purchase
+
+GateTap can be downloaded and configured for free so you can verify compatibility with your system before purchasing.
+
+The free version allows you to:
+- connect to your controller
+- test login credentials
+- verify network communication
+- preview the interface
+
+A one-time in-app purchase unlocks full control functionality, including gate and door triggering.
+
+No subscription is required.
+
+---
+
 ## Setup
 
 GateTap is intended for technically experienced users and requires manual configuration.
@@ -63,7 +79,7 @@ GateTap is intended for technically experienced users and requires manual config
 1. Enter your controller's local IP address  
 2. Provide your login credentials  
 3. Test the connection  
-4. Start controlling your system directly from your iPhone  
+4. Unlock full functionality and start controlling your system directly from your iPhone  
 
 Read the full [Setup Guide](setup-guide/setup-guide.en.md).
 
