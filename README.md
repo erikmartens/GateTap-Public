@@ -19,13 +19,14 @@ Built for local networks, GateTap connects directly to compatible access control
 
 ## Features
 
-• ☑️ One-tap gate & door control  
+• ☑️ Modern gate & door control  
 • ⚡ Fast login with securely stored credentials (optional)  
 • 🔐 Optional Face ID / Touch ID protection  
 • 📡 Direct local network communication  
 • 📱 Clean, touch-optimized interface  
 • ☁️ No cloud connection required  
 • 🖥️ Designed for embedded web-managed controllers  
+• 🏢 Multi-controller / multi-site support  
 
 ---
 
@@ -62,13 +63,17 @@ GateTap can be downloaded and configured for free so you can verify compatibilit
 
 The free version allows you to:
 - connect to your controller
-- test login credentials
-- verify network communication
-- preview the interface
+- verify login credentials
+- test compatibility
+- preview the controller interface
 
-A one-time in-app purchase unlocks full control functionality, including gate and door triggering.
+A one-time in-app purchase unlocks:
+- gate & door triggering
+- full operational controller usage
+- multi-controller / multi-site support
+- future advanced features
 
-No subscription is required.
+No subscription required.
 
 ---
 
