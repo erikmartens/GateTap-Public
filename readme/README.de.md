@@ -19,13 +19,14 @@ GateTap wurde für lokale Netzwerke entwickelt und verbindet sich direkt mit kom
 
 ## Funktionen
 
-• ☑️ Öffnen von Toren & Türen mit einem Tap  
+• ☑️ Moderne Steuerung von Toren & Türen  
 • ⚡ Schneller Login mit sicher gespeicherten Zugangsdaten (optional)  
 • 🔐 Optionaler Schutz über Face ID / Touch ID  
 • 📡 Direkte Kommunikation im lokalen Netzwerk  
 • 📱 Saubere, touch-optimierte Oberfläche  
 • ☁️ Keine Cloud-Verbindung erforderlich  
 • 🖥️ Entwickelt für webbasierte Embedded-Controller  
+• 🏢 Unterstützung für mehrere Controller / Standorte  
 
 ---
 
@@ -62,11 +63,15 @@ GateTap kann kostenlos heruntergeladen und eingerichtet werden, damit du die Kom
 
 Die kostenlose Version ermöglicht:
 - Verbindung mit dem Controller
-- Test der Zugangsdaten
-- Prüfung der Netzwerkverbindung
+- Prüfung der Zugangsdaten
+- Kompatibilitätstest
 - Vorschau der Benutzeroberfläche
 
-Eine einmalige In-App-Kauf-Freischaltung aktiviert die vollständige Steuerungsfunktion inklusive Tor- und Türöffnung.
+Eine einmalige In-App-Kauf-Freischaltung aktiviert:
+- das Öffnen von Toren & Türen
+- die vollständige Steuerungsfunktion
+- Unterstützung für mehrere Controller / Standorte
+- zukünftige erweiterte Funktionen
 
 Kein Abonnement erforderlich.
 
