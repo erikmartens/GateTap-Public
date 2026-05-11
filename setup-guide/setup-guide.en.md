@@ -21,8 +21,9 @@ Connect GateTap to your access controller
 Make sure your device is connected to the same local network as your access controller. For example ensure your iPhone is on your home WiFi, not on a mobile data connection.
 
 GateTap works entirely within your local network and needs:
-• The controller’s IP address
-• A username and password
+
+- The controller’s IP address
+- A username and password
 
 
 ## Step 1: Find access controller's IP address
@@ -37,8 +38,9 @@ Choose one of the following options:
 If your system was installed by an electrician or technician, they likely already configured everything.
 
 In many cases:
-• The controller uses a fixed IP address
-• Or the router assigns the same IP via DHCP reservation
+
+- The controller uses a fixed IP address
+- Or the router assigns the same IP via DHCP reservation
 
 Ask them for the IP address and login details. This is usually the easiest and fastest way.
 
@@ -50,14 +52,16 @@ Open your router’s configuration page and look for connected devices.
 To access your router, you usually need its local address (e.g. `192.168.1.1` or a name like `fritz.box`) and the router’s login credentials.
 
 This section may be called:
-• Network
-• Connected Devices
-• LAN
-• DHCP Clients
+
+- Network
+- Connected Devices
+- LAN
+- DHCP Clients
 
 Look for:
-• Unknown wired devices
-• Entries that might represent your controller
+
+- Unknown wired devices
+- Entries that might represent your controller
 
 The IP address will usually look like:
 `192.168.x.x` or `10.0.x.x`
@@ -90,9 +94,10 @@ If your system was installed professionally, ask your installer whether the defa
 ## Step 3: Add the access controller in GateTap
 
 Open GateTap and enter:
-• The IP address
-• Your username
-• Your password
+
+- The IP address
+- Your username
+- Your password
 
 Use the same credentials as for the access controller’s web interface.
 
@@ -102,9 +107,10 @@ Use the same credentials as for the access controller’s web interface.
 Save your configuration and try opening a door or gate.
 
 If nothing happens, check:
-• Your device is on the same network as the access controller
-• The IP address is correct
-• The access controller is powered and reachable
+
+- Your device is on the same network as the access controller
+- The IP address is correct
+- The access controller is powered and reachable
 
 
 ## Step 5: Keep the IP address stable
@@ -112,8 +118,9 @@ If nothing happens, check:
 To avoid issues later, the controller should always use the same IP address.
 
 This can be done by:
-• Setting a static IP on the controller
-• Creating a DHCP reservation in your router
+
+- Setting a static IP on the controller
+- Creating a DHCP reservation in your router
 
 
 ## Demo mode

@@ -21,8 +21,9 @@ Podłącz GateTap do swojego kontrolera dostępu
 Upewnij się, że urządzenie jest połączone z tą samą siecią lokalną co kontroler dostępu. Na przykład sprawdź, czy iPhone korzysta z domowej sieci Wi-Fi, a nie z transmisji danych komórkowych.
 
 GateTap działa całkowicie w Twojej sieci lokalnej i potrzebuje:
-• Adresu IP kontrolera
-• Nazwy użytkownika i hasła
+
+- Adresu IP kontrolera
+- Nazwy użytkownika i hasła
 
 
 ## Krok 1: Znajdź adres IP kontrolera dostępu
@@ -37,8 +38,9 @@ Wybierz jedną z poniższych opcji:
 Jeśli system został zainstalowany przez elektryka lub technika, prawdopodobnie wszystko jest już skonfigurowane.
 
 W wielu przypadkach:
-• Kontroler używa stałego adresu IP
-• Albo router przydziela ten sam adres IP przez rezerwację DHCP
+
+- Kontroler używa stałego adresu IP
+- Albo router przydziela ten sam adres IP przez rezerwację DHCP
 
 Poproś o adres IP i dane logowania. To zwykle najłatwiejszy i najszybszy sposób.
 
@@ -50,14 +52,16 @@ Otwórz stronę konfiguracji routera i poszukaj podłączonych urządzeń.
 Aby uzyskać dostęp do routera, zwykle potrzebujesz jego adresu lokalnego, np. `192.168.1.1` lub nazwy typu `fritz.box`, oraz danych logowania do routera.
 
 Ta sekcja może nazywać się:
-• Sieć
-• Podłączone urządzenia
-• LAN
-• Klienci DHCP
+
+- Sieć
+- Podłączone urządzenia
+- LAN
+- Klienci DHCP
 
 Szukaj:
-• Nieznanych urządzeń przewodowych
-• Wpisów, które mogą oznaczać Twój kontroler
+
+- Nieznanych urządzeń przewodowych
+- Wpisów, które mogą oznaczać Twój kontroler
 
 Adres IP zwykle wygląda tak:
 `192.168.x.x` lub `10.0.x.x`
@@ -90,9 +94,10 @@ Jeśli system został zainstalowany profesjonalnie, zapytaj instalatora, czy dom
 ## Krok 3: Dodaj kontroler dostępu w GateTap
 
 Otwórz GateTap i wpisz:
-• Adres IP
-• Nazwę użytkownika
-• Hasło
+
+- Adres IP
+- Nazwę użytkownika
+- Hasło
 
 Użyj tych samych danych logowania co w interfejsie web kontrolera dostępu.
 
@@ -102,9 +107,10 @@ Użyj tych samych danych logowania co w interfejsie web kontrolera dostępu.
 Zapisz konfigurację i spróbuj otworzyć drzwi lub bramę.
 
 Jeśli nic się nie dzieje, sprawdź:
-• Czy urządzenie jest w tej samej sieci co kontroler dostępu
-• Czy adres IP jest poprawny
-• Czy kontroler dostępu jest zasilany i osiągalny
+
+- Czy urządzenie jest w tej samej sieci co kontroler dostępu
+- Czy adres IP jest poprawny
+- Czy kontroler dostępu jest zasilany i osiągalny
 
 
 ## Krok 5: Utrzymuj stabilny adres IP
@@ -112,8 +118,9 @@ Jeśli nic się nie dzieje, sprawdź:
 Aby uniknąć późniejszych problemów, kontroler powinien zawsze używać tego samego adresu IP.
 
 Można to zrobić przez:
-• Ustawienie statycznego IP na kontrolerze
-• Utworzenie rezerwacji DHCP w routerze
+
+- Ustawienie statycznego IP na kontrolerze
+- Utworzenie rezerwacji DHCP w routerze
 
 
 ## Tryb demo

@@ -21,8 +21,9 @@ GateTap'i erişim denetleyicinize bağlayın
 Cihazınızın erişim denetleyicinizle aynı yerel ağa bağlı olduğundan emin olun. Örneğin iPhone’unuzun mobil veri bağlantısında değil, ev Wi-Fi ağınızda olduğundan emin olun.
 
 GateTap tamamen yerel ağınız içinde çalışır ve şunlara ihtiyaç duyar:
-• Denetleyicinin IP adresi
-• Kullanıcı adı ve parola
+
+- Denetleyicinin IP adresi
+- Kullanıcı adı ve parola
 
 
 ## 1. Adım: Erişim denetleyicisinin IP adresini bulun
@@ -37,8 +38,9 @@ Aşağıdaki seçeneklerden birini seçin:
 Sisteminiz bir elektrikçi veya teknisyen tarafından kurulduysa, büyük olasılıkla her şeyi zaten yapılandırmıştır.
 
 Birçok durumda:
-• Denetleyici sabit bir IP adresi kullanır
-• Ya da yönlendirici DHCP rezervasyonu ile aynı IP’yi atar
+
+- Denetleyici sabit bir IP adresi kullanır
+- Ya da yönlendirici DHCP rezervasyonu ile aynı IP’yi atar
 
 IP adresini ve oturum açma bilgilerini isteyin. Bu genellikle en kolay ve en hızlı yoldur.
 
@@ -50,14 +52,16 @@ Yönlendiricinizin yapılandırma sayfasını açın ve bağlı cihazları aray�
 Yönlendiriciye erişmek için genellikle `192.168.1.1` gibi yerel adresine veya `fritz.box` gibi bir adına ve yönlendiricinin oturum açma bilgilerine ihtiyaç duyarsınız.
 
 Bu bölüm şu adlarla görünebilir:
-• Ağ
-• Bağlı Cihazlar
-• LAN
-• DHCP İstemcileri
+
+- Ağ
+- Bağlı Cihazlar
+- LAN
+- DHCP İstemcileri
 
 Şunları arayın:
-• Bilinmeyen kablolu cihazlar
-• Denetleyicinizi temsil edebilecek kayıtlar
+
+- Bilinmeyen kablolu cihazlar
+- Denetleyicinizi temsil edebilecek kayıtlar
 
 IP adresi genellikle şöyle görünür:
 `192.168.x.x` veya `10.0.x.x`
@@ -90,9 +94,10 @@ Sisteminiz profesyonel olarak kurulduysa, varsayılan bilgilerin değiştirilip 
 ## 3. Adım: Erişim denetleyicisini GateTap’e ekleyin
 
 GateTap’i açın ve şunları girin:
-• IP adresi
-• Kullanıcı adınız
-• Parolanız
+
+- IP adresi
+- Kullanıcı adınız
+- Parolanız
 
 Erişim denetleyicisinin web arayüzündekiyle aynı oturum açma bilgilerini kullanın.
 
@@ -102,9 +107,10 @@ Erişim denetleyicisinin web arayüzündekiyle aynı oturum açma bilgilerini ku
 Yapılandırmanızı kaydedin ve bir kapıyı veya geçidi açmayı deneyin.
 
 Hiçbir şey olmazsa şunları kontrol edin:
-• Cihazınız erişim denetleyicisiyle aynı ağda mı
-• IP adresi doğru mu
-• Erişim denetleyicisi açık ve erişilebilir mi
+
+- Cihazınız erişim denetleyicisiyle aynı ağda mı
+- IP adresi doğru mu
+- Erişim denetleyicisi açık ve erişilebilir mi
 
 
 ## 5. Adım: IP adresini sabit tutun
@@ -112,8 +118,9 @@ Hiçbir şey olmazsa şunları kontrol edin:
 Daha sonra sorun yaşamamak için denetleyici her zaman aynı IP adresini kullanmalıdır.
 
 Bu şu şekilde yapılabilir:
-• Denetleyicide statik IP ayarlayarak
-• Yönlendiricide DHCP rezervasyonu oluşturarak
+
+- Denetleyicide statik IP ayarlayarak
+- Yönlendiricide DHCP rezervasyonu oluşturarak
 
 
 ## Demo modu

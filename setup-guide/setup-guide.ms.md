@@ -21,8 +21,9 @@ Sambungkan GateTap kepada pengawal akses anda
 Pastikan peranti anda disambungkan ke rangkaian tempatan yang sama seperti pengawal akses anda. Contohnya, pastikan iPhone anda berada pada Wi-Fi rumah dan bukan sambungan data mudah alih.
 
 GateTap berfungsi sepenuhnya dalam rangkaian tempatan anda dan memerlukan:
-• Alamat IP pengawal
-• Nama pengguna dan kata laluan
+
+- Alamat IP pengawal
+- Nama pengguna dan kata laluan
 
 
 ## Langkah 1: Cari alamat IP pengawal akses
@@ -37,8 +38,9 @@ Pilih salah satu pilihan berikut:
 Jika sistem anda dipasang oleh juruelektrik atau juruteknik, mereka mungkin sudah mengkonfigurasi semuanya.
 
 Dalam banyak kes:
-• Pengawal menggunakan alamat IP tetap
-• Atau penghala memberikan IP yang sama melalui tempahan DHCP
+
+- Pengawal menggunakan alamat IP tetap
+- Atau penghala memberikan IP yang sama melalui tempahan DHCP
 
 Minta alamat IP dan butiran log masuk. Ini biasanya cara paling mudah dan pantas.
 
@@ -50,14 +52,16 @@ Buka halaman konfigurasi penghala anda dan cari peranti yang disambungkan.
 Untuk mengakses penghala, anda biasanya memerlukan alamat tempatannya, contohnya `192.168.1.1` atau nama seperti `fritz.box`, serta bukti kelayakan log masuk penghala.
 
 Bahagian ini mungkin dipanggil:
-• Rangkaian
-• Peranti Disambungkan
-• LAN
-• Klien DHCP
+
+- Rangkaian
+- Peranti Disambungkan
+- LAN
+- Klien DHCP
 
 Cari:
-• Peranti berwayar yang tidak dikenali
-• Entri yang mungkin mewakili pengawal anda
+
+- Peranti berwayar yang tidak dikenali
+- Entri yang mungkin mewakili pengawal anda
 
 Alamat IP biasanya kelihatan seperti:
 `192.168.x.x` atau `10.0.x.x`
@@ -90,9 +94,10 @@ Jika sistem anda dipasang secara profesional, tanya pemasang sama ada bukti kela
 ## Langkah 3: Tambah pengawal akses dalam GateTap
 
 Buka GateTap dan masukkan:
-• Alamat IP
-• Nama pengguna anda
-• Kata laluan anda
+
+- Alamat IP
+- Nama pengguna anda
+- Kata laluan anda
 
 Gunakan bukti kelayakan yang sama seperti antara muka web pengawal akses.
 
@@ -102,9 +107,10 @@ Gunakan bukti kelayakan yang sama seperti antara muka web pengawal akses.
 Simpan konfigurasi anda dan cuba buka pintu atau pagar.
 
 Jika tiada apa-apa berlaku, semak:
-• Peranti anda berada pada rangkaian yang sama seperti pengawal akses
-• Alamat IP adalah betul
-• Pengawal akses dihidupkan dan boleh dicapai
+
+- Peranti anda berada pada rangkaian yang sama seperti pengawal akses
+- Alamat IP adalah betul
+- Pengawal akses dihidupkan dan boleh dicapai
 
 
 ## Langkah 5: Pastikan alamat IP stabil
@@ -112,8 +118,9 @@ Jika tiada apa-apa berlaku, semak:
 Untuk mengelakkan masalah kemudian, pengawal harus sentiasa menggunakan alamat IP yang sama.
 
 Ini boleh dilakukan dengan:
-• Menetapkan IP statik pada pengawal
-• Membuat tempahan DHCP dalam penghala anda
+
+- Menetapkan IP statik pada pengawal
+- Membuat tempahan DHCP dalam penghala anda
 
 
 ## Mod demo

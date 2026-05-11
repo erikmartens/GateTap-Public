@@ -27,6 +27,7 @@ A GateTap egy független alkalmazás, amely nem áll kapcsolatban, nem támogat 
 
 ## 3. Felhasználó felelőssége
 Az alkalmazás használatával Ön elfogadja, hogy:
+
 - Engedélye van a csatlakoztatott eszköz eléréséhez és vezérléséhez
 - Ön felelős minden, az alkalmazáson keresztül végrehajtott műveletért
 - Nem használja az alkalmazást jogosulatlan hozzáférésre vagy jogellenes célokra
@@ -38,12 +39,14 @@ Az alkalmazás közvetlenül kommunikál a helyi hálózaton lévő eszközökke
 
 ## 5. Nincs garancia
 Az alkalmazást "ahogyan" biztosítjuk, mindenféle garancia nélkül. Nem vállalunk garanciát:
+
 - Kompatibilitás minden eszközzel
 - Folyamatos rendelkezésre állás
 - Hibamentes működés
 
 ## 6. A felelősség korlátozása
 A fejlesztő nem vállal felelősséget a következőkből eredő károkért:
+
 - Az ingatlanba jogosulatlan hozzáférés
 - Az eszközök hibás konfigurálása
 - Hálózattal kapcsolatos problémák

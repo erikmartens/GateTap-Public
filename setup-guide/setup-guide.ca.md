@@ -21,8 +21,9 @@ Connecteu GateTap al vostre controlador d'accés
 Assegura’t que el dispositiu estigui connectat a la mateixa xarxa local que el controlador d’accés. Per exemple, comprova que l’iPhone sigui a la Wi-Fi de casa i no amb una connexió de dades mòbils.
 
 GateTap funciona completament dins de la teva xarxa local i necessita:
-• L’adreça IP del controlador
-• Un nom d’usuari i una contrasenya
+
+- L’adreça IP del controlador
+- Un nom d’usuari i una contrasenya
 
 
 ## Pas 1: troba l’adreça IP del controlador d’accés
@@ -37,8 +38,9 @@ Tria una de les opcions següents:
 Si el sistema el va instal·lar un electricista o un tècnic, probablement ja ho va configurar tot.
 
 En molts casos:
-• El controlador utilitza una adreça IP fixa
-• O l’encaminador li assigna la mateixa IP mitjançant una reserva DHCP
+
+- El controlador utilitza una adreça IP fixa
+- O l’encaminador li assigna la mateixa IP mitjançant una reserva DHCP
 
 Demana-li l’adreça IP i les dades d’inici de sessió. Normalment és la manera més fàcil i ràpida.
 
@@ -50,14 +52,16 @@ Obre la pàgina de configuració de l’encaminador i busca els dispositius conn
 Per accedir a l’encaminador, normalment necessites la seva adreça local, per exemple `192.168.1.1` o un nom com `fritz.box`, i les credencials de l’encaminador.
 
 Aquest apartat es pot anomenar:
-• Xarxa
-• Dispositius connectats
-• LAN
-• Clients DHCP
+
+- Xarxa
+- Dispositius connectats
+- LAN
+- Clients DHCP
 
 Busca:
-• Dispositius cablejats desconeguts
-• Entrades que puguin representar el controlador
+
+- Dispositius cablejats desconeguts
+- Entrades que puguin representar el controlador
 
 L’adreça IP normalment tindrà aquest aspecte:
 `192.168.x.x` o `10.0.x.x`
@@ -90,9 +94,10 @@ Si el sistema es va instal·lar professionalment, pregunta a l’instal·lador s
 ## Pas 3: afegeix el controlador d’accés a GateTap
 
 Obre GateTap i introdueix:
-• L’adreça IP
-• El nom d’usuari
-• La contrasenya
+
+- L’adreça IP
+- El nom d’usuari
+- La contrasenya
 
 Fes servir les mateixes credencials que per a la interfície web del controlador d’accés.
 
@@ -102,9 +107,10 @@ Fes servir les mateixes credencials que per a la interfície web del controlador
 Desa la configuració i prova d’obrir una porta o una tanca.
 
 Si no passa res, comprova:
-• Que el dispositiu sigui a la mateixa xarxa que el controlador d’accés
-• Que l’adreça IP sigui correcta
-• Que el controlador d’accés tingui alimentació i sigui accessible
+
+- Que el dispositiu sigui a la mateixa xarxa que el controlador d’accés
+- Que l’adreça IP sigui correcta
+- Que el controlador d’accés tingui alimentació i sigui accessible
 
 
 ## Pas 5: mantén estable l’adreça IP
@@ -112,8 +118,9 @@ Si no passa res, comprova:
 Per evitar problemes més endavant, el controlador hauria d’utilitzar sempre la mateixa adreça IP.
 
 Això es pot fer així:
-• Configurant una IP estàtica al controlador
-• Creant una reserva DHCP a l’encaminador
+
+- Configurant una IP estàtica al controlador
+- Creant una reserva DHCP a l’encaminador
 
 
 ## Mode demo

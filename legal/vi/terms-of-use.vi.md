@@ -27,6 +27,7 @@ GateTap là một ứng dụng độc lập và không được liên kết, xá
 
 ## 3. Trách nhiệm của người dùng
 Bằng cách sử dụng Ứng dụng này, bạn đồng ý rằng:
+
 - Bạn có quyền truy cập và điều khiển thiết bị được kết nối
 - Bạn chịu trách nhiệm về mọi hành động được thực hiện thông qua Ứng dụng
 - Bạn sẽ không sử dụng Ứng dụng để truy cập trái phép hoặc các mục đích trái pháp luật
@@ -38,12 +39,14 @@ GateTap lưu trữ thông tin đăng nhập cục bộ trên thiết bị của 
 
 ## 5. Không bảo hành
 Ứng dụng được cung cấp "nguyên trạng" mà không có bất kỳ hình thức bảo đảm nào. Chúng tôi không đảm bảo:
+
 - Khả năng tương thích với mọi thiết bị
 - Sẵn có liên tục
 - Hoạt động không có lỗi
 
 ## 6. Giới hạn trách nhiệm
 Nhà phát triển sẽ không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ:
+
 - Truy cập trái phép vào tài sản
 - Cấu hình thiết bị sai
 - Các vấn đề liên quan đến mạng

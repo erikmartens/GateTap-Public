@@ -27,6 +27,7 @@ GateTap er en uavhengig applikasjon og er ikke tilknyttet, godkjent av eller kob
 
 ## 3. Brukeransvar
 Ved å bruke denne appen godtar du at:
+
 - Du har tillatelse til å få tilgang til og kontrollere den tilkoblede enheten
 - Du er ansvarlig for alle handlinger som utføres gjennom appen
 - Du vil ikke bruke appen til uautorisert tilgang eller ulovlige formål
@@ -38,12 +39,14 @@ Appen kommuniserer direkte med enheter på ditt lokale nettverk og gir ingen fje
 
 ## 5. Ingen garanti
 Appen leveres "som den er" uten garantier av noe slag. Vi garanterer ikke:
+
 - Kompatibilitet med alle enheter
 - Kontinuerlig tilgjengelighet
 - Feilfri drift
 
 ## 6. Ansvarsbegrensning
 Utbygger er ikke ansvarlig for skader som oppstår fra:
+
 - Uautorisert tilgang til eiendom
 - Feilkonfigurering av enheter
 - Nettverksrelaterte problemer

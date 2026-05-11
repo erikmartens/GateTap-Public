@@ -21,8 +21,9 @@ Hubungkan GateTap ke pengontrol akses Anda
 Pastikan perangkat Anda terhubung ke jaringan lokal yang sama dengan pengontrol akses Anda. Misalnya, pastikan iPhone Anda memakai Wi-Fi rumah, bukan koneksi data seluler.
 
 GateTap bekerja sepenuhnya di dalam jaringan lokal Anda dan membutuhkan:
-• Alamat IP pengontrol
-• Nama pengguna dan kata sandi
+
+- Alamat IP pengontrol
+- Nama pengguna dan kata sandi
 
 
 ## Langkah 1: Temukan alamat IP pengontrol akses
@@ -37,8 +38,9 @@ Pilih salah satu opsi berikut:
 Jika sistem Anda dipasang oleh teknisi listrik atau teknisi, kemungkinan besar semuanya sudah dikonfigurasi.
 
 Dalam banyak kasus:
-• Pengontrol menggunakan alamat IP tetap
-• Atau router menetapkan IP yang sama melalui reservasi DHCP
+
+- Pengontrol menggunakan alamat IP tetap
+- Atau router menetapkan IP yang sama melalui reservasi DHCP
 
 Mintalah alamat IP dan detail login. Ini biasanya cara termudah dan tercepat.
 
@@ -50,14 +52,16 @@ Buka halaman konfigurasi router Anda dan cari perangkat yang terhubung.
 Untuk mengakses router, biasanya Anda memerlukan alamat lokalnya, misalnya `192.168.1.1` atau nama seperti `fritz.box`, serta kredensial login router.
 
 Bagian ini mungkin disebut:
-• Jaringan
-• Perangkat Terhubung
-• LAN
-• Klien DHCP
+
+- Jaringan
+- Perangkat Terhubung
+- LAN
+- Klien DHCP
 
 Cari:
-• Perangkat berkabel yang tidak dikenal
-• Entri yang mungkin mewakili pengontrol Anda
+
+- Perangkat berkabel yang tidak dikenal
+- Entri yang mungkin mewakili pengontrol Anda
 
 Alamat IP biasanya terlihat seperti:
 `192.168.x.x` atau `10.0.x.x`
@@ -90,9 +94,10 @@ Jika sistem Anda dipasang secara profesional, tanyakan kepada penginstal apakah 
 ## Langkah 3: Tambahkan pengontrol akses di GateTap
 
 Buka GateTap dan masukkan:
-• Alamat IP
-• Nama pengguna Anda
-• Kata sandi Anda
+
+- Alamat IP
+- Nama pengguna Anda
+- Kata sandi Anda
 
 Gunakan kredensial yang sama seperti untuk antarmuka web pengontrol akses.
 
@@ -102,9 +107,10 @@ Gunakan kredensial yang sama seperti untuk antarmuka web pengontrol akses.
 Simpan konfigurasi Anda dan coba buka pintu atau gerbang.
 
 Jika tidak ada yang terjadi, periksa:
-• Perangkat Anda berada di jaringan yang sama dengan pengontrol akses
-• Alamat IP benar
-• Pengontrol akses menyala dan dapat dijangkau
+
+- Perangkat Anda berada di jaringan yang sama dengan pengontrol akses
+- Alamat IP benar
+- Pengontrol akses menyala dan dapat dijangkau
 
 
 ## Langkah 5: Jaga agar alamat IP tetap stabil
@@ -112,8 +118,9 @@ Jika tidak ada yang terjadi, periksa:
 Untuk menghindari masalah nanti, pengontrol sebaiknya selalu menggunakan alamat IP yang sama.
 
 Ini dapat dilakukan dengan:
-• Menetapkan IP statis pada pengontrol
-• Membuat reservasi DHCP di router Anda
+
+- Menetapkan IP statis pada pengontrol
+- Membuat reservasi DHCP di router Anda
 
 
 ## Mode demo

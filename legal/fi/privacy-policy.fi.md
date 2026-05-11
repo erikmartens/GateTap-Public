@@ -26,6 +26,7 @@ GateTap kunnioittaa yksityisyyttäsi. Tämä sovellus on suunniteltu toimimaan e
 GateTap ei kerää, tallenna tai lähetä henkilötietoja ulkoisille palvelimille Sovelluksen toiminnallista käyttöä varten.
 
 Sovellus voi tallentaa seuraavat tiedot paikallisesti laitteellesi:
+
 - Konfiguroitujen laitteiden IP-osoitteet
 - Kirjautumistiedot (valinnainen, jos päätät tallentaa ne)
 
@@ -35,6 +36,7 @@ Nämä tiedot eivät koskaan poistu laitteestasi.
 GateTap käyttää Google Firebase Crashlyticsin tarjoamaa kolmannen osapuolen palvelua anonyymien kaatumisraporttien keräämiseen sovelluksen vakauden parantamiseksi.
 
 Kaatumisraportit voivat sisältää:
+
 - Laitteen tyyppi ja käyttöjärjestelmän versio
 - Sovelluksen versio
 - Tekniset tiedot törmäyksestä

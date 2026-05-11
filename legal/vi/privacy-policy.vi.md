@@ -26,6 +26,7 @@ GateTap tôn trọng quyền riêng tư của bạn. Ứng dụng này được 
 GateTap không thu thập, lưu trữ hoặc truyền dữ liệu cá nhân đến các máy chủ bên ngoài để sử dụng Ứng dụng theo chức năng.
 
 Ứng dụng có thể lưu trữ cục bộ các thông tin sau trên thiết bị của bạn:
+
 - Địa chỉ IP của thiết bị được cấu hình
 - Thông tin đăng nhập (tùy chọn, nếu bạn chọn lưu chúng)
 
@@ -35,6 +36,7 @@ Dữ liệu này không bao giờ rời khỏi thiết bị của bạn.
 GateTap sử dụng dịch vụ của bên thứ ba do Google Firebase Crashlytics cung cấp để thu thập các báo cáo sự cố ẩn danh nhằm cải thiện tính ổn định của ứng dụng.
 
 Báo cáo sự cố có thể bao gồm:
+
 - Loại thiết bị và phiên bản hệ điều hành
 - Phiên bản ứng dụng
 - Thông tin kỹ thuật về vụ tai nạn

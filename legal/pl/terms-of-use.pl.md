@@ -27,6 +27,7 @@ GateTap to niezależna aplikacja, która nie jest powiązana, wspierana ani poł
 
 ## 3. Odpowiedzialność użytkownika
 Korzystając z tej aplikacji, zgadzasz się, że:
+
 - Masz uprawnienia dostępu i sterowania podłączonym urządzeniem
 - Ponosisz odpowiedzialność za wszystkie działania wykonywane za pośrednictwem Aplikacji
 - Nie będziesz korzystać z Aplikacji w celu uzyskania nieuprawnionego dostępu lub w celach niezgodnych z prawem
@@ -38,12 +39,14 @@ Aplikacja komunikuje się bezpośrednio z urządzeniami w Twojej sieci lokalnej 
 
 ## 5. Brak gwarancji
 Aplikacja jest dostarczana w stanie takim, w jakim jest, bez jakichkolwiek gwarancji. Nie gwarantujemy:
+
 - Kompatybilność ze wszystkimi urządzeniami
 - Ciągła dostępność
 - Bezbłędna praca
 
 ## 6. Ograniczenie odpowiedzialności
 Deweloper nie ponosi odpowiedzialności za szkody powstałe na skutek:
+
 - Nieupoważniony dostęp do nieruchomości
 - Błędna konfiguracja urządzeń
 - Problemy związane z siecią

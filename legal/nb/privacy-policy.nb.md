@@ -26,6 +26,7 @@ GateTap respekterer personvernet ditt. Denne appen er utviklet for å fungere pr
 GateTap samler ikke inn, lagrer eller overfører personlige data til eksterne servere for funksjonell bruk av appen.
 
 Appen kan lagre følgende informasjon lokalt på enheten din:
+
 - IP-adresser til konfigurerte enheter
 - Påloggingsinformasjon (valgfritt, hvis du velger å lagre dem)
 
@@ -35,6 +36,7 @@ Disse dataene forlater aldri enheten din.
 GateTap bruker en tredjepartstjeneste levert av Google Firebase Crashlytics for å samle inn anonyme krasjrapporter for å forbedre appstabiliteten.
 
 Krasjrapporter kan omfatte:
+
 - Enhetstype og operativsystemversjon
 - Appversjon
 - Teknisk informasjon om ulykken

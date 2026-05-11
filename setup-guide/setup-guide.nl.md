@@ -21,8 +21,9 @@ Sluit GateTap aan op uw toegangscontroller
 Zorg ervoor dat je apparaat is verbonden met hetzelfde lokale netwerk als je toegangscontroller. Controleer bijvoorbeeld dat je iPhone op je wifi thuis zit en niet op een mobiele dataverbinding.
 
 GateTap werkt volledig binnen je lokale netwerk en heeft nodig:
-• Het IP-adres van de controller
-• Een gebruikersnaam en wachtwoord
+
+- Het IP-adres van de controller
+- Een gebruikersnaam en wachtwoord
 
 
 ## Stap 1: Zoek het IP-adres van de toegangscontroller
@@ -37,8 +38,9 @@ Kies een van de volgende opties:
 Als je systeem door een elektricien of technicus is geïnstalleerd, heeft die waarschijnlijk alles al ingesteld.
 
 In veel gevallen:
-• Gebruikt de controller een vast IP-adres
-• Of wijst de router via DHCP-reservering steeds hetzelfde IP toe
+
+- Gebruikt de controller een vast IP-adres
+- Of wijst de router via DHCP-reservering steeds hetzelfde IP toe
 
 Vraag om het IP-adres en de inloggegevens. Dit is meestal de makkelijkste en snelste manier.
 
@@ -50,14 +52,16 @@ Open de configuratiepagina van je router en zoek naar verbonden apparaten.
 Om toegang te krijgen tot je router heb je meestal het lokale adres nodig, bijvoorbeeld `192.168.1.1` of een naam zoals `fritz.box`, en de inloggegevens van de router.
 
 Deze sectie kan heten:
-• Netwerk
-• Verbonden apparaten
-• LAN
-• DHCP-clients
+
+- Netwerk
+- Verbonden apparaten
+- LAN
+- DHCP-clients
 
 Zoek naar:
-• Onbekende bekabelde apparaten
-• Vermeldingen die je controller kunnen zijn
+
+- Onbekende bekabelde apparaten
+- Vermeldingen die je controller kunnen zijn
 
 Het IP-adres ziet er meestal zo uit:
 `192.168.x.x` of `10.0.x.x`
@@ -90,9 +94,10 @@ Als je systeem professioneel is geïnstalleerd, vraag dan je installateur of de 
 ## Stap 3: Voeg de toegangscontroller toe in GateTap
 
 Open GateTap en voer in:
-• Het IP-adres
-• Je gebruikersnaam
-• Je wachtwoord
+
+- Het IP-adres
+- Je gebruikersnaam
+- Je wachtwoord
 
 Gebruik dezelfde inloggegevens als voor de webinterface van de toegangscontroller.
 
@@ -102,9 +107,10 @@ Gebruik dezelfde inloggegevens als voor de webinterface van de toegangscontrolle
 Sla je configuratie op en probeer een deur of poort te openen.
 
 Als er niets gebeurt, controleer dan:
-• Of je apparaat op hetzelfde netwerk zit als de toegangscontroller
-• Of het IP-adres klopt
-• Of de toegangscontroller stroom heeft en bereikbaar is
+
+- Of je apparaat op hetzelfde netwerk zit als de toegangscontroller
+- Of het IP-adres klopt
+- Of de toegangscontroller stroom heeft en bereikbaar is
 
 
 ## Stap 5: Houd het IP-adres stabiel
@@ -112,8 +118,9 @@ Als er niets gebeurt, controleer dan:
 Om latere problemen te voorkomen, moet de controller altijd hetzelfde IP-adres gebruiken.
 
 Dit kan door:
-• Een statisch IP op de controller in te stellen
-• Een DHCP-reservering in je router te maken
+
+- Een statisch IP op de controller in te stellen
+- Een DHCP-reservering in je router te maken
 
 
 ## Demomodus

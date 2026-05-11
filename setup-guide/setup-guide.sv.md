@@ -21,8 +21,9 @@ Anslut GateTap till din åtkomstkontroll
 Se till att din enhet är ansluten till samma lokala nätverk som din åtkomstkontroller. Kontrollera till exempel att din iPhone är på hemmets Wi-Fi och inte på mobildata.
 
 GateTap fungerar helt inom ditt lokala nätverk och behöver:
-• Kontrollerns IP-adress
-• Ett användarnamn och lösenord
+
+- Kontrollerns IP-adress
+- Ett användarnamn och lösenord
 
 
 ## Steg 1: Hitta åtkomstkontrollerns IP-adress
@@ -37,8 +38,9 @@ Välj ett av följande alternativ:
 Om systemet installerades av en elektriker eller tekniker har de troligen redan konfigurerat allt.
 
 I många fall:
-• Använder kontrollern en fast IP-adress
-• Eller routern tilldelar samma IP via DHCP-reservation
+
+- Använder kontrollern en fast IP-adress
+- Eller routern tilldelar samma IP via DHCP-reservation
 
 Be om IP-adressen och inloggningsuppgifterna. Det är oftast det enklaste och snabbaste sättet.
 
@@ -50,14 +52,16 @@ Be om IP-adressen och inloggningsuppgifterna. Det är oftast det enklaste och sn
 För att komma åt routern behöver du vanligtvis dess lokala adress, till exempel `192.168.1.1` eller ett namn som `fritz.box`, och routerns inloggningsuppgifter.
 
 Det här avsnittet kan heta:
-• Nätverk
-• Anslutna enheter
-• LAN
-• DHCP-klienter
+
+- Nätverk
+- Anslutna enheter
+- LAN
+- DHCP-klienter
 
 Leta efter:
-• Okända trådbundna enheter
-• Poster som kan motsvara din kontroller
+
+- Okända trådbundna enheter
+- Poster som kan motsvara din kontroller
 
 IP-adressen ser vanligtvis ut så här:
 `192.168.x.x` eller `10.0.x.x`
@@ -90,9 +94,10 @@ Om systemet installerades professionellt, fråga installatören om standarduppgi
 ## Steg 3: Lägg till åtkomstkontrollern i GateTap
 
 Öppna GateTap och ange:
-• IP-adressen
-• Ditt användarnamn
-• Ditt lösenord
+
+- IP-adressen
+- Ditt användarnamn
+- Ditt lösenord
 
 Använd samma uppgifter som för åtkomstkontrollerns webbgränssnitt.
 
@@ -102,9 +107,10 @@ Använd samma uppgifter som för åtkomstkontrollerns webbgränssnitt.
 Spara konfigurationen och försök öppna en dörr eller grind.
 
 Om inget händer, kontrollera:
-• Att din enhet är på samma nätverk som åtkomstkontrollern
-• Att IP-adressen är korrekt
-• Att åtkomstkontrollern har ström och kan nås
+
+- Att din enhet är på samma nätverk som åtkomstkontrollern
+- Att IP-adressen är korrekt
+- Att åtkomstkontrollern har ström och kan nås
 
 
 ## Steg 5: Håll IP-adressen stabil
@@ -112,8 +118,9 @@ Om inget händer, kontrollera:
 För att undvika problem senare bör kontrollern alltid använda samma IP-adress.
 
 Det kan göras genom att:
-• Ställa in en statisk IP på kontrollern
-• Skapa en DHCP-reservation i routern
+
+- Ställa in en statisk IP på kontrollern
+- Skapa en DHCP-reservation i routern
 
 
 ## Demoläge

@@ -26,6 +26,7 @@ GateTap rešpektuje vaše súkromie. Táto aplikácia je navrhnutá tak, aby fun
 GateTap nezhromažďuje, neukladá ani neprenáša osobné údaje na externé servery na funkčné využitie aplikácie.
 
 Aplikácia môže vo vašom zariadení lokálne ukladať nasledujúce informácie:
+
 - IP adresy nakonfigurovaných zariadení
 - Prihlasovacie údaje (voliteľné, ak sa ich rozhodnete uložiť)
 
@@ -35,6 +36,7 @@ Tieto údaje nikdy neopustia vaše zariadenie.
 GateTap využíva službu tretej strany poskytovanú spoločnosťou Google Firebase Crashlytics na zhromažďovanie anonymných správ o zlyhaní s cieľom zlepšiť stabilitu aplikácie.
 
 Správy o zlyhaní môžu zahŕňať:
+
 - Typ zariadenia a verzia operačného systému
 - Verzia aplikácie
 - Technické informácie o havárii

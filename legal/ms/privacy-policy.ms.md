@@ -26,6 +26,7 @@ GateTap menghormati privasi anda. Apl ini direka bentuk untuk beroperasi terutam
 GateTap tidak mengumpul, menyimpan atau menghantar data peribadi ke pelayan luaran untuk kegunaan berfungsi Apl.
 
 Apl boleh menyimpan maklumat berikut secara setempat pada peranti anda:
+
 - Alamat IP peranti yang dikonfigurasikan
 - Bukti kelayakan log masuk (pilihan, jika anda memilih untuk menyimpannya)
 
@@ -35,6 +36,7 @@ Data ini tidak pernah meninggalkan peranti anda.
 GateTap menggunakan perkhidmatan pihak ketiga yang disediakan oleh Google Firebase Crashlytics untuk mengumpulkan laporan ranap sistem tanpa nama bagi meningkatkan kestabilan apl.
 
 Laporan ranap sistem mungkin termasuk:
+
 - Jenis peranti dan versi sistem pengendalian
 - Versi apl
 - Maklumat teknikal tentang kemalangan itu

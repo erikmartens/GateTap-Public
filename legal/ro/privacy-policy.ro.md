@@ -26,6 +26,7 @@ GateTap vă respectă confidențialitatea. Această aplicație este concepută p
 GateTap nu colectează, stochează și nu transmite date personale către servere externe pentru utilizarea funcțională a aplicației.
 
 Aplicația poate stoca următoarele informații local pe dispozitivul dvs.:
+
 - Adresele IP ale dispozitivelor configurate
 - Acreditări de conectare (opțional, dacă alegeți să le salvați)
 
@@ -35,6 +36,7 @@ Aceste date nu părăsesc niciodată dispozitivul dvs.
 GateTap utilizează un serviciu terță parte furnizat de Google Firebase Crashlytics pentru a colecta rapoarte anonime de blocare pentru a îmbunătăți stabilitatea aplicației.
 
 Rapoartele de blocare pot include:
+
 - Tipul dispozitivului și versiunea sistemului de operare
 - Versiunea aplicației
 - Informații tehnice despre accident

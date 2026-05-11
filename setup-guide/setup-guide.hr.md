@@ -21,8 +21,9 @@ Spojite GateTap na svoj kontroler pristupa
 Provjerite je li vaš uređaj povezan s istom lokalnom mrežom kao i vaš kontroler pristupa. Primjerice, provjerite je li iPhone na kućnoj Wi-Fi mreži, a ne na mobilnoj podatkovnoj vezi.
 
 GateTap u potpunosti radi unutar vaše lokalne mreže i treba:
-• IP adresu kontrolera
-• Korisničko ime i lozinku
+
+- IP adresu kontrolera
+- Korisničko ime i lozinku
 
 
 ## Korak 1: Pronađite IP adresu kontrolera pristupa
@@ -37,8 +38,9 @@ Odaberite jednu od sljedećih mogućnosti:
 Ako je sustav instalirao električar ili tehničar, vjerojatno je već sve konfigurirao.
 
 U mnogim slučajevima:
-• Kontroler koristi fiksnu IP adresu
-• Ili usmjerivač dodjeljuje istu IP adresu putem DHCP rezervacije
+
+- Kontroler koristi fiksnu IP adresu
+- Ili usmjerivač dodjeljuje istu IP adresu putem DHCP rezervacije
 
 Zatražite IP adresu i podatke za prijavu. To je obično najlakši i najbrži način.
 
@@ -50,14 +52,16 @@ Otvorite konfiguracijsku stranicu usmjerivača i potražite povezane uređaje.
 Za pristup usmjerivaču obično trebate njegovu lokalnu adresu, npr. `192.168.1.1` ili naziv poput `fritz.box`, te podatke za prijavu na usmjerivač.
 
 Ovaj se odjeljak može zvati:
-• Mreža
-• Povezani uređaji
-• LAN
-• DHCP klijenti
+
+- Mreža
+- Povezani uređaji
+- LAN
+- DHCP klijenti
 
 Potražite:
-• Nepoznate žičane uređaje
-• Unose koji bi mogli predstavljati vaš kontroler
+
+- Nepoznate žičane uređaje
+- Unose koji bi mogli predstavljati vaš kontroler
 
 IP adresa obično izgleda ovako:
 `192.168.x.x` ili `10.0.x.x`
@@ -90,9 +94,10 @@ Ako je sustav profesionalno instaliran, pitajte instalatera jesu li zadani podac
 ## Korak 3: Dodajte kontroler pristupa u GateTap
 
 Otvorite GateTap i unesite:
-• IP adresu
-• Korisničko ime
-• Lozinku
+
+- IP adresu
+- Korisničko ime
+- Lozinku
 
 Koristite iste podatke za prijavu kao za web sučelje kontrolera pristupa.
 
@@ -102,9 +107,10 @@ Koristite iste podatke za prijavu kao za web sučelje kontrolera pristupa.
 Spremite konfiguraciju i pokušajte otvoriti vrata ili kapiju.
 
 Ako se ništa ne dogodi, provjerite:
-• Je li vaš uređaj na istoj mreži kao kontroler pristupa
-• Je li IP adresa ispravna
-• Je li kontroler pristupa uključen i dostupan
+
+- Je li vaš uređaj na istoj mreži kao kontroler pristupa
+- Je li IP adresa ispravna
+- Je li kontroler pristupa uključen i dostupan
 
 
 ## Korak 5: Održavajte IP adresu stabilnom
@@ -112,8 +118,9 @@ Ako se ništa ne dogodi, provjerite:
 Kako biste izbjegli kasnije probleme, kontroler bi uvijek trebao koristiti istu IP adresu.
 
 To se može učiniti tako da:
-• Postavite statičku IP adresu na kontroleru
-• Izradite DHCP rezervaciju u usmjerivaču
+
+- Postavite statičku IP adresu na kontroleru
+- Izradite DHCP rezervaciju u usmjerivaču
 
 
 ## Demo način

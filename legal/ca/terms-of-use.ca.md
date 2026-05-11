@@ -27,6 +27,7 @@ GateTap és una aplicació independent i no està afiliada, avalada ni connectad
 
 ## 3. Responsabilitat de l'usuari
 En utilitzar aquesta aplicació, accepteu que:
+
 - Tens permís per accedir i controlar el dispositiu connectat
 - Sou responsable de totes les accions realitzades a través de l'App
 - No utilitzaràs l'aplicació per a accés no autoritzat o amb finalitats il·legals
@@ -38,12 +39,14 @@ L'aplicació es comunica directament amb els dispositius de la vostra xarxa loca
 
 ## 5. Sense garantia
 L'aplicació es proporciona "tal com està" sense garanties de cap tipus. No garantim:
+
 - Compatibilitat amb tots els dispositius
 - Disponibilitat contínua
 - Funcionament sense errors
 
 ## 6. Limitació de responsabilitat
 El promotor no serà responsable de cap dany derivat de:
+
 - Accés no autoritzat a la propietat
 - Configuració incorrecta dels dispositius
 - Problemes relacionats amb la xarxa

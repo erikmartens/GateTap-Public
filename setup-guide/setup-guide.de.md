@@ -21,8 +21,9 @@ GateTap mit deinem Zutritts-Controller verbinden
 Stelle sicher, dass dein Gerät mit demselben Netzwerk verbunden ist wie dein Zutritts-Controller. Achte beispielsweise darauf, dass dein iPhone mit deinem Heim-WLAN verbunden ist und nicht nur mit dem mobilen Datennetz.
 
 GateTap benötigt:
-• Die IP-Adresse des Controllers
-• Benutzername und Passwort
+
+- Die IP-Adresse des Controllers
+- Benutzername und Passwort
 
 
 ## Schritt 1: IP-Adresse finden
@@ -37,8 +38,9 @@ Wähle eine der folgenden Möglichkeiten:
 Wenn dein System von einem Elektriker oder Techniker eingerichtet wurde, ist der Zutritts-Controller meist bereits konfiguriert.
 
 Oft gilt:
-• Feste IP-Adresse ist vergeben
-• Oder im Router reserviert
+
+- Feste IP-Adresse ist vergeben
+- Oder im Router reserviert
 
 Frage nach der IP-Adresse und den Login-Daten. Das ist meist der einfachste Weg.
 
@@ -50,14 +52,16 @@ Frage nach der IP-Adresse und den Login-Daten. Das ist meist der einfachste Weg.
 Um auf den Router zuzugreifen, benötigst du in der Regel dessen lokale IP-Adresse (z. B. `192.168.1.1`) sowie die Login-Daten für den Router.
 
 Dieser Bereich kann heißen:
-• Heimnetzwerk
-• Verbundene Geräte
-• LAN
-• DHCP-Clients
+
+- Heimnetzwerk
+- Verbundene Geräte
+- LAN
+- DHCP-Clients
 
 Suche nach:
-• Unbekannten kabelgebundenen Geräten
-• Einträgen, die deinem Controller entsprechen könnten
+
+- Unbekannten kabelgebundenen Geräten
+- Einträgen, die deinem Controller entsprechen könnten
 
 Die IP-Adresse sieht meist so aus:
 `192.168.x.x` oder `10.0.x.x`
@@ -90,9 +94,10 @@ Wenn dein System professionell installiert wurde, frage deinen Installateur, ob 
 ## Schritt 3: Controller in GateTap hinzufügen
 
 Öffne GateTap und gib ein:
-• IP-Adresse
-• Benutzername
-• Passwort
+
+- IP-Adresse
+- Benutzername
+- Passwort
 
 Verwende die gleichen Login-Daten wie für die Weboberfläche.
 
@@ -102,9 +107,10 @@ Verwende die gleichen Login-Daten wie für die Weboberfläche.
 Speichere die Konfiguration und teste eine Tür oder ein Tor.
 
 Wenn nichts passiert, prüfe:
-• Gerät mit der App im gleichen Netzwerk
-• IP-Adresse korrekt
-• Zutritts-Controller eingeschaltet und erreichbar
+
+- Gerät mit der App im gleichen Netzwerk
+- IP-Adresse korrekt
+- Zutritts-Controller eingeschaltet und erreichbar
 
 
 ## Schritt 5: Feste IP-Adresse verwenden
@@ -112,8 +118,9 @@ Wenn nichts passiert, prüfe:
 Damit es später keine Probleme gibt, sollte der Zutritts-Controller immer die gleiche IP-Adresse verwenden.
 
 Das erreichst du durch:
-• Statische IP im Gerät
-• DHCP-Reservierung im Router
+
+- Statische IP im Gerät
+- DHCP-Reservierung im Router
 
 
 ## Demo Modus

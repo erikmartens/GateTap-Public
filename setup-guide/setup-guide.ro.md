@@ -21,8 +21,9 @@ Conectați GateTap la controlerul dvs. de acces
 Asigurați-vă că dispozitivul este conectat la aceeași rețea locală ca și controlerul de acces. De exemplu, verificați ca iPhone-ul să fie pe Wi-Fi-ul de acasă, nu pe conexiunea de date mobile.
 
 GateTap funcționează integral în rețeaua locală și are nevoie de:
-• Adresa IP a controlerului
-• Un nume de utilizator și o parolă
+
+- Adresa IP a controlerului
+- Un nume de utilizator și o parolă
 
 
 ## Pasul 1: Găsiți adresa IP a controlerului de acces
@@ -37,8 +38,9 @@ Alegeți una dintre următoarele opțiuni:
 Dacă sistemul a fost instalat de un electrician sau tehnician, probabil că acesta a configurat deja totul.
 
 În multe cazuri:
-• Controlerul folosește o adresă IP fixă
-• Sau routerul îi atribuie același IP prin rezervare DHCP
+
+- Controlerul folosește o adresă IP fixă
+- Sau routerul îi atribuie același IP prin rezervare DHCP
 
 Cereți adresa IP și datele de autentificare. De obicei, acesta este cel mai simplu și rapid mod.
 
@@ -50,14 +52,16 @@ Deschideți pagina de configurare a routerului și căutați dispozitivele conec
 Pentru a accesa routerul, de obicei aveți nevoie de adresa locală, de exemplu `192.168.1.1` sau un nume precum `fritz.box`, și de datele de autentificare ale routerului.
 
 Această secțiune se poate numi:
-• Rețea
-• Dispozitive conectate
-• LAN
-• Clienți DHCP
+
+- Rețea
+- Dispozitive conectate
+- LAN
+- Clienți DHCP
 
 Căutați:
-• Dispozitive cu fir necunoscute
-• Intrări care ar putea reprezenta controlerul dvs.
+
+- Dispozitive cu fir necunoscute
+- Intrări care ar putea reprezenta controlerul dvs.
 
 Adresa IP va arăta de obicei astfel:
 `192.168.x.x` sau `10.0.x.x`
@@ -90,9 +94,10 @@ Dacă sistemul a fost instalat profesional, întrebați instalatorul dacă datel
 ## Pasul 3: Adăugați controlerul de acces în GateTap
 
 Deschideți GateTap și introduceți:
-• Adresa IP
-• Numele de utilizator
-• Parola
+
+- Adresa IP
+- Numele de utilizator
+- Parola
 
 Folosiți aceleași date ca pentru interfața web a controlerului de acces.
 
@@ -102,9 +107,10 @@ Folosiți aceleași date ca pentru interfața web a controlerului de acces.
 Salvați configurația și încercați să deschideți o ușă sau o poartă.
 
 Dacă nu se întâmplă nimic, verificați:
-• Dispozitivul este în aceeași rețea cu controlerul de acces
-• Adresa IP este corectă
-• Controlerul de acces este alimentat și accesibil
+
+- Dispozitivul este în aceeași rețea cu controlerul de acces
+- Adresa IP este corectă
+- Controlerul de acces este alimentat și accesibil
 
 
 ## Pasul 5: Păstrați adresa IP stabilă
@@ -112,8 +118,9 @@ Dacă nu se întâmplă nimic, verificați:
 Pentru a evita problemele mai târziu, controlerul ar trebui să folosească mereu aceeași adresă IP.
 
 Acest lucru se poate face prin:
-• Setarea unui IP static pe controler
-• Crearea unei rezervări DHCP în router
+
+- Setarea unui IP static pe controler
+- Crearea unei rezervări DHCP în router
 
 
 ## Mod demo

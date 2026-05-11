@@ -26,6 +26,7 @@ GateTap poštuje vašu privatnost. Ova je aplikacija dizajnirana za rad prvenstv
 GateTap ne prikuplja, pohranjuje niti prenosi osobne podatke vanjskim poslužiteljima za funkcionalnu upotrebu aplikacije.
 
 Aplikacija može pohraniti sljedeće informacije lokalno na vašem uređaju:
+
 - IP adrese konfiguriranih uređaja
 - Vjerodajnice za prijavu (neobavezno, ako ih odlučite spremiti)
 
@@ -35,6 +36,7 @@ Ovi podaci nikada ne napuštaju vaš uređaj.
 GateTap koristi uslugu treće strane koju pruža Google Firebase Crashlytics za prikupljanje anonimnih izvješća o padu radi poboljšanja stabilnosti aplikacije.
 
 Izvješća o rušenju mogu uključivati:
+
 - Vrsta uređaja i verzija operativnog sustava
 - Verzija aplikacije
 - Tehničke informacije o nesreći

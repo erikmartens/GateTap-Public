@@ -27,6 +27,7 @@ GateTap ialah aplikasi bebas dan tidak bergabung dengan, disokong oleh, atau dis
 
 ## 3. Tanggungjawab Pengguna
 Dengan menggunakan Apl ini, anda bersetuju bahawa:
+
 - Anda mempunyai kebenaran untuk mengakses dan mengawal peranti yang disambungkan
 - Anda bertanggungjawab untuk semua tindakan yang dilakukan melalui Apl
 - Anda tidak akan menggunakan Apl untuk akses tanpa kebenaran atau tujuan yang menyalahi undang-undang
@@ -38,12 +39,14 @@ Apl berkomunikasi secara langsung dengan peranti pada rangkaian tempatan anda da
 
 ## 5. Tiada Waranti
 Aplikasi ini disediakan "seadanya" tanpa sebarang jenis jaminan. Kami tidak menjamin:
+
 - Keserasian dengan semua peranti
 - Ketersediaan berterusan
 - Operasi tanpa ralat
 
 ## 6. Had Liabiliti
 Pemaju tidak akan bertanggungjawab ke atas sebarang kerosakan yang timbul daripada:
+
 - Akses tanpa kebenaran ke harta benda
 - Salah konfigurasi peranti
 - Isu berkaitan rangkaian

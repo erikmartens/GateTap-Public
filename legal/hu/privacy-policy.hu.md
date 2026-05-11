@@ -26,6 +26,7 @@ A GateTap tiszteletben tartja az Ön magánéletét. Ez az alkalmazás elsősorb
 A GateTap nem gyűjt, tárol és nem továbbít személyes adatokat külső szerverekre az Alkalmazás funkcionális használatához.
 
 Az alkalmazás a következő információkat tárolhatja helyileg az Ön eszközén:
+
 - A konfigurált eszközök IP-címei
 - Bejelentkezési hitelesítő adatok (opcionális, ha úgy dönt, hogy elmenti őket)
 
@@ -35,6 +36,7 @@ Ezek az adatok soha nem hagyják el az eszközt.
 A GateTap a Google Firebase Crashlytics harmadik féltől származó szolgáltatását használja a névtelen hibajelentések gyűjtésére az alkalmazás stabilitásának javítása érdekében.
 
 A hibajelentések a következőket tartalmazhatják:
+
 - Eszköz típusa és operációs rendszer verziója
 - App verzió
 - Műszaki információk a balesettel kapcsolatban

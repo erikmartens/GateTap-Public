@@ -27,6 +27,7 @@ GateTap bağımsız bir uygulamadır ve herhangi bir donanım üreticisine veya 
 
 ## 3. Kullanıcı Sorumluluğu
 Bu Uygulamayı kullanarak şunları kabul etmiş olursunuz:
+
 - Bağlı cihaza erişme ve onu kontrol etme izniniz var
 - Uygulama aracılığıyla gerçekleştirilen tüm işlemlerden siz sorumlusunuz
 - Uygulamayı yetkisiz erişim veya yasa dışı amaçlarla kullanmayacaksınız
@@ -38,12 +39,14 @@ Uygulama, yerel ağınızdaki cihazlarla doğrudan iletişim kurar ve herhangi b
 
 ## 5. Garanti Yok
 Uygulama, herhangi bir garanti olmaksızın "olduğu gibi" sağlanmaktadır. Aşağıdakileri garanti etmiyoruz:
+
 - Tüm cihazlarla uyumluluk
 - Sürekli kullanılabilirlik
 - Hatasız çalışma
 
 ## 6. Sorumluluğun Sınırlandırılması
 Geliştirici aşağıdakilerden kaynaklanan hiçbir zarardan sorumlu olmayacaktır:
+
 - Mülke izinsiz erişim
 - Cihazların yanlış yapılandırılması
 - Ağla ilgili sorunlar

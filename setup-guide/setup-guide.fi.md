@@ -21,8 +21,9 @@ Yhdistä GateTap pääsyohjaimeen
 Varmista, että laitteesi on yhdistetty samaan paikallisverkkoon kuin kulunvalvontaohjain. Varmista esimerkiksi, että iPhone on kodin Wi-Fi-verkossa eikä mobiilidatayhteydessä.
 
 GateTap toimii kokonaan paikallisverkossasi ja tarvitsee:
-• Ohjaimen IP-osoitteen
-• Käyttäjätunnuksen ja salasanan
+
+- Ohjaimen IP-osoitteen
+- Käyttäjätunnuksen ja salasanan
 
 
 ## Vaihe 1: Etsi kulunvalvontaohjaimen IP-osoite
@@ -37,8 +38,9 @@ Valitse jokin seuraavista vaihtoehdoista:
 Jos järjestelmän asensi sähköasentaja tai teknikko, hän on todennäköisesti jo määrittänyt kaiken.
 
 Monissa tapauksissa:
-• Ohjain käyttää kiinteää IP-osoitetta
-• Tai reititin antaa sille saman IP:n DHCP-varauksella
+
+- Ohjain käyttää kiinteää IP-osoitetta
+- Tai reititin antaa sille saman IP:n DHCP-varauksella
 
 Pyydä IP-osoite ja kirjautumistiedot. Tämä on yleensä helpoin ja nopein tapa.
 
@@ -50,14 +52,16 @@ Avaa reitittimen asetussivu ja etsi yhdistetyt laitteet.
 Reitittimeen kirjautumiseen tarvitset yleensä sen paikallisen osoitteen, esimerkiksi `192.168.1.1` tai nimen kuten `fritz.box`, sekä reitittimen kirjautumistiedot.
 
 Tämän osion nimi voi olla:
-• Verkko
-• Yhdistetyt laitteet
-• LAN
-• DHCP-asiakkaat
+
+- Verkko
+- Yhdistetyt laitteet
+- LAN
+- DHCP-asiakkaat
 
 Etsi:
-• Tuntemattomia langallisia laitteita
-• Merkintöjä, jotka voisivat olla ohjaimesi
+
+- Tuntemattomia langallisia laitteita
+- Merkintöjä, jotka voisivat olla ohjaimesi
 
 IP-osoite näyttää yleensä tältä:
 `192.168.x.x` tai `10.0.x.x`
@@ -90,9 +94,10 @@ Jos järjestelmäsi asennettiin ammattilaisen toimesta, kysy asentajalta, onko o
 ## Vaihe 3: Lisää kulunvalvontaohjain GateTapiin
 
 Avaa GateTap ja syötä:
-• IP-osoite
-• Käyttäjätunnus
-• Salasana
+
+- IP-osoite
+- Käyttäjätunnus
+- Salasana
 
 Käytä samoja kirjautumistietoja kuin kulunvalvontaohjaimen verkkokäyttöliittymässä.
 
@@ -102,9 +107,10 @@ Käytä samoja kirjautumistietoja kuin kulunvalvontaohjaimen verkkokäyttöliitt
 Tallenna määritys ja kokeile avata ovi tai portti.
 
 Jos mitään ei tapahdu, tarkista:
-• Että laitteesi on samassa verkossa kuin kulunvalvontaohjain
-• Että IP-osoite on oikein
-• Että kulunvalvontaohjaimessa on virta ja siihen saa yhteyden
+
+- Että laitteesi on samassa verkossa kuin kulunvalvontaohjain
+- Että IP-osoite on oikein
+- Että kulunvalvontaohjaimessa on virta ja siihen saa yhteyden
 
 
 ## Vaihe 5: Pidä IP-osoite vakaana
@@ -112,8 +118,9 @@ Jos mitään ei tapahdu, tarkista:
 Ongelmien välttämiseksi myöhemmin ohjaimen tulisi aina käyttää samaa IP-osoitetta.
 
 Tämä voidaan tehdä:
-• Asettamalla ohjaimeen staattinen IP
-• Luomalla DHCP-varaus reitittimeen
+
+- Asettamalla ohjaimeen staattinen IP
+- Luomalla DHCP-varaus reitittimeen
 
 
 ## Demotila

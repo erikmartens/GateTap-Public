@@ -26,6 +26,7 @@ GateTap respecte votre vie privée. Cette application est conçue pour fonctionn
 GateTap ne collecte, ne stocke ni ne transmet de données personnelles à des serveurs externes pour une utilisation fonctionnelle de l'application.
 
 L'application peut stocker les informations suivantes localement sur votre appareil :
+
 - Adresses IP des appareils configurés
 - Identifiants de connexion (facultatifs, si vous choisissez de les enregistrer)
 
@@ -35,6 +36,7 @@ Ces données ne quittent jamais votre appareil.
 GateTap utilise un service tiers fourni par Google Firebase Crashlytics pour collecter des rapports d'erreur anonymes afin d'améliorer la stabilité de l'application.
 
 Les rapports d'erreur peuvent inclure :
+
 - Type d'appareil et version du système d'exploitation
 - Version de l'application
 - Informations techniques sur l'accident

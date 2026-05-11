@@ -26,6 +26,7 @@ GateTap respecteert uw privacy. Deze app is ontworpen om voornamelijk op uw appa
 GateTap verzamelt, bewaart of verzendt geen persoonlijke gegevens naar externe servers voor functioneel gebruik van de app.
 
 De app kan de volgende informatie lokaal op uw apparaat opslaan:
+
 - IP-adressen van geconfigureerde apparaten
 - Inloggegevens (optioneel, als u ervoor kiest om ze op te slaan)
 
@@ -35,6 +36,7 @@ Deze gegevens verlaten uw apparaat nooit.
 GateTap maakt gebruik van een externe service van Google Firebase Crashlytics om anonieme crashrapporten te verzamelen om de app-stabiliteit te verbeteren.
 
 Crashrapporten kunnen het volgende omvatten:
+
 - Apparaattype en versie van het besturingssysteem
 - App-versie
 - Technische informatie over de crash

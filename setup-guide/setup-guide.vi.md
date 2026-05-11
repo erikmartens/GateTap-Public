@@ -21,8 +21,9 @@ Kết nối GateTap với bộ điều khiển truy cập của bạn
 Hãy đảm bảo thiết bị của bạn được kết nối với cùng mạng cục bộ như bộ điều khiển truy cập. Ví dụ, hãy chắc chắn iPhone đang dùng Wi-Fi tại nhà chứ không phải kết nối dữ liệu di động.
 
 GateTap hoạt động hoàn toàn trong mạng cục bộ của bạn và cần:
-• Địa chỉ IP của bộ điều khiển
-• Tên người dùng và mật khẩu
+
+- Địa chỉ IP của bộ điều khiển
+- Tên người dùng và mật khẩu
 
 
 ## Bước 1: Tìm địa chỉ IP của bộ điều khiển truy cập
@@ -37,8 +38,9 @@ Chọn một trong các tùy chọn sau:
 Nếu hệ thống của bạn do thợ điện hoặc kỹ thuật viên lắp đặt, có thể họ đã cấu hình mọi thứ.
 
 Trong nhiều trường hợp:
-• Bộ điều khiển dùng địa chỉ IP cố định
-• Hoặc bộ định tuyến gán cùng một IP thông qua đặt trước DHCP
+
+- Bộ điều khiển dùng địa chỉ IP cố định
+- Hoặc bộ định tuyến gán cùng một IP thông qua đặt trước DHCP
 
 Hãy hỏi họ địa chỉ IP và thông tin đăng nhập. Đây thường là cách dễ nhất và nhanh nhất.
 
@@ -50,14 +52,16 @@ Mở trang cấu hình của bộ định tuyến và tìm các thiết bị đa
 Để truy cập bộ định tuyến, bạn thường cần địa chỉ cục bộ của nó, ví dụ `192.168.1.1` hoặc tên như `fritz.box`, cùng thông tin đăng nhập của bộ định tuyến.
 
 Mục này có thể được gọi là:
-• Mạng
-• Thiết bị đã kết nối
-• LAN
-• Máy khách DHCP
+
+- Mạng
+- Thiết bị đã kết nối
+- LAN
+- Máy khách DHCP
 
 Hãy tìm:
-• Thiết bị có dây không xác định
-• Mục có thể là bộ điều khiển của bạn
+
+- Thiết bị có dây không xác định
+- Mục có thể là bộ điều khiển của bạn
 
 Địa chỉ IP thường có dạng:
 `192.168.x.x` hoặc `10.0.x.x`
@@ -90,9 +94,10 @@ Nếu hệ thống của bạn được lắp đặt chuyên nghiệp, hãy hỏ
 ## Bước 3: Thêm bộ điều khiển truy cập trong GateTap
 
 Mở GateTap và nhập:
-• Địa chỉ IP
-• Tên người dùng của bạn
-• Mật khẩu của bạn
+
+- Địa chỉ IP
+- Tên người dùng của bạn
+- Mật khẩu của bạn
 
 Sử dụng cùng thông tin đăng nhập như giao diện web của bộ điều khiển truy cập.
 
@@ -102,9 +107,10 @@ Sử dụng cùng thông tin đăng nhập như giao diện web của bộ đi�
 Lưu cấu hình và thử mở cửa hoặc cổng.
 
 Nếu không có gì xảy ra, hãy kiểm tra:
-• Thiết bị của bạn ở cùng mạng với bộ điều khiển truy cập
-• Địa chỉ IP chính xác
-• Bộ điều khiển truy cập có nguồn điện và có thể truy cập được
+
+- Thiết bị của bạn ở cùng mạng với bộ điều khiển truy cập
+- Địa chỉ IP chính xác
+- Bộ điều khiển truy cập có nguồn điện và có thể truy cập được
 
 
 ## Bước 5: Giữ địa chỉ IP ổn định
@@ -112,8 +118,9 @@ Nếu không có gì xảy ra, hãy kiểm tra:
 Để tránh sự cố về sau, bộ điều khiển nên luôn dùng cùng một địa chỉ IP.
 
 Có thể thực hiện bằng cách:
-• Đặt IP tĩnh trên bộ điều khiển
-• Tạo đặt trước DHCP trong bộ định tuyến
+
+- Đặt IP tĩnh trên bộ điều khiển
+- Tạo đặt trước DHCP trong bộ định tuyến
 
 
 ## Chế độ demo

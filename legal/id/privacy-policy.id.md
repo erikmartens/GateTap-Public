@@ -26,6 +26,7 @@ GateTap menghormati privasi Anda. Aplikasi ini dirancang untuk beroperasi teruta
 GateTap tidak mengumpulkan, menyimpan, atau mengirimkan data pribadi ke server eksternal untuk penggunaan fungsional Aplikasi.
 
 Aplikasi dapat menyimpan informasi berikut secara lokal di perangkat Anda:
+
 - Alamat IP perangkat yang dikonfigurasi
 - Kredensial login (opsional, jika Anda memilih untuk menyimpannya)
 
@@ -35,6 +36,7 @@ Data ini tidak pernah meninggalkan perangkat Anda.
 GateTap menggunakan layanan pihak ketiga yang disediakan oleh Google Firebase Crashlytics untuk mengumpulkan laporan kerusakan anonim guna meningkatkan stabilitas aplikasi.
 
 Laporan kerusakan mungkin mencakup:
+
 - Jenis perangkat dan versi sistem operasi
 - Versi aplikasi
 - Informasi teknis tentang kecelakaan itu

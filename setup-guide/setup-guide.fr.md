@@ -21,8 +21,9 @@ Connectez GateTap à votre contrôleur d'accès
 Assurez-vous que votre appareil est connecté au même réseau local que votre contrôleur d’accès. Par exemple, vérifiez que votre iPhone est connecté au Wi-Fi de votre domicile et non aux données mobiles.
 
 GateTap fonctionne entièrement sur votre réseau local et a besoin de :
-• L’adresse IP du contrôleur
-• Un nom d’utilisateur et un mot de passe
+
+- L’adresse IP du contrôleur
+- Un nom d’utilisateur et un mot de passe
 
 
 ## Étape 1 : Trouver l’adresse IP du contrôleur d’accès
@@ -37,8 +38,9 @@ Choisissez l’une des options suivantes :
 Si votre système a été installé par un électricien ou un technicien, il a probablement déjà tout configuré.
 
 Dans de nombreux cas :
-• Le contrôleur utilise une adresse IP fixe
-• Ou le routeur lui attribue la même IP via une réservation DHCP
+
+- Le contrôleur utilise une adresse IP fixe
+- Ou le routeur lui attribue la même IP via une réservation DHCP
 
 Demandez-lui l’adresse IP et les identifiants de connexion. C’est généralement la méthode la plus simple et la plus rapide.
 
@@ -50,14 +52,16 @@ Ouvrez la page de configuration de votre routeur et recherchez les appareils con
 Pour accéder à votre routeur, vous avez généralement besoin de son adresse locale, par exemple `192.168.1.1` ou d’un nom comme `fritz.box`, ainsi que des identifiants du routeur.
 
 Cette section peut s’appeler :
-• Réseau
-• Appareils connectés
-• LAN
-• Clients DHCP
+
+- Réseau
+- Appareils connectés
+- LAN
+- Clients DHCP
 
 Recherchez :
-• Des appareils câblés inconnus
-• Des entrées qui pourraient correspondre à votre contrôleur
+
+- Des appareils câblés inconnus
+- Des entrées qui pourraient correspondre à votre contrôleur
 
 L’adresse IP ressemble généralement à :
 `192.168.x.x` ou `10.0.x.x`
@@ -90,9 +94,10 @@ Si votre système a été installé par un professionnel, demandez à votre inst
 ## Étape 3 : Ajouter le contrôleur d’accès dans GateTap
 
 Ouvrez GateTap et saisissez :
-• L’adresse IP
-• Votre nom d’utilisateur
-• Votre mot de passe
+
+- L’adresse IP
+- Votre nom d’utilisateur
+- Votre mot de passe
 
 Utilisez les mêmes identifiants que pour l’interface web du contrôleur d’accès.
 
@@ -102,9 +107,10 @@ Utilisez les mêmes identifiants que pour l’interface web du contrôleur d’a
 Enregistrez votre configuration et essayez d’ouvrir une porte ou un portail.
 
 Si rien ne se passe, vérifiez :
-• Que votre appareil est sur le même réseau que le contrôleur d’accès
-• Que l’adresse IP est correcte
-• Que le contrôleur d’accès est alimenté et joignable
+
+- Que votre appareil est sur le même réseau que le contrôleur d’accès
+- Que l’adresse IP est correcte
+- Que le contrôleur d’accès est alimenté et joignable
 
 
 ## Étape 5 : Garder l’adresse IP stable
@@ -112,8 +118,9 @@ Si rien ne se passe, vérifiez :
 Pour éviter les problèmes plus tard, le contrôleur devrait toujours utiliser la même adresse IP.
 
 Cela peut se faire en :
-• Définissant une IP statique sur le contrôleur
-• Créant une réservation DHCP dans votre routeur
+
+- Définissant une IP statique sur le contrôleur
+- Créant une réservation DHCP dans votre routeur
 
 
 ## Mode démo

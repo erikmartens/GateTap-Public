@@ -27,6 +27,7 @@ GateTap ist eine unabhängige Anwendung und steht in keiner Verbindung zu Herste
 
 ## 3. Verantwortung des Nutzers
 Mit der Nutzung der App stimmen Sie zu, dass:
+
 - Sie berechtigt sind, das verbundene Gerät zu steuern
 - Sie für alle über die App ausgeführten Aktionen verantwortlich sind
 - Sie die App nicht für unbefugte oder rechtswidrige Zwecke verwenden
@@ -38,12 +39,14 @@ Die App kommuniziert direkt mit Geräten im lokalen Netzwerk und stellt keine In
 
 ## 5. Gewährleistungsausschluss
 Die App wird "wie besehen" bereitgestellt, ohne jegliche Gewährleistung. Es wird insbesondere nicht garantiert:
+
 - Kompatibilität mit allen Geräten
 - Ständige Verfügbarkeit
 - Fehlerfreiheit
 
 ## 6. Haftungsbeschränkung
 Der Entwickler haftet nicht für Schäden, die entstehen durch:
+
 - Unbefugten Zugriff auf Eigentum
 - Fehlkonfiguration von Geräten
 - Netzwerkprobleme

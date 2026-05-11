@@ -21,8 +21,9 @@ Tilslut GateTap til din adgangscontroller
 Sørg for, at din enhed er tilsluttet det samme lokale netværk som din adgangscontroller. Sørg for eksempel for, at din iPhone er på dit Wi-Fi derhjemme og ikke bruger mobildata.
 
 GateTap fungerer udelukkende på dit lokale netværk og skal bruge:
-• Controllerens IP-adresse
-• Et brugernavn og en adgangskode
+
+- Controllerens IP-adresse
+- Et brugernavn og en adgangskode
 
 
 ## Trin 1: Find adgangscontrollerens IP-adresse
@@ -37,8 +38,9 @@ Vælg en af følgende muligheder:
 Hvis dit system blev installeret af en elektriker eller tekniker, har vedkommende sandsynligvis allerede konfigureret det hele.
 
 I mange tilfælde:
-• Bruger controlleren en fast IP-adresse
-• Eller routeren tildeler den samme IP via DHCP-reservation
+
+- Bruger controlleren en fast IP-adresse
+- Eller routeren tildeler den samme IP via DHCP-reservation
 
 Spørg efter IP-adressen og loginoplysningerne. Det er normalt den nemmeste og hurtigste måde.
 
@@ -50,14 +52,16 @@ Spørg efter IP-adressen og loginoplysningerne. Det er normalt den nemmeste og h
 For at få adgang til routeren skal du normalt bruge dens lokale adresse, f.eks. `192.168.1.1` eller et navn som `fritz.box`, samt routerens loginoplysninger.
 
 Afsnittet kan hedde:
-• Netværk
-• Tilsluttede enheder
-• LAN
-• DHCP-klienter
+
+- Netværk
+- Tilsluttede enheder
+- LAN
+- DHCP-klienter
 
 Se efter:
-• Ukendte kablede enheder
-• Poster, der kan være din controller
+
+- Ukendte kablede enheder
+- Poster, der kan være din controller
 
 IP-adressen ser normalt sådan ud:
 `192.168.x.x` eller `10.0.x.x`
@@ -90,9 +94,10 @@ Hvis dit system blev installeret professionelt, så spørg installatøren, om st
 ## Trin 3: Tilføj adgangscontrolleren i GateTap
 
 Åbn GateTap, og indtast:
-• IP-adressen
-• Dit brugernavn
-• Din adgangskode
+
+- IP-adressen
+- Dit brugernavn
+- Din adgangskode
 
 Brug de samme oplysninger som til adgangscontrollerens webinterface.
 
@@ -102,9 +107,10 @@ Brug de samme oplysninger som til adgangscontrollerens webinterface.
 Gem konfigurationen, og prøv at åbne en dør eller port.
 
 Hvis der ikke sker noget, skal du kontrollere:
-• At din enhed er på samme netværk som adgangscontrolleren
-• At IP-adressen er korrekt
-• At adgangscontrolleren er tændt og kan nås
+
+- At din enhed er på samme netværk som adgangscontrolleren
+- At IP-adressen er korrekt
+- At adgangscontrolleren er tændt og kan nås
 
 
 ## Trin 5: Hold IP-adressen stabil
@@ -112,8 +118,9 @@ Hvis der ikke sker noget, skal du kontrollere:
 For at undgå problemer senere bør controlleren altid bruge den samme IP-adresse.
 
 Det kan gøres ved at:
-• Indstille en statisk IP på controlleren
-• Oprette en DHCP-reservation i routeren
+
+- Indstille en statisk IP på controlleren
+- Oprette en DHCP-reservation i routeren
 
 
 ## Demotilstand

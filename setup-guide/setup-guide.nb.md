@@ -21,8 +21,9 @@ Koble GateTap til tilgangskontrolleren
 Sørg for at enheten din er koblet til det samme lokale nettverket som tilgangskontrolleren. Kontroller for eksempel at iPhone er på hjemmets Wi-Fi, ikke på mobildata.
 
 GateTap fungerer helt innenfor det lokale nettverket ditt og trenger:
-• Kontrollerens IP-adresse
-• Et brukernavn og et passord
+
+- Kontrollerens IP-adresse
+- Et brukernavn og et passord
 
 
 ## Trinn 1: Finn IP-adressen til tilgangskontrolleren
@@ -37,8 +38,9 @@ Velg ett av følgende alternativer:
 Hvis systemet ble installert av en elektriker eller tekniker, har de sannsynligvis allerede konfigurert alt.
 
 I mange tilfeller:
-• Bruker kontrolleren en fast IP-adresse
-• Eller ruteren tildeler samme IP via DHCP-reservasjon
+
+- Bruker kontrolleren en fast IP-adresse
+- Eller ruteren tildeler samme IP via DHCP-reservasjon
 
 Be om IP-adressen og innloggingsopplysningene. Dette er vanligvis den enkleste og raskeste måten.
 
@@ -50,14 +52,16 @@ Be om IP-adressen og innloggingsopplysningene. Dette er vanligvis den enkleste o
 For å få tilgang til ruteren trenger du vanligvis den lokale adressen, for eksempel `192.168.1.1` eller et navn som `fritz.box`, og ruterens innloggingsopplysninger.
 
 Denne delen kan hete:
-• Nettverk
-• Tilkoblede enheter
-• LAN
-• DHCP-klienter
+
+- Nettverk
+- Tilkoblede enheter
+- LAN
+- DHCP-klienter
 
 Se etter:
-• Ukjente kablede enheter
-• Oppføringer som kan representere kontrolleren
+
+- Ukjente kablede enheter
+- Oppføringer som kan representere kontrolleren
 
 IP-adressen ser vanligvis slik ut:
 `192.168.x.x` eller `10.0.x.x`
@@ -90,9 +94,10 @@ Hvis systemet ble installert profesjonelt, spør installatøren om standardopply
 ## Trinn 3: Legg til tilgangskontrolleren i GateTap
 
 Åpne GateTap og skriv inn:
-• IP-adressen
-• Brukernavnet ditt
-• Passordet ditt
+
+- IP-adressen
+- Brukernavnet ditt
+- Passordet ditt
 
 Bruk de samme opplysningene som for tilgangskontrollerens webgrensesnitt.
 
@@ -102,9 +107,10 @@ Bruk de samme opplysningene som for tilgangskontrollerens webgrensesnitt.
 Lagre konfigurasjonen og prøv å åpne en dør eller port.
 
 Hvis ingenting skjer, sjekk:
-• At enheten din er på samme nettverk som tilgangskontrolleren
-• At IP-adressen er riktig
-• At tilgangskontrolleren har strøm og kan nås
+
+- At enheten din er på samme nettverk som tilgangskontrolleren
+- At IP-adressen er riktig
+- At tilgangskontrolleren har strøm og kan nås
 
 
 ## Trinn 5: Hold IP-adressen stabil
@@ -112,8 +118,9 @@ Hvis ingenting skjer, sjekk:
 For å unngå problemer senere bør kontrolleren alltid bruke samme IP-adresse.
 
 Dette kan gjøres ved å:
-• Angi en statisk IP på kontrolleren
-• Opprette en DHCP-reservasjon i ruteren
+
+- Angi en statisk IP på kontrolleren
+- Opprette en DHCP-reservasjon i ruteren
 
 
 ## Demomodus

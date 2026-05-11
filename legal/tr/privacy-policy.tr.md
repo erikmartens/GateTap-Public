@@ -26,6 +26,7 @@ GateTap gizliliğinize saygı duyar. Bu Uygulama öncelikle cihazınızda ve yer
 GateTap, Uygulamanın işlevsel kullanımı için kişisel verileri toplamaz, saklamaz veya harici sunuculara aktarmaz.
 
 Uygulama aşağıdaki bilgileri cihazınızda yerel olarak saklayabilir:
+
 - Yapılandırılmış cihazların IP adresleri
 - Oturum açma kimlik bilgileri (kaydetmeyi seçerseniz isteğe bağlıdır)
 
@@ -35,6 +36,7 @@ Bu veriler asla cihazınızdan ayrılmaz.
 GateTap, uygulama kararlılığını artırmak amacıyla anonim kilitlenme raporları toplamak için Google Firebase Crashlytics tarafından sağlanan bir üçüncü taraf hizmetini kullanır.
 
 Kilitlenme raporları şunları içerebilir:
+
 - Cihaz türü ve işletim sistemi sürümü
 - Uygulama sürümü
 - Kazaya ilişkin teknik bilgiler

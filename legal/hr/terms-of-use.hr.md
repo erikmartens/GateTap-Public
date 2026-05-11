@@ -27,6 +27,7 @@ GateTap je neovisna aplikacija i nije povezana s bilo kojim proizvođačem hardv
 
 ## 3. Odgovornost korisnika
 Korištenjem ove aplikacije suglasni ste da:
+
 - Imate dopuštenje za pristup i kontrolu povezanog uređaja
 - Vi ste odgovorni za sve radnje izvršene putem aplikacije
 - Aplikaciju nećete koristiti za neovlašteni pristup ili u nezakonite svrhe
@@ -38,12 +39,14 @@ Aplikacija komunicira izravno s uređajima na vašoj lokalnoj mreži i ne pruža
 
 ## 5. Nema jamstva
 Aplikacija se daje "kakva jest" bez ikakvih jamstava. Ne jamčimo:
+
 - Kompatibilnost sa svim uređajima
 - Kontinuirana dostupnost
 - Rad bez grešaka
 
 ## 6. Ograničenje odgovornosti
 Izvođač nije odgovoran za bilo kakvu štetu koja proizlazi iz:
+
 - Neovlašteni pristup imovini
 - Pogrešna konfiguracija uređaja
 - Problemi povezani s mrežom

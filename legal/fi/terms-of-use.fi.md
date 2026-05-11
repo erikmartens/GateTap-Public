@@ -27,6 +27,7 @@ GateTap on itsenäinen sovellus, eikä se ole sidoksissa mihinkään laitteistov
 
 ## 3. Käyttäjän vastuu
 Käyttämällä tätä sovellusta hyväksyt, että:
+
 - Sinulla on oikeus käyttää ja hallita yhdistettyä laitetta
 - Olet vastuussa kaikista sovelluksen kautta suoritetuista toimista
 - Et käytä sovellusta luvattomaan käyttöön tai laittomiin tarkoituksiin
@@ -38,12 +39,14 @@ Sovellus kommunikoi suoraan paikallisverkossasi olevien laitteiden kanssa eikä 
 
 ## 5. Ei takuuta
 Sovellus tarjotaan "sellaisenaan" ilman minkäänlaisia takuita. Emme takaa:
+
 - Yhteensopivuus kaikkien laitteiden kanssa
 - Jatkuva saatavuus
 - Virheetön toiminta
 
 ## 6. Vastuun rajoitus
 Rakennuttaja ei ole vastuussa vahingoista, jotka johtuvat:
+
 - Luvaton pääsy omaisuuteen
 - Laitteiden konfiguraatiovirhe
 - Verkkoon liittyvät ongelmat

@@ -21,8 +21,9 @@ Collega GateTap al tuo controller di accesso
 Assicurati che il dispositivo sia connesso alla stessa rete locale del controller di accesso. Ad esempio, verifica che l’iPhone sia collegato al Wi-Fi di casa e non a una connessione dati mobile.
 
 GateTap funziona interamente all’interno della tua rete locale e richiede:
-• L’indirizzo IP del controller
-• Un nome utente e una password
+
+- L’indirizzo IP del controller
+- Un nome utente e una password
 
 
 ## Passaggio 1: trova l’indirizzo IP del controller di accesso
@@ -37,8 +38,9 @@ Scegli una delle seguenti opzioni:
 Se il sistema è stato installato da un elettricista o da un tecnico, probabilmente ha già configurato tutto.
 
 In molti casi:
-• Il controller usa un indirizzo IP fisso
-• Oppure il router assegna lo stesso IP tramite una prenotazione DHCP
+
+- Il controller usa un indirizzo IP fisso
+- Oppure il router assegna lo stesso IP tramite una prenotazione DHCP
 
 Chiedi l’indirizzo IP e le credenziali di accesso. Di solito è il modo più semplice e veloce.
 
@@ -50,14 +52,16 @@ Apri la pagina di configurazione del router e cerca i dispositivi connessi.
 Per accedere al router, di solito servono il suo indirizzo locale, ad esempio `192.168.1.1` o un nome come `fritz.box`, e le credenziali del router.
 
 Questa sezione potrebbe chiamarsi:
-• Rete
-• Dispositivi connessi
-• LAN
-• Client DHCP
+
+- Rete
+- Dispositivi connessi
+- LAN
+- Client DHCP
 
 Cerca:
-• Dispositivi cablati sconosciuti
-• Voci che potrebbero rappresentare il controller
+
+- Dispositivi cablati sconosciuti
+- Voci che potrebbero rappresentare il controller
 
 L’indirizzo IP di solito ha questo aspetto:
 `192.168.x.x` o `10.0.x.x`
@@ -90,9 +94,10 @@ Se il sistema è stato installato professionalmente, chiedi all’installatore s
 ## Passaggio 3: aggiungi il controller di accesso in GateTap
 
 Apri GateTap e inserisci:
-• L’indirizzo IP
-• Il nome utente
-• La password
+
+- L’indirizzo IP
+- Il nome utente
+- La password
 
 Usa le stesse credenziali dell’interfaccia web del controller di accesso.
 
@@ -102,9 +107,10 @@ Usa le stesse credenziali dell’interfaccia web del controller di accesso.
 Salva la configurazione e prova ad aprire una porta o un cancello.
 
 Se non succede nulla, controlla:
-• Che il dispositivo sia sulla stessa rete del controller di accesso
-• Che l’indirizzo IP sia corretto
-• Che il controller di accesso sia alimentato e raggiungibile
+
+- Che il dispositivo sia sulla stessa rete del controller di accesso
+- Che l’indirizzo IP sia corretto
+- Che il controller di accesso sia alimentato e raggiungibile
 
 
 ## Passaggio 5: mantieni stabile l’indirizzo IP
@@ -112,8 +118,9 @@ Se non succede nulla, controlla:
 Per evitare problemi in seguito, il controller dovrebbe usare sempre lo stesso indirizzo IP.
 
 Puoi farlo in questo modo:
-• Impostando un IP statico sul controller
-• Creando una prenotazione DHCP nel router
+
+- Impostando un IP statico sul controller
+- Creando una prenotazione DHCP nel router
 
 
 ## Modalità demo

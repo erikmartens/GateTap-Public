@@ -26,6 +26,7 @@ GateTap respects your privacy. This App is designed to operate primarily on your
 GateTap does not collect, store, or transmit personal data to external servers for functional use of the App.
 
 The App may store the following information locally on your device:
+
 - IP addresses of configured devices
 - Login credentials (optional, if you choose to save them)
 
@@ -35,6 +36,7 @@ This data never leaves your device.
 GateTap uses a third-party service provided by Google Firebase Crashlytics to collect anonymous crash reports in order to improve app stability.
 
 Crash reports may include:
+
 - Device type and operating system version
 - App version
 - Technical information about the crash

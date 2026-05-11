@@ -26,6 +26,7 @@ GateTap respecta la vostra privadesa. Aquesta aplicació està dissenyada per fu
 GateTap no recopila, emmagatzema ni transmet dades personals a servidors externs per a l'ús funcional de l'aplicació.
 
 L'aplicació pot emmagatzemar la informació següent localment al vostre dispositiu:
+
 - Adreces IP dels dispositius configurats
 - Credencials d'inici de sessió (opcional, si trieu desar-les)
 
@@ -35,6 +36,7 @@ Aquestes dades no surten mai del vostre dispositiu.
 GateTap utilitza un servei de tercers proporcionat per Google Firebase Crashlytics per recopilar informes d'error anònims per millorar l'estabilitat de l'aplicació.
 
 Els informes d'error poden incloure:
+
 - Tipus de dispositiu i versió del sistema operatiu
 - Versió de l'aplicació
 - Informació tècnica sobre l'accident

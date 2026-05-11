@@ -21,8 +21,9 @@ Pripojte GateTap k ovládaču prístupu
 Uistite sa, že vaše zariadenie je pripojené k rovnakej miestnej sieti ako prístupový kontrolér. Napríklad skontrolujte, že iPhone je na domácej Wi-Fi, nie na mobilných dátach.
 
 GateTap funguje úplne v rámci vašej miestnej siete a potrebuje:
-• IP adresu kontroléra
-• Používateľské meno a heslo
+
+- IP adresu kontroléra
+- Používateľské meno a heslo
 
 
 ## Krok 1: Nájdite IP adresu prístupového kontroléra
@@ -37,8 +38,9 @@ Vyberte jednu z nasledujúcich možností:
 Ak systém nainštaloval elektrikár alebo technik, pravdepodobne už všetko nakonfiguroval.
 
 V mnohých prípadoch:
-• Kontrolér používa pevnú IP adresu
-• Alebo smerovač prideľuje rovnakú IP cez rezerváciu DHCP
+
+- Kontrolér používa pevnú IP adresu
+- Alebo smerovač prideľuje rovnakú IP cez rezerváciu DHCP
 
 Požiadajte ho o IP adresu a prihlasovacie údaje. Zvyčajne je to najjednoduchší a najrýchlejší spôsob.
 
@@ -50,14 +52,16 @@ Otvorte konfiguračnú stránku smerovača a vyhľadajte pripojené zariadenia.
 Na prístup k smerovaču zvyčajne potrebujete jeho miestnu adresu, napríklad `192.168.1.1` alebo názov ako `fritz.box`, a prihlasovacie údaje smerovača.
 
 Táto sekcia sa môže volať:
-• Sieť
-• Pripojené zariadenia
-• LAN
-• DHCP klienti
+
+- Sieť
+- Pripojené zariadenia
+- LAN
+- DHCP klienti
 
 Hľadajte:
-• Neznáme káblové zariadenia
-• Položky, ktoré by mohli predstavovať váš kontrolér
+
+- Neznáme káblové zariadenia
+- Položky, ktoré by mohli predstavovať váš kontrolér
 
 IP adresa zvyčajne vyzerá takto:
 `192.168.x.x` alebo `10.0.x.x`
@@ -90,9 +94,10 @@ Ak bol systém nainštalovaný profesionálne, opýtajte sa inštalatéra, či b
 ## Krok 3: Pridajte prístupový kontrolér do GateTap
 
 Otvorte GateTap a zadajte:
-• IP adresu
-• Používateľské meno
-• Heslo
+
+- IP adresu
+- Používateľské meno
+- Heslo
 
 Použite rovnaké údaje ako pre webové rozhranie prístupového kontroléra.
 
@@ -102,9 +107,10 @@ Použite rovnaké údaje ako pre webové rozhranie prístupového kontroléra.
 Uložte konfiguráciu a skúste otvoriť dvere alebo bránu.
 
 Ak sa nič nestane, skontrolujte:
-• Vaše zariadenie je v rovnakej sieti ako prístupový kontrolér
-• IP adresa je správna
-• Prístupový kontrolér je napájaný a dostupný
+
+- Vaše zariadenie je v rovnakej sieti ako prístupový kontrolér
+- IP adresa je správna
+- Prístupový kontrolér je napájaný a dostupný
 
 
 ## Krok 5: Udržujte stabilnú IP adresu
@@ -112,8 +118,9 @@ Ak sa nič nestane, skontrolujte:
 Aby ste sa neskôr vyhli problémom, kontrolér by mal vždy používať rovnakú IP adresu.
 
 Dá sa to urobiť takto:
-• Nastavením statickej IP na kontroléri
-• Vytvorením rezervácie DHCP v smerovači
+
+- Nastavením statickej IP na kontroléri
+- Vytvorením rezervácie DHCP v smerovači
 
 
 ## Demo režim

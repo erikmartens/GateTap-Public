@@ -26,6 +26,7 @@ GateTap rispetta la tua privacy. Questa App è progettata per funzionare princip
 GateTap non raccoglie, archivia o trasmette dati personali a server esterni per l'uso funzionale dell'App.
 
 L'App potrebbe memorizzare le seguenti informazioni localmente sul tuo dispositivo:
+
 - Indirizzi IP dei dispositivi configurati
 - Credenziali di accesso (facoltative, se scegli di salvarle)
 
@@ -35,6 +36,7 @@ Questi dati non lasciano mai il tuo dispositivo.
 GateTap utilizza un servizio di terze parti fornito da Google Firebase Crashlytics per raccogliere rapporti anonimi sugli arresti anomali al fine di migliorare la stabilità dell'app.
 
 I rapporti sugli arresti anomali possono includere:
+
 - Tipo di dispositivo e versione del sistema operativo
 - Versione dell'app
 - Informazioni tecniche sull'incidente

@@ -27,6 +27,7 @@ GateTap je nezávislá aplikace a není přidružena, podporována ani spojena s
 
 ## 3. Odpovědnost uživatele
 Používáním této aplikace souhlasíte s tím, že:
+
 - Máte oprávnění k přístupu a ovládání připojeného zařízení
 - Jste odpovědní za všechny akce provedené prostřednictvím aplikace
 - Aplikaci nebudete používat k neoprávněnému přístupu nebo nezákonným účelům
@@ -38,12 +39,14 @@ Aplikace komunikuje přímo se zařízeními ve vaší místní síti a neposkyt
 
 ## 5. Žádná záruka
 Aplikace je poskytována „tak jak je“ bez jakýchkoli záruk. Nezaručujeme:
+
 - Kompatibilita se všemi zařízeními
 - Nepřetržitá dostupnost
 - Bezchybný provoz
 
 ## 6. Omezení odpovědnosti
 Developer nenese odpovědnost za žádné škody způsobené:
+
 - Neoprávněný přístup k nemovitosti
 - Špatná konfigurace zařízení
 - Problémy související se sítí

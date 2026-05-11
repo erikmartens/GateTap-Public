@@ -27,6 +27,7 @@ GateTap adalah aplikasi independen dan tidak berafiliasi dengan, didukung oleh, 
 
 ## 3. Tanggung Jawab Pengguna
 Dengan menggunakan Aplikasi ini, Anda setuju bahwa:
+
 - Anda memiliki izin untuk mengakses dan mengontrol perangkat yang terhubung
 - Anda bertanggung jawab atas semua tindakan yang dilakukan melalui Aplikasi
 - Anda tidak akan menggunakan Aplikasi untuk akses tidak sah atau tujuan yang melanggar hukum
@@ -38,12 +39,14 @@ Aplikasi berkomunikasi langsung dengan perangkat di jaringan lokal Anda dan tida
 
 ## 5. Tidak Ada Garansi
 Aplikasi disediakan "sebagaimana adanya" tanpa jaminan apa pun. Kami tidak menjamin:
+
 - Kompatibilitas dengan semua perangkat
 - Ketersediaan berkelanjutan
 - Pengoperasian bebas kesalahan
 
 ## 6. Batasan Tanggung Jawab
 Pengembang tidak bertanggung jawab atas segala kerugian yang timbul dari:
+
 - Akses tidak sah ke properti
 - Kesalahan konfigurasi perangkat
 - Masalah terkait jaringan

@@ -21,8 +21,9 @@ Csatlakoztassa a GateTap-ot a hozzáférés-vezérlőhöz
 Győződjön meg róla, hogy az eszköze ugyanahhoz a helyi hálózathoz csatlakozik, mint a hozzáférés-vezérlő. Például ellenőrizze, hogy az iPhone az otthoni Wi-Fi-n van, nem pedig mobiladat-kapcsolaton.
 
 A GateTap teljes egészében a helyi hálózaton működik, és ezekre van szüksége:
-• A vezérlő IP-címe
-• Felhasználónév és jelszó
+
+- A vezérlő IP-címe
+- Felhasználónév és jelszó
 
 
 ## 1. lépés: Keresse meg a hozzáférés-vezérlő IP-címét
@@ -37,8 +38,9 @@ Válasszon az alábbi lehetőségek közül:
 Ha a rendszert villanyszerelő vagy technikus telepítette, valószínűleg már mindent beállított.
 
 Sok esetben:
-• A vezérlő fix IP-címet használ
-• Vagy a router DHCP-foglalással mindig ugyanazt az IP-t osztja ki
+
+- A vezérlő fix IP-címet használ
+- Vagy a router DHCP-foglalással mindig ugyanazt az IP-t osztja ki
 
 Kérje el tőle az IP-címet és a bejelentkezési adatokat. Ez általában a legegyszerűbb és leggyorsabb mód.
 
@@ -50,14 +52,16 @@ Nyissa meg az útválasztó beállítási oldalát, és keresse meg a csatlakozt
 Az útválasztó eléréséhez általában szükség van a helyi címére, például `192.168.1.1` vagy egy névre, például `fritz.box`, valamint az útválasztó bejelentkezési adataira.
 
 Ez a szakasz ilyen néven szerepelhet:
-• Hálózat
-• Csatlakoztatott eszközök
-• LAN
-• DHCP-kliensek
+
+- Hálózat
+- Csatlakoztatott eszközök
+- LAN
+- DHCP-kliensek
 
 Keresse:
-• Ismeretlen vezetékes eszközök
-• Olyan bejegyzések, amelyek a vezérlőt jelenthetik
+
+- Ismeretlen vezetékes eszközök
+- Olyan bejegyzések, amelyek a vezérlőt jelenthetik
 
 Az IP-cím általában így néz ki:
 `192.168.x.x` vagy `10.0.x.x`
@@ -90,9 +94,10 @@ Ha a rendszert szakember telepítette, kérdezze meg a telepítőt, hogy módos�
 ## 3. lépés: Adja hozzá a hozzáférés-vezérlőt a GateTaphez
 
 Nyissa meg a GateTapet, és adja meg:
-• Az IP-címet
-• A felhasználónevet
-• A jelszót
+
+- Az IP-címet
+- A felhasználónevet
+- A jelszót
 
 Ugyanazokat az adatokat használja, mint a hozzáférés-vezérlő webes felületén.
 
@@ -102,9 +107,10 @@ Ugyanazokat az adatokat használja, mint a hozzáférés-vezérlő webes felüle
 Mentse a konfigurációt, és próbáljon meg kinyitni egy ajtót vagy kaput.
 
 Ha semmi sem történik, ellenőrizze:
-• Az eszköz ugyanazon a hálózaton van, mint a hozzáférés-vezérlő
-• Az IP-cím helyes
-• A hozzáférés-vezérlő áram alatt van és elérhető
+
+- Az eszköz ugyanazon a hálózaton van, mint a hozzáférés-vezérlő
+- Az IP-cím helyes
+- A hozzáférés-vezérlő áram alatt van és elérhető
 
 
 ## 5. lépés: Tartsa stabilan az IP-címet
@@ -112,8 +118,9 @@ Ha semmi sem történik, ellenőrizze:
 A későbbi problémák elkerülése érdekében a vezérlőnek mindig ugyanazt az IP-címet kell használnia.
 
 Ezt így lehet megoldani:
-• Statikus IP beállítása a vezérlőn
-• DHCP-foglalás létrehozása az útválasztóban
+
+- Statikus IP beállítása a vezérlőn
+- DHCP-foglalás létrehozása az útválasztóban
 
 
 ## Demó mód
