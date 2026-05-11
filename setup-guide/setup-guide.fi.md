@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: fi
 -->
 
@@ -18,92 +18,109 @@ Yhdistä GateTap pääsyohjaimeen
 
 ## Ennen kuin aloitat
 
-Varmista, että iPhonesi on yhdistetty samaan paikallisverkkoon kuin pääsynohjain.
+Varmista, että laitteesi on yhdistetty samaan paikallisverkkoon kuin kulunvalvontaohjain. Varmista esimerkiksi, että iPhone on kodin Wi-Fi-verkossa eikä mobiilidatayhteydessä.
 
-GateTap toimii täysin paikallisessa verkossasi ja tarvitsee:
-• Ohjaimen IP-osoite
-• Käyttäjätunnus ja salasana
+GateTap toimii kokonaan paikallisverkossasi ja tarvitsee:
+• Ohjaimen IP-osoitteen
+• Käyttäjätunnuksen ja salasanan
 
 
-## Vaihe 1: Etsi ohjaimen osoite ja tunnistetiedot
+## Vaihe 1: Etsi kulunvalvontaohjaimen IP-osoite
 
-GateTap-yhteyttä varten tarvitset ohjaimen IP-osoitteen ja kirjautumistiedot.
+GateTapin yhdistämiseen tarvitset ohjaimen IP-osoitteen ja kirjautumistiedot - katso vaihe 2.
 
-Valitse yksi seuraavista vaihtoehdoista:
+Valitse jokin seuraavista vaihtoehdoista:
 
 
 ## Vaihtoehto A: Kysy asentajalta (suositus)
 
-Jos järjestelmäsi on asentanut sähköasentaja tai teknikko, he ovat todennäköisesti jo määrittäneet kaiken.
+Jos järjestelmän asensi sähköasentaja tai teknikko, hän on todennäköisesti jo määrittänyt kaiken.
 
 Monissa tapauksissa:
 • Ohjain käyttää kiinteää IP-osoitetta
-• Tai reititin määrittää saman IP:n varauksen kautta
+• Tai reititin antaa sille saman IP:n DHCP-varauksella
 
-Pyydä heiltä IP-osoite ja kirjautumistiedot. Tämä on yleensä helpoin ja nopein tapa.
+Pyydä IP-osoite ja kirjautumistiedot. Tämä on yleensä helpoin ja nopein tapa.
 
 
 ## Vaihtoehto B: Tarkista reitittimesi
 
-Avaa reitittimesi määrityssivu ja etsi liitetyt laitteet.
+Avaa reitittimen asetussivu ja etsi yhdistetyt laitteet.
 
-Reitittimen käyttämiseen tarvitaan yleensä sen paikallinen osoite (esim. `192.168.1.1` tai nimi, kuten `fritz.box`) ja reitittimen kirjautumistiedot.
+Reitittimeen kirjautumiseen tarvitset yleensä sen paikallisen osoitteen, esimerkiksi `192.168.1.1` tai nimen kuten `fritz.box`, sekä reitittimen kirjautumistiedot.
 
 Tämän osion nimi voi olla:
-• Kytketyt laitteet
+• Verkko
+• Yhdistetyt laitteet
 • LAN
 • DHCP-asiakkaat
 
 Etsi:
-• Tuntemattomat langalliset laitteet
-• Merkinnät, jotka saattavat edustaa ohjaintasi
+• Tuntemattomia langallisia laitteita
+• Merkintöjä, jotka voisivat olla ohjaimesi
 
 IP-osoite näyttää yleensä tältä:
-`192.168.x.x` tai `10.0.x.x`.
+`192.168.x.x` tai `10.0.x.x`
 
-![Reitittimeen liitettyjen laitteiden esimerkki](../assets/setup-guide/fi/img_01.png)
+![Esimerkki reitittimen yhdistetyistä laitteista](../assets/setup-guide/fi/img_01_en_US.png)
 
 
 ## Vaihtoehto C: Tarkista verkkosi
 
-Käytä verkkoskannerisovellusta iPhonessa tai tietokoneessa.
+Käytä verkkoskannerisovellusta laitteellasi.
 
-Tarkista verkkosi ja yritä avata löydetyt IP-osoitteet Safarissa, esimerkiksi:
+Skannaa verkko ja kokeile avata löydettyjä IP-osoitteita Safarissa, esimerkiksi:
 
-`http://192.168.1.50`.
+`http://192.168.1.50`
 
-Jos ohjaimen kirjautumissivu tulee näkyviin, olet löytänyt oikean osoitteen.
+Jos kulunvalvontaohjaimen kirjautumissivu tulee näkyviin, löysit oikean osoitteen.
 
-![Verkkoskannerin esimerkki](../assets/setup-guide/fi/img_02.png)
+![Esimerkki verkkoskannerisovelluksesta](../assets/setup-guide/fi/img_02_en_US.png)
 
 
-## Vaihe 2: Lisää ohjain GateTapissa
+## Vaihe 2: Etsi kulunvalvontaohjaimen kirjautumistiedot
 
-Avaa GateTap ja kirjoita:
+Jotkin ohjaimet käyttävät edelleen oletuskirjautumistietoja. Yleinen esimerkki on käyttäjätunnus `abc` ja salasana `654321`.
+
+Muita yleisiä tehdaskäyttäjätunnuksia ovat `user`, `admin` tai `123`. Voit kokeilla niitä tyypillisten salasanojen, kuten `1234`, `user` tai `password`, tai niiden muunnelmien kanssa.
+
+Jos järjestelmäsi asennettiin ammattilaisen toimesta, kysy asentajalta, onko oletustiedot muutettu.
+
+
+## Vaihe 3: Lisää kulunvalvontaohjain GateTapiin
+
+Avaa GateTap ja syötä:
 • IP-osoite
-• Käyttäjätunnuksesi
-• Salasanasi
+• Käyttäjätunnus
+• Salasana
 
-Käytä samoja tunnistetietoja kuin ohjaimen verkkokäyttöliittymässä.
+Käytä samoja kirjautumistietoja kuin kulunvalvontaohjaimen verkkokäyttöliittymässä.
 
 
-## Vaihe 3: Testaa yhteys
+## Vaihe 4: Testaa yhteys
 
-Tallenna määritykset ja yritä avata ovi tai portti.
+Tallenna määritys ja kokeile avata ovi tai portti.
 
 Jos mitään ei tapahdu, tarkista:
-• iPhonesi on samassa verkossa
-• IP-osoite on oikea
-• Ohjaimessa on virta ja se on tavoitettavissa
+• Että laitteesi on samassa verkossa kuin kulunvalvontaohjain
+• Että IP-osoite on oikein
+• Että kulunvalvontaohjaimessa on virta ja siihen saa yhteyden
 
 
-## Vaihe 4: Pidä IP-osoite vakaana
+## Vaihe 5: Pidä IP-osoite vakaana
 
-Myöhempien ongelmien välttämiseksi ohjaimen tulee aina käyttää samaa IP-osoitetta.
+Ongelmien välttämiseksi myöhemmin ohjaimen tulisi aina käyttää samaa IP-osoitetta.
 
-Tämä voidaan tehdä seuraavasti:
-• Staattisen IP:n asettaminen ohjaimelle
-• Luodaan DHCP-varaus reitittimeen
+Tämä voidaan tehdä:
+• Asettamalla ohjaimeen staattinen IP
+• Luomalla DHCP-varaus reitittimeen
+
+
+## Demotila
+
+GateTap sisältää myös demotilan. Voit käynnistää paikallisen demo-verkkopalvelimen sovelluksesta ja lisätä sen sitten tavallisen ohjaimen tavoin.
+
+Näin saat tunnetusti toimivan testipolun varmistaaksesi, että GateTap toimii oikein, vaikka sinulla ei juuri nyt olisi pääsyä fyysiseen kulunvalvontaohjaimeen.
 
 
 ## Turvallisuus

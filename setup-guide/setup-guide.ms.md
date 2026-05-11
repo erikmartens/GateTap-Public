@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: ms
 -->
 
@@ -18,92 +18,109 @@ Sambungkan GateTap kepada pengawal akses anda
 
 ## Sebelum anda bermula
 
-Pastikan iPhone anda disambungkan ke rangkaian tempatan yang sama dengan pengawal akses anda.
+Pastikan peranti anda disambungkan ke rangkaian tempatan yang sama seperti pengawal akses anda. Contohnya, pastikan iPhone anda berada pada Wi-Fi rumah dan bukan sambungan data mudah alih.
 
-GateTap berfungsi sepenuhnya dalam rangkaian dan keperluan tempatan anda:
+GateTap berfungsi sepenuhnya dalam rangkaian tempatan anda dan memerlukan:
 • Alamat IP pengawal
 • Nama pengguna dan kata laluan
 
 
-## Langkah 1: Cari alamat pengawal dan bukti kelayakan
+## Langkah 1: Cari alamat IP pengawal akses
 
-Untuk menyambungkan GateTap, anda memerlukan alamat IP pengawal dan bukti kelayakan log masuk.
+Untuk menyambungkan GateTap, anda memerlukan alamat IP pengawal dan bukti kelayakan log masuk - lihat Langkah 2.
 
-Pilih salah satu daripada pilihan berikut:
+Pilih salah satu pilihan berikut:
 
 
 ## Pilihan A: Tanya pemasang anda (disyorkan)
 
-Jika sistem anda dipasang oleh juruelektrik atau juruteknik, mereka mungkin telah mengkonfigurasi segala-galanya.
+Jika sistem anda dipasang oleh juruelektrik atau juruteknik, mereka mungkin sudah mengkonfigurasi semuanya.
 
 Dalam banyak kes:
 • Pengawal menggunakan alamat IP tetap
-• Atau penghala memberikan IP yang sama melalui tempahan
+• Atau penghala memberikan IP yang sama melalui tempahan DHCP
 
-Minta mereka alamat IP dan butiran log masuk. Ini biasanya cara yang paling mudah dan cepat.
+Minta alamat IP dan butiran log masuk. Ini biasanya cara paling mudah dan pantas.
 
 
 ## Pilihan B: Semak penghala anda
 
 Buka halaman konfigurasi penghala anda dan cari peranti yang disambungkan.
 
-Untuk mengakses penghala anda, anda biasanya memerlukan alamat setempatnya (cth. `192.168.1.1` atau nama seperti `fritz.box`) dan bukti kelayakan log masuk penghala.
+Untuk mengakses penghala, anda biasanya memerlukan alamat tempatannya, contohnya `192.168.1.1` atau nama seperti `fritz.box`, serta bukti kelayakan log masuk penghala.
 
-Bahagian ini boleh dipanggil:
-• Peranti Bersambung
+Bahagian ini mungkin dipanggil:
+• Rangkaian
+• Peranti Disambungkan
 • LAN
-• Pelanggan DHCP
+• Klien DHCP
 
 Cari:
-• Peranti berwayar tidak diketahui
+• Peranti berwayar yang tidak dikenali
 • Entri yang mungkin mewakili pengawal anda
 
-Alamat IP biasanya akan kelihatan seperti:
+Alamat IP biasanya kelihatan seperti:
 `192.168.x.x` atau `10.0.x.x`
 
-![Contoh peranti yang disambungkan penghala](../assets/setup-guide/ms/img_01.png)
+![Contoh peranti disambungkan dalam penghala](../assets/setup-guide/ms/img_01_en_US.png)
 
 
 ## Pilihan C: Imbas rangkaian anda
 
-Gunakan apl pengimbas rangkaian pada iPhone atau komputer anda.
+Gunakan aplikasi pengimbas rangkaian pada peranti anda.
 
 Imbas rangkaian anda dan cuba buka alamat IP yang ditemui dalam Safari, contohnya:
 
 `http://192.168.1.50`
 
-Jika halaman log masuk pengawal muncul, anda telah menemui alamat yang betul.
+Jika halaman log masuk pengawal akses muncul, anda telah menemui alamat yang betul.
 
-![Contoh pengimbas rangkaian](../assets/setup-guide/ms/img_02.png)
+![Contoh aplikasi pengimbas rangkaian](../assets/setup-guide/ms/img_02_en_US.png)
 
 
-## Langkah 2: Tambahkan pengawal dalam GateTap
+## Langkah 2: Cari bukti kelayakan log masuk pengawal akses
+
+Sesetengah pengawal masih menggunakan bukti kelayakan log masuk lalai. Contoh biasa ialah nama pengguna `abc` dengan kata laluan `654321`.
+
+Nama pengguna kilang lain yang lazim digunakan ialah `user`, `admin` atau `123`. Anda boleh mencubanya bersama kata laluan biasa seperti `1234`, `user` atau `password`, atau variasinya.
+
+Jika sistem anda dipasang secara profesional, tanya pemasang sama ada bukti kelayakan lalai telah ditukar.
+
+
+## Langkah 3: Tambah pengawal akses dalam GateTap
 
 Buka GateTap dan masukkan:
 • Alamat IP
 • Nama pengguna anda
 • Kata laluan anda
 
-Gunakan kelayakan yang sama seperti untuk antara muka web pengawal.
+Gunakan bukti kelayakan yang sama seperti antara muka web pengawal akses.
 
 
-## Langkah 3: Uji sambungan
+## Langkah 4: Uji sambungan
 
 Simpan konfigurasi anda dan cuba buka pintu atau pagar.
 
 Jika tiada apa-apa berlaku, semak:
-• iPhone anda berada pada rangkaian yang sama
+• Peranti anda berada pada rangkaian yang sama seperti pengawal akses
 • Alamat IP adalah betul
-• Pengawal dikuasakan dan boleh dicapai
+• Pengawal akses dihidupkan dan boleh dicapai
 
 
-## Langkah 4: Pastikan alamat IP stabil
+## Langkah 5: Pastikan alamat IP stabil
 
-Untuk mengelakkan masalah kemudian, pengawal hendaklah sentiasa menggunakan alamat IP yang sama.
+Untuk mengelakkan masalah kemudian, pengawal harus sentiasa menggunakan alamat IP yang sama.
 
 Ini boleh dilakukan dengan:
 • Menetapkan IP statik pada pengawal
 • Membuat tempahan DHCP dalam penghala anda
+
+
+## Mod demo
+
+GateTap juga menyertakan mod demo. Anda boleh memulakan pelayan web demo setempat dari dalam aplikasi dan kemudian menambahkannya seperti pengawal biasa.
+
+Ini memberi anda laluan ujian yang diketahui berfungsi untuk mengesahkan bahawa GateTap sendiri berfungsi dengan betul, walaupun anda tiada akses kepada pengawal akses fizikal pada masa ini.
 
 
 ## Keselamatan

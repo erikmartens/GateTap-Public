@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: nb
 -->
 
@@ -18,92 +18,109 @@ Koble GateTap til tilgangskontrolleren
 
 ## Før du begynner
 
-Sørg for at iPhone er koblet til det samme lokale nettverket som tilgangskontrolleren.
+Sørg for at enheten din er koblet til det samme lokale nettverket som tilgangskontrolleren. Kontroller for eksempel at iPhone er på hjemmets Wi-Fi, ikke på mobildata.
 
-GateTap fungerer utelukkende innenfor ditt lokale nettverk og trenger:
+GateTap fungerer helt innenfor det lokale nettverket ditt og trenger:
 • Kontrollerens IP-adresse
-• Et brukernavn og passord
+• Et brukernavn og et passord
 
 
-## Trinn 1: Finn kontrolleradresse og legitimasjon
+## Trinn 1: Finn IP-adressen til tilgangskontrolleren
 
-For å koble til GateTap trenger du kontrollerens IP-adresse og påloggingsinformasjon.
+For å koble til GateTap trenger du kontrollerens IP-adresse og innloggingsopplysninger - se trinn 2.
 
 Velg ett av følgende alternativer:
 
 
 ## Alternativ A: Spør installatøren (anbefalt)
 
-Hvis systemet ditt ble installert av en elektriker eller tekniker, har de sannsynligvis allerede konfigurert alt.
+Hvis systemet ble installert av en elektriker eller tekniker, har de sannsynligvis allerede konfigurert alt.
 
 I mange tilfeller:
-• Kontrolleren bruker en fast IP-adresse
-• Eller ruteren tildeler samme IP via reservasjon
+• Bruker kontrolleren en fast IP-adresse
+• Eller ruteren tildeler samme IP via DHCP-reservasjon
 
-Spør dem om IP-adressen og påloggingsdetaljer. Dette er vanligvis den enkleste og raskeste måten.
+Be om IP-adressen og innloggingsopplysningene. Dette er vanligvis den enkleste og raskeste måten.
 
 
 ## Alternativ B: Sjekk ruteren din
 
 Åpne ruterens konfigurasjonsside og se etter tilkoblede enheter.
 
-For å få tilgang til ruteren din trenger du vanligvis dens lokale adresse (f.eks. `192.168.1.1` eller et navn som `fritz.box`) og ruterens påloggingsinformasjon.
+For å få tilgang til ruteren trenger du vanligvis den lokale adressen, for eksempel `192.168.1.1` eller et navn som `fritz.box`, og ruterens innloggingsopplysninger.
 
-Denne delen kan kalles:
+Denne delen kan hete:
+• Nettverk
 • Tilkoblede enheter
 • LAN
 • DHCP-klienter
 
 Se etter:
 • Ukjente kablede enheter
-• Oppføringer som kan representere kontrolleren din
+• Oppføringer som kan representere kontrolleren
 
-IP-adressen vil vanligvis se slik ut:
-`192.168.x.x` eller `10.0.x.x`.
+IP-adressen ser vanligvis slik ut:
+`192.168.x.x` eller `10.0.x.x`
 
-![Eksempel på rutertilkoblede enheter](../assets/setup-guide/nb/img_01.png)
+![Eksempel på tilkoblede enheter i ruteren](../assets/setup-guide/nb/img_01_en_US.png)
 
 
 ## Alternativ C: Skann nettverket ditt
 
-Bruk en nettverksskanner-app på iPhone eller datamaskin.
+Bruk en nettverksskanner-app på enheten din.
 
-Skann nettverket ditt og prøv å åpne oppdagede IP-adresser i Safari, for eksempel:
+Skann nettverket og prøv å åpne IP-adresser som blir funnet i Safari, for eksempel:
 
 `http://192.168.1.50`
 
-Hvis kontrollerens påloggingsside vises, har du funnet riktig adresse.
+Hvis innloggingssiden til tilgangskontrolleren vises, har du funnet riktig adresse.
 
-![Nettverksskannereksempel](../assets/setup-guide/nb/img_02.png)
+![Eksempel på nettverksskanner-app](../assets/setup-guide/nb/img_02_en_US.png)
 
 
-## Trinn 2: Legg til kontrolleren i GateTap
+## Trinn 2: Finn innloggingsopplysningene til tilgangskontrolleren
+
+Noen kontrollere bruker fortsatt standard innloggingsopplysninger. Et vanlig eksempel er brukernavnet `abc` med passordet `654321`.
+
+Andre vanlige fabrikkbrukernavn er `user`, `admin` eller `123`. Du kan prøve dem sammen med typiske passord som `1234`, `user` eller `password`, eller en variant av disse.
+
+Hvis systemet ble installert profesjonelt, spør installatøren om standardopplysningene ble endret.
+
+
+## Trinn 3: Legg til tilgangskontrolleren i GateTap
 
 Åpne GateTap og skriv inn:
 • IP-adressen
 • Brukernavnet ditt
-• Ditt passord
+• Passordet ditt
 
-Bruk samme legitimasjon som for kontrollerens nettgrensesnitt.
+Bruk de samme opplysningene som for tilgangskontrollerens webgrensesnitt.
 
 
-## Trinn 3: Test tilkoblingen
+## Trinn 4: Test tilkoblingen
 
 Lagre konfigurasjonen og prøv å åpne en dør eller port.
 
 Hvis ingenting skjer, sjekk:
-• iPhone er på samme nettverk
-• IP-adressen er riktig
-• Kontrolleren har strøm og kan nås
+• At enheten din er på samme nettverk som tilgangskontrolleren
+• At IP-adressen er riktig
+• At tilgangskontrolleren har strøm og kan nås
 
 
-## Trinn 4: Hold IP-adressen stabil
+## Trinn 5: Hold IP-adressen stabil
 
-For å unngå problemer senere, bør kontrolleren alltid bruke samme IP-adresse.
+For å unngå problemer senere bør kontrolleren alltid bruke samme IP-adresse.
 
 Dette kan gjøres ved å:
-• Stille inn en statisk IP på kontrolleren
+• Angi en statisk IP på kontrolleren
 • Opprette en DHCP-reservasjon i ruteren
+
+
+## Demomodus
+
+GateTap har også en demomodus. Du kan starte en lokal demo-webserver fra appen og deretter legge den til som en vanlig kontroller.
+
+Dette gir deg en kjent fungerende testvei for å bekrefte at GateTap selv fungerer riktig, selv om du for øyeblikket ikke har tilgang til en fysisk tilgangskontroller.
 
 
 ## Sikkerhet

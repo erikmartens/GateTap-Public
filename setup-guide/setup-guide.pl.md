@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: pl
 -->
 
@@ -18,92 +18,109 @@ Podłącz GateTap do swojego kontrolera dostępu
 
 ## Zanim zaczniesz
 
-Upewnij się, że Twój iPhone jest podłączony do tej samej sieci lokalnej, co kontroler dostępu.
+Upewnij się, że urządzenie jest połączone z tą samą siecią lokalną co kontroler dostępu. Na przykład sprawdź, czy iPhone korzysta z domowej sieci Wi-Fi, a nie z transmisji danych komórkowych.
 
-GateTap działa całkowicie w obrębie Twojej sieci lokalnej i potrzebuje:
-• Adres IP kontrolera
-• Nazwa użytkownika i hasło
+GateTap działa całkowicie w Twojej sieci lokalnej i potrzebuje:
+• Adresu IP kontrolera
+• Nazwy użytkownika i hasła
 
 
-## Krok 1: Znajdź adres kontrolera i dane uwierzytelniające
+## Krok 1: Znajdź adres IP kontrolera dostępu
 
-Aby połączyć się z GateTap, potrzebujesz adresu IP kontrolera i danych logowania.
+Aby połączyć GateTap, potrzebujesz adresu IP kontrolera oraz danych logowania - patrz krok 2.
 
-Wybierz jedną z następujących opcji:
+Wybierz jedną z poniższych opcji:
 
 
 ## Opcja A: Zapytaj instalatora (zalecane)
 
-Jeśli Twój system został zainstalowany przez elektryka lub technika, prawdopodobnie wszystko już skonfigurowali.
+Jeśli system został zainstalowany przez elektryka lub technika, prawdopodobnie wszystko jest już skonfigurowane.
 
 W wielu przypadkach:
-• Kontroler wykorzystuje stały adres IP
-• Lub router przydziela ten sam adres IP poprzez rezerwację
+• Kontroler używa stałego adresu IP
+• Albo router przydziela ten sam adres IP przez rezerwację DHCP
 
-Zapytaj ich o adres IP i dane do logowania. Jest to zazwyczaj najłatwiejszy i najszybszy sposób.
+Poproś o adres IP i dane logowania. To zwykle najłatwiejszy i najszybszy sposób.
 
 
 ## Opcja B: Sprawdź swój router
 
 Otwórz stronę konfiguracji routera i poszukaj podłączonych urządzeń.
 
-Aby uzyskać dostęp do routera, zazwyczaj potrzebujesz jego adresu lokalnego (np. `192.168.1.1` lub nazwy typu `fritz.box`) i danych logowania do routera.
+Aby uzyskać dostęp do routera, zwykle potrzebujesz jego adresu lokalnego, np. `192.168.1.1` lub nazwy typu `fritz.box`, oraz danych logowania do routera.
 
-Ta sekcja może nosić nazwę:
+Ta sekcja może nazywać się:
+• Sieć
 • Podłączone urządzenia
 • LAN
 • Klienci DHCP
 
-Poszukaj:
-• Nieznane urządzenia przewodowe
-• Wpisy, które mogą reprezentować Twój kontroler
+Szukaj:
+• Nieznanych urządzeń przewodowych
+• Wpisów, które mogą oznaczać Twój kontroler
 
-Adres IP będzie zazwyczaj wyglądał następująco:
+Adres IP zwykle wygląda tak:
 `192.168.x.x` lub `10.0.x.x`
 
-![Przykład urządzeń podłączonych do routera](../assets/setup-guide/pl/img_01.png)
+![Przykład podłączonych urządzeń w routerze](../assets/setup-guide/pl/img_01_en_US.png)
 
 
 ## Opcja C: Przeskanuj swoją sieć
 
-Użyj aplikacji skanera sieciowego na swoim iPhonie lub komputerze.
+Użyj aplikacji skanera sieci na swoim urządzeniu.
 
-Przeskanuj swoją sieć i spróbuj otworzyć wykryte adresy IP w przeglądarce Safari, na przykład:
+Przeskanuj sieć i spróbuj otworzyć znalezione adresy IP w Safari, na przykład:
 
 `http://192.168.1.50`
 
-Jeśli pojawi się strona logowania kontrolera, znalazłeś właściwy adres.
+Jeśli pojawi się strona logowania kontrolera dostępu, znaleziono właściwy adres.
 
-![Przykład skanera sieciowego](../assets/setup-guide/pl/img_02.png)
+![Przykład aplikacji skanera sieci](../assets/setup-guide/pl/img_02_en_US.png)
 
 
-## Krok 2: Dodaj kontroler w GateTap
+## Krok 2: Znajdź dane logowania kontrolera dostępu
+
+Niektóre kontrolery nadal używają domyślnych danych logowania. Częsty przykład to nazwa użytkownika `abc` z hasłem `654321`.
+
+Inne często używane fabryczne nazwy użytkownika to `user`, `admin` lub `123`. Możesz spróbować ich z typowymi hasłami, takimi jak `1234`, `user` lub `password`, albo ich odmianą.
+
+Jeśli system został zainstalowany profesjonalnie, zapytaj instalatora, czy domyślne dane zostały zmienione.
+
+
+## Krok 3: Dodaj kontroler dostępu w GateTap
 
 Otwórz GateTap i wpisz:
 • Adres IP
-• Twoja nazwa użytkownika
-• Twoje hasło
+• Nazwę użytkownika
+• Hasło
 
-Użyj tych samych danych uwierzytelniających, co w przypadku interfejsu sieciowego kontrolera.
+Użyj tych samych danych logowania co w interfejsie web kontrolera dostępu.
 
 
-## Krok 3: Przetestuj połączenie
+## Krok 4: Przetestuj połączenie
 
 Zapisz konfigurację i spróbuj otworzyć drzwi lub bramę.
 
 Jeśli nic się nie dzieje, sprawdź:
-• Twój iPhone jest w tej samej sieci
-• Adres IP jest poprawny
-• Kontroler jest zasilany i osiągalny
+• Czy urządzenie jest w tej samej sieci co kontroler dostępu
+• Czy adres IP jest poprawny
+• Czy kontroler dostępu jest zasilany i osiągalny
 
 
-## Krok 4: Utrzymuj stabilny adres IP
+## Krok 5: Utrzymuj stabilny adres IP
 
 Aby uniknąć późniejszych problemów, kontroler powinien zawsze używać tego samego adresu IP.
 
-Można tego dokonać poprzez:
-• Ustawienie statycznego adresu IP na kontrolerze
-• Tworzenie rezerwacji DHCP w routerze
+Można to zrobić przez:
+• Ustawienie statycznego IP na kontrolerze
+• Utworzenie rezerwacji DHCP w routerze
+
+
+## Tryb demo
+
+GateTap zawiera także tryb demo. Możesz uruchomić lokalny demo serwer web z poziomu aplikacji, a następnie dodać go jak zwykły kontroler.
+
+Daje to znaną, działającą ścieżkę testową do sprawdzenia, czy sam GateTap działa poprawnie, nawet jeśli obecnie nie masz dostępu do fizycznego kontrolera dostępu.
 
 
 ## Bezpieczeństwo

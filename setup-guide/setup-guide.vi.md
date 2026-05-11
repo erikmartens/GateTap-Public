@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: vi
 -->
 
@@ -18,92 +18,109 @@ Kết nối GateTap với bộ điều khiển truy cập của bạn
 
 ## Trước khi bạn bắt đầu
 
-Đảm bảo iPhone của bạn được kết nối với cùng mạng cục bộ với bộ điều khiển truy cập của bạn.
+Hãy đảm bảo thiết bị của bạn được kết nối với cùng mạng cục bộ như bộ điều khiển truy cập. Ví dụ, hãy chắc chắn iPhone đang dùng Wi-Fi tại nhà chứ không phải kết nối dữ liệu di động.
 
-GateTap hoạt động hoàn toàn trong mạng cục bộ và nhu cầu của bạn:
+GateTap hoạt động hoàn toàn trong mạng cục bộ của bạn và cần:
 • Địa chỉ IP của bộ điều khiển
 • Tên người dùng và mật khẩu
 
 
-## Bước 1: Tìm địa chỉ và thông tin xác thực của bộ điều khiển
+## Bước 1: Tìm địa chỉ IP của bộ điều khiển truy cập
 
-Để kết nối GateTap, bạn cần có địa chỉ IP của bộ điều khiển và thông tin đăng nhập.
+Để kết nối GateTap, bạn cần địa chỉ IP của bộ điều khiển và thông tin đăng nhập - xem Bước 2.
 
 Chọn một trong các tùy chọn sau:
 
 
-## Tùy chọn A: Hỏi trình cài đặt của bạn (được khuyến nghị)
+## Tùy chọn A: Hỏi người lắp đặt của bạn (được khuyến nghị)
 
-Nếu hệ thống của bạn được lắp đặt bởi thợ điện hoặc kỹ thuật viên, họ có thể đã cấu hình mọi thứ.
+Nếu hệ thống của bạn do thợ điện hoặc kỹ thuật viên lắp đặt, có thể họ đã cấu hình mọi thứ.
 
 Trong nhiều trường hợp:
-• Bộ điều khiển sử dụng địa chỉ IP cố định
-• Hoặc bộ định tuyến gán cùng một IP thông qua việc đặt trước
+• Bộ điều khiển dùng địa chỉ IP cố định
+• Hoặc bộ định tuyến gán cùng một IP thông qua đặt trước DHCP
 
-Hỏi họ địa chỉ IP và chi tiết đăng nhập. Đây thường là cách dễ nhất và nhanh nhất.
+Hãy hỏi họ địa chỉ IP và thông tin đăng nhập. Đây thường là cách dễ nhất và nhanh nhất.
 
 
 ## Tùy chọn B: Kiểm tra bộ định tuyến của bạn
 
-Mở trang cấu hình bộ định tuyến của bạn và tìm các thiết bị được kết nối.
+Mở trang cấu hình của bộ định tuyến và tìm các thiết bị đang kết nối.
 
-Để truy cập bộ định tuyến của mình, bạn thường cần địa chỉ cục bộ của nó (ví dụ: `192.168.1.1` hoặc tên như `fritz.box`) và thông tin đăng nhập của bộ định tuyến.
+Để truy cập bộ định tuyến, bạn thường cần địa chỉ cục bộ của nó, ví dụ `192.168.1.1` hoặc tên như `fritz.box`, cùng thông tin đăng nhập của bộ định tuyến.
 
-Phần này có thể được gọi là:
-• Thiết bị được kết nối
-• Mạng LAN
+Mục này có thể được gọi là:
+• Mạng
+• Thiết bị đã kết nối
+• LAN
 • Máy khách DHCP
 
 Hãy tìm:
 • Thiết bị có dây không xác định
-• Các mục có thể đại diện cho bộ điều khiển của bạn
+• Mục có thể là bộ điều khiển của bạn
 
-Địa chỉ IP thường sẽ có dạng:
+Địa chỉ IP thường có dạng:
 `192.168.x.x` hoặc `10.0.x.x`
 
-![Ví dụ về thiết bị được kết nối với bộ định tuyến](../assets/setup-guide/vi/img_01.png)
+![Ví dụ thiết bị đã kết nối trong bộ định tuyến](../assets/setup-guide/vi/img_01_en_US.png)
 
 
 ## Tùy chọn C: Quét mạng của bạn
 
-Sử dụng ứng dụng quét mạng trên iPhone hoặc máy tính của bạn.
+Sử dụng ứng dụng quét mạng trên thiết bị của bạn.
 
-Quét mạng của bạn và thử mở các địa chỉ IP được phát hiện trong Safari, ví dụ:
+Quét mạng và thử mở các địa chỉ IP tìm thấy trong Safari, ví dụ:
 
 `http://192.168.1.50`
 
-Nếu trang đăng nhập của bộ điều khiển xuất hiện thì bạn đã tìm đúng địa chỉ.
+Nếu trang đăng nhập của bộ điều khiển truy cập xuất hiện, bạn đã tìm đúng địa chỉ.
 
-![Ví dụ về trình quét mạng](../assets/setup-guide/vi/img_02.png)
+![Ví dụ ứng dụng quét mạng](../assets/setup-guide/vi/img_02_en_US.png)
 
 
-## Bước 2: Thêm bộ điều khiển vào GateTap
+## Bước 2: Tìm thông tin đăng nhập của bộ điều khiển truy cập
+
+Một số bộ điều khiển vẫn dùng thông tin đăng nhập mặc định. Ví dụ phổ biến là tên người dùng `abc` với mật khẩu `654321`.
+
+Các tên người dùng mặc định thường gặp khác là `user`, `admin` hoặc `123`. Bạn có thể thử chúng với các mật khẩu phổ biến như `1234`, `user` hoặc `password`, hoặc một biến thể của chúng.
+
+Nếu hệ thống của bạn được lắp đặt chuyên nghiệp, hãy hỏi người lắp đặt xem thông tin mặc định đã được thay đổi chưa.
+
+
+## Bước 3: Thêm bộ điều khiển truy cập trong GateTap
 
 Mở GateTap và nhập:
 • Địa chỉ IP
 • Tên người dùng của bạn
 • Mật khẩu của bạn
 
-Sử dụng thông tin xác thực tương tự như đối với giao diện web của bộ điều khiển.
+Sử dụng cùng thông tin đăng nhập như giao diện web của bộ điều khiển truy cập.
 
 
-## Bước 3: Kiểm tra kết nối
+## Bước 4: Kiểm tra kết nối
 
-Lưu cấu hình của bạn và thử mở một cánh cửa hoặc cổng.
+Lưu cấu hình và thử mở cửa hoặc cổng.
 
 Nếu không có gì xảy ra, hãy kiểm tra:
-• iPhone của bạn nằm trên cùng một mạng
-• Địa chỉ IP đúng
-• Bộ điều khiển được cấp nguồn và có thể truy cập được
+• Thiết bị của bạn ở cùng mạng với bộ điều khiển truy cập
+• Địa chỉ IP chính xác
+• Bộ điều khiển truy cập có nguồn điện và có thể truy cập được
 
 
-## Bước 4: Giữ địa chỉ IP ổn định
+## Bước 5: Giữ địa chỉ IP ổn định
 
-Để tránh các sự cố sau này, bộ điều khiển phải luôn sử dụng cùng một địa chỉ IP.
+Để tránh sự cố về sau, bộ điều khiển nên luôn dùng cùng một địa chỉ IP.
 
-Điều này có thể được thực hiện bằng cách:
+Có thể thực hiện bằng cách:
 • Đặt IP tĩnh trên bộ điều khiển
-• Tạo đặt chỗ DHCP trong bộ định tuyến của bạn
+• Tạo đặt trước DHCP trong bộ định tuyến
+
+
+## Chế độ demo
+
+GateTap cũng có chế độ demo. Bạn có thể khởi động một máy chủ web demo cục bộ từ trong ứng dụng rồi thêm nó như một bộ điều khiển thông thường.
+
+Điều này cung cấp một đường kiểm thử đã biết là hoạt động để xác minh rằng chính GateTap đang hoạt động đúng, ngay cả khi hiện bạn không có quyền truy cập vào bộ điều khiển truy cập vật lý.
 
 
 ## Bảo mật

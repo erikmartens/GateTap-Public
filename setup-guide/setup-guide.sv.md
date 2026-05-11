@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: sv
 -->
 
@@ -18,92 +18,109 @@ Anslut GateTap till din åtkomstkontroll
 
 ## Innan du börjar
 
-Se till att din iPhone är ansluten till samma lokala nätverk som din åtkomstkontroll.
+Se till att din enhet är ansluten till samma lokala nätverk som din åtkomstkontroller. Kontrollera till exempel att din iPhone är på hemmets Wi-Fi och inte på mobildata.
 
 GateTap fungerar helt inom ditt lokala nätverk och behöver:
-• Styrenhetens IP-adress
+• Kontrollerns IP-adress
 • Ett användarnamn och lösenord
 
 
-## Steg 1: Hitta kontrollens adress och användaruppgifter
+## Steg 1: Hitta åtkomstkontrollerns IP-adress
 
-För att ansluta GateTap behöver du kontrollenhetens IP-adress och inloggningsuppgifter.
+För att ansluta GateTap behöver du kontrollerns IP-adress och inloggningsuppgifter - se steg 2.
 
 Välj ett av följande alternativ:
 
 
 ## Alternativ A: Fråga din installatör (rekommenderas)
 
-Om ditt system installerades av en elektriker eller tekniker, har de förmodligen redan konfigurerat allt.
+Om systemet installerades av en elektriker eller tekniker har de troligen redan konfigurerat allt.
 
 I många fall:
-• Styrenheten använder en fast IP-adress
-• Eller så tilldelar routern samma IP via reservation
+• Använder kontrollern en fast IP-adress
+• Eller routern tilldelar samma IP via DHCP-reservation
 
-Fråga dem om IP-adressen och inloggningsuppgifter. Detta är vanligtvis det enklaste och snabbaste sättet.
+Be om IP-adressen och inloggningsuppgifterna. Det är oftast det enklaste och snabbaste sättet.
 
 
 ## Alternativ B: Kontrollera din router
 
-Öppna din routers konfigurationssida och leta efter anslutna enheter.
+Öppna routerns konfigurationssida och leta efter anslutna enheter.
 
-För att komma åt din router behöver du vanligtvis dess lokala adress (t.ex. `192.168.1.1` eller ett namn som `fritz.box`) och routerns inloggningsuppgifter.
+För att komma åt routern behöver du vanligtvis dess lokala adress, till exempel `192.168.1.1` eller ett namn som `fritz.box`, och routerns inloggningsuppgifter.
 
-Detta avsnitt kan kallas:
+Det här avsnittet kan heta:
+• Nätverk
 • Anslutna enheter
 • LAN
 • DHCP-klienter
 
 Leta efter:
 • Okända trådbundna enheter
-• Poster som kan representera din styrenhet
+• Poster som kan motsvara din kontroller
 
 IP-adressen ser vanligtvis ut så här:
-`192.168.x.x` eller `10.0.x.x`.
+`192.168.x.x` eller `10.0.x.x`
 
-![Exempel på routeranslutna enheter](../assets/setup-guide/sv/img_01.png)
+![Exempel på anslutna enheter i routern](../assets/setup-guide/sv/img_01_en_US.png)
 
 
 ## Alternativ C: Skanna ditt nätverk
 
-Använd en nätverksskannerapp på din iPhone eller dator.
+Använd en nätverksskanner-app på din enhet.
 
-Skanna ditt nätverk och försök öppna upptäckta IP-adresser i Safari, till exempel:
+Skanna nätverket och försök öppna hittade IP-adresser i Safari, till exempel:
 
-`http://192.168.1.50`.
+`http://192.168.1.50`
 
-Om kontrollenhetens inloggningssida visas har du hittat rätt adress.
+Om åtkomstkontrollerns inloggningssida visas har du hittat rätt adress.
 
-![Exempel på nätverksskanner](../assets/setup-guide/sv/img_02.png)
+![Exempel på nätverksskanner-app](../assets/setup-guide/sv/img_02_en_US.png)
 
 
-## Steg 2: Lägg till kontrollern i GateTap
+## Steg 2: Hitta åtkomstkontrollerns inloggningsuppgifter
 
-Öppna GateTap och skriv in:
+Vissa kontroller använder fortfarande standardinloggning. Ett vanligt exempel är användarnamnet `abc` med lösenordet `654321`.
+
+Andra vanliga fabriksanvändarnamn är `user`, `admin` eller `123`. Du kan prova dem med typiska lösenord som `1234`, `user` eller `password`, eller en variant av dem.
+
+Om systemet installerades professionellt, fråga installatören om standarduppgifterna ändrades.
+
+
+## Steg 3: Lägg till åtkomstkontrollern i GateTap
+
+Öppna GateTap och ange:
 • IP-adressen
 • Ditt användarnamn
 • Ditt lösenord
 
-Använd samma referenser som för kontrollenhetens webbgränssnitt.
+Använd samma uppgifter som för åtkomstkontrollerns webbgränssnitt.
 
 
-## Steg 3: Testa anslutningen
+## Steg 4: Testa anslutningen
 
-Spara din konfiguration och försök öppna en dörr eller grind.
+Spara konfigurationen och försök öppna en dörr eller grind.
 
 Om inget händer, kontrollera:
-• Din iPhone är på samma nätverk
-• IP-adressen är korrekt
-• Styrenheten är strömförsörjd och kan nås
+• Att din enhet är på samma nätverk som åtkomstkontrollern
+• Att IP-adressen är korrekt
+• Att åtkomstkontrollern har ström och kan nås
 
 
-## Steg 4: Håll IP-adressen stabil
+## Steg 5: Håll IP-adressen stabil
 
-För att undvika problem senare bör styrenheten alltid använda samma IP-adress.
+För att undvika problem senare bör kontrollern alltid använda samma IP-adress.
 
-Detta kan göras genom att:
-• Ställa in en statisk IP på styrenheten
-• Skapa en DHCP-reservation i din router
+Det kan göras genom att:
+• Ställa in en statisk IP på kontrollern
+• Skapa en DHCP-reservation i routern
+
+
+## Demoläge
+
+GateTap innehåller också ett demoläge. Du kan starta en lokal demo-webbserver från appen och sedan lägga till den som en vanlig kontroller.
+
+Det ger dig en känd fungerande testväg för att kontrollera att GateTap själv fungerar korrekt, även om du för tillfället inte har tillgång till en fysisk åtkomstkontroller.
 
 
 ## Säkerhet

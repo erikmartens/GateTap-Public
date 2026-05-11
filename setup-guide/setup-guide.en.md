@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: en
 -->
 
@@ -18,16 +18,16 @@ Connect GateTap to your access controller
 
 ## Before you start
 
-Make sure your iPhone is connected to the same local network as your access controller.
+Make sure your device is connected to the same local network as your access controller. For example ensure your iPhone is on your home WiFi, not on a mobile data connection.
 
 GateTap works entirely within your local network and needs:
 • The controller’s IP address
 • A username and password
 
 
-## Step 1: Find controller address and credentials
+## Step 1: Find access controller's IP address
 
-To connect GateTap, you need the controller’s IP address and login credentials.
+To connect GateTap, you need the controller’s IP address (and login credentials - see Step 2).
 
 Choose one of the following options:
 
@@ -38,7 +38,7 @@ If your system was installed by an electrician or technician, they likely alread
 
 In many cases:
 • The controller uses a fixed IP address
-• Or the router assigns the same IP via reservation
+• Or the router assigns the same IP via DHCP reservation
 
 Ask them for the IP address and login details. This is usually the easiest and fastest way.
 
@@ -50,6 +50,7 @@ Open your router’s configuration page and look for connected devices.
 To access your router, you usually need its local address (e.g. `192.168.1.1` or a name like `fritz.box`) and the router’s login credentials.
 
 This section may be called:
+• Network
 • Connected Devices
 • LAN
 • DHCP Clients
@@ -61,49 +62,65 @@ Look for:
 The IP address will usually look like:
 `192.168.x.x` or `10.0.x.x`
 
-![Router connected devices example](../assets/setup-guide/en/img_01.png)
+![Router connected devices example](../assets/setup-guide/en/img_01_en_US.png)
 
 
 ## Option C: Scan your network
 
-Use a network scanner app on your iPhone or computer.
+Use a network scanner app on your device.
 
 Scan your network and try opening discovered IP addresses in Safari, for example:
 
 `http://192.168.1.50`
 
-If the controller’s login page appears, you’ve found the correct address.
+If the access controller’s login page appears, you’ve found the correct address.
 
-![Network scanner example](../assets/setup-guide/en/img_02.png)
+![Network scanner example](../assets/setup-guide/en/img_02_en_US.png)
 
 
-## Step 2: Add the controller in GateTap
+## Step 2: Find your access controller's login credentials
+
+Some controllers still use default login credentials. Common examples include username `abc` with password `654321`.
+
+Other commonly used stock usernames are `user`, `admin`, or `123`. You can try them together with typical passwords such as `1234`, `user`, or `password` or a variation thereof.
+
+If your system was installed professionally, ask your installer whether the default credentials were changed.
+
+
+## Step 3: Add the access controller in GateTap
 
 Open GateTap and enter:
 • The IP address
 • Your username
 • Your password
 
-Use the same credentials as for the controller’s web interface.
+Use the same credentials as for the access controller’s web interface.
 
 
-## Step 3: Test the connection
+## Step 4: Test the connection
 
 Save your configuration and try opening a door or gate.
 
 If nothing happens, check:
-• Your iPhone is on the same network
+• Your device is on the same network as the access controller
 • The IP address is correct
-• The controller is powered and reachable
+• The access controller is powered and reachable
 
 
-## Step 4: Keep the IP address stable
+## Step 5: Keep the IP address stable
 
 To avoid issues later, the controller should always use the same IP address.
 
 This can be done by:
 • Setting a static IP on the controller
 • Creating a DHCP reservation in your router
+
+
+## Demo mode
+
+GateTap also includes a demo mode. You can start a local demo web server from within the app and then add it like a normal controller.
+
+This gives you a known working test path to verify that GateTap itself is functioning correctly, even if you do not currently have access to a physical access controller.
 
 
 ## Security

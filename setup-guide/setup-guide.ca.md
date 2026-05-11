@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: ca
 -->
 
@@ -18,92 +18,109 @@ Connecteu GateTap al vostre controlador d'accés
 
 ## Abans de començar
 
-Assegureu-vos que el vostre iPhone estigui connectat a la mateixa xarxa local que el controlador d'accés.
+Assegura’t que el dispositiu estigui connectat a la mateixa xarxa local que el controlador d’accés. Per exemple, comprova que l’iPhone sigui a la Wi-Fi de casa i no amb una connexió de dades mòbils.
 
-GateTap funciona completament a la vostra xarxa local i necessita:
-• L'adreça IP del controlador
-• Un nom d'usuari i una contrasenya
-
-
-## Pas 1: cerqueu l'adreça i les credencials del controlador
-
-Per connectar GateTap, necessiteu l'adreça IP del controlador i les credencials d'inici de sessió.
-
-Trieu una de les opcions següents:
+GateTap funciona completament dins de la teva xarxa local i necessita:
+• L’adreça IP del controlador
+• Un nom d’usuari i una contrasenya
 
 
-## Opció A: pregunteu al vostre instal·lador (recomanat)
+## Pas 1: troba l’adreça IP del controlador d’accés
 
-Si el vostre sistema l'ha instal·lat un electricista o tècnic, és probable que ja ho hagin configurat tot.
+Per connectar GateTap, necessites l’adreça IP del controlador i les credencials d’inici de sessió; consulta el pas 2.
+
+Tria una de les opcions següents:
+
+
+## Opció A: pregunta al teu instal·lador (recomanat)
+
+Si el sistema el va instal·lar un electricista o un tècnic, probablement ja ho va configurar tot.
 
 En molts casos:
 • El controlador utilitza una adreça IP fixa
-• O l'encaminador assigna la mateixa IP mitjançant reserva
+• O l’encaminador li assigna la mateixa IP mitjançant una reserva DHCP
 
-Demaneu-los l'adreça IP i les dades d'inici de sessió. Aquesta sol ser la manera més fàcil i ràpida.
+Demana-li l’adreça IP i les dades d’inici de sessió. Normalment és la manera més fàcil i ràpida.
 
 
-## Opció B: comproveu el vostre encaminador
+## Opció B: comprova l’encaminador
 
-Obriu la pàgina de configuració del vostre encaminador i cerqueu els dispositius connectats.
+Obre la pàgina de configuració de l’encaminador i busca els dispositius connectats.
 
-Per accedir al vostre encaminador, normalment necessiteu la seva adreça local (per exemple, `192.168.1.1` o un nom com `fritz.box`) i les credencials d'inici de sessió de l'encaminador.
+Per accedir a l’encaminador, normalment necessites la seva adreça local, per exemple `192.168.1.1` o un nom com `fritz.box`, i les credencials de l’encaminador.
 
-Aquesta secció es pot anomenar:
+Aquest apartat es pot anomenar:
+• Xarxa
 • Dispositius connectats
 • LAN
 • Clients DHCP
 
 Busca:
 • Dispositius cablejats desconeguts
-• Entrades que poden representar el vostre controlador
+• Entrades que puguin representar el controlador
 
-L'adreça IP normalment sembla:
-`192.168.x.x` o `10.0.x.x`.
+L’adreça IP normalment tindrà aquest aspecte:
+`192.168.x.x` o `10.0.x.x`
 
-![Exemple de dispositius connectats a l'encaminador](../assets/setup-guide/ca/img_01.png)
+![Exemple de dispositius connectats a l’encaminador](../assets/setup-guide/ca/img_01_en_US.png)
 
 
 ## Opció C: escaneja la teva xarxa
 
-Utilitzeu una aplicació d'escàner de xarxa al vostre iPhone o ordinador.
+Utilitza una app d’escaneig de xarxa al dispositiu.
 
-Escaneja la teva xarxa i prova d'obrir les adreces IP descobertes a Safari, per exemple:
+Escaneja la xarxa i prova d’obrir les adreces IP trobades a Safari, per exemple:
 
 `http://192.168.1.50`
 
-Si apareix la pàgina d'inici de sessió del controlador, heu trobat l'adreça correcta.
+Si apareix la pàgina d’inici de sessió del controlador d’accés, has trobat l’adreça correcta.
 
-![Exemple d'escàner de xarxa](../assets/setup-guide/ca/img_02.png)
-
-
-## Pas 2: afegiu el controlador a GateTap
-
-Obriu GateTap i introduïu:
-• L'adreça IP
-• El vostre nom d'usuari
-• La teva contrasenya
-
-Utilitzeu les mateixes credencials que per a la interfície web del controlador.
+![Exemple d’app d’escaneig de xarxa](../assets/setup-guide/ca/img_02_en_US.png)
 
 
-## Pas 3: prova la connexió
+## Pas 2: troba les credencials del controlador d’accés
 
-Deseu la vostra configuració i proveu d'obrir una porta o una porta.
+Alguns controladors encara utilitzen credencials predeterminades. Un exemple habitual és el nom d’usuari `abc` amb la contrasenya `654321`.
 
-Si no passa res, comproveu:
-• El vostre iPhone està a la mateixa xarxa
-• L'adreça IP és correcta
-• El controlador està alimentat i es pot accedir
+Altres noms d’usuari de fàbrica habituals són `user`, `admin` o `123`. Pots provar-los amb contrasenyes típiques com `1234`, `user` o `password`, o alguna variació.
+
+Si el sistema es va instal·lar professionalment, pregunta a l’instal·lador si es van canviar les credencials predeterminades.
 
 
-## Pas 4: manteniu l'adreça IP estable
+## Pas 3: afegeix el controlador d’accés a GateTap
 
-Per evitar problemes més endavant, el controlador ha d'utilitzar sempre la mateixa adreça IP.
+Obre GateTap i introdueix:
+• L’adreça IP
+• El nom d’usuari
+• La contrasenya
 
-Això es pot fer mitjançant:
-• Configuració d'una IP estàtica al controlador
-• Creació d'una reserva DHCP al vostre encaminador
+Fes servir les mateixes credencials que per a la interfície web del controlador d’accés.
+
+
+## Pas 4: prova la connexió
+
+Desa la configuració i prova d’obrir una porta o una tanca.
+
+Si no passa res, comprova:
+• Que el dispositiu sigui a la mateixa xarxa que el controlador d’accés
+• Que l’adreça IP sigui correcta
+• Que el controlador d’accés tingui alimentació i sigui accessible
+
+
+## Pas 5: mantén estable l’adreça IP
+
+Per evitar problemes més endavant, el controlador hauria d’utilitzar sempre la mateixa adreça IP.
+
+Això es pot fer així:
+• Configurant una IP estàtica al controlador
+• Creant una reserva DHCP a l’encaminador
+
+
+## Mode demo
+
+GateTap també inclou un mode demo. Pots iniciar un servidor web demo local des de dins de l’app i després afegir-lo com un controlador normal.
+
+Això et dona un camí de prova conegut que funciona per verificar que GateTap funciona correctament, encara que ara mateix no tinguis accés a un controlador d’accés físic.
 
 
 ## Seguretat

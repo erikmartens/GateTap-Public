@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: tr
 -->
 
@@ -18,92 +18,109 @@ GateTap'i erişim denetleyicinize bağlayın
 
 ## Başlamadan önce
 
-iPhone'unuzun erişim denetleyicinizle aynı yerel ağa bağlı olduğundan emin olun.
+Cihazınızın erişim denetleyicinizle aynı yerel ağa bağlı olduğundan emin olun. Örneğin iPhone’unuzun mobil veri bağlantısında değil, ev Wi-Fi ağınızda olduğundan emin olun.
 
-GateTap tamamen yerel ağınız ve ihtiyaçlarınız dahilinde çalışır:
+GateTap tamamen yerel ağınız içinde çalışır ve şunlara ihtiyaç duyar:
 • Denetleyicinin IP adresi
-• Kullanıcı adı ve şifre
+• Kullanıcı adı ve parola
 
 
-## 1. Adım: Denetleyici adresini ve kimlik bilgilerini bulun
+## 1. Adım: Erişim denetleyicisinin IP adresini bulun
 
-GateTap'i bağlamak için denetleyicinin IP adresine ve oturum açma kimlik bilgilerine ihtiyacınız vardır.
+GateTap’i bağlamak için denetleyicinin IP adresine ve oturum açma bilgilerine ihtiyacınız vardır - bkz. 2. Adım.
 
 Aşağıdaki seçeneklerden birini seçin:
 
 
 ## Seçenek A: Montajcınıza sorun (önerilir)
 
-Sisteminiz bir elektrikçi veya teknisyen tarafından kurulduysa, muhtemelen her şeyi zaten yapılandırmışlardır.
+Sisteminiz bir elektrikçi veya teknisyen tarafından kurulduysa, büyük olasılıkla her şeyi zaten yapılandırmıştır.
 
 Birçok durumda:
 • Denetleyici sabit bir IP adresi kullanır
-• Veya yönlendirici aynı IP'yi rezervasyon yoluyla atar
+• Ya da yönlendirici DHCP rezervasyonu ile aynı IP’yi atar
 
-Onlardan IP adresini ve giriş bilgilerini isteyin. Bu genellikle en kolay ve en hızlı yoldur.
+IP adresini ve oturum açma bilgilerini isteyin. Bu genellikle en kolay ve en hızlı yoldur.
 
 
 ## Seçenek B: Yönlendiricinizi kontrol edin
 
 Yönlendiricinizin yapılandırma sayfasını açın ve bağlı cihazları arayın.
 
-Yönlendiricinize erişmek için genellikle yerel adresine (örneğin, `192.168.1.1` veya `fritz.box` gibi bir ad) ve yönlendiricinin oturum açma kimlik bilgilerine ihtiyacınız vardır.
+Yönlendiriciye erişmek için genellikle `192.168.1.1` gibi yerel adresine veya `fritz.box` gibi bir adına ve yönlendiricinin oturum açma bilgilerine ihtiyaç duyarsınız.
 
-Bu bölüm şu şekilde adlandırılabilir:
+Bu bölüm şu adlarla görünebilir:
+• Ağ
 • Bağlı Cihazlar
-• Yerel Ağ
+• LAN
 • DHCP İstemcileri
 
-Şunu arayın:
+Şunları arayın:
 • Bilinmeyen kablolu cihazlar
-• Denetleyicinizi temsil edebilecek girişler
+• Denetleyicinizi temsil edebilecek kayıtlar
 
-IP adresi genellikle şöyle görünecektir:
+IP adresi genellikle şöyle görünür:
 `192.168.x.x` veya `10.0.x.x`
 
-![Yönlendiriciye bağlı cihazlar örneği](../assets/setup-guide/tr/img_01.png)
+![Yönlendiricide bağlı cihaz örneği](../assets/setup-guide/tr/img_01_en_US.png)
 
 
 ## Seçenek C: Ağınızı tarayın
 
-iPhone'unuzda veya bilgisayarınızda bir ağ tarayıcı uygulaması kullanın.
+Cihazınızda bir ağ tarayıcı uygulaması kullanın.
 
-Ağınızı tarayın ve keşfedilen IP adreslerini Safari'de açmayı deneyin, örneğin:
+Ağınızı tarayın ve bulunan IP adreslerini Safari’de açmayı deneyin, örneğin:
 
 `http://192.168.1.50`
 
-Kontrolörün oturum açma sayfası görünürse doğru adresi buldunuz demektir.
+Erişim denetleyicisinin giriş sayfası görünürse doğru adresi buldunuz.
 
-![Ağ tarayıcısı örneği](../assets/setup-guide/tr/img_02.png)
+![Ağ tarayıcı uygulaması örneği](../assets/setup-guide/tr/img_02_en_US.png)
 
 
-## Adım 2: Denetleyiciyi GateTap'e ekleyin
+## 2. Adım: Erişim denetleyicisinin oturum açma bilgilerini bulun
 
-GateTap'i açın ve şunu girin:
+Bazı denetleyiciler hâlâ varsayılan oturum açma bilgilerini kullanır. Yaygın bir örnek, `abc` kullanıcı adı ve `654321` parolasıdır.
+
+Sık kullanılan diğer fabrika kullanıcı adları `user`, `admin` veya `123` şeklindedir. Bunları `1234`, `user` veya `password` gibi tipik parolalarla ya da bunların bir varyasyonuyla deneyebilirsiniz.
+
+Sisteminiz profesyonel olarak kurulduysa, varsayılan bilgilerin değiştirilip değiştirilmediğini montajcınıza sorun.
+
+
+## 3. Adım: Erişim denetleyicisini GateTap’e ekleyin
+
+GateTap’i açın ve şunları girin:
 • IP adresi
 • Kullanıcı adınız
-• Şifreniz
+• Parolanız
 
-Denetleyicinin web arayüzüyle aynı kimlik bilgilerini kullanın.
+Erişim denetleyicisinin web arayüzündekiyle aynı oturum açma bilgilerini kullanın.
 
 
-## 3. Adım: Bağlantıyı test edin
+## 4. Adım: Bağlantıyı test edin
 
 Yapılandırmanızı kaydedin ve bir kapıyı veya geçidi açmayı deneyin.
 
 Hiçbir şey olmazsa şunları kontrol edin:
-• iPhone'unuz aynı ağda
-• IP adresi doğrudur
-• Denetleyiciye güç veriliyor ve erişilebilir durumda
+• Cihazınız erişim denetleyicisiyle aynı ağda mı
+• IP adresi doğru mu
+• Erişim denetleyicisi açık ve erişilebilir mi
 
 
-## 4. Adım: IP adresini sabit tutun
+## 5. Adım: IP adresini sabit tutun
 
-Daha sonra sorun yaşamamak için denetleyicinin her zaman aynı IP adresini kullanması gerekir.
+Daha sonra sorun yaşamamak için denetleyici her zaman aynı IP adresini kullanmalıdır.
 
 Bu şu şekilde yapılabilir:
-• Denetleyicide statik IP ayarlama
-• Yönlendiricinizde DHCP rezervasyonu oluşturma
+• Denetleyicide statik IP ayarlayarak
+• Yönlendiricide DHCP rezervasyonu oluşturarak
+
+
+## Demo modu
+
+GateTap ayrıca bir demo modu içerir. Uygulamanın içinden yerel bir demo web sunucusu başlatabilir ve ardından bunu normal bir denetleyici gibi ekleyebilirsiniz.
+
+Bu, şu anda fiziksel bir erişim denetleyicisine erişiminiz olmasa bile GateTap’in doğru çalıştığını doğrulamak için bilinen çalışan bir test yolu sağlar.
 
 
 ## Güvenlik

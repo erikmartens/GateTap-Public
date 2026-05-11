@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: fr
 -->
 
@@ -18,92 +18,109 @@ Connectez GateTap à votre contrôleur d'accès
 
 ## Avant de commencer
 
-Assurez-vous que votre iPhone est connecté au même réseau local que votre contrôleur d'accès.
+Assurez-vous que votre appareil est connecté au même réseau local que votre contrôleur d’accès. Par exemple, vérifiez que votre iPhone est connecté au Wi-Fi de votre domicile et non aux données mobiles.
 
-GateTap fonctionne entièrement au sein de votre réseau local et a besoin :
-• L'adresse IP du contrôleur
-• Un nom d'utilisateur et un mot de passe
-
-
-## Étape 1 : Rechercher l'adresse et les informations d'identification du contrôleur
-
-Pour connecter GateTap, vous avez besoin de l’adresse IP et des informations de connexion du contrôleur.
-
-Choisissez l'une des options suivantes :
+GateTap fonctionne entièrement sur votre réseau local et a besoin de :
+• L’adresse IP du contrôleur
+• Un nom d’utilisateur et un mot de passe
 
 
-## Option A : Demandez à votre installateur (recommandé)
+## Étape 1 : Trouver l’adresse IP du contrôleur d’accès
 
-Si votre système a été installé par un électricien ou un technicien, il est probable qu'il ait déjà tout configuré.
+Pour connecter GateTap, vous avez besoin de l’adresse IP du contrôleur et des identifiants de connexion - voir l’étape 2.
 
-Dans de nombreux cas :
+Choisissez l’une des options suivantes :
+
+
+## Option A : Demandez à votre installateur (recommandé)
+
+Si votre système a été installé par un électricien ou un technicien, il a probablement déjà tout configuré.
+
+Dans de nombreux cas :
 • Le contrôleur utilise une adresse IP fixe
-• Soit le routeur attribue la même IP via réservation
+• Ou le routeur lui attribue la même IP via une réservation DHCP
 
-Demandez-leur l’adresse IP et les informations de connexion. C’est généralement le moyen le plus simple et le plus rapide.
+Demandez-lui l’adresse IP et les identifiants de connexion. C’est généralement la méthode la plus simple et la plus rapide.
 
 
-## Option B : Vérifiez votre routeur
+## Option B : Vérifiez votre routeur
 
 Ouvrez la page de configuration de votre routeur et recherchez les appareils connectés.
 
-Pour accéder à votre routeur, vous avez généralement besoin de son adresse locale (par exemple « `192.168.1.1` » ou d'un nom comme « `fritz.box` ») et des informations de connexion du routeur.
+Pour accéder à votre routeur, vous avez généralement besoin de son adresse locale, par exemple `192.168.1.1` ou d’un nom comme `fritz.box`, ainsi que des identifiants du routeur.
 
-Cette section peut s'appeler :
-• Appareils connectés
-• Réseau local
+Cette section peut s’appeler :
+• Réseau
+• Appareils connectés
+• LAN
 • Clients DHCP
 
-Recherchez :
-• Appareils filaires inconnus
-• Entrées pouvant représenter votre contrôleur
+Recherchez :
+• Des appareils câblés inconnus
+• Des entrées qui pourraient correspondre à votre contrôleur
 
-L'adresse IP ressemblera généralement à :
+L’adresse IP ressemble généralement à :
 `192.168.x.x` ou `10.0.x.x`
 
-![Exemple d'appareils connectés à un routeur](../assets/setup-guide/fr/img_01.png)
+![Exemple d’appareils connectés dans le routeur](../assets/setup-guide/fr/img_01_en_US.png)
 
 
-## Option C : analysez votre réseau
+## Option C : Analysez votre réseau
 
-Utilisez une application de scanner réseau sur votre iPhone ou votre ordinateur.
+Utilisez une app de scan réseau sur votre appareil.
 
-Analysez votre réseau et essayez d'ouvrir les adresses IP découvertes dans Safari, par exemple :
+Analysez votre réseau et essayez d’ouvrir les adresses IP trouvées dans Safari, par exemple :
 
 `http://192.168.1.50`
 
-Si la page de connexion du contrôleur apparaît, vous avez trouvé la bonne adresse.
+Si la page de connexion du contrôleur d’accès apparaît, vous avez trouvé la bonne adresse.
 
-![Exemple de scanner réseau](../assets/setup-guide/fr/img_02.png)
+![Exemple d’app de scan réseau](../assets/setup-guide/fr/img_02_en_US.png)
 
 
-## Étape 2 : Ajoutez le contrôleur dans GateTap
+## Étape 2 : Trouver les identifiants du contrôleur d’accès
 
-Ouvrez GateTap et entrez :
-• L'adresse IP
-• Votre nom d'utilisateur
+Certains contrôleurs utilisent encore des identifiants par défaut. Un exemple courant est le nom d’utilisateur `abc` avec le mot de passe `654321`.
+
+Les autres noms d’utilisateur d’usine courants sont `user`, `admin` ou `123`. Vous pouvez les essayer avec des mots de passe typiques comme `1234`, `user` ou `password`, ou une variante.
+
+Si votre système a été installé par un professionnel, demandez à votre installateur si les identifiants par défaut ont été modifiés.
+
+
+## Étape 3 : Ajouter le contrôleur d’accès dans GateTap
+
+Ouvrez GateTap et saisissez :
+• L’adresse IP
+• Votre nom d’utilisateur
 • Votre mot de passe
 
-Utilisez les mêmes informations d’identification que pour l’interface Web du contrôleur.
+Utilisez les mêmes identifiants que pour l’interface web du contrôleur d’accès.
 
 
-## Étape 3 : Testez la connexion
+## Étape 4 : Tester la connexion
 
-Enregistrez votre configuration et essayez d'ouvrir une porte ou un portail.
+Enregistrez votre configuration et essayez d’ouvrir une porte ou un portail.
 
 Si rien ne se passe, vérifiez :
-• Votre iPhone est sur le même réseau
-• L'adresse IP est correcte
-• Le contrôleur est alimenté et accessible
+• Que votre appareil est sur le même réseau que le contrôleur d’accès
+• Que l’adresse IP est correcte
+• Que le contrôleur d’accès est alimenté et joignable
 
 
-## Étape 4 : Maintenir la stabilité de l'adresse IP
+## Étape 5 : Garder l’adresse IP stable
 
-Pour éviter des problèmes ultérieurs, le contrôleur doit toujours utiliser la même adresse IP.
+Pour éviter les problèmes plus tard, le contrôleur devrait toujours utiliser la même adresse IP.
 
-Cela peut être fait par :
-• Définition d'une adresse IP statique sur le contrôleur
-• Création d'une réservation DHCP sur votre routeur
+Cela peut se faire en :
+• Définissant une IP statique sur le contrôleur
+• Créant une réservation DHCP dans votre routeur
+
+
+## Mode démo
+
+GateTap inclut également un mode démo. Vous pouvez démarrer un serveur web de démonstration local depuis l’app, puis l’ajouter comme un contrôleur normal.
+
+Cela vous donne un parcours de test connu et fonctionnel pour vérifier que GateTap fonctionne correctement, même si vous n’avez pas actuellement accès à un contrôleur d’accès physique.
 
 
 ## Sécurité

@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: hu
 -->
 
@@ -18,92 +18,109 @@ Csatlakoztassa a GateTap-ot a hozzáférés-vezérlőhöz
 
 ## Mielőtt elkezdené
 
-Győződjön meg arról, hogy iPhone-ja ugyanahhoz a helyi hálózathoz csatlakozik, mint a hozzáférés-vezérlő.
+Győződjön meg róla, hogy az eszköze ugyanahhoz a helyi hálózathoz csatlakozik, mint a hozzáférés-vezérlő. Például ellenőrizze, hogy az iPhone az otthoni Wi-Fi-n van, nem pedig mobiladat-kapcsolaton.
 
-A GateTap teljes mértékben a helyi hálózaton belül működik, és a következőkre van szüksége:
+A GateTap teljes egészében a helyi hálózaton működik, és ezekre van szüksége:
 • A vezérlő IP-címe
 • Felhasználónév és jelszó
 
 
-## 1. lépés: Keresse meg a vezérlő címét és hitelesítő adatait
+## 1. lépés: Keresse meg a hozzáférés-vezérlő IP-címét
 
-A GateTap csatlakoztatásához szüksége van a vezérlő IP-címére és bejelentkezési adataira.
+A GateTap csatlakoztatásához szüksége van a vezérlő IP-címére és a bejelentkezési adatokra - lásd a 2. lépést.
 
 Válasszon az alábbi lehetőségek közül:
 
 
 ## A lehetőség: Kérdezze meg a telepítőt (ajánlott)
 
-Ha a rendszert villanyszerelő vagy technikus telepítette, valószínűleg már mindent beállítottak.
+Ha a rendszert villanyszerelő vagy technikus telepítette, valószínűleg már mindent beállított.
 
 Sok esetben:
-• A vezérlő rögzített IP-címet használ
-• Vagy az útválasztó ugyanazt az IP-t rendeli hozzá foglaláson keresztül
+• A vezérlő fix IP-címet használ
+• Vagy a router DHCP-foglalással mindig ugyanazt az IP-t osztja ki
 
-Kérje meg tőlük az IP-címet és a bejelentkezési adatokat. Általában ez a legegyszerűbb és leggyorsabb módja.
+Kérje el tőle az IP-címet és a bejelentkezési adatokat. Ez általában a legegyszerűbb és leggyorsabb mód.
 
 
 ## B lehetőség: Ellenőrizze az útválasztót
 
-Nyissa meg az útválasztó konfigurációs oldalát, és keresse meg a csatlakoztatott eszközöket.
+Nyissa meg az útválasztó beállítási oldalát, és keresse meg a csatlakoztatott eszközöket.
 
-Az útválasztó eléréséhez általában szüksége van a helyi címére (pl. `192.168.1.1` vagy egy névre, például `fritz.box`) és az útválasztó bejelentkezési adataira.
+Az útválasztó eléréséhez általában szükség van a helyi címére, például `192.168.1.1` vagy egy névre, például `fritz.box`, valamint az útválasztó bejelentkezési adataira.
 
-Ennek a szakasznak a neve:
+Ez a szakasz ilyen néven szerepelhet:
+• Hálózat
 • Csatlakoztatott eszközök
 • LAN
-• DHCP kliensek
+• DHCP-kliensek
 
-Keresse meg:
+Keresse:
 • Ismeretlen vezetékes eszközök
-• Bejegyzések, amelyek az Ön vezérlőjét képviselhetik
+• Olyan bejegyzések, amelyek a vezérlőt jelenthetik
 
 Az IP-cím általában így néz ki:
-`192.168.x.x` vagy `10.0.x.x`.
+`192.168.x.x` vagy `10.0.x.x`
 
-![Példa a routerhez csatlakoztatott eszközökre](../assets/setup-guide/hu/img_01.png)
+![Példa az útválasztó csatlakoztatott eszközeire](../assets/setup-guide/hu/img_01_en_US.png)
 
 
 ## C lehetőség: Ellenőrizze a hálózatot
 
-Használjon hálózati szkenner alkalmazást iPhone-ján vagy számítógépén.
+Használjon hálózati szkenner alkalmazást az eszközén.
 
-Vizsgálja meg hálózatát, és próbálja meg megnyitni a felfedezett IP-címeket a Safariban, például:
+Vizsgálja át a hálózatot, és próbálja megnyitni a talált IP-címeket Safariban, például:
 
-`http://192.168.1.50`.
+`http://192.168.1.50`
 
-Ha megjelenik a vezérlő bejelentkezési oldala, akkor a megfelelő címet találta.
+Ha megjelenik a hozzáférés-vezérlő bejelentkezési oldala, megtalálta a megfelelő címet.
 
-![Példa a hálózati szkennerre](../assets/setup-guide/hu/img_02.png)
-
-
-## 2. lépés: Adja hozzá a vezérlőt a GateTap-hez
-
-Nyissa meg a GateTap-et, és írja be:
-• Az IP-cím
-• Az Ön felhasználóneve
-• Az Ön jelszava
-
-Használja ugyanazokat a hitelesítő adatokat, mint a vezérlő webes felületén.
+![Példa hálózati szkenner alkalmazásra](../assets/setup-guide/hu/img_02_en_US.png)
 
 
-## 3. lépés: Tesztelje a kapcsolatot
+## 2. lépés: Keresse meg a hozzáférés-vezérlő bejelentkezési adatait
 
-Mentse el a konfigurációt, és próbáljon kinyitni egy ajtót vagy kaput.
+Egyes vezérlők még mindig alapértelmezett bejelentkezési adatokat használnak. Gyakori példa a `abc` felhasználónév és a `654321` jelszó.
 
-Ha nem történik semmi, ellenőrizze:
-• Az iPhone ugyanazon a hálózaton van
+Más gyakori gyári felhasználónevek: `user`, `admin` vagy `123`. Kipróbálhatja őket tipikus jelszavakkal, például `1234`, `user` vagy `password`, illetve ezek valamelyik változatával.
+
+Ha a rendszert szakember telepítette, kérdezze meg a telepítőt, hogy módosították-e az alapértelmezett adatokat.
+
+
+## 3. lépés: Adja hozzá a hozzáférés-vezérlőt a GateTaphez
+
+Nyissa meg a GateTapet, és adja meg:
+• Az IP-címet
+• A felhasználónevet
+• A jelszót
+
+Ugyanazokat az adatokat használja, mint a hozzáférés-vezérlő webes felületén.
+
+
+## 4. lépés: Tesztelje a kapcsolatot
+
+Mentse a konfigurációt, és próbáljon meg kinyitni egy ajtót vagy kaput.
+
+Ha semmi sem történik, ellenőrizze:
+• Az eszköz ugyanazon a hálózaton van, mint a hozzáférés-vezérlő
 • Az IP-cím helyes
-• A vezérlő áram alatt van és elérhető
+• A hozzáférés-vezérlő áram alatt van és elérhető
 
 
-## 4. lépés: Tartsa stabilan az IP-címet
+## 5. lépés: Tartsa stabilan az IP-címet
 
 A későbbi problémák elkerülése érdekében a vezérlőnek mindig ugyanazt az IP-címet kell használnia.
 
-Ez megtehető:
+Ezt így lehet megoldani:
 • Statikus IP beállítása a vezérlőn
 • DHCP-foglalás létrehozása az útválasztóban
+
+
+## Demó mód
+
+A GateTap demó módot is tartalmaz. Az alkalmazásból elindíthat egy helyi demó webszervert, majd hozzáadhatja úgy, mint egy normál vezérlőt.
+
+Ez egy ismerten működő tesztelési utat ad annak ellenőrzésére, hogy maga a GateTap megfelelően működik-e, még akkor is, ha jelenleg nincs hozzáférése fizikai hozzáférés-vezérlőhöz.
 
 
 ## Biztonság

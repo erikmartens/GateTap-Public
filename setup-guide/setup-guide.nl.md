@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: nl
 -->
 
@@ -18,92 +18,109 @@ Sluit GateTap aan op uw toegangscontroller
 
 ## Voordat je begint
 
-Zorg ervoor dat uw iPhone is verbonden met hetzelfde lokale netwerk als uw toegangscontroller.
+Zorg ervoor dat je apparaat is verbonden met hetzelfde lokale netwerk als je toegangscontroller. Controleer bijvoorbeeld dat je iPhone op je wifi thuis zit en niet op een mobiele dataverbinding.
 
-GateTap werkt volledig binnen uw lokale netwerk en heeft het volgende nodig:
+GateTap werkt volledig binnen je lokale netwerk en heeft nodig:
 • Het IP-adres van de controller
 • Een gebruikersnaam en wachtwoord
 
 
-## Stap 1: Vind het controlleradres en de inloggegevens
+## Stap 1: Zoek het IP-adres van de toegangscontroller
 
-Om GateTap te verbinden, hebt u het IP-adres en de inloggegevens van de controller nodig.
+Om GateTap te verbinden heb je het IP-adres van de controller en de inloggegevens nodig - zie stap 2.
 
 Kies een van de volgende opties:
 
 
-## Optie A: Vraag uw installateur (aanbevolen)
+## Optie A: Vraag je installateur (aanbevolen)
 
-Als uw systeem door een elektricien of technicus is geïnstalleerd, heeft deze waarschijnlijk alles al geconfigureerd.
+Als je systeem door een elektricien of technicus is geïnstalleerd, heeft die waarschijnlijk alles al ingesteld.
 
 In veel gevallen:
-• De controller gebruikt een vast IP-adres
-• Of de router wijst via reservering hetzelfde IP-adres toe
+• Gebruikt de controller een vast IP-adres
+• Of wijst de router via DHCP-reservering steeds hetzelfde IP toe
 
-Vraag hen om het IP-adres en de inloggegevens. Dit is meestal de gemakkelijkste en snelste manier.
+Vraag om het IP-adres en de inloggegevens. Dit is meestal de makkelijkste en snelste manier.
 
 
-## Optie B: Controleer uw router
+## Optie B: Controleer je router
 
-Open de configuratiepagina van uw router en zoek naar aangesloten apparaten.
+Open de configuratiepagina van je router en zoek naar verbonden apparaten.
 
-Om toegang te krijgen tot uw router heeft u doorgaans het lokale adres nodig (bijvoorbeeld `192.168.1.1` of een naam als `fritz.box`) en de inloggegevens van de router.
+Om toegang te krijgen tot je router heb je meestal het lokale adres nodig, bijvoorbeeld `192.168.1.1` of een naam zoals `fritz.box`, en de inloggegevens van de router.
 
-Dit gedeelte kan heten:
+Deze sectie kan heten:
+• Netwerk
 • Verbonden apparaten
 • LAN
 • DHCP-clients
 
 Zoek naar:
 • Onbekende bekabelde apparaten
-• Vermeldingen die mogelijk uw controller vertegenwoordigen
+• Vermeldingen die je controller kunnen zijn
 
-Het IP-adres ziet er meestal als volgt uit:
+Het IP-adres ziet er meestal zo uit:
 `192.168.x.x` of `10.0.x.x`
 
-![Voorbeeld van met router verbonden apparaten](../assets/setup-guide/nl/img_01.png)
+![Voorbeeld van verbonden apparaten in de router](../assets/setup-guide/nl/img_01_en_US.png)
 
 
-## Optie C: Scan uw netwerk
+## Optie C: Scan je netwerk
 
-Gebruik een netwerkscanner-app op uw iPhone of computer.
+Gebruik een netwerkscanner-app op je apparaat.
 
-Scan uw netwerk en probeer ontdekte IP-adressen in Safari te openen, bijvoorbeeld:
+Scan je netwerk en probeer gevonden IP-adressen in Safari te openen, bijvoorbeeld:
 
 `http://192.168.1.50`
 
-Als de inlogpagina van de controller verschijnt, heeft u het juiste adres gevonden.
+Als de inlogpagina van de toegangscontroller verschijnt, heb je het juiste adres gevonden.
 
-![Voorbeeld netwerkscanner](../assets/setup-guide/nl/img_02.png)
+![Voorbeeld van een netwerkscanner-app](../assets/setup-guide/nl/img_02_en_US.png)
 
 
-## Stap 2: Voeg de controller toe in GateTap
+## Stap 2: Zoek de inloggegevens van de toegangscontroller
+
+Sommige controllers gebruiken nog steeds standaard inloggegevens. Een veelvoorkomend voorbeeld is gebruikersnaam `abc` met wachtwoord `654321`.
+
+Andere veelgebruikte fabrieksgebruikersnamen zijn `user`, `admin` of `123`. Je kunt ze proberen met typische wachtwoorden zoals `1234`, `user` of `password`, of een variatie daarop.
+
+Als je systeem professioneel is geïnstalleerd, vraag dan je installateur of de standaardgegevens zijn gewijzigd.
+
+
+## Stap 3: Voeg de toegangscontroller toe in GateTap
 
 Open GateTap en voer in:
 • Het IP-adres
-• Uw gebruikersnaam
-• Uw wachtwoord
+• Je gebruikersnaam
+• Je wachtwoord
 
-Gebruik dezelfde inloggegevens als voor de webinterface van de controller.
+Gebruik dezelfde inloggegevens als voor de webinterface van de toegangscontroller.
 
 
-## Stap 3: Test de verbinding
+## Stap 4: Test de verbinding
 
-Sla uw configuratie op en probeer een deur of poort te openen.
+Sla je configuratie op en probeer een deur of poort te openen.
 
 Als er niets gebeurt, controleer dan:
-• Uw iPhone bevindt zich op hetzelfde netwerk
-• Het IP-adres is correct
-• De controller is voorzien van stroom en is bereikbaar
+• Of je apparaat op hetzelfde netwerk zit als de toegangscontroller
+• Of het IP-adres klopt
+• Of de toegangscontroller stroom heeft en bereikbaar is
 
 
-## Stap 4: Houd het IP-adres stabiel
+## Stap 5: Houd het IP-adres stabiel
 
-Om later problemen te voorkomen, moet de controller altijd hetzelfde IP-adres gebruiken.
+Om latere problemen te voorkomen, moet de controller altijd hetzelfde IP-adres gebruiken.
 
-Dit kan gedaan worden door:
-• Een statisch IP-adres instellen op de controller
-• Een DHCP-reservering aanmaken in uw router
+Dit kan door:
+• Een statisch IP op de controller in te stellen
+• Een DHCP-reservering in je router te maken
+
+
+## Demomodus
+
+GateTap bevat ook een demomodus. Je kunt vanuit de app een lokale demo-webserver starten en die daarna toevoegen als een normale controller.
+
+Zo heb je een bekende werkende testroute om te controleren of GateTap zelf correct werkt, zelfs als je momenteel geen toegang hebt tot een fysieke toegangscontroller.
 
 
 ## Beveiliging

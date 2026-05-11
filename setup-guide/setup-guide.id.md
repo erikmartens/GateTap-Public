@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: id
 -->
 
@@ -18,92 +18,109 @@ Hubungkan GateTap ke pengontrol akses Anda
 
 ## Sebelum Anda mulai
 
-Pastikan iPhone Anda terhubung ke jaringan lokal yang sama dengan pengontrol akses Anda.
+Pastikan perangkat Anda terhubung ke jaringan lokal yang sama dengan pengontrol akses Anda. Misalnya, pastikan iPhone Anda memakai Wi-Fi rumah, bukan koneksi data seluler.
 
-GateTap berfungsi sepenuhnya dalam jaringan lokal Anda dan membutuhkan:
+GateTap bekerja sepenuhnya di dalam jaringan lokal Anda dan membutuhkan:
 • Alamat IP pengontrol
 • Nama pengguna dan kata sandi
 
 
-## Langkah 1: Temukan alamat pengontrol dan kredensial
+## Langkah 1: Temukan alamat IP pengontrol akses
 
-Untuk menghubungkan GateTap, Anda memerlukan alamat IP pengontrol dan kredensial login.
+Untuk menghubungkan GateTap, Anda membutuhkan alamat IP pengontrol dan kredensial login - lihat Langkah 2.
 
 Pilih salah satu opsi berikut:
 
 
 ## Opsi A: Tanyakan kepada penginstal Anda (disarankan)
 
-Jika sistem Anda dipasang oleh teknisi listrik atau teknisi, kemungkinan besar mereka sudah mengonfigurasi semuanya.
+Jika sistem Anda dipasang oleh teknisi listrik atau teknisi, kemungkinan besar semuanya sudah dikonfigurasi.
 
 Dalam banyak kasus:
 • Pengontrol menggunakan alamat IP tetap
-• Atau router memberikan IP yang sama melalui reservasi
+• Atau router menetapkan IP yang sama melalui reservasi DHCP
 
-Tanyakan kepada mereka alamat IP dan detail login. Ini biasanya merupakan cara termudah dan tercepat.
+Mintalah alamat IP dan detail login. Ini biasanya cara termudah dan tercepat.
 
 
 ## Opsi B: Periksa router Anda
 
 Buka halaman konfigurasi router Anda dan cari perangkat yang terhubung.
 
-Untuk mengakses router, Anda biasanya memerlukan alamat lokalnya (misalnya `192.168.1.1` atau nama seperti `fritz.box`) dan kredensial login router.
+Untuk mengakses router, biasanya Anda memerlukan alamat lokalnya, misalnya `192.168.1.1` atau nama seperti `fritz.box`, serta kredensial login router.
 
-Bagian ini dapat disebut:
-• Perangkat yang Terhubung
+Bagian ini mungkin disebut:
+• Jaringan
+• Perangkat Terhubung
 • LAN
 • Klien DHCP
 
-Carilah:
-• Perangkat berkabel tidak dikenal
+Cari:
+• Perangkat berkabel yang tidak dikenal
 • Entri yang mungkin mewakili pengontrol Anda
 
-Alamat IP biasanya akan terlihat seperti:
+Alamat IP biasanya terlihat seperti:
 `192.168.x.x` atau `10.0.x.x`
 
-![Contoh perangkat yang terhubung dengan router](../assets/setup-guide/id/img_01.png)
+![Contoh perangkat yang terhubung di router](../assets/setup-guide/id/img_01_en_US.png)
 
 
 ## Opsi C: Pindai jaringan Anda
 
-Gunakan aplikasi pemindai jaringan di iPhone atau komputer Anda.
+Gunakan aplikasi pemindai jaringan di perangkat Anda.
 
 Pindai jaringan Anda dan coba buka alamat IP yang ditemukan di Safari, misalnya:
 
 `http://192.168.1.50`
 
-Jika halaman login pengontrol muncul, Anda telah menemukan alamat yang benar.
+Jika halaman login pengontrol akses muncul, Anda telah menemukan alamat yang benar.
 
-![Contoh pemindai jaringan](../assets/setup-guide/id/img_02.png)
+![Contoh aplikasi pemindai jaringan](../assets/setup-guide/id/img_02_en_US.png)
 
 
-## Langkah 2: Tambahkan pengontrol di GateTap
+## Langkah 2: Temukan kredensial login pengontrol akses
+
+Beberapa pengontrol masih menggunakan kredensial login bawaan. Contoh umum adalah nama pengguna `abc` dengan kata sandi `654321`.
+
+Nama pengguna bawaan lain yang umum digunakan adalah `user`, `admin`, atau `123`. Anda dapat mencobanya dengan kata sandi umum seperti `1234`, `user`, atau `password`, atau variasinya.
+
+Jika sistem Anda dipasang secara profesional, tanyakan kepada penginstal apakah kredensial bawaan telah diubah.
+
+
+## Langkah 3: Tambahkan pengontrol akses di GateTap
 
 Buka GateTap dan masukkan:
 • Alamat IP
 • Nama pengguna Anda
 • Kata sandi Anda
 
-Gunakan kredensial yang sama seperti untuk antarmuka web pengontrol.
+Gunakan kredensial yang sama seperti untuk antarmuka web pengontrol akses.
 
 
-## Langkah 3: Uji koneksi
+## Langkah 4: Uji koneksi
 
 Simpan konfigurasi Anda dan coba buka pintu atau gerbang.
 
-Jika tidak terjadi apa-apa, periksa:
-• iPhone Anda berada di jaringan yang sama
-• Alamat IP sudah benar
-• Pengontrol diberi daya dan dapat dijangkau
+Jika tidak ada yang terjadi, periksa:
+• Perangkat Anda berada di jaringan yang sama dengan pengontrol akses
+• Alamat IP benar
+• Pengontrol akses menyala dan dapat dijangkau
 
 
-## Langkah 4: Jaga agar alamat IP tetap stabil
+## Langkah 5: Jaga agar alamat IP tetap stabil
 
-Untuk menghindari masalah di kemudian hari, pengontrol harus selalu menggunakan alamat IP yang sama.
+Untuk menghindari masalah nanti, pengontrol sebaiknya selalu menggunakan alamat IP yang sama.
 
-Hal ini dapat dilakukan dengan:
-• Mengatur IP statis pada pengontrol
+Ini dapat dilakukan dengan:
+• Menetapkan IP statis pada pengontrol
 • Membuat reservasi DHCP di router Anda
+
+
+## Mode demo
+
+GateTap juga menyertakan mode demo. Anda dapat memulai server web demo lokal dari dalam aplikasi, lalu menambahkannya seperti pengontrol biasa.
+
+Ini memberi Anda jalur pengujian yang diketahui berfungsi untuk memastikan GateTap sendiri berjalan dengan benar, meskipun saat ini Anda tidak memiliki akses ke pengontrol akses fisik.
 
 
 ## Keamanan

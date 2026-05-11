@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: cs
 -->
 
@@ -18,92 +18,109 @@ Připojte GateTap k vašemu přístupovému ovladači
 
 ## Než začnete
 
-Ujistěte se, že je váš iPhone připojen ke stejné místní síti jako váš přístupový ovladač.
+Ujistěte se, že je vaše zařízení připojeno ke stejné místní síti jako přístupový kontroler. Například zkontrolujte, že je iPhone připojen k domácí Wi-Fi a nepoužívá mobilní data.
 
-GateTap funguje zcela v rámci vaší místní sítě a potřebuje:
-• IP adresa ovladače
+GateTap funguje celý ve vaší místní síti a potřebuje:
+• IP adresu kontroleru
 • Uživatelské jméno a heslo
 
 
-## Krok 1: Najděte adresu ovladače a přihlašovací údaje
+## Krok 1: Najděte IP adresu přístupového kontroleru
 
-Pro připojení GateTap potřebujete IP adresu ovladače a přihlašovací údaje.
+Pro připojení GateTap potřebujete IP adresu kontroleru a přihlašovací údaje - viz krok 2.
 
 Vyberte jednu z následujících možností:
 
 
-## Možnost A: Zeptejte se svého instalačního technika (doporučeno)
+## Možnost A: Zeptejte se instalačního technika (doporučeno)
 
-Pokud váš systém instaloval elektrikář nebo technik, pravděpodobně již vše nakonfiguroval.
+Pokud systém instaloval elektrikář nebo technik, pravděpodobně už vše nastavil.
 
 V mnoha případech:
-• Ovladač používá pevnou IP adresu
-• Nebo router přiřadí stejnou IP prostřednictvím rezervace
+• Kontroler používá pevnou IP adresu
+• Nebo mu router přiřazuje stejnou IP pomocí rezervace DHCP
 
-Požádejte je o IP adresu a přihlašovací údaje. To je obvykle nejjednodušší a nejrychlejší způsob.
+Požádejte ho o IP adresu a přihlašovací údaje. Obvykle je to nejjednodušší a nejrychlejší cesta.
 
 
 ## Možnost B: Zkontrolujte router
 
 Otevřete konfigurační stránku routeru a vyhledejte připojená zařízení.
 
-Pro přístup k routeru obvykle potřebujete jeho místní adresu (např. `192.168.1.1` nebo název jako `fritz.box`) a přihlašovací údaje routeru.
+Pro přístup k routeru obvykle potřebujete jeho místní adresu, například `192.168.1.1` nebo název jako `fritz.box`, a přihlašovací údaje routeru.
 
-Tato sekce se může jmenovat:
+Tato část se může jmenovat:
+• Síť
 • Připojená zařízení
 • LAN
 • Klienti DHCP
 
 Hledejte:
 • Neznámá kabelová zařízení
-• Položky, které mohou představovat váš ovladač
+• Položky, které by mohly představovat váš kontroler
 
 IP adresa bude obvykle vypadat takto:
 `192.168.x.x` nebo `10.0.x.x`
 
-![Příklad zařízení připojených k routeru](../assets/setup-guide/cs/img_01.png)
+![Příklad připojených zařízení v routeru](../assets/setup-guide/cs/img_01_en_US.png)
 
 
 ## Možnost C: Prohledejte síť
 
-Použijte aplikaci síťového skeneru na vašem iPhone nebo počítači.
+Použijte na svém zařízení aplikaci pro skenování sítě.
 
-Prohledejte svou síť a zkuste otevřít nalezené IP adresy v Safari, například:
+Prohledejte síť a zkuste nalezené IP adresy otevřít v Safari, například:
 
 `http://192.168.1.50`
 
-Pokud se zobrazí přihlašovací stránka ovladače, našli jste správnou adresu.
+Pokud se zobrazí přihlašovací stránka přístupového kontroleru, našli jste správnou adresu.
 
-![Příklad síťového skeneru](../assets/setup-guide/cs/img_02.png)
+![Příklad aplikace pro skenování sítě](../assets/setup-guide/cs/img_02_en_US.png)
 
 
-## Krok 2: Přidejte ovladač do GateTap
+## Krok 2: Najděte přihlašovací údaje přístupového kontroleru
+
+Některé kontrolery stále používají výchozí přihlašovací údaje. Běžným příkladem je uživatelské jméno `abc` s heslem `654321`.
+
+Další často používaná tovární uživatelská jména jsou `user`, `admin` nebo `123`. Můžete je vyzkoušet s typickými hesly jako `1234`, `user` nebo `password`, případně s jejich obměnou.
+
+Pokud byl systém instalován profesionálně, zeptejte se instalačního technika, zda byly výchozí údaje změněny.
+
+
+## Krok 3: Přidejte přístupový kontroler do GateTap
 
 Otevřete GateTap a zadejte:
-• IP adresa
-• Vaše uživatelské jméno
-• Vaše heslo
+• IP adresu
+• Uživatelské jméno
+• Heslo
 
-Použijte stejné přihlašovací údaje jako pro webové rozhraní ovladače.
+Použijte stejné údaje jako pro webové rozhraní přístupového kontroleru.
 
 
-## Krok 3: Otestujte připojení
+## Krok 4: Otestujte připojení
 
 Uložte konfiguraci a zkuste otevřít dveře nebo bránu.
 
 Pokud se nic nestane, zkontrolujte:
-• Váš iPhone je ve stejné síti
-• IP adresa je správná
-• Ovladač je napájen a dosažitelný
+• Že je vaše zařízení ve stejné síti jako přístupový kontroler
+• Že je IP adresa správná
+• Že je přístupový kontroler napájený a dostupný
 
 
-## Krok 4: Udržujte IP adresu stabilní
+## Krok 5: Udržujte IP adresu stabilní
 
-Aby se předešlo problémům později, měl by řadič vždy používat stejnou IP adresu.
+Abyste se později vyhnuli problémům, měl by kontroler vždy používat stejnou IP adresu.
 
 To lze provést takto:
-• Nastavení statické IP na ovladači
-• Vytvoření rezervace DHCP ve vašem routeru
+• Nastavením statické IP adresy na kontroleru
+• Vytvořením rezervace DHCP v routeru
+
+
+## Demo režim
+
+GateTap obsahuje také demo režim. V aplikaci můžete spustit místní demo webový server a potom ho přidat jako běžný kontroler.
+
+Získáte tak známou funkční testovací cestu pro ověření, že GateTap funguje správně, i když momentálně nemáte přístup k fyzickému přístupovému kontroleru.
 
 
 ## Bezpečnost

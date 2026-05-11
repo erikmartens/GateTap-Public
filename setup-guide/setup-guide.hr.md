@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: hr
 -->
 
@@ -18,92 +18,109 @@ Spojite GateTap na svoj kontroler pristupa
 
 ## Prije nego počnete
 
-Provjerite je li vaš iPhone spojen na istu lokalnu mrežu kao i vaš kontroler pristupa.
+Provjerite je li vaš uređaj povezan s istom lokalnom mrežom kao i vaš kontroler pristupa. Primjerice, provjerite je li iPhone na kućnoj Wi-Fi mreži, a ne na mobilnoj podatkovnoj vezi.
 
-GateTap u potpunosti radi unutar vaše lokalne mreže i treba mu:
-• IP adresa kontrolera
-• Korisničko ime i lozinka
+GateTap u potpunosti radi unutar vaše lokalne mreže i treba:
+• IP adresu kontrolera
+• Korisničko ime i lozinku
 
 
-## Korak 1: Pronađite adresu i vjerodajnice kontrolora
+## Korak 1: Pronađite IP adresu kontrolera pristupa
 
-Za povezivanje GateTap-a potrebna vam je IP adresa kontrolera i vjerodajnice za prijavu.
+Za povezivanje GateTapa potrebna vam je IP adresa kontrolera i podaci za prijavu - pogledajte korak 2.
 
-Odaberite jednu od sljedećih opcija:
+Odaberite jednu od sljedećih mogućnosti:
 
 
 ## Opcija A: Pitajte svog instalatera (preporučeno)
 
-Ako je vaš sustav instalirao električar ili tehničar, oni su vjerojatno već sve konfigurirali.
+Ako je sustav instalirao električar ili tehničar, vjerojatno je već sve konfigurirao.
 
 U mnogim slučajevima:
 • Kontroler koristi fiksnu IP adresu
-• Ili usmjerivač dodjeljuje isti IP putem rezervacije
+• Ili usmjerivač dodjeljuje istu IP adresu putem DHCP rezervacije
 
-Pitajte ih za IP adresu i podatke za prijavu. Ovo je obično najlakši i najbrži način.
+Zatražite IP adresu i podatke za prijavu. To je obično najlakši i najbrži način.
 
 
 ## Opcija B: Provjerite svoj usmjerivač
 
-Otvorite konfiguracijsku stranicu svog usmjerivača i potražite povezane uređaje.
+Otvorite konfiguracijsku stranicu usmjerivača i potražite povezane uređaje.
 
-Za pristup vašem usmjerivaču obično vam je potrebna njegova lokalna adresa (npr. `192.168.1.1` ili naziv poput `fritz.box`) i vjerodajnice za prijavu na usmjerivač.
+Za pristup usmjerivaču obično trebate njegovu lokalnu adresu, npr. `192.168.1.1` ili naziv poput `fritz.box`, te podatke za prijavu na usmjerivač.
 
-Ovaj odjeljak može se zvati:
+Ovaj se odjeljak može zvati:
+• Mreža
 • Povezani uređaji
 • LAN
 • DHCP klijenti
 
 Potražite:
-• Nepoznati žični uređaji
-• Unosi koji bi mogli predstavljati vaš upravljač
+• Nepoznate žičane uređaje
+• Unose koji bi mogli predstavljati vaš kontroler
 
 IP adresa obično izgleda ovako:
 `192.168.x.x` ili `10.0.x.x`
 
-![Primjer uređaja povezanih s usmjerivačem](../assets/setup-guide/hr/img_01.png)
+![Primjer povezanih uređaja u usmjerivaču](../assets/setup-guide/hr/img_01_en_US.png)
 
 
-## Opcija C: skenirajte svoju mrežu
+## Opcija C: Skenirajte svoju mrežu
 
-Koristite aplikaciju mrežnog skeniranja na svom iPhoneu ili računalu.
+Upotrijebite aplikaciju za skeniranje mreže na svom uređaju.
 
-Skenirajte svoju mrežu i pokušajte otvoriti otkrivene IP adrese u Safariju, na primjer:
+Skenirajte mrežu i pokušajte otvoriti pronađene IP adrese u Safariju, na primjer:
 
 `http://192.168.1.50`
 
-Ako se pojavi stranica za prijavu kontrolera, pronašli ste ispravnu adresu.
+Ako se pojavi stranica za prijavu kontrolera pristupa, pronašli ste ispravnu adresu.
 
-![Primjer mrežnog skenera](../assets/setup-guide/hr/img_02.png)
+![Primjer aplikacije za skeniranje mreže](../assets/setup-guide/hr/img_02_en_US.png)
 
 
-## Korak 2: Dodajte kontroler u GateTap
+## Korak 2: Pronađite podatke za prijavu kontrolera pristupa
+
+Neki kontroleri još uvijek koriste zadane podatke za prijavu. Čest primjer je korisničko ime `abc` s lozinkom `654321`.
+
+Druga često korištena tvornička korisnička imena su `user`, `admin` ili `123`. Možete ih isprobati s tipičnim lozinkama kao što su `1234`, `user` ili `password`, ili nekom njihovom varijacijom.
+
+Ako je sustav profesionalno instaliran, pitajte instalatera jesu li zadani podaci promijenjeni.
+
+
+## Korak 3: Dodajte kontroler pristupa u GateTap
 
 Otvorite GateTap i unesite:
-• IP adresa
-• Vaše korisničko ime
-• Vaša lozinka
+• IP adresu
+• Korisničko ime
+• Lozinku
 
-Koristite iste vjerodajnice kao za web sučelje kontrolera.
+Koristite iste podatke za prijavu kao za web sučelje kontrolera pristupa.
 
 
-## Korak 3: Testirajte vezu
+## Korak 4: Testirajte vezu
 
-Spremite svoju konfiguraciju i pokušajte otvoriti vrata ili vrata.
+Spremite konfiguraciju i pokušajte otvoriti vrata ili kapiju.
 
 Ako se ništa ne dogodi, provjerite:
-• Vaš iPhone je na istoj mreži
-• IP adresa je točna
-• Kontroler je napajan i dostupan
+• Je li vaš uređaj na istoj mreži kao kontroler pristupa
+• Je li IP adresa ispravna
+• Je li kontroler pristupa uključen i dostupan
 
 
-## Korak 4: Održavajte IP adresu stabilnom
+## Korak 5: Održavajte IP adresu stabilnom
 
 Kako biste izbjegli kasnije probleme, kontroler bi uvijek trebao koristiti istu IP adresu.
 
-To se može učiniti na sljedeći način:
-• Postavljanje statičke IP adrese na kontroleru
-• Stvaranje DHCP rezervacije u vašem usmjerivaču
+To se može učiniti tako da:
+• Postavite statičku IP adresu na kontroleru
+• Izradite DHCP rezervaciju u usmjerivaču
+
+
+## Demo način
+
+GateTap uključuje i demo način. Možete pokrenuti lokalni demo web-poslužitelj iz aplikacije i zatim ga dodati kao običan kontroler.
+
+Tako dobivate poznat ispravan testni put za provjeru radi li GateTap pravilno, čak i ako trenutno nemate pristup fizičkom kontroleru pristupa.
 
 
 ## Sigurnost

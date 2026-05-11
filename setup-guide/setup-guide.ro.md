@@ -1,7 +1,7 @@
 <!--
 Generated from GateTap app setup guide JSON.
 Do not edit manually.
-Version: 1.3
+Version: 1.4
 Language: ro
 -->
 
@@ -18,92 +18,109 @@ Conectați GateTap la controlerul dvs. de acces
 
 ## Înainte de a începe
 
-Asigurați-vă că iPhone-ul este conectat la aceeași rețea locală ca și controlerul de acces.
+Asigurați-vă că dispozitivul este conectat la aceeași rețea locală ca și controlerul de acces. De exemplu, verificați ca iPhone-ul să fie pe Wi-Fi-ul de acasă, nu pe conexiunea de date mobile.
 
-GateTap funcționează în întregime în rețeaua locală și are nevoie de:
+GateTap funcționează integral în rețeaua locală și are nevoie de:
 • Adresa IP a controlerului
 • Un nume de utilizator și o parolă
 
 
-## Pasul 1: Găsiți adresa și acreditările controlerului
+## Pasul 1: Găsiți adresa IP a controlerului de acces
 
-Pentru a conecta GateTap, aveți nevoie de adresa IP a controlerului și acreditările de conectare.
+Pentru a conecta GateTap, aveți nevoie de adresa IP a controlerului și de datele de autentificare - consultați Pasul 2.
 
 Alegeți una dintre următoarele opțiuni:
 
 
 ## Opțiunea A: Întrebați instalatorul dvs. (recomandat)
 
-Dacă sistemul dvs. a fost instalat de un electrician sau un tehnician, probabil că au configurat deja totul.
+Dacă sistemul a fost instalat de un electrician sau tehnician, probabil că acesta a configurat deja totul.
 
 În multe cazuri:
 • Controlerul folosește o adresă IP fixă
-• Sau routerul atribuie același IP prin rezervare
+• Sau routerul îi atribuie același IP prin rezervare DHCP
 
-Cereți-le adresa IP și detaliile de conectare. Aceasta este de obicei cea mai simplă și mai rapidă cale.
+Cereți adresa IP și datele de autentificare. De obicei, acesta este cel mai simplu și rapid mod.
 
 
 ## Opțiunea B: verificați routerul
 
 Deschideți pagina de configurare a routerului și căutați dispozitivele conectate.
 
-Pentru a vă accesa routerul, aveți nevoie de obicei de adresa locală a acestuia (de exemplu, `192.168.1.1` sau de un nume precum `fritz.box`) și de acreditările de conectare ale routerului.
+Pentru a accesa routerul, de obicei aveți nevoie de adresa locală, de exemplu `192.168.1.1` sau un nume precum `fritz.box`, și de datele de autentificare ale routerului.
 
-Această secțiune poate fi numită:
+Această secțiune se poate numi:
+• Rețea
 • Dispozitive conectate
 • LAN
 • Clienți DHCP
 
 Căutați:
 • Dispozitive cu fir necunoscute
-• Intrări care ar putea reprezenta controlerul dumneavoastră
+• Intrări care ar putea reprezenta controlerul dvs.
 
 Adresa IP va arăta de obicei astfel:
 `192.168.x.x` sau `10.0.x.x`
 
-![Exemplu de dispozitive conectate la router](../assets/setup-guide/ro/img_01.png)
+![Exemplu de dispozitive conectate în router](../assets/setup-guide/ro/img_01_en_US.png)
 
 
 ## Opțiunea C: Scanați-vă rețeaua
 
-Utilizați o aplicație de scanare de rețea pe iPhone sau computer.
+Folosiți o aplicație de scanare a rețelei pe dispozitiv.
 
-Scanați-vă rețeaua și încercați să deschideți adrese IP descoperite în Safari, de exemplu:
+Scanați rețeaua și încercați să deschideți adresele IP găsite în Safari, de exemplu:
 
 `http://192.168.1.50`
 
-Dacă apare pagina de conectare a controlerului, ați găsit adresa corectă.
+Dacă apare pagina de autentificare a controlerului de acces, ați găsit adresa corectă.
 
-![Exemplu de scaner de rețea](../assets/setup-guide/ro/img_02.png)
+![Exemplu de aplicație de scanare a rețelei](../assets/setup-guide/ro/img_02_en_US.png)
 
 
-## Pasul 2: Adăugați controlerul în GateTap
+## Pasul 2: Găsiți datele de autentificare ale controlerului de acces
+
+Unele controlere încă folosesc date de autentificare implicite. Un exemplu comun este numele de utilizator `abc` cu parola `654321`.
+
+Alte nume de utilizator din fabrică frecvent folosite sunt `user`, `admin` sau `123`. Le puteți încerca împreună cu parole tipice precum `1234`, `user` sau `password`, ori o variație a acestora.
+
+Dacă sistemul a fost instalat profesional, întrebați instalatorul dacă datele implicite au fost schimbate.
+
+
+## Pasul 3: Adăugați controlerul de acces în GateTap
 
 Deschideți GateTap și introduceți:
 • Adresa IP
-• Numele dvs. de utilizator
-• Parola dvs
+• Numele de utilizator
+• Parola
 
-Utilizați aceleași acreditări ca și pentru interfața web a controlerului.
+Folosiți aceleași date ca pentru interfața web a controlerului de acces.
 
 
-## Pasul 3: Testați conexiunea
+## Pasul 4: Testați conexiunea
 
 Salvați configurația și încercați să deschideți o ușă sau o poartă.
 
 Dacă nu se întâmplă nimic, verificați:
-• iPhone-ul dvs. este în aceeași rețea
+• Dispozitivul este în aceeași rețea cu controlerul de acces
 • Adresa IP este corectă
-• Controlerul este alimentat și accesibil
+• Controlerul de acces este alimentat și accesibil
 
 
-## Pasul 4: Păstrați adresa IP stabilă
+## Pasul 5: Păstrați adresa IP stabilă
 
-Pentru a evita problemele mai târziu, controlerul ar trebui să folosească întotdeauna aceeași adresă IP.
+Pentru a evita problemele mai târziu, controlerul ar trebui să folosească mereu aceeași adresă IP.
 
 Acest lucru se poate face prin:
 • Setarea unui IP static pe controler
-• Crearea unei rezervări DHCP în routerul dumneavoastră
+• Crearea unei rezervări DHCP în router
+
+
+## Mod demo
+
+GateTap include și un mod demo. Puteți porni un server web demo local din aplicație și apoi îl puteți adăuga ca pe un controler normal.
+
+Astfel aveți o cale de test cunoscută și funcțională pentru a verifica dacă GateTap funcționează corect, chiar dacă momentan nu aveți acces la un controler de acces fizic.
 
 
 ## Securitate
