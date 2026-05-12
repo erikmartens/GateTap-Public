@@ -7,44 +7,121 @@
 
 ---
 
-_**Lopeta kamppailu vanhentuneiden verkkokäyttöliittymien kanssa.**_
+# GateTap
 
-Monet kulunvalvontajärjestelmät käyttävät hitaita ja hankalia selain­sivuja vain oven tai portin avaamiseen. GateTap tarjoaa nopean, modernin ja kosketukselle optimoidun tavan ohjata järjestelmää suoraan iPhonesta.
+_**Moderni iPhone-käyttöliittymä yhteensopiville web-hallittaville kulunvalvontajärjestelmille.**_
 
-Paikallisverkkoihin rakennettu GateTap yhdistää suoraan kulunvalvontaohjaimeesi — ei pilveä, ei tilejä, ei viiveitä.
+Kulunvalvontaohjain on laite, joka ohjaa sähköisesti ovien, porttien, autotallien tai puomien avaamista — esimerkiksi aktivoimalla ovensummerin ovipuhelinjärjestelmän kautta tai ohjaamalla portin moottoria.
+
+Monet nykyaikaiset kulunvalvontajärjestelmät ovat yhteydessä paikallisverkkoon ja niitä voidaan ohjata verkkokäyttöliittymän kautta. Nämä käyttöliittymät ovat kuitenkin usein hitaita, vaikeita ja kömpelöitä käyttää. GateTap korvaa vanhentuneet verkkosivut nopealla, kosketukselle optimoidulla iPhone-kokemuksella.
+
+Paikallisverkkoja varten rakennettu GateTap yhdistää suoraan yhteensopiviin kulunvalvontaohjaimiin — ilman pilvipalveluja, tilauksia tai ulkoisia tilejä.
 
 ---
 
 ## Ominaisuudet
 
-• Ovien ja porttien ohjaus yhdellä napautuksella  
-• Nopea kirjautuminen tallennetuilla tunnuksilla (valinnainen)  
-• 🔐 Valinnainen Face ID / Touch ID -suojaus  
-• Toimii kokonaan paikallisverkossasi  
-• Selkeä, kosketusoptimoitu käyttöliittymä  
-• Pilviyhteyttä ei tarvita  
+• ☑️ Moderni porttien ja ovien ohjaus  
+• 📱 Intuitiivinen, kosketukselle optimoitu käyttöliittymä  
+• ⚡ Nopea kirjautuminen turvallisesti tallennetuilla tunnuksilla tai väliaikaisilla istuntotunnuksilla  
+• 🔐 Valinnainen Face ID / Touch ID -suojaus sovellukselle  
+• 📡 Suora paikallisverkkoviestintä  
+• ☁️ Pilviyhteyttä ei tarvita  
+• 🖥️ Suunniteltu sulautetuille web-hallittaville ohjaimille  
+• 🏢 Usean ohjaimen / usean kohteen tuki  
 
 ---
 
-## Käyttöönotto
+## Yhteensopivuus
 
-GateTap on tarkoitettu edistyneille käyttäjille ja vaatii manuaalisen määrityksen:
+GateTap on suunniteltu tietyille Ethernet- tai Wi‑Fi-yhteydellä varustetuille kulunvalvontaohjaimille, joissa on sisäänrakennettu selainpohjainen hallintakäyttöliittymä.
 
-1. Syötä laitteen paikallinen IP-osoite  
-2. Anna kirjautumistiedot  
-3. Testaa yhteys ja aloita järjestelmän ohjaus  
+Yhteensopivat järjestelmät tarjoavat yleensä:
+- paikallisen IP-pohjaisen pääsyn
+- sisäänrakennetut web-hallintasivut
+- selainkirjautumisen
+- releen tai kulunvalvonnan ohjauksen verkkokäyttöliittymän kautta
 
-GateTap toimii järjestelmissä, joissa on sisäinen verkkokäyttöliittymä. Yhteensopivuus riippuu laitteistosi kokoonpanosta.
+Yhteensopivuus riippuu seuraavista:
+- ohjaimen malli
+- laiteohjelmiston versio
+- verkkokäyttöliittymän rakenne
+- verkkoasetukset
 
-Lue koko [käyttöönotto-opas](../setup-guide/setup-guide.fi.md).
+### Ei yhteensopiva seuraavien kanssa
+
+GateTap ei yleensä **ole yhteensopiva** seuraavien kanssa:
+- vain pilvessä toimivat järjestelmät
+- vain Bluetoothia käyttävät järjestelmät
+- erilliset IR-kaukosäätimet
+- kulunvalvontaohjaimet ilman verkkokäyttöliittymiä
+- yleiset lukijat ilman verkkomoduuleja
+
+---
+
+## Kokeile ennen ostamista
+
+GateTapin voi ladata ja määrittää ilmaiseksi, jotta voit varmistaa yhteensopivuuden järjestelmäsi kanssa ennen ostamista.
+
+Ilmaisversiolla voit:
+- yhdistää ohjaimeesi
+- tarkistaa kirjautumistiedot
+- testata yhteensopivuuden
+- esikatsella ohjaimen käyttöliittymää
+
+Kertaluonteinen sovelluksen sisäinen osto avaa:
+- porttien ja ovien laukaisun
+- ohjaimen täyden käyttötoiminnallisuuden
+- usean ohjaimen / usean kohteen tuen
+- tulevat lisäominaisuudet
+
+Tilausta ei tarvita.
+
+---
+
+## Määritys
+
+GateTap on tarkoitettu teknisesti kokeneille käyttäjille ja edellyttää manuaalista määritystä.
+
+1. Syötä ohjaimesi paikallinen IP-osoite  
+2. Anna kirjautumistietosi  
+3. Testaa yhteys  
+4. Avaa täysi toiminnallisuus ja aloita järjestelmän ohjaaminen suoraan iPhonella  
+
+Lue koko [määritysopas](../setup-guide/setup-guide.fi.md).
+
+---
+
+## Tuki ja yhteensopivuusapu
+
+Koska kulunvalvontalaitteisto vaihtelee merkittävästi valmistajien ja laiteohjelmistoversioiden välillä, yhteensopivuutta ei voida taata kaikille järjestelmille.
+
+Jos ohjaintasi ei tällä hetkellä tueta, tuki voi silti olla mahdollinen.
+
+Käyttäjät voivat ottaa yhteyttä tukeen ja toimittaa:
+- kuvakaappauksia ohjaimen verkkokäyttöliittymästä
+- vietyjä HTML-sivuja
+- ohjaimen mallitiedot
+- laiteohjelmiston tiedot
+
+Kun se on mahdollista, yhteensopivuusparannuksia voidaan kehittää ja testata yhdessä käyttäjien kanssa TestFlight-beta-versioiden kautta.
+
+Huomaa, että tämä prosessi voi olla tekninen ja voi edellyttää aktiivista yhteistyötä testauksen aikana.
 
 ---
 
 ## Yksityisyys ensin
 
-Tietosi pysyvät laitteellasi. GateTap ei lähetä tunnuksiasi tai komentoja ulkoisille palvelimille.
+Tietosi pysyvät laitteellasi.
 
-Valinnainen kaatumisraportointi voidaan poistaa käytöstä milloin tahansa.
+GateTap ei lähetä:
+- tunnistetietoja
+- komentoja
+- ohjaimen tietoja
+
+ulkoisille palvelimille.
+
+Valinnaisen kaatumisraportoinnin voi poistaa käytöstä milloin tahansa.
 
 Lue koko [tietosuojakäytäntö](../legal/fi/privacy-policy.fi.md) ja [käyttöehdot](../legal/fi/terms-of-use.fi.md).
 
@@ -52,10 +129,12 @@ Lue koko [tietosuojakäytäntö](../legal/fi/privacy-policy.fi.md) ja [käyttöe
 
 ## Yhteystiedot
 
-Kysymyksiä, palautetta tai tukea varten ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+Tukea, yhteensopivuuskysymyksiä tai palautetta varten:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Huomautus
+## Vastuuvapauslauseke
 
-GateTap on riippumaton sovellus eikä ole yhteydessä mihinkään laitevalmistajaan.
+GateTap on itsenäinen sovellus, eikä se ole sidoksissa mihinkään kulunvalvontalaitteiston valmistajaan tai näiden hyväksymä.

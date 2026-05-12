@@ -7,44 +7,121 @@
 
 ---
 
-_**Deja de batallar con interfaces web obsoletas.**_
+# GateTap
 
-Muchos sistemas de control de acceso dependen de páginas web lentas y difíciles de usar solo para abrir una puerta o un portón. GateTap te da una forma rápida, moderna y táctil de controlar tu sistema directamente desde tu iPhone.
+_**Una interfaz moderna para iPhone para sistemas de control de acceso compatibles administrados por web.**_
 
-Diseñada para redes locales, GateTap se conecta directamente a tu controlador de acceso: sin nube, sin cuentas y sin retrasos.
+Un controlador de acceso es un dispositivo que administra electrónicamente la apertura de puertas, portones, cocheras o barreras; por ejemplo, activando un abrepuertas mediante el intercomunicador o controlando el motor de un portón.
+
+Muchos sistemas modernos de control de acceso están conectados a la red local y pueden controlarse mediante una interfaz web. Sin embargo, estas interfaces suelen ser lentas, difíciles e incómodas de usar. GateTap reemplaza las páginas web obsoletas por una experiencia rápida, optimizada para el tacto y diseñada para iPhone.
+
+Diseñada para redes locales, GateTap se conecta directamente a controladores de acceso compatibles, sin servicios en la nube, suscripciones ni cuentas externas.
 
 ---
 
 ## Funciones
 
-• Control de puertas y portones con un toque  
-• Inicio de sesión rápido con credenciales guardadas (opcional)  
-• 🔐 Protección opcional con Face ID / Touch ID  
-• Funciona completamente dentro de tu red local  
-• Interfaz limpia y optimizada para touch  
-• No requiere conexión a la nube  
+• ☑️ Control moderno de portones y puertas  
+• 📱 Interfaz intuitiva y optimizada para el tacto  
+• ⚡ Inicio de sesión rápido con credenciales guardadas de forma segura o credenciales temporales de sesión  
+• 🔐 Protección opcional de la app con Face ID / Touch ID  
+• 📡 Comunicación directa en la red local  
+• ☁️ No requiere conexión a la nube  
+• 🖥️ Diseñada para controladores integrados administrados por web  
+• 🏢 Compatibilidad con varios controladores / varias ubicaciones  
+
+---
+
+## Compatibilidad
+
+GateTap está diseñada para determinados controladores de acceso con Ethernet o Wi‑Fi que ofrecen una interfaz de administración integrada basada en navegador.
+
+Los sistemas compatibles normalmente ofrecen:
+- acceso local basado en IP
+- páginas de administración web integradas
+- inicio de sesión desde el navegador
+- control de relevadores o de acceso a través de la interfaz web
+
+La compatibilidad depende de:
+- modelo del controlador
+- versión del firmware
+- estructura de la interfaz web
+- configuración de red
+
+### No compatible con
+
+GateTap generalmente **no es compatible** con:
+- sistemas solo en la nube
+- sistemas solo Bluetooth
+- controles IR independientes
+- controladores de acceso sin interfaces web
+- lectores genéricos sin módulos de red
+
+---
+
+## Pruébala antes de comprar
+
+GateTap se puede descargar y configurar gratis para que puedas verificar la compatibilidad con tu sistema antes de comprar.
+
+La versión gratuita te permite:
+- conectarte a tu controlador
+- verificar las credenciales de inicio de sesión
+- probar la compatibilidad
+- previsualizar la interfaz del controlador
+
+Una compra única dentro de la app desbloquea:
+- activación de portones y puertas
+- uso operativo completo del controlador
+- compatibilidad con varios controladores / varias ubicaciones
+- futuras funciones avanzadas
+
+No requiere suscripción.
 
 ---
 
 ## Configuración
 
-GateTap está diseñada para usuarios avanzados y requiere configuración manual:
+GateTap está pensada para usuarios con experiencia técnica y requiere configuración manual.
 
-1. Ingresa la dirección IP local del dispositivo  
+1. Ingresa la dirección IP local del controlador  
 2. Proporciona tus credenciales de inicio de sesión  
-3. Prueba la conexión y empieza a controlar tu sistema  
-
-GateTap funciona con sistemas que ofrecen una interfaz web integrada. La compatibilidad depende de la configuración de tu hardware.
+3. Prueba la conexión  
+4. Desbloquea la funcionalidad completa y empieza a controlar tu sistema directamente desde el iPhone  
 
 Lee la [Guía de configuración](../setup-guide/setup-guide.es-MX.md) completa.
 
 ---
 
-## Privacidad primero
+## Soporte y ayuda de compatibilidad
 
-Tus datos se quedan en tu dispositivo. GateTap no envía tus credenciales ni comandos a servidores externos.
+Como el hardware de control de acceso varía mucho entre fabricantes y versiones de firmware, no se puede garantizar la compatibilidad con todos los sistemas.
 
-Los reportes opcionales de fallos pueden desactivarse en cualquier momento.
+Si tu controlador no es compatible actualmente, es posible que aún pueda agregarse soporte.
+
+Los usuarios pueden contactar a soporte y proporcionar:
+- capturas de pantalla de la interfaz web del controlador
+- páginas HTML exportadas
+- información del modelo del controlador
+- detalles del firmware
+
+Cuando sea viable, se pueden desarrollar y probar mejoras de compatibilidad junto con los usuarios mediante versiones beta de TestFlight.
+
+Ten en cuenta que este proceso puede ser técnico y puede requerir colaboración activa durante las pruebas.
+
+---
+
+## Privacidad ante todo
+
+Tus datos permanecen en tu dispositivo.
+
+GateTap no envía:
+- credenciales
+- comandos
+- datos del controlador
+
+a servidores externos.
+
+Los reportes de fallos opcionales se pueden desactivar en cualquier momento.
 
 Lee la [Política de privacidad](../legal/es-MX/privacy-policy.es-MX.md) y los [Términos de uso](../legal/es-MX/terms-of-use.es-MX.md) completos.
 
@@ -52,10 +129,12 @@ Lee la [Política de privacidad](../legal/es-MX/privacy-policy.es-MX.md) y los [
 
 ## Contacto
 
-Para preguntas, comentarios o soporte, escribe a [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+Para soporte, preguntas de compatibilidad o comentarios:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Nota
+## Aviso legal
 
-GateTap es una app independiente y no está afiliada a ningún fabricante de hardware.
+GateTap es una aplicación independiente y no está afiliada ni respaldada por ningún fabricante de hardware de control de acceso.

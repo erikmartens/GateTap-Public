@@ -7,44 +7,121 @@
 
 ---
 
-_**Ngừng vật lộn với các giao diện web lỗi thời.**_
+# GateTap
 
-Nhiều hệ thống kiểm soát ra vào vẫn dựa vào các trang trình duyệt chậm và khó dùng chỉ để mở cửa hoặc cổng. GateTap mang đến cách điều khiển nhanh, hiện đại và thân thiện với cảm ứng ngay trên iPhone.
+_**Giao diện iPhone hiện đại cho các hệ thống kiểm soát ra vào tương thích được quản lý qua web.**_
 
-Được xây dựng cho mạng cục bộ, GateTap kết nối trực tiếp với bộ điều khiển ra vào của bạn — không đám mây, không tài khoản, không độ trễ.
+Bộ điều khiển ra vào là thiết bị quản lý điện tử việc mở cửa, cổng, gara hoặc rào chắn — ví dụ bằng cách kích hoạt chuông mở cửa qua hệ thống liên lạc nội bộ hoặc điều khiển động cơ cổng.
+
+Nhiều hệ thống kiểm soát ra vào hiện đại được kết nối với mạng cục bộ và có thể được điều khiển qua giao diện web. Tuy nhiên, các giao diện này thường chậm, khó dùng và rườm rà. GateTap thay thế các trang web lỗi thời bằng trải nghiệm nhanh, tối ưu cho cảm ứng và được thiết kế cho iPhone.
+
+Được xây dựng cho mạng cục bộ, GateTap kết nối trực tiếp với các bộ điều khiển ra vào tương thích — không cần dịch vụ đám mây, gói đăng ký hoặc tài khoản bên ngoài.
 
 ---
 
 ## Tính năng
 
-• Điều khiển cửa và cổng bằng một lần chạm  
-• Đăng nhập nhanh với thông tin đã lưu (tùy chọn)  
-• 🔐 Bảo vệ tùy chọn bằng Face ID / Touch ID  
-• Hoạt động hoàn toàn trong mạng cục bộ của bạn  
-• Giao diện sạch, tối ưu cho cảm ứng  
-• Không cần kết nối đám mây  
+• ☑️ Điều khiển cổng & cửa hiện đại  
+• 📱 Giao diện trực quan, tối ưu cho cảm ứng  
+• ⚡ Đăng nhập nhanh bằng thông tin xác thực được lưu an toàn hoặc thông tin xác thực phiên tạm thời  
+• 🔐 Bảo vệ ứng dụng tùy chọn bằng Face ID / Touch ID  
+• 📡 Giao tiếp trực tiếp trong mạng cục bộ  
+• ☁️ Không cần kết nối đám mây  
+• 🖥️ Được thiết kế cho bộ điều khiển nhúng quản lý qua web  
+• 🏢 Hỗ trợ nhiều bộ điều khiển / nhiều địa điểm  
+
+---
+
+## Khả năng tương thích
+
+GateTap được thiết kế cho một số bộ điều khiển ra vào có Ethernet hoặc Wi‑Fi cung cấp giao diện quản lý tích hợp dựa trên trình duyệt.
+
+Các hệ thống tương thích thường cung cấp:
+- truy cập cục bộ dựa trên IP
+- trang quản trị web tích hợp
+- chức năng đăng nhập bằng trình duyệt
+- điều khiển rơ-le hoặc ra vào qua giao diện web
+
+Khả năng tương thích phụ thuộc vào:
+- model bộ điều khiển
+- phiên bản firmware
+- cấu trúc giao diện web
+- cấu hình mạng
+
+### Không tương thích với
+
+GateTap nhìn chung **không tương thích** với:
+- hệ thống chỉ dùng đám mây
+- hệ thống chỉ dùng Bluetooth
+- điều khiển IR độc lập
+- bộ điều khiển ra vào không có giao diện web
+- đầu đọc chung không có mô-đun mạng
+
+---
+
+## Dùng thử trước khi mua
+
+GateTap có thể được tải xuống và cấu hình miễn phí để bạn xác minh khả năng tương thích với hệ thống của mình trước khi mua.
+
+Phiên bản miễn phí cho phép bạn:
+- kết nối với bộ điều khiển
+- xác minh thông tin đăng nhập
+- kiểm tra khả năng tương thích
+- xem trước giao diện bộ điều khiển
+
+Một lần mua trong ứng dụng sẽ mở khóa:
+- kích hoạt cổng & cửa
+- sử dụng đầy đủ bộ điều khiển trong vận hành
+- hỗ trợ nhiều bộ điều khiển / nhiều địa điểm
+- các tính năng nâng cao trong tương lai
+
+Không cần đăng ký.
 
 ---
 
 ## Thiết lập
 
-GateTap được thiết kế cho người dùng nâng cao và cần thiết lập thủ công:
+GateTap dành cho người dùng có kinh nghiệm kỹ thuật và yêu cầu cấu hình thủ công.
 
-1. Nhập địa chỉ IP cục bộ của thiết bị  
-2. Cung cấp thông tin đăng nhập  
-3. Kiểm tra kết nối và bắt đầu điều khiển hệ thống  
-
-GateTap hoạt động với các hệ thống có giao diện web tích hợp. Khả năng tương thích phụ thuộc vào cấu hình phần cứng của bạn.
+1. Nhập địa chỉ IP cục bộ của bộ điều khiển  
+2. Cung cấp thông tin đăng nhập của bạn  
+3. Kiểm tra kết nối  
+4. Mở khóa đầy đủ chức năng và bắt đầu điều khiển hệ thống trực tiếp từ iPhone  
 
 Đọc đầy đủ [Hướng dẫn thiết lập](../setup-guide/setup-guide.vi.md).
 
 ---
 
-## Ưu tiên quyền riêng tư
+## Hỗ trợ & trợ giúp tương thích
 
-Dữ liệu của bạn ở lại trên thiết bị. GateTap không gửi thông tin đăng nhập hoặc lệnh điều khiển đến máy chủ bên ngoài.
+Do phần cứng kiểm soát ra vào khác nhau đáng kể giữa các nhà sản xuất và phiên bản firmware, không thể đảm bảo khả năng tương thích cho mọi hệ thống.
 
-Báo cáo sự cố tùy chọn có thể được tắt bất cứ lúc nào.
+Nếu bộ điều khiển của bạn hiện chưa được hỗ trợ, việc hỗ trợ vẫn có thể thực hiện được.
+
+Người dùng có thể liên hệ bộ phận hỗ trợ và cung cấp:
+- ảnh chụp màn hình giao diện web của bộ điều khiển
+- các trang HTML đã xuất
+- thông tin model bộ điều khiển
+- chi tiết firmware
+
+Khi khả thi, các cải tiến tương thích có thể được phát triển và thử nghiệm cùng người dùng thông qua bản beta TestFlight.
+
+Vui lòng lưu ý rằng quy trình này có thể mang tính kỹ thuật và có thể cần sự hợp tác tích cực trong quá trình thử nghiệm.
+
+---
+
+## Quyền riêng tư trước tiên
+
+Dữ liệu của bạn vẫn ở trên thiết bị của bạn.
+
+GateTap không gửi:
+- thông tin xác thực
+- lệnh
+- dữ liệu bộ điều khiển
+
+đến máy chủ bên ngoài.
+
+Có thể tắt báo cáo sự cố tùy chọn bất cứ lúc nào.
 
 Đọc đầy đủ [Chính sách quyền riêng tư](../legal/vi/privacy-policy.vi.md) và [Điều khoản sử dụng](../legal/vi/terms-of-use.vi.md).
 
@@ -52,10 +129,12 @@ Báo cáo sự cố tùy chọn có thể được tắt bất cứ lúc nào.
 
 ## Liên hệ
 
-Để đặt câu hỏi, góp ý hoặc cần hỗ trợ, hãy liên hệ [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+Để được hỗ trợ, hỏi về khả năng tương thích hoặc gửi phản hồi:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Lưu ý
+## Tuyên bố miễn trừ trách nhiệm
 
-GateTap là ứng dụng độc lập và không liên kết với bất kỳ nhà sản xuất phần cứng nào.
+GateTap là một ứng dụng độc lập và không liên kết hoặc được chứng thực bởi bất kỳ nhà sản xuất phần cứng kiểm soát ra vào nào.

@@ -7,42 +7,119 @@
 
 ---
 
-_**Slutt å streve med utdaterte webgrensesnitt.**_
+# GateTap
 
-Mange adgangskontrollsystemer bruker trege og vanskelige nettlesersider bare for å åpne en dør eller port. GateTap gir deg en rask, moderne og berøringsvennlig måte å styre systemet direkte fra iPhone.
+_**Et moderne iPhone-grensesnitt for kompatible webadministrerte adgangskontrollsystemer.**_
 
-GateTap er laget for lokale nettverk og kobler direkte til adgangskontrolleren — ingen sky, ingen kontoer, ingen forsinkelser.
+En adgangskontroller er en enhet som elektronisk styrer åpning av dører, porter, garasjer eller bommer — for eksempel ved å aktivere en døråpner via porttelefonsystemet ditt eller styre en portmotor.
+
+Mange moderne adgangskontrollsystemer er koblet til det lokale nettverket og kan styres via et webgrensesnitt. Disse grensesnittene er imidlertid ofte trege, vanskelige og tungvinte å bruke. GateTap erstatter utdaterte websider med en rask, berøringsoptimalisert opplevelse designet for iPhone.
+
+GateTap er bygget for lokale nettverk og kobler direkte til kompatible adgangskontrollere — uten skytjenester, abonnementer eller eksterne kontoer.
 
 ---
 
 ## Funksjoner
 
-• Dør- og portstyring med ett trykk  
-• Rask innlogging med lagrede legitimasjoner (valgfritt)  
-• 🔐 Valgfri beskyttelse med Face ID / Touch ID  
-• Fungerer helt innenfor det lokale nettverket  
-• Rent, berøringsoptimalisert grensesnitt  
-• Ingen skytilkobling kreves  
+• ☑️ Moderne port- og dørstyring  
+• 📱 Intuitivt, berøringsoptimalisert grensesnitt  
+• ⚡ Rask innlogging med sikkert lagrede påloggingsopplysninger eller midlertidige øktopplysninger  
+• 🔐 Valgfri Face ID / Touch ID-beskyttelse for appen  
+• 📡 Direkte kommunikasjon på lokalt nettverk  
+• ☁️ Ingen skytilkobling kreves  
+• 🖥️ Designet for innebygde webadministrerte kontrollere  
+• 🏢 Støtte for flere kontrollere / flere steder  
+
+---
+
+## Kompatibilitet
+
+GateTap er designet for enkelte Ethernet- eller Wi‑Fi-aktiverte adgangskontrollere som har et innebygd nettleserbasert administrasjonsgrensesnitt.
+
+Kompatible systemer tilbyr vanligvis:
+- lokal IP-basert tilgang
+- innebygde webadministrasjonssider
+- nettleserinnlogging
+- relé- eller adgangsstyring via webgrensesnittet
+
+Kompatibilitet avhenger av:
+- kontrollermodell
+- firmwareversjon
+- webgrensesnittets struktur
+- nettverkskonfigurasjon
+
+### Ikke kompatibel med
+
+GateTap er generelt **ikke kompatibel** med:
+- systemer som kun er skybaserte
+- systemer som kun bruker Bluetooth
+- frittstående IR-fjernkontroller
+- adgangskontrollere uten webgrensesnitt
+- generiske lesere uten nettverksmoduler
+
+---
+
+## Prøv før du kjøper
+
+GateTap kan lastes ned og konfigureres gratis, slik at du kan bekrefte kompatibiliteten med systemet ditt før du kjøper.
+
+Gratisversjonen lar deg:
+- koble til kontrolleren
+- verifisere påloggingsopplysninger
+- teste kompatibilitet
+- forhåndsvise kontrollergrensesnittet
+
+Et engangskjøp i appen låser opp:
+- aktivering av porter og dører
+- full operativ bruk av kontrolleren
+- støtte for flere kontrollere / flere steder
+- fremtidige avanserte funksjoner
+
+Ingen abonnement kreves.
 
 ---
 
 ## Oppsett
 
-GateTap er laget for avanserte brukere og krever manuelt oppsett:
+GateTap er ment for teknisk erfarne brukere og krever manuell konfigurasjon.
 
-1. Skriv inn enhetens lokale IP-adresse  
-2. Oppgi innloggingsinformasjonen din  
-3. Test tilkoblingen og begynn å styre systemet  
+1. Skriv inn kontrollerens lokale IP-adresse  
+2. Oppgi påloggingsopplysningene dine  
+3. Test tilkoblingen  
+4. Lås opp full funksjonalitet og begynn å styre systemet direkte fra iPhone  
 
-GateTap fungerer med systemer som tilbyr et innebygd webgrensesnitt. Kompatibilitet avhenger av maskinvarekonfigurasjonen.
+Les hele [oppsettveiledningen](../setup-guide/setup-guide.nb.md).
 
-Les hele [oppsettsveiledningen](../setup-guide/setup-guide.nb.md).
+---
+
+## Støtte og kompatibilitetshjelp
+
+Siden adgangskontrollmaskinvare varierer betydelig mellom produsenter og firmwareversjoner, kan kompatibilitet ikke garanteres for alle systemer.
+
+Hvis kontrolleren din ikke støttes for øyeblikket, kan støtte likevel være mulig.
+
+Brukere kan kontakte støtte og oppgi:
+- skjermbilder av kontrollerens webgrensesnitt
+- eksporterte HTML-sider
+- informasjon om kontrollermodell
+- firmwaredetaljer
+
+Når det er mulig, kan kompatibilitetsforbedringer utvikles og testes sammen med brukere gjennom TestFlight-betaer.
+
+Vær oppmerksom på at denne prosessen kan være teknisk og kan kreve aktivt samarbeid under testing.
 
 ---
 
 ## Personvern først
 
-Dataene dine blir på enheten. GateTap sender ikke legitimasjoner eller kommandoer til eksterne servere.
+Dataene dine blir på enheten din.
+
+GateTap sender ikke:
+- påloggingsopplysninger
+- kommandoer
+- kontrollerdata
+
+til eksterne servere.
 
 Valgfri krasjrapportering kan deaktiveres når som helst.
 
@@ -52,10 +129,12 @@ Les hele [personvernerklæringen](../legal/nb/privacy-policy.nb.md) og [bruksvil
 
 ## Kontakt
 
-For spørsmål, tilbakemeldinger eller støtte, kontakt [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+For støtte, kompatibilitetsspørsmål eller tilbakemelding:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Merk
+## Ansvarsfraskrivelse
 
-GateTap er en uavhengig app og er ikke tilknyttet noen maskinvareprodusent.
+GateTap er en uavhengig app og er ikke tilknyttet eller godkjent av noen produsent av adgangskontrollmaskinvare.

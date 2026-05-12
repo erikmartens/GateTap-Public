@@ -7,42 +7,119 @@
 
 ---
 
-_**Přestaňte bojovat se zastaralými webovými rozhraními.**_
+# GateTap
 
-Mnoho přístupových systémů spoléhá na pomalé a nepohodlné webové stránky jen proto, aby bylo možné otevřít dveře nebo bránu. GateTap nabízí rychlý, moderní a dotykově příjemný způsob ovládání přímo z iPhonu.
+_**Moderní rozhraní pro iPhone pro kompatibilní webově spravované systémy kontroly přístupu.**_
 
-GateTap je navržen pro místní sítě a připojuje se přímo k vašemu přístupovému kontroléru — bez cloudu, bez účtů a bez zpoždění.
+Řadič přístupu je zařízení, které elektronicky řídí otevírání dveří, bran, garáží nebo závor — například aktivací dveřního bzučáku přes domovní telefon nebo ovládáním motoru brány.
+
+Mnoho moderních systémů kontroly přístupu je připojeno k místní síti a lze je ovládat přes webové rozhraní. Tato rozhraní jsou však často pomalá, obtížná a nepohodlná k používání. GateTap nahrazuje zastaralé webové stránky rychlým, dotykově optimalizovaným prostředím navrženým pro iPhone.
+
+GateTap je vytvořen pro místní sítě a připojuje se přímo ke kompatibilním řadičům přístupu — bez cloudových služeb, předplatného nebo externích účtů.
 
 ---
 
 ## Funkce
 
-• Ovládání dveří a bran jedním klepnutím  
-• Rychlé přihlášení s uloženými údaji (volitelné)  
-• 🔐 Volitelná ochrana pomocí Face ID / Touch ID  
-• Funguje výhradně v místní síti  
-• Čisté rozhraní optimalizované pro dotyk  
-• Nevyžaduje cloudové připojení  
+• ☑️ Moderní ovládání bran a dveří  
+• 📱 Intuitivní rozhraní optimalizované pro dotyk  
+• ⚡ Rychlé přihlášení s bezpečně uloženými přihlašovacími údaji nebo dočasnými údaji relace  
+• 🔐 Volitelná ochrana aplikace pomocí Face ID / Touch ID  
+• 📡 Přímá komunikace v místní síti  
+• ☁️ Není vyžadováno cloudové připojení  
+• 🖥️ Navrženo pro vestavěné webově spravované řadiče  
+• 🏢 Podpora více řadičů / více míst  
+
+---
+
+## Kompatibilita
+
+GateTap je navržen pro určité řadiče přístupu s Ethernetem nebo Wi‑Fi, které poskytují integrované rozhraní pro správu v prohlížeči.
+
+Kompatibilní systémy obvykle poskytují:
+- místní přístup přes IP adresu
+- vestavěné webové administrační stránky
+- přihlášení přes prohlížeč
+- ovládání relé nebo přístupu přes webové rozhraní
+
+Kompatibilita závisí na:
+- modelu řadiče
+- verzi firmwaru
+- struktuře webového rozhraní
+- konfiguraci sítě
+
+### Není kompatibilní s
+
+GateTap obecně **není kompatibilní** s:
+- systémy pouze v cloudu
+- systémy pouze přes Bluetooth
+- samostatnými IR ovladači
+- řadiči přístupu bez webového rozhraní
+- obecnými čtečkami bez síťových modulů
+
+---
+
+## Vyzkoušejte před nákupem
+
+GateTap si můžete zdarma stáhnout a nakonfigurovat, abyste si před nákupem ověřili kompatibilitu se svým systémem.
+
+Bezplatná verze umožňuje:
+- připojit se k řadiči
+- ověřit přihlašovací údaje
+- otestovat kompatibilitu
+- zobrazit náhled rozhraní řadiče
+
+Jednorázový nákup v aplikaci odemkne:
+- spouštění bran a dveří
+- plné provozní používání řadiče
+- podporu více řadičů / více míst
+- budoucí pokročilé funkce
+
+Není vyžadováno předplatné.
 
 ---
 
 ## Nastavení
 
-GateTap je určen pro pokročilé uživatele a vyžaduje ruční nastavení:
+GateTap je určen pro technicky zkušené uživatele a vyžaduje ruční konfiguraci.
 
-1. Zadejte místní IP adresu zařízení  
-2. Zadejte přihlašovací údaje  
-3. Otestujte připojení a začněte systém ovládat  
+1. Zadejte místní IP adresu řadiče  
+2. Zadejte své přihlašovací údaje  
+3. Otestujte připojení  
+4. Odemkněte plnou funkčnost a začněte systém ovládat přímo z iPhonu  
 
-GateTap funguje se systémy, které poskytují vestavěné webové rozhraní. Kompatibilita závisí na konfiguraci hardwaru.
+Přečtěte si úplnou [příručku nastavení](../setup-guide/setup-guide.cs.md).
 
-Přečtěte si úplnou [Příručku nastavení](../setup-guide/setup-guide.cs.md).
+---
+
+## Podpora a pomoc s kompatibilitou
+
+Protože se hardware pro kontrolu přístupu mezi výrobci a verzemi firmwaru výrazně liší, nelze kompatibilitu zaručit pro všechny systémy.
+
+Pokud váš řadič aktuálně není podporován, podpora může být stále možná.
+
+Uživatelé mohou kontaktovat podporu a poskytnout:
+- snímky obrazovky webového rozhraní řadiče
+- exportované HTML stránky
+- informace o modelu řadiče
+- podrobnosti o firmwaru
+
+Pokud je to proveditelné, lze zlepšení kompatibility vyvíjet a testovat společně s uživateli prostřednictvím beta verzí TestFlight.
+
+Upozorňujeme, že tento proces může být technický a může vyžadovat aktivní spolupráci během testování.
 
 ---
 
 ## Soukromí na prvním místě
 
-Vaše data zůstávají ve vašem zařízení. GateTap neposílá přihlašovací údaje ani příkazy na externí servery.
+Vaše data zůstávají ve vašem zařízení.
+
+GateTap neposílá:
+- přihlašovací údaje
+- příkazy
+- data řadiče
+
+na externí servery.
 
 Volitelné hlášení pádů lze kdykoli vypnout.
 
@@ -52,10 +129,12 @@ Přečtěte si úplné [Zásady ochrany osobních údajů](../legal/cs/privacy-p
 
 ## Kontakt
 
-S dotazy, zpětnou vazbou nebo žádostí o podporu pište na [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+Pro podporu, dotazy ke kompatibilitě nebo zpětnou vazbu:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Poznámka
+## Prohlášení
 
-GateTap je nezávislá aplikace a není spojena s žádným výrobcem hardwaru.
+GateTap je nezávislá aplikace a není přidružena k žádnému výrobci hardwaru pro kontrolu přístupu ani jím podporována.

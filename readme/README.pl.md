@@ -7,42 +7,119 @@
 
 ---
 
-_**Przestań męczyć się z przestarzałymi interfejsami WWW.**_
+# GateTap
 
-Wiele systemów kontroli dostępu polega na powolnych i trudnych w użyciu stronach w przeglądarce tylko po to, aby otworzyć drzwi lub bramę. GateTap daje szybki, nowoczesny i dotykowy sposób sterowania systemem bezpośrednio z iPhone’a.
+_**Nowoczesny interfejs iPhone’a dla zgodnych, zarządzanych przez web systemów kontroli dostępu.**_
 
-GateTap został zbudowany z myślą o sieciach lokalnych i łączy się bezpośrednio z kontrolerem dostępu — bez chmury, bez kont i bez opóźnień.
+Kontroler dostępu to urządzenie, które elektronicznie zarządza otwieraniem drzwi, bram, garaży lub szlabanów — na przykład przez aktywowanie zaczepu drzwiowego za pośrednictwem domofonu albo sterowanie silnikiem bramy.
+
+Wiele nowoczesnych systemów kontroli dostępu jest podłączonych do sieci lokalnej i może być sterowanych przez interfejs webowy. Takie interfejsy są jednak często wolne, trudne i niewygodne w użyciu. GateTap zastępuje przestarzałe strony webowe szybkim, zoptymalizowanym pod dotyk doświadczeniem zaprojektowanym dla iPhone’a.
+
+GateTap został stworzony dla sieci lokalnych i łączy się bezpośrednio ze zgodnymi kontrolerami dostępu — bez usług chmurowych, subskrypcji ani kont zewnętrznych.
 
 ---
 
 ## Funkcje
 
-• Sterowanie drzwiami i bramami jednym stuknięciem  
-• Szybkie logowanie z zapisanymi danymi (opcjonalnie)  
-• 🔐 Opcjonalna ochrona Face ID / Touch ID  
-• Działa całkowicie w sieci lokalnej  
-• Czysty interfejs zoptymalizowany pod dotyk  
-• Nie wymaga połączenia z chmurą  
+• ☑️ Nowoczesne sterowanie bramą i drzwiami  
+• 📱 Intuicyjny interfejs zoptymalizowany pod dotyk  
+• ⚡ Szybkie logowanie z bezpiecznie zapisanymi danymi uwierzytelniającymi lub tymczasowymi danymi sesji  
+• 🔐 Opcjonalna ochrona aplikacji przez Face ID / Touch ID  
+• 📡 Bezpośrednia komunikacja w sieci lokalnej  
+• ☁️ Nie wymaga połączenia z chmurą  
+• 🖥️ Zaprojektowany dla wbudowanych kontrolerów zarządzanych przez web  
+• 🏢 Obsługa wielu kontrolerów / wielu lokalizacji  
+
+---
+
+## Zgodność
+
+GateTap jest przeznaczony dla określonych kontrolerów dostępu z Ethernetem lub Wi‑Fi, które oferują wbudowany interfejs administracyjny oparty na przeglądarce.
+
+Zgodne systemy zazwyczaj oferują:
+- lokalny dostęp oparty na IP
+- wbudowane strony administracji webowej
+- funkcję logowania w przeglądarce
+- sterowanie przekaźnikiem lub dostępem przez interfejs webowy
+
+Zgodność zależy od:
+- modelu kontrolera
+- wersji firmware’u
+- struktury interfejsu webowego
+- konfiguracji sieci
+
+### Niezgodne z
+
+GateTap zasadniczo **nie jest zgodny** z:
+- systemami wyłącznie chmurowymi
+- systemami wyłącznie Bluetooth
+- samodzielnymi pilotami IR
+- kontrolerami dostępu bez interfejsów webowych
+- uniwersalnymi czytnikami bez modułów sieciowych
+
+---
+
+## Wypróbuj przed zakupem
+
+GateTap można pobrać i skonfigurować bezpłatnie, aby przed zakupem sprawdzić zgodność z własnym systemem.
+
+Darmowa wersja pozwala:
+- połączyć się z kontrolerem
+- zweryfikować dane logowania
+- przetestować zgodność
+- podejrzeć interfejs kontrolera
+
+Jednorazowy zakup w aplikacji odblokowuje:
+- uruchamianie bram i drzwi
+- pełne operacyjne korzystanie z kontrolera
+- obsługę wielu kontrolerów / wielu lokalizacji
+- przyszłe funkcje zaawansowane
+
+Subskrypcja nie jest wymagana.
 
 ---
 
 ## Konfiguracja
 
-GateTap jest przeznaczony dla zaawansowanych użytkowników i wymaga ręcznej konfiguracji:
+GateTap jest przeznaczony dla technicznie doświadczonych użytkowników i wymaga konfiguracji ręcznej.
 
-1. Wprowadź lokalny adres IP urządzenia  
+1. Wprowadź lokalny adres IP kontrolera  
 2. Podaj dane logowania  
-3. Przetestuj połączenie i zacznij sterować systemem  
-
-GateTap działa z systemami udostępniającymi wbudowany interfejs WWW. Zgodność zależy od konfiguracji sprzętu.
+3. Przetestuj połączenie  
+4. Odblokuj pełną funkcjonalność i zacznij sterować systemem bezpośrednio z iPhone’a  
 
 Przeczytaj pełny [przewodnik konfiguracji](../setup-guide/setup-guide.pl.md).
 
 ---
 
+## Wsparcie i pomoc w zgodności
+
+Ponieważ sprzęt kontroli dostępu znacząco różni się między producentami i wersjami firmware’u, zgodności nie można zagwarantować dla wszystkich systemów.
+
+Jeśli Twój kontroler nie jest obecnie obsługiwany, wsparcie może nadal być możliwe.
+
+Użytkownicy mogą skontaktować się ze wsparciem i przekazać:
+- zrzuty ekranu interfejsu webowego kontrolera
+- wyeksportowane strony HTML
+- informacje o modelu kontrolera
+- szczegóły firmware’u
+
+Gdy jest to możliwe, ulepszenia zgodności mogą być rozwijane i testowane wspólnie z użytkownikami przez wersje beta TestFlight.
+
+Pamiętaj, że ten proces może być techniczny i może wymagać aktywnej współpracy podczas testów.
+
+---
+
 ## Prywatność przede wszystkim
 
-Twoje dane pozostają na urządzeniu. GateTap nie wysyła danych logowania ani poleceń na zewnętrzne serwery.
+Twoje dane pozostają na Twoim urządzeniu.
+
+GateTap nie wysyła:
+- danych uwierzytelniających
+- poleceń
+- danych kontrolera
+
+na zewnętrzne serwery.
 
 Opcjonalne raportowanie awarii można wyłączyć w dowolnym momencie.
 
@@ -52,10 +129,12 @@ Przeczytaj pełną [politykę prywatności](../legal/pl/privacy-policy.pl.md) i 
 
 ## Kontakt
 
-W przypadku pytań, opinii lub wsparcia skontaktuj się: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+W sprawach wsparcia, pytań o zgodność lub opinii:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Uwaga
+## Zastrzeżenie
 
-GateTap jest niezależną aplikacją i nie jest powiązany z żadnym producentem sprzętu.
+GateTap jest niezależną aplikacją i nie jest powiązany ani rekomendowany przez żadnego producenta sprzętu kontroli dostępu.

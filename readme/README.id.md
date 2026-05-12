@@ -7,42 +7,119 @@
 
 ---
 
-_**Berhenti berurusan dengan antarmuka web yang ketinggalan zaman.**_
+# GateTap
 
-Banyak sistem kontrol akses masih mengandalkan halaman browser yang lambat dan sulit digunakan hanya untuk membuka pintu atau gerbang. GateTap memberi cara yang cepat, modern, dan ramah sentuhan untuk mengontrol sistem langsung dari iPhone.
+_**Antarmuka iPhone modern untuk sistem kontrol akses kompatibel yang dikelola melalui web.**_
 
-Dibuat untuk jaringan lokal, GateTap terhubung langsung ke pengontrol akses Anda — tanpa cloud, tanpa akun, tanpa jeda.
+Kontroler akses adalah perangkat yang secara elektronik mengelola pembukaan pintu, gerbang, garasi, atau palang — misalnya dengan mengaktifkan buzzer pintu melalui sistem interkom Anda atau mengendalikan motor gerbang.
+
+Banyak sistem kontrol akses modern terhubung ke jaringan lokal dan dapat dikendalikan melalui antarmuka web. Namun, antarmuka ini sering lambat, sulit, dan merepotkan digunakan. GateTap menggantikan halaman web usang dengan pengalaman cepat yang dioptimalkan untuk sentuhan dan dirancang untuk iPhone.
+
+Dibangun untuk jaringan lokal, GateTap terhubung langsung ke kontroler akses yang kompatibel — tanpa layanan cloud, langganan, atau akun eksternal.
 
 ---
 
 ## Fitur
 
-• Kontrol pintu dan gerbang dengan satu ketukan  
-• Login cepat dengan kredensial tersimpan (opsional)  
-• 🔐 Perlindungan opsional dengan Face ID / Touch ID  
-• Bekerja sepenuhnya di dalam jaringan lokal Anda  
-• Antarmuka bersih dan dioptimalkan untuk sentuhan  
-• Tidak memerlukan koneksi cloud  
+• ☑️ Kontrol gerbang & pintu modern  
+• 📱 Antarmuka intuitif yang dioptimalkan untuk sentuhan  
+• ⚡ Login cepat dengan kredensial yang tersimpan aman atau kredensial sesi sementara  
+• 🔐 Perlindungan aplikasi opsional dengan Face ID / Touch ID  
+• 📡 Komunikasi jaringan lokal langsung  
+• ☁️ Tidak memerlukan koneksi cloud  
+• 🖥️ Dirancang untuk kontroler tertanam yang dikelola melalui web  
+• 🏢 Dukungan multi-kontroler / multi-lokasi  
+
+---
+
+## Kompatibilitas
+
+GateTap dirancang untuk kontroler akses tertentu yang mendukung Ethernet atau Wi‑Fi dan menyediakan antarmuka manajemen bawaan berbasis browser.
+
+Sistem yang kompatibel biasanya menyediakan:
+- akses lokal berbasis IP
+- halaman administrasi web bawaan
+- fungsi login browser
+- kontrol relai atau akses melalui antarmuka web
+
+Kompatibilitas bergantung pada:
+- model kontroler
+- versi firmware
+- struktur antarmuka web
+- konfigurasi jaringan
+
+### Tidak kompatibel dengan
+
+GateTap umumnya **tidak kompatibel** dengan:
+- sistem khusus cloud
+- sistem khusus Bluetooth
+- remote IR mandiri
+- kontroler akses tanpa antarmuka web
+- reader generik tanpa modul jaringan
+
+---
+
+## Coba sebelum membeli
+
+GateTap dapat diunduh dan dikonfigurasi secara gratis sehingga Anda dapat memverifikasi kompatibilitas dengan sistem Anda sebelum membeli.
+
+Versi gratis memungkinkan Anda untuk:
+- terhubung ke kontroler Anda
+- memverifikasi kredensial login
+- menguji kompatibilitas
+- melihat pratinjau antarmuka kontroler
+
+Pembelian dalam aplikasi satu kali membuka:
+- pemicu gerbang & pintu
+- penggunaan operasional penuh kontroler
+- dukungan multi-kontroler / multi-lokasi
+- fitur lanjutan di masa depan
+
+Tidak memerlukan langganan.
 
 ---
 
 ## Pengaturan
 
-GateTap dirancang untuk pengguna tingkat lanjut dan memerlukan pengaturan manual:
+GateTap ditujukan untuk pengguna yang berpengalaman secara teknis dan memerlukan konfigurasi manual.
 
-1. Masukkan alamat IP lokal perangkat  
-2. Masukkan kredensial login Anda  
-3. Uji koneksi dan mulai mengontrol sistem  
-
-GateTap bekerja dengan sistem yang menyediakan antarmuka web bawaan. Kompatibilitas bergantung pada konfigurasi perangkat keras Anda.
+1. Masukkan alamat IP lokal kontroler Anda  
+2. Berikan kredensial login Anda  
+3. Uji koneksi  
+4. Buka fungsionalitas penuh dan mulai kendalikan sistem Anda langsung dari iPhone  
 
 Baca [Panduan Pengaturan](../setup-guide/setup-guide.id.md) lengkap.
 
 ---
 
-## Privasi terlebih dahulu
+## Dukungan & Bantuan Kompatibilitas
 
-Data Anda tetap berada di perangkat Anda. GateTap tidak mengirim kredensial atau perintah Anda ke server eksternal.
+Karena perangkat keras kontrol akses sangat bervariasi antar produsen dan versi firmware, kompatibilitas tidak dapat dijamin untuk semua sistem.
+
+Jika kontroler Anda saat ini belum didukung, dukungan mungkin masih memungkinkan.
+
+Pengguna dapat menghubungi dukungan dan menyediakan:
+- tangkapan layar antarmuka web kontroler
+- halaman HTML yang diekspor
+- informasi model kontroler
+- detail firmware
+
+Jika memungkinkan, peningkatan kompatibilitas dapat dikembangkan dan diuji bersama pengguna melalui build beta TestFlight.
+
+Harap diperhatikan bahwa proses ini dapat bersifat teknis dan mungkin memerlukan kolaborasi aktif selama pengujian.
+
+---
+
+## Privasi Diutamakan
+
+Data Anda tetap berada di perangkat Anda.
+
+GateTap tidak mengirim:
+- kredensial
+- perintah
+- data kontroler
+
+ke server eksternal.
 
 Pelaporan crash opsional dapat dinonaktifkan kapan saja.
 
@@ -52,10 +129,12 @@ Baca [Kebijakan Privasi](../legal/id/privacy-policy.id.md) dan [Ketentuan Penggu
 
 ## Kontak
 
-Untuk pertanyaan, masukan, atau dukungan, hubungi [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com).
+Untuk dukungan, pertanyaan kompatibilitas, atau masukan:
+
+[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
 ---
 
-## Catatan
+## Penafian
 
-GateTap adalah aplikasi independen dan tidak berafiliasi dengan produsen perangkat keras mana pun.
+GateTap adalah aplikasi independen dan tidak berafiliasi dengan atau didukung oleh produsen perangkat keras kontrol akses mana pun.
