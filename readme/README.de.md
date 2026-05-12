@@ -11,30 +11,30 @@
 
 _**Eine moderne iPhone-Oberfläche für kompatible webbasierte Zutrittskontrollsysteme.**_
 
-Ein Zutritts-Controller ist ein Gerät, welches das Öffnen von Türen, Toren, oder Garagen steuert — beispielsweise durch das Aktivieren eines Türsummers über deine Türsprechanlage.
+Ein Zutritts-Controller ist ein Gerät, das das Öffnen von Türen, Toren oder Garagen steuert — beispielsweise durch das Aktivieren eines Türsummers über deine Gegensprechanlage.
 
-Viele moderne Zutrittskontrollsysteme sind mit dem lokalen Netzwerk verbunden und können über eine Weboberfläche im Browser gesteuert werden. DIESE BENUTZEROBERFLÄCHE IST JEDOCH OFTMALS UNZUREICHEND GESTALTET UND SCHWER ZU BEDIENEN, nur um ein Tor oder eine Tür zu öffnen. GateTap ersetzt langsame und umständliche Browserseiten durch eine schnelle und touch-optimierte Bedienung direkt auf deinem iPhone.
+Viele moderne Zutrittskontrollsysteme sind mit dem lokalen Netzwerk verbunden und können über eine Weboberfläche im Browser gesteuert werden. Diese Benutzeroberflächen sind jedoch oftmals langsam und umständlich zu bedienen. GateTap ersetzt sie durch eine schnelle und touch-optimierte Bedienung direkt auf deinem iPhone.
 
-GateTap wurde für lokale Netzwerke entwickelt und verbindet sich direkt mit kompatiblen Zugangssystemen – ohne Cloud-Dienste, Abonnements oder externe Accounts.
+GateTap wurde für lokale Netzwerke entwickelt und verbindet sich direkt mit kompatiblen Zugangssystemen — ohne Cloud-Dienste, Abonnements oder externe Accounts.
 
 ---
 
 ## Funktionen
 
 • ☑️ Moderne Steuerung von Toren & Türen  
-• ⚡ Schneller Login mit sicher gespeicherten Zugangsdaten (optional)  
-• 🔐 Optionaler Schutz über Face ID / Touch ID  
+• 📱 Intuitive, touch-optimierte Oberfläche  
+• ⚡ Schneller Login mit sicher gespeicherten oder nur temporär verwendeten Zugangsdaten  
+• 🔐 Optionaler Schutz der App über Face ID / Touch ID  
 • 📡 Direkte Kommunikation im lokalen Netzwerk  
-• 📱 Saubere, touch-optimierte Oberfläche  
 • ☁️ Keine Cloud-Verbindung erforderlich  
-• 🖥️ Entwickelt für webbasierte Embedded-Controller  
-• 🏢 Unterstützung für mehrere Controller / Standorte  
+• 🖥️ Entwickelt für netzwerkfähige Zutritts-Controller  
+• 🏢 Unterstützung für mehrere Zutritts-Controller / Standorte  
 
 ---
 
 ## Kompatibilität
 
-GateTap wurde für bestimmte Ethernet- oder Wi-Fi-fähige Zutrittscontroller entwickelt, die eine integrierte browserbasierte Verwaltungsoberfläche bereitstellen.
+GateTap wurde für bestimmte Ethernet- oder Wi-Fi-fähige Zutritts-Controller entwickelt, die eine integrierte browserbasierte Verwaltungsoberfläche bereitstellen.
 
 Kompatible Systeme bieten typischerweise:
 - lokalen Zugriff über IP-Adresse
@@ -52,10 +52,10 @@ Die Kompatibilität hängt unter anderem ab von:
 
 GateTap ist in der Regel **nicht kompatibel** mit:
 - reinen Cloud-Systemen
-- Bluetooth-only Öffnern
+- reinen Bluetooth-Systemen
 - einfachen Funkfernbedienungen
-- Controllern ohne Weboberfläche
-- generischen Lesegeräten ohne Netzwerkcontroller
+- Zutritts-Controllern ohne Weboberfläche
+- generischen Lesegeräten ohne Netzwerkmodul
 
 ---
 
@@ -71,7 +71,6 @@ Die kostenlose Version ermöglicht:
 
 Eine einmalige In-App-Kauf-Freischaltung aktiviert:
 - das Öffnen von Toren & Türen
-- die vollständige Steuerungsfunktion
 - Unterstützung für mehrere Controller / Standorte
 - zukünftige erweiterte Funktionen
 
@@ -84,9 +83,9 @@ Kein Abonnement erforderlich.
 GateTap richtet sich an technisch versierte Nutzer und erfordert eine manuelle Konfiguration.
 
 1. Eingabe der lokalen IP-Adresse des Controllers  
-2. Eingabe der Zugangsdaten  
+2. Eingabe der Login-Daten  
 3. Verbindung testen  
-4. Vollversion freischalten und System direkt über das iPhone steuern  
+4. Vollversion freischalten und das System direkt über das iPhone steuern  
 
 Lies die vollständige [Einrichtungsanleitung](../setup-guide/setup-guide.de.md).
 
