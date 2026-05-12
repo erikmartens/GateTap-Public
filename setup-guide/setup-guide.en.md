@@ -18,7 +18,7 @@ Connect GateTap to your access controller
 
 ## What is an access controller?
 
-An access controller is a device that manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer or gate motor.
+An access controller is a device that electronically manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer through your intercom system or controlling a gate motor.
 It usually receives the opening signal from:
 
 - an intercom system
