@@ -16,19 +16,31 @@ Language: nb
 
 Koble GateTap til tilgangskontrolleren
 
+## Hva er en tilgangskontroller?
+
+En adgangskontroller er en enhet som styrer åpning av dører, porter, garasjer eller bommer — for eksempel ved å aktivere en døråpner eller portmotor.
+Den mottar vanligvis åpningssignalet fra:
+
+- et porttelefonanlegg
+- et tastatur
+- en nøkkelbrikke eller et adgangskort
+
+Mange moderne adgangskontrollsystemer er koblet til lokalnettverket og kan betjenes via et webgrensesnitt i en nettleser. GateTap kobler seg direkte til dette systemet, slik at du enkelt kan betjene det fra enheten din.
+
+
 ## Før du begynner
 
-Sørg for at enheten din er koblet til det samme lokale nettverket som tilgangskontrolleren. Kontroller for eksempel at iPhone er på hjemmets Wi-Fi, ikke på mobildata.
+Sørg for at enheten din er koblet til det samme lokalnettverket som adgangskontrolleren. Kontroller for eksempel at iPhone er koblet til hjemmets Wi‑Fi og ikke bruker mobildata.
 
-GateTap fungerer helt innenfor det lokale nettverket ditt og trenger:
+GateTap fungerer helt innenfor lokalnettverket ditt og trenger:
 
 - Kontrollerens IP-adresse
-- Et brukernavn og et passord
+- Et brukernavn og passord
 
 
 ## Trinn 1: Finn IP-adressen til tilgangskontrolleren
 
-For å koble til GateTap trenger du kontrollerens IP-adresse og innloggingsopplysninger - se trinn 2.
+For å koble til GateTap trenger du kontrollerens IP-adresse og innloggingsinformasjon — se trinn 2.
 
 Velg ett av følgende alternativer:
 
@@ -40,16 +52,16 @@ Hvis systemet ble installert av en elektriker eller tekniker, har de sannsynligv
 I mange tilfeller:
 
 - Bruker kontrolleren en fast IP-adresse
-- Eller ruteren tildeler samme IP via DHCP-reservasjon
+- Eller ruteren tildeler den samme IP-adressen via en DHCP-reservasjon
 
-Be om IP-adressen og innloggingsopplysningene. Dette er vanligvis den enkleste og raskeste måten.
+Be om IP-adressen og innloggingsinformasjonen. Dette er vanligvis den enkleste og raskeste måten.
 
 
 ## Alternativ B: Sjekk ruteren din
 
-Åpne ruterens konfigurasjonsside og se etter tilkoblede enheter.
+For å få tilgang til ruteren trenger du vanligvis den lokale adressen, for eksempel `192.168.1.1` eller et navn som `fritz.box`, og ruterens innloggingsinformasjon.
 
-For å få tilgang til ruteren trenger du vanligvis den lokale adressen, for eksempel `192.168.1.1` eller et navn som `fritz.box`, og ruterens innloggingsopplysninger.
+Åpne ruterens konfigurasjonsside og se etter tilkoblede enheter.
 
 Denne delen kan hete:
 
@@ -61,7 +73,7 @@ Denne delen kan hete:
 Se etter:
 
 - Ukjente kablede enheter
-- Oppføringer som kan representere kontrolleren
+- Oppføringer som kan være kontrolleren din
 
 IP-adressen ser vanligvis slik ut:
 `192.168.x.x` eller `10.0.x.x`
@@ -73,44 +85,55 @@ IP-adressen ser vanligvis slik ut:
 
 Bruk en nettverksskanner-app på enheten din.
 
-Skann nettverket og prøv å åpne IP-adresser som blir funnet i Safari, for eksempel:
+Skann nettverket og se etter:
+
+- Ukjente kablede enheter
+- Oppføringer som kan være kontrolleren din
+
+IP-adressen ser vanligvis slik ut:
+`192.168.x.x` eller `10.0.x.x`
+
+
+## Test IP-adressen
+
+Prøv å åpne IP-adressen du fant i Safari, for eksempel:
 
 `http://192.168.1.50`
 
-Hvis innloggingssiden til tilgangskontrolleren vises, har du funnet riktig adresse.
-
-![Eksempel på nettverksskanner-app](../assets/setup-guide/nb/img_02_en_US.png)
+Hvis innloggingssiden til adgangskontrolleren vises, har du funnet riktig adresse.
 
 
 ## Trinn 2: Finn innloggingsopplysningene til tilgangskontrolleren
 
-Noen kontrollere bruker fortsatt standard innloggingsopplysninger. Et vanlig eksempel er brukernavnet `abc` med passordet `654321`.
+Noen adgangskontrollere bruker fortsatt standard innloggingsinformasjon. Et vanlig eksempel er brukernavnet `abc` med passordet `654321`.
 
-Andre vanlige fabrikkbrukernavn er `user`, `admin` eller `123`. Du kan prøve dem sammen med typiske passord som `1234`, `user` eller `password`, eller en variant av disse.
+Andre vanlige standardbrukernavn er `user`, `admin` eller `123`. Du kan prøve dem med typiske passord som `1234`, `user` eller `password`, eller en variant.
 
-Hvis systemet ble installert profesjonelt, spør installatøren om standardopplysningene ble endret.
+Hvis systemet ble profesjonelt installert, spør installatøren om standardinnloggingen ble endret.
 
 
 ## Trinn 3: Legg til tilgangskontrolleren i GateTap
 
-Åpne GateTap og skriv inn:
+Åpne GateTap. Hvis siden for å legge til en kontroller ikke vises automatisk, går du til fanen "Controller" og trykker på "+"-knappen i navigasjonslinjen øverst til høyre.
 
-- IP-adressen
-- Brukernavnet ditt
-- Passordet ditt
+På siden som vises, skriver du inn:
 
-Bruk de samme opplysningene som for tilgangskontrollerens webgrensesnitt.
+- IP-adresse
+- Brukernavn
+- Passord
+
+Bruk samme innloggingsinformasjon som for adgangskontrollerens webgrensesnitt.
 
 
 ## Trinn 4: Test tilkoblingen
 
-Lagre konfigurasjonen og prøv å åpne en dør eller port.
+Lagre konfigurasjonen. Appen prøver automatisk å koble til.
 
-Hvis ingenting skjer, sjekk:
+Hvis tilkoblingen ikke kan opprettes, kontroller:
 
-- At enheten din er på samme nettverk som tilgangskontrolleren
+- At enheten din er på samme nettverk som adgangskontrolleren
 - At IP-adressen er riktig
-- At tilgangskontrolleren har strøm og kan nås
+- At adgangskontrolleren har strøm og er tilgjengelig
 
 
 ## Trinn 5: Hold IP-adressen stabil
@@ -125,9 +148,9 @@ Dette kan gjøres ved å:
 
 ## Demomodus
 
-GateTap har også en demomodus. Du kan starte en lokal demo-webserver fra appen og deretter legge den til som en vanlig kontroller.
+GateTap har også en demomodus. Du kan starte en virtuell adgangskontroller fra appen, som serverer administrasjonsgrensesnittet slik et ekte adgangskontrollsystem ville gjort. Deretter kan du legge den til som en vanlig kontroller med IP-adressen og innloggingsinformasjonen som vises.
 
-Dette gir deg en kjent fungerende testvei for å bekrefte at GateTap selv fungerer riktig, selv om du for øyeblikket ikke har tilgang til en fysisk tilgangskontroller.
+Dette gir deg en kjent fungerende testvei for å utforske GateTaps funksjoner, selv om du ikke har en fysisk adgangskontroller akkurat nå.
 
 
 ## Sikkerhet

@@ -16,6 +16,18 @@ Language: fr
 
 Connectez GateTap à votre contrôleur d'accès
 
+## Qu’est-ce qu’un contrôleur d’accès ?
+
+Un contrôleur d’accès est un appareil qui gère l’ouverture de portes, portails, garages ou barrières — par exemple en activant une gâche ou un moteur de portail.
+Il reçoit généralement le signal d’ouverture depuis :
+
+- un interphone
+- un clavier
+- un badge ou une carte d’accès
+
+De nombreux systèmes modernes de contrôle d’accès sont connectés au réseau local et peuvent être utilisés via une interface web dans un navigateur. GateTap se connecte directement à votre système de contrôle d’accès afin que vous puissiez l’utiliser facilement depuis votre appareil.
+
+
 ## Avant de commencer
 
 Assurez-vous que votre appareil est connecté au même réseau local que votre contrôleur d’accès. Par exemple, vérifiez que votre iPhone est connecté au Wi-Fi de votre domicile et non aux données mobiles.
@@ -26,9 +38,9 @@ GateTap fonctionne entièrement sur votre réseau local et a besoin de :
 - Un nom d’utilisateur et un mot de passe
 
 
-## Étape 1 : Trouver l’adresse IP du contrôleur d’accès
+## Étape 1 : Trouver l’adresse IP de votre contrôleur d’accès
 
-Pour connecter GateTap, vous avez besoin de l’adresse IP du contrôleur et des identifiants de connexion - voir l’étape 2.
+Pour connecter GateTap, vous avez besoin de l’adresse IP du contrôleur et des identifiants de connexion — voir l’étape 2.
 
 Choisissez l’une des options suivantes :
 
@@ -47,9 +59,9 @@ Demandez-lui l’adresse IP et les identifiants de connexion. C’est générale
 
 ## Option B : Vérifiez votre routeur
 
-Ouvrez la page de configuration de votre routeur et recherchez les appareils connectés.
-
 Pour accéder à votre routeur, vous avez généralement besoin de son adresse locale, par exemple `192.168.1.1` ou d’un nom comme `fritz.box`, ainsi que des identifiants du routeur.
+
+Ouvrez la page de configuration de votre routeur et recherchez les appareils connectés.
 
 Cette section peut s’appeler :
 
@@ -73,27 +85,38 @@ L’adresse IP ressemble généralement à :
 
 Utilisez une app de scan réseau sur votre appareil.
 
-Analysez votre réseau et essayez d’ouvrir les adresses IP trouvées dans Safari, par exemple :
+Analysez votre réseau et recherchez :
+
+- Des appareils câblés inconnus
+- Des entrées qui pourraient correspondre à votre contrôleur
+
+L’adresse IP ressemble généralement à :
+`192.168.x.x` ou `10.0.x.x`
+
+
+## Tester l’adresse IP
+
+Essayez d’ouvrir l’adresse IP trouvée dans Safari, par exemple :
 
 `http://192.168.1.50`
 
 Si la page de connexion du contrôleur d’accès apparaît, vous avez trouvé la bonne adresse.
 
-![Exemple d’app de scan réseau](../assets/setup-guide/fr/img_02_en_US.png)
-
 
 ## Étape 2 : Trouver les identifiants du contrôleur d’accès
 
-Certains contrôleurs utilisent encore des identifiants par défaut. Un exemple courant est le nom d’utilisateur `abc` avec le mot de passe `654321`.
+Certains contrôleurs d’accès utilisent encore des identifiants par défaut. Un exemple courant est le nom d’utilisateur `abc` avec le mot de passe `654321`.
 
-Les autres noms d’utilisateur d’usine courants sont `user`, `admin` ou `123`. Vous pouvez les essayer avec des mots de passe typiques comme `1234`, `user` ou `password`, ou une variante.
+Les autres noms d’utilisateur par défaut courants sont `user`, `admin` ou `123`. Vous pouvez les essayer avec des mots de passe typiques comme `1234`, `user` ou `password`, ou une variante.
 
 Si votre système a été installé par un professionnel, demandez à votre installateur si les identifiants par défaut ont été modifiés.
 
 
 ## Étape 3 : Ajouter le contrôleur d’accès dans GateTap
 
-Ouvrez GateTap et saisissez :
+Ouvrez GateTap. Si la page d’ajout d’un contrôleur n’apparaît pas automatiquement, passez à l’onglet "Controller" et touchez le bouton "+" dans la barre de navigation en haut à droite.
+
+Sur la page qui s’affiche, saisissez :
 
 - L’adresse IP
 - Votre nom d’utilisateur
@@ -104,9 +127,9 @@ Utilisez les mêmes identifiants que pour l’interface web du contrôleur d’a
 
 ## Étape 4 : Tester la connexion
 
-Enregistrez votre configuration et essayez d’ouvrir une porte ou un portail.
+Enregistrez votre configuration. L’app essaiera automatiquement de se connecter.
 
-Si rien ne se passe, vérifiez :
+Si la connexion ne peut pas être établie, vérifiez :
 
 - Que votre appareil est sur le même réseau que le contrôleur d’accès
 - Que l’adresse IP est correcte
@@ -125,9 +148,9 @@ Cela peut se faire en :
 
 ## Mode démo
 
-GateTap inclut également un mode démo. Vous pouvez démarrer un serveur web de démonstration local depuis l’app, puis l’ajouter comme un contrôleur normal.
+GateTap inclut également un mode démo. Vous pouvez démarrer un contrôleur d’accès virtuel depuis l’app, qui sert l’interface d’administration comme le ferait un système réel. Vous pouvez ensuite l’ajouter comme un contrôleur normal à l’aide de l’adresse IP et des identifiants affichés.
 
-Cela vous donne un parcours de test connu et fonctionnel pour vérifier que GateTap fonctionne correctement, même si vous n’avez pas actuellement accès à un contrôleur d’accès physique.
+Cela vous donne un parcours de test connu et fonctionnel pour explorer les fonctionnalités de GateTap, même si vous n’avez pas actuellement de contrôleur d’accès physique.
 
 
 ## Sécurité

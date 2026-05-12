@@ -16,19 +16,31 @@ Language: pt-BR
 
 Conecte o GateTap ao seu controlador de acesso
 
+## O que é um controlador de acesso?
+
+Um controlador de acesso é um dispositivo que gerencia a abertura de portas, portões, garagens ou cancelas — por exemplo, acionando uma fechadura elétrica ou o motor de um portão.
+Normalmente ele recebe o sinal de abertura de:
+
+- um sistema de interfone
+- um teclado
+- um chaveiro eletrônico ou cartão de acesso
+
+Muitos sistemas modernos de controle de acesso estão conectados à rede local e podem ser operados por uma interface web no navegador. O GateTap se conecta diretamente a esse sistema para que você possa controlá-lo com facilidade pelo seu dispositivo.
+
+
 ## Antes de começar
 
-Verifique se o dispositivo está conectado à mesma rede local que o controlador de acesso. Por exemplo, confirme que o iPhone está no Wi-Fi de casa, e não usando dados móveis.
+Verifique se o dispositivo está conectado à mesma rede local que o controlador de acesso. Por exemplo, confirme se o iPhone está conectado ao Wi‑Fi de casa e não está usando dados móveis.
 
-O GateTap funciona inteiramente dentro da sua rede local e precisa de:
+O GateTap funciona totalmente dentro da sua rede local e precisa de:
 
-- O endereço IP do controlador
-- Um nome de usuário e uma senha
+- Endereço IP do controlador
+- Nome de usuário e senha
 
 
 ## Etapa 1: Encontre o endereço IP do controlador de acesso
 
-Para conectar o GateTap, você precisa do endereço IP do controlador e das credenciais de login - veja a Etapa 2.
+Para conectar o GateTap, você precisa do endereço IP do controlador e das credenciais de login — veja a Etapa 2.
 
 Escolha uma das opções abaixo:
 
@@ -40,16 +52,16 @@ Se o sistema foi instalado por um eletricista ou técnico, é provável que ele 
 Em muitos casos:
 
 - O controlador usa um endereço IP fixo
-- Ou o roteador atribui o mesmo IP por reserva DHCP
+- Ou o roteador atribui sempre o mesmo IP por uma reserva DHCP
 
-Peça o endereço IP e os dados de login. Normalmente é a forma mais fácil e rápida.
+Peça o endereço IP e as informações de login. Normalmente esse é o jeito mais fácil e rápido.
 
 
 ## Opção B: verifique seu roteador
 
-Abra a página de configuração do roteador e procure os dispositivos conectados.
+Para acessar o roteador, normalmente você precisa do endereço local dele, por exemplo `192.168.1.1` ou um nome como `fritz.box`, e das credenciais de login do roteador.
 
-Para acessar o roteador, você normalmente precisa do endereço local dele, por exemplo `192.168.1.1` ou um nome como `fritz.box`, e das credenciais do roteador.
+Abra a página de configuração do roteador e procure os dispositivos conectados.
 
 Essa seção pode se chamar:
 
@@ -73,40 +85,51 @@ O endereço IP normalmente se parece com:
 
 Use um app de scanner de rede no seu dispositivo.
 
-Escaneie a rede e tente abrir os endereços IP encontrados no Safari, por exemplo:
+Escaneie sua rede e procure por:
+
+- Dispositivos cabeados desconhecidos
+- Entradas que possam representar seu controlador
+
+O endereço IP normalmente se parece com:
+`192.168.x.x` ou `10.0.x.x`
+
+
+## Teste o endereço IP
+
+Tente abrir no Safari o endereço IP encontrado, por exemplo:
 
 `http://192.168.1.50`
 
 Se a página de login do controlador de acesso aparecer, você encontrou o endereço correto.
 
-![Exemplo de app de scanner de rede](../assets/setup-guide/pt-BR/img_02_en_US.png)
-
 
 ## Etapa 2: Encontre as credenciais do controlador de acesso
 
-Alguns controladores ainda usam credenciais padrão. Um exemplo comum é o nome de usuário `abc` com a senha `654321`.
+Alguns controladores de acesso ainda usam credenciais de login padrão. Um exemplo comum é o nome de usuário `abc` com a senha `654321`.
 
-Outros nomes de usuário de fábrica comuns são `user`, `admin` ou `123`. Você pode testá-los com senhas típicas como `1234`, `user` ou `password`, ou alguma variação.
+Outros nomes de usuário padrão comuns incluem `user`, `admin` ou `123`. Você pode testá-los com senhas típicas como `1234`, `user` ou `password`, ou alguma variação.
 
 Se o sistema foi instalado profissionalmente, pergunte ao instalador se as credenciais padrão foram alteradas.
 
 
 ## Etapa 3: Adicione o controlador de acesso no GateTap
 
-Abra o GateTap e insira:
+Abra o GateTap. Se a página para adicionar um controlador não aparecer automaticamente, vá para a aba "Controller" e toque no botão "+" na barra de navegação no canto superior direito.
 
-- O endereço IP
-- Seu nome de usuário
-- Sua senha
+Na página exibida, insira:
 
-Use as mesmas credenciais da interface web do controlador de acesso.
+- Endereço IP
+- Nome de usuário
+- Senha
+
+Use as mesmas credenciais de login usadas na interface web do controlador de acesso.
 
 
 ## Etapa 4: Teste a conexão
 
-Salve a configuração e tente abrir uma porta ou portão.
+Salve a configuração. O app tentará se conectar automaticamente.
 
-Se nada acontecer, verifique:
+Se não for possível estabelecer a conexão, verifique:
 
 - Se o dispositivo está na mesma rede que o controlador de acesso
 - Se o endereço IP está correto
@@ -117,17 +140,17 @@ Se nada acontecer, verifique:
 
 Para evitar problemas depois, o controlador deve sempre usar o mesmo endereço IP.
 
-Isso pode ser feito por:
+Isso pode ser feito por meio de:
 
-- Configurar um IP estático no controlador
-- Criar uma reserva DHCP no roteador
+- Configuração de IP estático no controlador
+- Criação de uma reserva DHCP no roteador
 
 
 ## Modo demo
 
-O GateTap também inclui um modo demo. Você pode iniciar um servidor web demo local dentro do app e depois adicioná-lo como um controlador normal.
+O GateTap também inclui um modo demo. Você pode iniciar um controlador de acesso virtual dentro do app, que fornece a interface de administração como um sistema real de controle de acesso faria. Depois, você pode adicioná-lo como um controlador normal usando o endereço IP e as credenciais exibidos.
 
-Isso oferece um caminho de teste conhecido e funcional para verificar se o próprio GateTap está funcionando corretamente, mesmo que você não tenha acesso a um controlador de acesso físico no momento.
+Isso oferece um caminho de teste conhecido e funcional para explorar os recursos do GateTap, mesmo que você não tenha um controlador de acesso físico no momento.
 
 
 ## Segurança

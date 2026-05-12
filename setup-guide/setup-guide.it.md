@@ -16,11 +16,23 @@ Language: it
 
 Collega GateTap al tuo controller di accesso
 
+## Che cos’è un controller di accesso?
+
+Un controller di accesso è un dispositivo che gestisce l’apertura di porte, cancelli, garage o barriere — ad esempio attivando un citofono o il motore di un cancello.
+Di solito riceve il segnale di apertura da:
+
+- un sistema citofonico
+- un tastierino
+- un portachiavi elettronico o una tessera di accesso
+
+Molti sistemi moderni di controllo accessi sono collegati alla rete locale e possono essere usati tramite un’interfaccia web nel browser. GateTap si collega direttamente a quel sistema, così puoi controllarlo comodamente dal tuo dispositivo.
+
+
 ## Prima di iniziare
 
-Assicurati che il dispositivo sia connesso alla stessa rete locale del controller di accesso. Ad esempio, verifica che l’iPhone sia collegato al Wi-Fi di casa e non a una connessione dati mobile.
+Assicurati che il dispositivo sia collegato alla stessa rete locale del controller di accesso. Ad esempio, verifica che l’iPhone sia connesso al Wi‑Fi di casa e non stia usando i dati mobili.
 
-GateTap funziona interamente all’interno della tua rete locale e richiede:
+GateTap funziona interamente nella tua rete locale e richiede:
 
 - L’indirizzo IP del controller
 - Un nome utente e una password
@@ -28,7 +40,7 @@ GateTap funziona interamente all’interno della tua rete locale e richiede:
 
 ## Passaggio 1: trova l’indirizzo IP del controller di accesso
 
-Per collegare GateTap, ti servono l’indirizzo IP del controller e le credenziali di accesso - vedi il passaggio 2.
+Per collegare GateTap, ti servono l’indirizzo IP del controller e le credenziali di accesso — vedi il passaggio 2.
 
 Scegli una delle seguenti opzioni:
 
@@ -40,18 +52,18 @@ Se il sistema è stato installato da un elettricista o da un tecnico, probabilme
 In molti casi:
 
 - Il controller usa un indirizzo IP fisso
-- Oppure il router assegna lo stesso IP tramite una prenotazione DHCP
+- Oppure il router gli assegna sempre lo stesso IP tramite una prenotazione DHCP
 
-Chiedi l’indirizzo IP e le credenziali di accesso. Di solito è il modo più semplice e veloce.
+Chiedi loro l’indirizzo IP e le credenziali di accesso. Di solito è il metodo più semplice e rapido.
 
 
 ## Opzione B: controlla il tuo router
 
+Per accedere al router, di solito servono il suo indirizzo locale, ad esempio `192.168.1.1` o un nome come `fritz.box`, e le credenziali di accesso del router.
+
 Apri la pagina di configurazione del router e cerca i dispositivi connessi.
 
-Per accedere al router, di solito servono il suo indirizzo locale, ad esempio `192.168.1.1` o un nome come `fritz.box`, e le credenziali del router.
-
-Questa sezione potrebbe chiamarsi:
+Questa sezione può chiamarsi:
 
 - Rete
 - Dispositivi connessi
@@ -61,9 +73,9 @@ Questa sezione potrebbe chiamarsi:
 Cerca:
 
 - Dispositivi cablati sconosciuti
-- Voci che potrebbero rappresentare il controller
+- Voci che potrebbero rappresentare il tuo controller
 
-L’indirizzo IP di solito ha questo aspetto:
+L’indirizzo IP di solito ha questo formato:
 `192.168.x.x` o `10.0.x.x`
 
 ![Esempio di dispositivi connessi nel router](../assets/setup-guide/it/img_01_en_US.png)
@@ -73,40 +85,51 @@ L’indirizzo IP di solito ha questo aspetto:
 
 Usa un’app di scansione della rete sul tuo dispositivo.
 
-Scansiona la rete e prova ad aprire in Safari gli indirizzi IP trovati, ad esempio:
+Scansiona la rete e cerca:
+
+- Dispositivi cablati sconosciuti
+- Voci che potrebbero rappresentare il tuo controller
+
+L’indirizzo IP di solito ha questo formato:
+`192.168.x.x` o `10.0.x.x`
+
+
+## Prova l’indirizzo IP
+
+Prova ad aprire in Safari l’indirizzo IP trovato, ad esempio:
 
 `http://192.168.1.50`
 
-Se appare la pagina di accesso del controller di accesso, hai trovato l’indirizzo corretto.
-
-![Esempio di app di scansione della rete](../assets/setup-guide/it/img_02_en_US.png)
+Se appare la pagina di accesso del controller, hai trovato l’indirizzo corretto.
 
 
 ## Passaggio 2: trova le credenziali del controller di accesso
 
-Alcuni controller usano ancora credenziali di accesso predefinite. Un esempio comune è il nome utente `abc` con la password `654321`.
+Alcuni controller di accesso usano ancora credenziali predefinite. Un esempio comune è il nome utente `abc` con la password `654321`.
 
-Altri nomi utente di fabbrica comuni sono `user`, `admin` o `123`. Puoi provarli con password tipiche come `1234`, `user` o `password`, oppure con una variante.
+Altri nomi utente predefiniti comuni sono `user`, `admin` o `123`. Puoi provarli con password tipiche come `1234`, `user` o `password`, oppure con una variante.
 
 Se il sistema è stato installato professionalmente, chiedi all’installatore se le credenziali predefinite sono state cambiate.
 
 
 ## Passaggio 3: aggiungi il controller di accesso in GateTap
 
-Apri GateTap e inserisci:
+Apri GateTap. Se la pagina per aggiungere un controller non appare automaticamente, passa alla scheda "Controller" e tocca il pulsante "+" nella barra di navigazione in alto a destra.
 
-- L’indirizzo IP
-- Il nome utente
-- La password
+Nella pagina che appare, inserisci:
+
+- Indirizzo IP
+- Nome utente
+- Password
 
 Usa le stesse credenziali dell’interfaccia web del controller di accesso.
 
 
 ## Passaggio 4: testa la connessione
 
-Salva la configurazione e prova ad aprire una porta o un cancello.
+Salva la configurazione. L’app proverà automaticamente a connettersi.
 
-Se non succede nulla, controlla:
+Se non è possibile stabilire la connessione, controlla:
 
 - Che il dispositivo sia sulla stessa rete del controller di accesso
 - Che l’indirizzo IP sia corretto
@@ -125,9 +148,9 @@ Puoi farlo in questo modo:
 
 ## Modalità demo
 
-GateTap include anche una modalità demo. Puoi avviare un server web demo locale dall’app e poi aggiungerlo come un controller normale.
+GateTap include anche una modalità demo. Puoi avviare dall’app un controller di accesso virtuale che espone l’interfaccia di amministrazione come farebbe un vero sistema di controllo accessi. Poi puoi aggiungerlo come un normale controller usando l’indirizzo IP e le credenziali mostrati.
 
-Questo ti offre un percorso di prova noto e funzionante per verificare che GateTap funzioni correttamente, anche se al momento non hai accesso a un controller di accesso fisico.
+In questo modo hai un percorso di test noto e funzionante per esplorare le funzioni di GateTap, anche se al momento non hai un controller di accesso fisico.
 
 
 ## Sicurezza

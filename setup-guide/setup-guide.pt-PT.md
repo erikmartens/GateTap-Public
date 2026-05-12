@@ -16,21 +16,33 @@ Language: pt-PT
 
 Conecte o GateTap ao seu controlador de acesso
 
+## O que é um controlador de acesso?
+
+Um controlador de acesso é um dispositivo que gere a abertura de portas, portões, garagens ou barreiras — por exemplo, acionando uma fechadura elétrica ou o motor de um portão.
+Normalmente recebe o sinal de abertura de:
+
+- um sistema de intercomunicação
+- um teclado
+- um comando ou cartão de acesso
+
+Muitos sistemas modernos de controlo de acesso estão ligados à rede local e podem ser operados através de uma interface web no navegador. O GateTap liga-se diretamente a esse sistema para que o possas controlar facilmente a partir do teu dispositivo.
+
+
 ## Antes de começar
 
-Certifique-se de que o dispositivo está ligado à mesma rede local que o controlador de acesso. Por exemplo, confirme que o iPhone está no Wi-Fi de casa e não numa ligação de dados móveis.
+Certifica-te de que o dispositivo está ligado à mesma rede local que o controlador de acesso. Por exemplo, confirma que o iPhone está ligado ao Wi‑Fi de casa e não está a usar dados móveis.
 
-O GateTap funciona inteiramente dentro da sua rede local e precisa de:
+O GateTap funciona inteiramente dentro da tua rede local e precisa de:
 
-- O endereço IP do controlador
-- Um nome de utilizador e uma palavra-passe
+- Endereço IP do controlador
+- Nome de utilizador e palavra-passe
 
 
 ## Etapa 1: Encontre o endereço IP do controlador de acesso
 
-Para ligar o GateTap, precisa do endereço IP do controlador e das credenciais de início de sessão - veja a Etapa 2.
+Para ligar o GateTap, precisas do endereço IP do controlador e das credenciais de início de sessão — vê o Passo 2.
 
-Escolha uma das seguintes opções:
+Escolhe uma das opções seguintes:
 
 
 ## Opção A: pergunte ao seu instalador (recomendado)
@@ -40,16 +52,16 @@ Se o sistema foi instalado por um eletricista ou técnico, é provável que já 
 Em muitos casos:
 
 - O controlador usa um endereço IP fixo
-- Ou o router atribui o mesmo IP através de uma reserva DHCP
+- Ou o router atribui-lhe sempre o mesmo IP através de uma reserva DHCP
 
-Peça o endereço IP e os dados de início de sessão. Normalmente é a forma mais fácil e rápida.
+Pede o endereço IP e os dados de acesso. Normalmente é a forma mais simples e rápida.
 
 
 ## Opção B: verifique o seu router
 
-Abra a página de configuração do router e procure os dispositivos ligados.
+Para aceder ao router, normalmente precisas do endereço local, por exemplo `192.168.1.1` ou um nome como `fritz.box`, e das credenciais de acesso ao router.
 
-Para aceder ao router, normalmente precisa do respetivo endereço local, por exemplo `192.168.1.1` ou um nome como `fritz.box`, e das credenciais do router.
+Abre a página de configuração do router e procura os dispositivos ligados.
 
 Esta secção pode chamar-se:
 
@@ -58,10 +70,10 @@ Esta secção pode chamar-se:
 - LAN
 - Clientes DHCP
 
-Procure:
+Procura:
 
-- Dispositivos com fios desconhecidos
-- Entradas que possam representar o seu controlador
+- Dispositivos com fio desconhecidos
+- Entradas que possam representar o teu controlador
 
 O endereço IP normalmente tem este aspeto:
 `192.168.x.x` ou `10.0.x.x`
@@ -71,46 +83,57 @@ O endereço IP normalmente tem este aspeto:
 
 ## Opção C: verifique a sua rede
 
-Use uma aplicação de scanner de rede no seu dispositivo.
+Usa uma app de análise de rede no teu dispositivo.
 
-Faça a análise da rede e tente abrir os endereços IP encontrados no Safari, por exemplo:
+Analisa a rede e procura:
+
+- Dispositivos com fio desconhecidos
+- Entradas que possam representar o teu controlador
+
+O endereço IP normalmente tem este aspeto:
+`192.168.x.x` ou `10.0.x.x`
+
+
+## Teste o endereço IP
+
+Experimenta abrir no Safari o endereço IP encontrado, por exemplo:
 
 `http://192.168.1.50`
 
-Se aparecer a página de início de sessão do controlador de acesso, encontrou o endereço correto.
-
-![Exemplo de aplicação de scanner de rede](../assets/setup-guide/pt-PT/img_02_en_US.png)
+Se aparecer a página de início de sessão do controlador de acesso, encontraste o endereço correto.
 
 
 ## Etapa 2: Encontre as credenciais do controlador de acesso
 
-Alguns controladores ainda usam credenciais predefinidas. Um exemplo comum é o nome de utilizador `abc` com a palavra-passe `654321`.
+Alguns controladores de acesso ainda usam credenciais de início de sessão predefinidas. Um exemplo comum é o nome de utilizador `abc` com a palavra-passe `654321`.
 
-Outros nomes de utilizador de fábrica comuns são `user`, `admin` ou `123`. Pode experimentá-los com palavras-passe típicas como `1234`, `user` ou `password`, ou alguma variação.
+Outros nomes de utilizador predefinidos comuns incluem `user`, `admin` ou `123`. Podes experimentá-los com palavras-passe típicas como `1234`, `user` ou `password`, ou alguma variação.
 
-Se o sistema foi instalado profissionalmente, pergunte ao instalador se as credenciais predefinidas foram alteradas.
+Se o sistema foi instalado profissionalmente, pergunta ao instalador se as credenciais predefinidas foram alteradas.
 
 
 ## Etapa 3: Adicione o controlador de acesso no GateTap
 
-Abra o GateTap e introduza:
+Abre o GateTap. Se a página para adicionar um controlador não aparecer automaticamente, muda para o separador "Controller" e toca no botão "+" na barra de navegação no canto superior direito.
 
-- O endereço IP
-- O nome de utilizador
-- A palavra-passe
+Na página apresentada, introduz:
 
-Use as mesmas credenciais da interface web do controlador de acesso.
+- Endereço IP
+- Nome de utilizador
+- Palavra-passe
+
+Usa as mesmas credenciais de início de sessão usadas na interface web do controlador de acesso.
 
 
 ## Etapa 4: Teste a ligação
 
-Guarde a configuração e tente abrir uma porta ou portão.
+Guarda a configuração. A app tentará ligar-se automaticamente.
 
-Se nada acontecer, verifique:
+Se não for possível estabelecer a ligação, verifica:
 
 - Se o dispositivo está na mesma rede que o controlador de acesso
 - Se o endereço IP está correto
-- Se o controlador de acesso está ligado e acessível
+- Se o controlador de acesso tem energia e está acessível
 
 
 ## Etapa 5: Mantenha o endereço IP estável
@@ -119,15 +142,15 @@ Para evitar problemas mais tarde, o controlador deve usar sempre o mesmo endere�
 
 Isto pode ser feito através de:
 
-- Definir um IP estático no controlador
+- Configurar um IP estático no controlador
 - Criar uma reserva DHCP no router
 
 
 ## Modo demo
 
-O GateTap também inclui um modo demo. Pode iniciar um servidor web demo local dentro da app e depois adicioná-lo como um controlador normal.
+O GateTap também inclui um modo demo. Podes iniciar um controlador de acesso virtual dentro da app, que disponibiliza a interface de administração tal como um sistema real de controlo de acesso. Depois podes adicioná-lo como um controlador normal usando o endereço IP e as credenciais apresentados.
 
-Isto dá-lhe um caminho de teste conhecido e funcional para verificar se o próprio GateTap está a funcionar corretamente, mesmo que neste momento não tenha acesso a um controlador de acesso físico.
+Isto dá-te um caminho de teste conhecido e funcional para explorar as funcionalidades do GateTap, mesmo que não tenhas atualmente um controlador de acesso físico.
 
 
 ## Segurança

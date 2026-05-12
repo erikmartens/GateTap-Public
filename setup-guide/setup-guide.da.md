@@ -16,9 +16,21 @@ Language: da
 
 Tilslut GateTap til din adgangscontroller
 
+## Hvad er en adgangscontroller?
+
+En adgangscontroller er en enhed, der styrer åbning af døre, porte, garager eller bomme — for eksempel ved at aktivere en døråbner eller portmotor.
+Den modtager normalt åbningssignalet fra:
+
+- et samtaleanlæg
+- et tastatur
+- en nøglebrik eller adgangskort
+
+Mange moderne adgangskontrolsystemer er tilsluttet det lokale netværk og kan betjenes via en webgrænseflade i en browser. GateTap forbinder direkte til dit adgangskontrolsystem, så du nemt kan betjene det fra din enhed.
+
+
 ## Før du starter
 
-Sørg for, at din enhed er tilsluttet det samme lokale netværk som din adgangscontroller. Sørg for eksempel for, at din iPhone er på dit Wi-Fi derhjemme og ikke bruger mobildata.
+Sørg for, at din enhed er tilsluttet det samme lokale netværk som din adgangscontroller. Sørg for eksempel for, at din iPhone er forbundet til dit Wi-Fi derhjemme og ikke bruger mobildata.
 
 GateTap fungerer udelukkende på dit lokale netværk og skal bruge:
 
@@ -28,7 +40,7 @@ GateTap fungerer udelukkende på dit lokale netværk og skal bruge:
 
 ## Trin 1: Find adgangscontrollerens IP-adresse
 
-For at forbinde GateTap skal du bruge controllerens IP-adresse og loginoplysninger - se trin 2.
+For at forbinde GateTap skal du bruge controllerens IP-adresse og loginoplysninger — se trin 2.
 
 Vælg en af følgende muligheder:
 
@@ -47,9 +59,9 @@ Spørg efter IP-adressen og loginoplysningerne. Det er normalt den nemmeste og h
 
 ## Mulighed B: Tjek din router
 
-Åbn routerens konfigurationsside, og se efter tilsluttede enheder.
-
 For at få adgang til routeren skal du normalt bruge dens lokale adresse, f.eks. `192.168.1.1` eller et navn som `fritz.box`, samt routerens loginoplysninger.
+
+Åbn routerens konfigurationsside, og se efter tilsluttede enheder.
 
 Afsnittet kan hedde:
 
@@ -73,18 +85,27 @@ IP-adressen ser normalt sådan ud:
 
 Brug en netværksscanner-app på din enhed.
 
-Scan dit netværk, og prøv at åbne fundne IP-adresser i Safari, f.eks.:
+Scan dit netværk, og se efter:
+
+- Ukendte kablede enheder
+- Poster, der kan være din controller
+
+IP-adressen ser normalt sådan ud:
+`192.168.x.x` eller `10.0.x.x`
+
+
+## Test IP-adressen
+
+Prøv at åbne den fundne IP-adresse i Safari, f.eks.:
 
 `http://192.168.1.50`
 
 Hvis adgangscontrollerens loginside vises, har du fundet den rigtige adresse.
 
-![Eksempel på netværksscanner-app](../assets/setup-guide/da/img_02_en_US.png)
-
 
 ## Trin 2: Find adgangscontrollerens loginoplysninger
 
-Nogle controllere bruger stadig standard-loginoplysninger. Et almindeligt eksempel er brugernavnet `abc` med adgangskoden `654321`.
+Nogle adgangscontrollere bruger stadig standard-loginoplysninger. Et almindeligt eksempel er brugernavnet `abc` med adgangskoden `654321`.
 
 Andre ofte brugte standardbrugernavne er `user`, `admin` eller `123`. Du kan prøve dem sammen med typiske adgangskoder som `1234`, `user` eller `password` eller en variation af dem.
 
@@ -93,7 +114,9 @@ Hvis dit system blev installeret professionelt, så spørg installatøren, om st
 
 ## Trin 3: Tilføj adgangscontrolleren i GateTap
 
-Åbn GateTap, og indtast:
+Åbn GateTap. Hvis siden til tilføjelse af en controller ikke vises automatisk, skal du skifte til fanen "Controller" og trykke på knappen "+" i navigationslinjen øverst til højre.
+
+På den viste side skal du indtaste:
 
 - IP-adressen
 - Dit brugernavn
@@ -104,9 +127,9 @@ Brug de samme oplysninger som til adgangscontrollerens webinterface.
 
 ## Trin 4: Test forbindelsen
 
-Gem konfigurationen, og prøv at åbne en dør eller port.
+Gem konfigurationen. Appen forsøger automatisk at oprette forbindelse.
 
-Hvis der ikke sker noget, skal du kontrollere:
+Hvis forbindelsen ikke kan oprettes, skal du kontrollere:
 
 - At din enhed er på samme netværk som adgangscontrolleren
 - At IP-adressen er korrekt
@@ -125,9 +148,9 @@ Det kan gøres ved at:
 
 ## Demotilstand
 
-GateTap indeholder også en demotilstand. Du kan starte en lokal demo-webserver fra appen og derefter tilføje den som en normal controller.
+GateTap indeholder også en demotilstand. Du kan starte en virtuel adgangscontroller fra appen, som serverer administrationsgrænsefladen på samme måde som et rigtigt system. Derefter kan du tilføje den som en normal controller med den viste IP-adresse og loginoplysninger.
 
-Det giver dig en kendt fungerende testvej til at kontrollere, at GateTap selv fungerer korrekt, selvom du ikke lige nu har adgang til en fysisk adgangscontroller.
+Det giver dig en kendt fungerende testvej til at udforske GateTaps funktioner, selvom du ikke lige nu har en fysisk adgangscontroller.
 
 
 ## Sikkerhed

@@ -16,9 +16,21 @@ Language: ca
 
 Connecteu GateTap al vostre controlador d'accés
 
+## Què és un controlador d’accés?
+
+Un controlador d’accés és un dispositiu que gestiona l’obertura de portes, portals, garatges o barreres — per exemple activant un porter automàtic o el motor d’un portal.
+Normalment rep el senyal d’obertura de:
+
+- un sistema d’interfonia
+- un teclat
+- un clauer electrònic o una targeta d’accés
+
+Molts sistemes moderns de control d’accés estan connectats a la xarxa local i es poden utilitzar mitjançant una interfície web en un navegador. GateTap es connecta directament al teu sistema de control d’accés perquè el puguis fer servir còmodament des del dispositiu.
+
+
 ## Abans de començar
 
-Assegura’t que el dispositiu estigui connectat a la mateixa xarxa local que el controlador d’accés. Per exemple, comprova que l’iPhone sigui a la Wi-Fi de casa i no amb una connexió de dades mòbils.
+Assegura’t que el dispositiu estigui connectat a la mateixa xarxa local que el controlador d’accés. Per exemple, comprova que l’iPhone estigui connectat a la Wi-Fi de casa i no faci servir dades mòbils.
 
 GateTap funciona completament dins de la teva xarxa local i necessita:
 
@@ -28,7 +40,7 @@ GateTap funciona completament dins de la teva xarxa local i necessita:
 
 ## Pas 1: troba l’adreça IP del controlador d’accés
 
-Per connectar GateTap, necessites l’adreça IP del controlador i les credencials d’inici de sessió; consulta el pas 2.
+Per connectar GateTap, necessites l’adreça IP del controlador i les credencials d’inici de sessió — consulta el pas 2.
 
 Tria una de les opcions següents:
 
@@ -47,9 +59,9 @@ Demana-li l’adreça IP i les dades d’inici de sessió. Normalment és la man
 
 ## Opció B: comprova l’encaminador
 
-Obre la pàgina de configuració de l’encaminador i busca els dispositius connectats.
-
 Per accedir a l’encaminador, normalment necessites la seva adreça local, per exemple `192.168.1.1` o un nom com `fritz.box`, i les credencials de l’encaminador.
+
+Obre la pàgina de configuració de l’encaminador i busca els dispositius connectats.
 
 Aquest apartat es pot anomenar:
 
@@ -73,27 +85,38 @@ L’adreça IP normalment tindrà aquest aspecte:
 
 Utilitza una app d’escaneig de xarxa al dispositiu.
 
-Escaneja la xarxa i prova d’obrir les adreces IP trobades a Safari, per exemple:
+Escaneja la xarxa i busca:
+
+- Dispositius cablejats desconeguts
+- Entrades que puguin representar el controlador
+
+L’adreça IP normalment tindrà aquest aspecte:
+`192.168.x.x` o `10.0.x.x`
+
+
+## Prova l’adreça IP
+
+Prova d’obrir l’adreça IP trobada a Safari, per exemple:
 
 `http://192.168.1.50`
 
 Si apareix la pàgina d’inici de sessió del controlador d’accés, has trobat l’adreça correcta.
 
-![Exemple d’app d’escaneig de xarxa](../assets/setup-guide/ca/img_02_en_US.png)
-
 
 ## Pas 2: troba les credencials del controlador d’accés
 
-Alguns controladors encara utilitzen credencials predeterminades. Un exemple habitual és el nom d’usuari `abc` amb la contrasenya `654321`.
+Alguns controladors d’accés encara utilitzen credencials predeterminades. Un exemple habitual és el nom d’usuari `abc` amb la contrasenya `654321`.
 
-Altres noms d’usuari de fàbrica habituals són `user`, `admin` o `123`. Pots provar-los amb contrasenyes típiques com `1234`, `user` o `password`, o alguna variació.
+Altres noms d’usuari predeterminats habituals són `user`, `admin` o `123`. Pots provar-los amb contrasenyes típiques com `1234`, `user` o `password`, o alguna variació.
 
 Si el sistema es va instal·lar professionalment, pregunta a l’instal·lador si es van canviar les credencials predeterminades.
 
 
 ## Pas 3: afegeix el controlador d’accés a GateTap
 
-Obre GateTap i introdueix:
+Obre GateTap. Si la pàgina per afegir un controlador no apareix automàticament, canvia a la pestanya "Controller" i toca el botó "+" de la barra de navegació a la part superior dreta.
+
+A la pàgina que apareix, introdueix:
 
 - L’adreça IP
 - El nom d’usuari
@@ -104,9 +127,9 @@ Fes servir les mateixes credencials que per a la interfície web del controlador
 
 ## Pas 4: prova la connexió
 
-Desa la configuració i prova d’obrir una porta o una tanca.
+Desa la configuració. L’app intentarà connectar-se automàticament.
 
-Si no passa res, comprova:
+Si no es pot establir la connexió, comprova:
 
 - Que el dispositiu sigui a la mateixa xarxa que el controlador d’accés
 - Que l’adreça IP sigui correcta
@@ -125,9 +148,9 @@ Això es pot fer així:
 
 ## Mode demo
 
-GateTap també inclou un mode demo. Pots iniciar un servidor web demo local des de dins de l’app i després afegir-lo com un controlador normal.
+GateTap també inclou un mode demo. Pots iniciar un controlador d’accés virtual des de dins de l’app, que serveix la interfície d’administració com ho faria un sistema real. Després el pots afegir com un controlador normal utilitzant l’adreça IP i les credencials mostrades.
 
-Això et dona un camí de prova conegut que funciona per verificar que GateTap funciona correctament, encara que ara mateix no tinguis accés a un controlador d’accés físic.
+Això et dona un camí de prova conegut que funciona per explorar les funcions de GateTap, encara que ara mateix no tinguis cap controlador d’accés físic.
 
 
 ## Seguretat

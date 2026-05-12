@@ -16,9 +16,21 @@ Language: fi
 
 Yhdistä GateTap pääsyohjaimeen
 
+## Mikä on kulunvalvontaohjain?
+
+Kulunvalvontaohjain on laite, joka hallitsee ovien, porttien, autotallien tai puomien avaamista — esimerkiksi aktivoimalla oven summerin tai portin moottorin.
+Se saa avauskomennon yleensä seuraavista:
+
+- ovipuhelinjärjestelmä
+- näppäimistö
+- avaimenperä tai kulkukortti
+
+Monet modernit kulunvalvontajärjestelmät on yhdistetty paikallisverkkoon ja niitä voidaan käyttää selaimen verkkokäyttöliittymän kautta. GateTap yhdistää suoraan kulunvalvontajärjestelmääsi, jotta voit käyttää sitä helposti laitteeltasi.
+
+
 ## Ennen kuin aloitat
 
-Varmista, että laitteesi on yhdistetty samaan paikallisverkkoon kuin kulunvalvontaohjain. Varmista esimerkiksi, että iPhone on kodin Wi-Fi-verkossa eikä mobiilidatayhteydessä.
+Varmista, että laitteesi on yhdistetty samaan paikallisverkkoon kuin kulunvalvontaohjain. Varmista esimerkiksi, että iPhone on yhdistetty kodin Wi-Fi-verkkoon eikä käytä mobiilidataa.
 
 GateTap toimii kokonaan paikallisverkossasi ja tarvitsee:
 
@@ -28,7 +40,7 @@ GateTap toimii kokonaan paikallisverkossasi ja tarvitsee:
 
 ## Vaihe 1: Etsi kulunvalvontaohjaimen IP-osoite
 
-GateTapin yhdistämiseen tarvitset ohjaimen IP-osoitteen ja kirjautumistiedot - katso vaihe 2.
+GateTapin yhdistämiseen tarvitset ohjaimen IP-osoitteen ja kirjautumistiedot — katso vaihe 2.
 
 Valitse jokin seuraavista vaihtoehdoista:
 
@@ -47,9 +59,9 @@ Pyydä IP-osoite ja kirjautumistiedot. Tämä on yleensä helpoin ja nopein tapa
 
 ## Vaihtoehto B: Tarkista reitittimesi
 
-Avaa reitittimen asetussivu ja etsi yhdistetyt laitteet.
-
 Reitittimeen kirjautumiseen tarvitset yleensä sen paikallisen osoitteen, esimerkiksi `192.168.1.1` tai nimen kuten `fritz.box`, sekä reitittimen kirjautumistiedot.
+
+Avaa reitittimen asetussivu ja etsi yhdistetyt laitteet.
 
 Tämän osion nimi voi olla:
 
@@ -73,27 +85,38 @@ IP-osoite näyttää yleensä tältä:
 
 Käytä verkkoskannerisovellusta laitteellasi.
 
-Skannaa verkko ja kokeile avata löydettyjä IP-osoitteita Safarissa, esimerkiksi:
+Skannaa verkko ja etsi:
+
+- Tuntemattomia langallisia laitteita
+- Merkintöjä, jotka voisivat olla ohjaimesi
+
+IP-osoite näyttää yleensä tältä:
+`192.168.x.x` tai `10.0.x.x`
+
+
+## Testaa IP-osoite
+
+Kokeile avata löydetty IP-osoite Safarissa, esimerkiksi:
 
 `http://192.168.1.50`
 
 Jos kulunvalvontaohjaimen kirjautumissivu tulee näkyviin, löysit oikean osoitteen.
 
-![Esimerkki verkkoskannerisovelluksesta](../assets/setup-guide/fi/img_02_en_US.png)
-
 
 ## Vaihe 2: Etsi kulunvalvontaohjaimen kirjautumistiedot
 
-Jotkin ohjaimet käyttävät edelleen oletuskirjautumistietoja. Yleinen esimerkki on käyttäjätunnus `abc` ja salasana `654321`.
+Jotkin kulunvalvontaohjaimet käyttävät edelleen oletuskirjautumistietoja. Yleinen esimerkki on käyttäjätunnus `abc` ja salasana `654321`.
 
-Muita yleisiä tehdaskäyttäjätunnuksia ovat `user`, `admin` tai `123`. Voit kokeilla niitä tyypillisten salasanojen, kuten `1234`, `user` tai `password`, tai niiden muunnelmien kanssa.
+Muita yleisiä oletuskäyttäjätunnuksia ovat `user`, `admin` tai `123`. Voit kokeilla niitä tyypillisten salasanojen, kuten `1234`, `user` tai `password`, tai niiden muunnelmien kanssa.
 
 Jos järjestelmäsi asennettiin ammattilaisen toimesta, kysy asentajalta, onko oletustiedot muutettu.
 
 
 ## Vaihe 3: Lisää kulunvalvontaohjain GateTapiin
 
-Avaa GateTap ja syötä:
+Avaa GateTap. Jos ohjaimen lisäämissivu ei avaudu automaattisesti, siirry "Controller"-välilehteen ja napauta oikean yläkulman navigointipalkissa olevaa "+"-painiketta.
+
+Anna avautuvalla sivulla:
 
 - IP-osoite
 - Käyttäjätunnus
@@ -104,9 +127,9 @@ Käytä samoja kirjautumistietoja kuin kulunvalvontaohjaimen verkkokäyttöliitt
 
 ## Vaihe 4: Testaa yhteys
 
-Tallenna määritys ja kokeile avata ovi tai portti.
+Tallenna määritys. Sovellus yrittää muodostaa yhteyden automaattisesti.
 
-Jos mitään ei tapahdu, tarkista:
+Jos yhteyttä ei voida muodostaa, tarkista:
 
 - Että laitteesi on samassa verkossa kuin kulunvalvontaohjain
 - Että IP-osoite on oikein
@@ -125,9 +148,9 @@ Tämä voidaan tehdä:
 
 ## Demotila
 
-GateTap sisältää myös demotilan. Voit käynnistää paikallisen demo-verkkopalvelimen sovelluksesta ja lisätä sen sitten tavallisen ohjaimen tavoin.
+GateTap sisältää myös demotilan. Voit käynnistää sovelluksesta virtuaalisen kulunvalvontaohjaimen, joka tarjoaa hallintaliittymän kuten oikea järjestelmä. Sen jälkeen voit lisätä sen tavallisena ohjaimena näytetyn IP-osoitteen ja kirjautumistietojen avulla.
 
-Näin saat tunnetusti toimivan testipolun varmistaaksesi, että GateTap toimii oikein, vaikka sinulla ei juuri nyt olisi pääsyä fyysiseen kulunvalvontaohjaimeen.
+Näin saat tunnetusti toimivan testipolun GateTapin ominaisuuksien tutkimiseen, vaikka sinulla ei juuri nyt olisi fyysistä kulunvalvontaohjainta.
 
 
 ## Turvallisuus

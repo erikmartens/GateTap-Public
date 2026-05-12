@@ -16,9 +16,21 @@ Language: tr
 
 GateTap'i erişim denetleyicinize bağlayın
 
+## Erişim denetleyicisi nedir?
+
+Erişim denetleyicisi, kapıların, bahçe kapılarının, garajların veya bariyerlerin açılmasını yöneten bir cihazdır — örneğin kapı zili kilidini veya kapı motorunu etkinleştirir.
+Açma sinyalini genellikle şunlardan alır:
+
+- interkom sistemi
+- tuş takımı
+- anahtarlık veya erişim kartı
+
+Birçok modern erişim kontrol sistemi yerel ağa bağlıdır ve tarayıcıdaki web arayüzü üzerinden kullanılabilir. GateTap bu sisteme doğrudan bağlanır, böylece cihazınızdan kolayca kontrol edebilirsiniz.
+
+
 ## Başlamadan önce
 
-Cihazınızın erişim denetleyicinizle aynı yerel ağa bağlı olduğundan emin olun. Örneğin iPhone’unuzun mobil veri bağlantısında değil, ev Wi-Fi ağınızda olduğundan emin olun.
+Cihazınızın erişim denetleyicisiyle aynı yerel ağa bağlı olduğundan emin olun. Örneğin iPhone’unuzun ev Wi‑Fi ağına bağlı olduğunu ve mobil veri kullanmadığını kontrol edin.
 
 GateTap tamamen yerel ağınız içinde çalışır ve şunlara ihtiyaç duyar:
 
@@ -28,37 +40,37 @@ GateTap tamamen yerel ağınız içinde çalışır ve şunlara ihtiyaç duyar:
 
 ## 1. Adım: Erişim denetleyicisinin IP adresini bulun
 
-GateTap’i bağlamak için denetleyicinin IP adresine ve oturum açma bilgilerine ihtiyacınız vardır - bkz. 2. Adım.
+GateTap’i bağlamak için denetleyicinin IP adresine ve oturum açma bilgilerine ihtiyacınız var — 2. adıma bakın.
 
 Aşağıdaki seçeneklerden birini seçin:
 
 
 ## Seçenek A: Montajcınıza sorun (önerilir)
 
-Sisteminiz bir elektrikçi veya teknisyen tarafından kurulduysa, büyük olasılıkla her şeyi zaten yapılandırmıştır.
+Sisteminiz bir elektrikçi veya teknisyen tarafından kurulduysa, muhtemelen her şeyi zaten yapılandırmıştır.
 
-Birçok durumda:
+Çoğu durumda:
 
 - Denetleyici sabit bir IP adresi kullanır
-- Ya da yönlendirici DHCP rezervasyonu ile aynı IP’yi atar
+- Ya da yönlendirici DHCP rezervasyonu ile ona aynı IP adresini verir
 
-IP adresini ve oturum açma bilgilerini isteyin. Bu genellikle en kolay ve en hızlı yoldur.
+IP adresini ve oturum açma bilgilerini isteyin. Bu genellikle en kolay ve en hızlı yöntemdir.
 
 
 ## Seçenek B: Yönlendiricinizi kontrol edin
 
-Yönlendiricinizin yapılandırma sayfasını açın ve bağlı cihazları arayın.
+Yönlendiricinize erişmek için genellikle `192.168.1.1` gibi yerel adresine veya `fritz.box` gibi bir adına ve yönlendiricinin oturum açma bilgilerine ihtiyacınız vardır.
 
-Yönlendiriciye erişmek için genellikle `192.168.1.1` gibi yerel adresine veya `fritz.box` gibi bir adına ve yönlendiricinin oturum açma bilgilerine ihtiyaç duyarsınız.
+Yönlendiricinin yapılandırma sayfasını açın ve bağlı cihazları arayın.
 
-Bu bölüm şu adlarla görünebilir:
+Bu bölüm şu adlarla geçebilir:
 
 - Ağ
-- Bağlı Cihazlar
+- Bağlı cihazlar
 - LAN
-- DHCP İstemcileri
+- DHCP istemcileri
 
-Şunları arayın:
+Şunlara bakın:
 
 - Bilinmeyen kablolu cihazlar
 - Denetleyicinizi temsil edebilecek kayıtlar
@@ -66,68 +78,79 @@ Bu bölüm şu adlarla görünebilir:
 IP adresi genellikle şöyle görünür:
 `192.168.x.x` veya `10.0.x.x`
 
-![Yönlendiricide bağlı cihaz örneği](../assets/setup-guide/tr/img_01_en_US.png)
+![Yönlendiricide bağlı cihazlar örneği](../assets/setup-guide/tr/img_01_en_US.png)
 
 
 ## Seçenek C: Ağınızı tarayın
 
 Cihazınızda bir ağ tarayıcı uygulaması kullanın.
 
-Ağınızı tarayın ve bulunan IP adreslerini Safari’de açmayı deneyin, örneğin:
+Ağınızı tarayın ve şunları arayın:
+
+- Bilinmeyen kablolu cihazlar
+- Denetleyicinizi temsil edebilecek kayıtlar
+
+IP adresi genellikle şöyle görünür:
+`192.168.x.x` veya `10.0.x.x`
+
+
+## IP adresini test edin
+
+Bulunan IP adresini Safari’de açmayı deneyin, örneğin:
 
 `http://192.168.1.50`
 
-Erişim denetleyicisinin giriş sayfası görünürse doğru adresi buldunuz.
-
-![Ağ tarayıcı uygulaması örneği](../assets/setup-guide/tr/img_02_en_US.png)
+Erişim denetleyicisinin oturum açma sayfası görünürse doğru adresi buldunuz.
 
 
 ## 2. Adım: Erişim denetleyicisinin oturum açma bilgilerini bulun
 
-Bazı denetleyiciler hâlâ varsayılan oturum açma bilgilerini kullanır. Yaygın bir örnek, `abc` kullanıcı adı ve `654321` parolasıdır.
+Bazı erişim denetleyicileri hâlâ varsayılan oturum açma bilgilerini kullanır. Yaygın bir örnek, `abc` kullanıcı adı ve `654321` parolasıdır.
 
-Sık kullanılan diğer fabrika kullanıcı adları `user`, `admin` veya `123` şeklindedir. Bunları `1234`, `user` veya `password` gibi tipik parolalarla ya da bunların bir varyasyonuyla deneyebilirsiniz.
+Diğer yaygın varsayılan kullanıcı adları `user`, `admin` veya `123` olabilir. Bunları `1234`, `user` veya `password` gibi tipik parolalarla ya da bir varyasyonuyla deneyebilirsiniz.
 
-Sisteminiz profesyonel olarak kurulduysa, varsayılan bilgilerin değiştirilip değiştirilmediğini montajcınıza sorun.
+Sistem profesyonel olarak kurulduysa, varsayılan bilgilerin değiştirilip değiştirilmediğini kurulum yapan kişiye sorun.
 
 
 ## 3. Adım: Erişim denetleyicisini GateTap’e ekleyin
 
-GateTap’i açın ve şunları girin:
+GateTap’i açın. Denetleyici ekleme sayfası otomatik olarak görünmezse "Controller" sekmesine geçin ve sağ üstteki gezinme çubuğunda bulunan "+" düğmesine dokunun.
+
+Görünen sayfada şunları girin:
 
 - IP adresi
-- Kullanıcı adınız
-- Parolanız
+- Kullanıcı adı
+- Parola
 
-Erişim denetleyicisinin web arayüzündekiyle aynı oturum açma bilgilerini kullanın.
+Erişim denetleyicisinin web arayüzü için kullandığınız aynı oturum açma bilgilerini kullanın.
 
 
 ## 4. Adım: Bağlantıyı test edin
 
-Yapılandırmanızı kaydedin ve bir kapıyı veya geçidi açmayı deneyin.
+Yapılandırmayı kaydedin. Uygulama otomatik olarak bağlanmayı deneyecektir.
 
-Hiçbir şey olmazsa şunları kontrol edin:
+Bağlantı kurulamıyorsa şunları kontrol edin:
 
-- Cihazınız erişim denetleyicisiyle aynı ağda mı
-- IP adresi doğru mu
-- Erişim denetleyicisi açık ve erişilebilir mi
+- Cihazınız erişim denetleyicisiyle aynı ağda
+- IP adresi doğru
+- Erişim denetleyicisi açık ve erişilebilir
 
 
 ## 5. Adım: IP adresini sabit tutun
 
 Daha sonra sorun yaşamamak için denetleyici her zaman aynı IP adresini kullanmalıdır.
 
-Bu şu şekilde yapılabilir:
+Bunu şu şekilde yapabilirsiniz:
 
-- Denetleyicide statik IP ayarlayarak
-- Yönlendiricide DHCP rezervasyonu oluşturarak
+- Denetleyicide statik IP ayarlamak
+- Yönlendiricide DHCP rezervasyonu oluşturmak
 
 
 ## Demo modu
 
-GateTap ayrıca bir demo modu içerir. Uygulamanın içinden yerel bir demo web sunucusu başlatabilir ve ardından bunu normal bir denetleyici gibi ekleyebilirsiniz.
+GateTap ayrıca demo modu içerir. Uygulama içinden sanal bir erişim denetleyicisi başlatabilirsiniz; bu denetleyici gerçek bir erişim kontrol sisteminin sunduğu yönetim arayüzünü sunar. Ardından gösterilen IP adresi ve oturum açma bilgileriyle normal bir denetleyici gibi ekleyebilirsiniz.
 
-Bu, şu anda fiziksel bir erişim denetleyicisine erişiminiz olmasa bile GateTap’in doğru çalıştığını doğrulamak için bilinen çalışan bir test yolu sağlar.
+Bu, şu anda fiziksel bir erişim denetleyiciniz olmasa bile GateTap’in özelliklerini keşfetmek için çalıştığı bilinen bir test yolu sağlar.
 
 
 ## Güvenlik

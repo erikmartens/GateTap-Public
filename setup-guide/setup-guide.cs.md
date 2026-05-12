@@ -16,6 +16,18 @@ Language: cs
 
 Připojte GateTap k vašemu přístupovému ovladači
 
+## Co je přístupový kontroler?
+
+Přístupový kontroler je zařízení, které řídí otevírání dveří, bran, garáží nebo závor — například aktivací dveřního bzučáku nebo pohonu brány.
+Signál k otevření obvykle přijímá z:
+
+- domovního telefonu
+- klávesnice
+- přívěsku nebo přístupové karty
+
+Mnoho moderních systémů kontroly přístupu je připojeno k místní síti a lze je ovládat přes webové rozhraní v prohlížeči. GateTap se připojuje přímo k vašemu systému kontroly přístupu, abyste ho mohli pohodlně ovládat ze svého zařízení.
+
+
 ## Než začnete
 
 Ujistěte se, že je vaše zařízení připojeno ke stejné místní síti jako přístupový kontroler. Například zkontrolujte, že je iPhone připojen k domácí Wi-Fi a nepoužívá mobilní data.
@@ -28,7 +40,7 @@ GateTap funguje celý ve vaší místní síti a potřebuje:
 
 ## Krok 1: Najděte IP adresu přístupového kontroleru
 
-Pro připojení GateTap potřebujete IP adresu kontroleru a přihlašovací údaje - viz krok 2.
+Pro připojení GateTap potřebujete IP adresu kontroleru a přihlašovací údaje — viz krok 2.
 
 Vyberte jednu z následujících možností:
 
@@ -47,9 +59,9 @@ Požádejte ho o IP adresu a přihlašovací údaje. Obvykle je to nejjednoduš�
 
 ## Možnost B: Zkontrolujte router
 
-Otevřete konfigurační stránku routeru a vyhledejte připojená zařízení.
-
 Pro přístup k routeru obvykle potřebujete jeho místní adresu, například `192.168.1.1` nebo název jako `fritz.box`, a přihlašovací údaje routeru.
+
+Otevřete konfigurační stránku routeru a vyhledejte připojená zařízení.
 
 Tato část se může jmenovat:
 
@@ -73,27 +85,38 @@ IP adresa bude obvykle vypadat takto:
 
 Použijte na svém zařízení aplikaci pro skenování sítě.
 
-Prohledejte síť a zkuste nalezené IP adresy otevřít v Safari, například:
+Prohledejte síť a hledejte:
+
+- Neznámá kabelová zařízení
+- Položky, které by mohly představovat váš kontroler
+
+IP adresa bude obvykle vypadat takto:
+`192.168.x.x` nebo `10.0.x.x`
+
+
+## Otestujte IP adresu
+
+Zkuste nalezenou IP adresu otevřít v Safari, například:
 
 `http://192.168.1.50`
 
 Pokud se zobrazí přihlašovací stránka přístupového kontroleru, našli jste správnou adresu.
 
-![Příklad aplikace pro skenování sítě](../assets/setup-guide/cs/img_02_en_US.png)
-
 
 ## Krok 2: Najděte přihlašovací údaje přístupového kontroleru
 
-Některé kontrolery stále používají výchozí přihlašovací údaje. Běžným příkladem je uživatelské jméno `abc` s heslem `654321`.
+Některé přístupové kontrolery stále používají výchozí přihlašovací údaje. Běžným příkladem je uživatelské jméno `abc` s heslem `654321`.
 
-Další často používaná tovární uživatelská jména jsou `user`, `admin` nebo `123`. Můžete je vyzkoušet s typickými hesly jako `1234`, `user` nebo `password`, případně s jejich obměnou.
+Další často používaná výchozí uživatelská jména jsou `user`, `admin` nebo `123`. Můžete je vyzkoušet s typickými hesly jako `1234`, `user` nebo `password`, případně s jejich obměnou.
 
 Pokud byl systém instalován profesionálně, zeptejte se instalačního technika, zda byly výchozí údaje změněny.
 
 
 ## Krok 3: Přidejte přístupový kontroler do GateTap
 
-Otevřete GateTap a zadejte:
+Otevřete GateTap. Pokud se stránka pro přidání kontroleru nezobrazí automaticky, přepněte na kartu "Controller" a klepněte na tlačítko "+" v navigační liště vpravo nahoře.
+
+Na zobrazené stránce zadejte:
 
 - IP adresu
 - Uživatelské jméno
@@ -104,9 +127,9 @@ Použijte stejné údaje jako pro webové rozhraní přístupového kontroleru.
 
 ## Krok 4: Otestujte připojení
 
-Uložte konfiguraci a zkuste otevřít dveře nebo bránu.
+Uložte konfiguraci. Aplikace se automaticky pokusí připojit.
 
-Pokud se nic nestane, zkontrolujte:
+Pokud se připojení nepodaří navázat, zkontrolujte:
 
 - Že je vaše zařízení ve stejné síti jako přístupový kontroler
 - Že je IP adresa správná
@@ -125,9 +148,9 @@ To lze provést takto:
 
 ## Demo režim
 
-GateTap obsahuje také demo režim. V aplikaci můžete spustit místní demo webový server a potom ho přidat jako běžný kontroler.
+GateTap obsahuje také demo režim. V aplikaci můžete spustit virtuální přístupový kontroler, který poskytuje administrační rozhraní stejně jako skutečný systém. Potom ho můžete přidat jako běžný kontroler pomocí zobrazené IP adresy a přihlašovacích údajů.
 
-Získáte tak známou funkční testovací cestu pro ověření, že GateTap funguje správně, i když momentálně nemáte přístup k fyzickému přístupovému kontroleru.
+Získáte tak známou funkční testovací cestu pro prozkoumání funkcí GateTap, i když momentálně nemáte fyzický přístupový kontroler.
 
 
 ## Bezpečnost

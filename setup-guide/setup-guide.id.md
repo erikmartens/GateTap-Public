@@ -16,9 +16,21 @@ Language: id
 
 Hubungkan GateTap ke pengontrol akses Anda
 
+## Apa itu pengontrol akses?
+
+Pengontrol akses adalah perangkat yang mengelola pembukaan pintu, gerbang, garasi, atau palang — misalnya dengan mengaktifkan buzzer pintu atau motor gerbang.
+Biasanya perangkat ini menerima sinyal pembuka dari:
+
+- sistem interkom
+- keypad
+- key fob atau kartu akses
+
+Banyak sistem kontrol akses modern terhubung ke jaringan lokal dan dapat dioperasikan melalui antarmuka web di browser. GateTap terhubung langsung ke sistem tersebut sehingga Anda dapat mengoperasikannya dengan mudah dari perangkat Anda.
+
+
 ## Sebelum Anda mulai
 
-Pastikan perangkat Anda terhubung ke jaringan lokal yang sama dengan pengontrol akses Anda. Misalnya, pastikan iPhone Anda memakai Wi-Fi rumah, bukan koneksi data seluler.
+Pastikan perangkat Anda tersambung ke jaringan lokal yang sama dengan pengontrol akses. Misalnya, pastikan iPhone tersambung ke Wi‑Fi rumah dan tidak menggunakan data seluler.
 
 GateTap bekerja sepenuhnya di dalam jaringan lokal Anda dan membutuhkan:
 
@@ -26,87 +38,98 @@ GateTap bekerja sepenuhnya di dalam jaringan lokal Anda dan membutuhkan:
 - Nama pengguna dan kata sandi
 
 
-## Langkah 1: Temukan alamat IP pengontrol akses
+## Langkah 1: Temukan alamat IP pengontrol akses Anda
 
-Untuk menghubungkan GateTap, Anda membutuhkan alamat IP pengontrol dan kredensial login - lihat Langkah 2.
+Untuk menghubungkan GateTap, Anda membutuhkan alamat IP pengontrol dan kredensial login — lihat Langkah 2.
 
 Pilih salah satu opsi berikut:
 
 
 ## Opsi A: Tanyakan kepada penginstal Anda (disarankan)
 
-Jika sistem Anda dipasang oleh teknisi listrik atau teknisi, kemungkinan besar semuanya sudah dikonfigurasi.
+Jika sistem Anda dipasang oleh teknisi listrik atau teknisi, kemungkinan mereka sudah mengonfigurasi semuanya.
 
 Dalam banyak kasus:
 
 - Pengontrol menggunakan alamat IP tetap
-- Atau router menetapkan IP yang sama melalui reservasi DHCP
+- Atau router memberikan alamat IP yang sama melalui reservasi DHCP
 
-Mintalah alamat IP dan detail login. Ini biasanya cara termudah dan tercepat.
+Mintalah alamat IP dan informasi login kepada mereka. Ini biasanya cara paling mudah dan cepat.
 
 
 ## Opsi B: Periksa router Anda
 
-Buka halaman konfigurasi router Anda dan cari perangkat yang terhubung.
+Untuk mengakses router, Anda biasanya memerlukan alamat lokalnya, misalnya `192.168.1.1` atau nama seperti `fritz.box`, serta kredensial login router.
 
-Untuk mengakses router, biasanya Anda memerlukan alamat lokalnya, misalnya `192.168.1.1` atau nama seperti `fritz.box`, serta kredensial login router.
+Buka halaman konfigurasi router dan cari perangkat yang terhubung.
 
-Bagian ini mungkin disebut:
+Bagian ini mungkin bernama:
 
 - Jaringan
-- Perangkat Terhubung
+- Perangkat terhubung
 - LAN
 - Klien DHCP
 
 Cari:
 
-- Perangkat berkabel yang tidak dikenal
+- Perangkat kabel yang tidak dikenal
 - Entri yang mungkin mewakili pengontrol Anda
 
 Alamat IP biasanya terlihat seperti:
 `192.168.x.x` atau `10.0.x.x`
 
-![Contoh perangkat yang terhubung di router](../assets/setup-guide/id/img_01_en_US.png)
+![Contoh perangkat terhubung di router](../assets/setup-guide/id/img_01_en_US.png)
 
 
 ## Opsi C: Pindai jaringan Anda
 
 Gunakan aplikasi pemindai jaringan di perangkat Anda.
 
-Pindai jaringan Anda dan coba buka alamat IP yang ditemukan di Safari, misalnya:
+Pindai jaringan Anda dan cari:
+
+- Perangkat kabel yang tidak dikenal
+- Entri yang mungkin mewakili pengontrol Anda
+
+Alamat IP biasanya terlihat seperti:
+`192.168.x.x` atau `10.0.x.x`
+
+
+## Uji alamat IP
+
+Coba buka alamat IP yang ditemukan di Safari, misalnya:
 
 `http://192.168.1.50`
 
 Jika halaman login pengontrol akses muncul, Anda telah menemukan alamat yang benar.
 
-![Contoh aplikasi pemindai jaringan](../assets/setup-guide/id/img_02_en_US.png)
-
 
 ## Langkah 2: Temukan kredensial login pengontrol akses
 
-Beberapa pengontrol masih menggunakan kredensial login bawaan. Contoh umum adalah nama pengguna `abc` dengan kata sandi `654321`.
+Sebagian pengontrol akses masih menggunakan kredensial login bawaan. Contoh umum adalah nama pengguna `abc` dengan kata sandi `654321`.
 
-Nama pengguna bawaan lain yang umum digunakan adalah `user`, `admin`, atau `123`. Anda dapat mencobanya dengan kata sandi umum seperti `1234`, `user`, atau `password`, atau variasinya.
+Nama pengguna bawaan lain yang umum adalah `user`, `admin`, atau `123`. Anda dapat mencobanya dengan kata sandi umum seperti `1234`, `user`, atau `password`, atau variasinya.
 
-Jika sistem Anda dipasang secara profesional, tanyakan kepada penginstal apakah kredensial bawaan telah diubah.
+Jika sistem Anda dipasang secara profesional, tanyakan kepada pemasang apakah kredensial bawaan telah diubah.
 
 
 ## Langkah 3: Tambahkan pengontrol akses di GateTap
 
-Buka GateTap dan masukkan:
+Buka GateTap. Jika halaman untuk menambahkan pengontrol tidak muncul otomatis, buka tab "Controller" dan ketuk tombol "+" di bilah navigasi kanan atas.
+
+Pada halaman yang muncul, masukkan:
 
 - Alamat IP
-- Nama pengguna Anda
-- Kata sandi Anda
+- Nama pengguna
+- Kata sandi
 
-Gunakan kredensial yang sama seperti untuk antarmuka web pengontrol akses.
+Gunakan kredensial login yang sama dengan antarmuka web pengontrol akses.
 
 
 ## Langkah 4: Uji koneksi
 
-Simpan konfigurasi Anda dan coba buka pintu atau gerbang.
+Simpan konfigurasi Anda. Aplikasi akan otomatis mencoba terhubung.
 
-Jika tidak ada yang terjadi, periksa:
+Jika koneksi tidak dapat dibuat, periksa:
 
 - Perangkat Anda berada di jaringan yang sama dengan pengontrol akses
 - Alamat IP benar
@@ -115,19 +138,19 @@ Jika tidak ada yang terjadi, periksa:
 
 ## Langkah 5: Jaga agar alamat IP tetap stabil
 
-Untuk menghindari masalah nanti, pengontrol sebaiknya selalu menggunakan alamat IP yang sama.
+Untuk menghindari masalah nanti, pengontrol harus selalu menggunakan alamat IP yang sama.
 
 Ini dapat dilakukan dengan:
 
-- Menetapkan IP statis pada pengontrol
-- Membuat reservasi DHCP di router Anda
+- Mengatur IP statis pada pengontrol
+- Membuat reservasi DHCP di router
 
 
 ## Mode demo
 
-GateTap juga menyertakan mode demo. Anda dapat memulai server web demo lokal dari dalam aplikasi, lalu menambahkannya seperti pengontrol biasa.
+GateTap juga menyertakan mode demo. Anda dapat memulai pengontrol akses virtual dari dalam aplikasi, yang menyajikan antarmuka administrasi seperti sistem kontrol akses nyata. Setelah itu Anda dapat menambahkannya seperti pengontrol biasa menggunakan alamat IP dan kredensial yang ditampilkan.
 
-Ini memberi Anda jalur pengujian yang diketahui berfungsi untuk memastikan GateTap sendiri berjalan dengan benar, meskipun saat ini Anda tidak memiliki akses ke pengontrol akses fisik.
+Ini memberi Anda jalur pengujian yang diketahui berfungsi untuk menjelajahi fitur GateTap, meskipun saat ini Anda tidak memiliki pengontrol akses fisik.
 
 
 ## Keamanan

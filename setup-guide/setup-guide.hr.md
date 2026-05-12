@@ -16,9 +16,21 @@ Language: hr
 
 Spojite GateTap na svoj kontroler pristupa
 
+## Što je kontroler pristupa?
+
+Kontroler pristupa je uređaj koji upravlja otvaranjem vrata, kapija, garaža ili rampi — primjerice aktiviranjem zujalice vrata ili motora kapije.
+Obično prima signal za otvaranje od:
+
+- portafonskog sustava
+- tipkovnice
+- privjeska ili pristupne kartice
+
+Mnogi moderni sustavi kontrole pristupa povezani su s lokalnom mrežom i mogu se koristiti putem web sučelja u pregledniku. GateTap se izravno povezuje s vašim sustavom kontrole pristupa kako biste ga mogli praktično koristiti sa svog uređaja.
+
+
 ## Prije nego počnete
 
-Provjerite je li vaš uređaj povezan s istom lokalnom mrežom kao i vaš kontroler pristupa. Primjerice, provjerite je li iPhone na kućnoj Wi-Fi mreži, a ne na mobilnoj podatkovnoj vezi.
+Provjerite je li vaš uređaj povezan s istom lokalnom mrežom kao i vaš kontroler pristupa. Primjerice, provjerite je li iPhone povezan s kućnim Wi-Fi-jem i ne koristi mobilne podatke.
 
 GateTap u potpunosti radi unutar vaše lokalne mreže i treba:
 
@@ -28,7 +40,7 @@ GateTap u potpunosti radi unutar vaše lokalne mreže i treba:
 
 ## Korak 1: Pronađite IP adresu kontrolera pristupa
 
-Za povezivanje GateTapa potrebna vam je IP adresa kontrolera i podaci za prijavu - pogledajte korak 2.
+Za povezivanje GateTapa potrebna vam je IP adresa kontrolera i podaci za prijavu — pogledajte korak 2.
 
 Odaberite jednu od sljedećih mogućnosti:
 
@@ -47,9 +59,9 @@ Zatražite IP adresu i podatke za prijavu. To je obično najlakši i najbrži na
 
 ## Opcija B: Provjerite svoj usmjerivač
 
-Otvorite konfiguracijsku stranicu usmjerivača i potražite povezane uređaje.
-
 Za pristup usmjerivaču obično trebate njegovu lokalnu adresu, npr. `192.168.1.1` ili naziv poput `fritz.box`, te podatke za prijavu na usmjerivač.
+
+Otvorite konfiguracijsku stranicu usmjerivača i potražite povezane uređaje.
 
 Ovaj se odjeljak može zvati:
 
@@ -73,27 +85,38 @@ IP adresa obično izgleda ovako:
 
 Upotrijebite aplikaciju za skeniranje mreže na svom uređaju.
 
-Skenirajte mrežu i pokušajte otvoriti pronađene IP adrese u Safariju, na primjer:
+Skenirajte mrežu i potražite:
+
+- Nepoznate žičane uređaje
+- Unose koji bi mogli predstavljati vaš kontroler
+
+IP adresa obično izgleda ovako:
+`192.168.x.x` ili `10.0.x.x`
+
+
+## Testirajte IP adresu
+
+Pokušajte otvoriti pronađenu IP adresu u Safariju, na primjer:
 
 `http://192.168.1.50`
 
 Ako se pojavi stranica za prijavu kontrolera pristupa, pronašli ste ispravnu adresu.
 
-![Primjer aplikacije za skeniranje mreže](../assets/setup-guide/hr/img_02_en_US.png)
-
 
 ## Korak 2: Pronađite podatke za prijavu kontrolera pristupa
 
-Neki kontroleri još uvijek koriste zadane podatke za prijavu. Čest primjer je korisničko ime `abc` s lozinkom `654321`.
+Neki kontroleri pristupa još uvijek koriste zadane podatke za prijavu. Čest primjer je korisničko ime `abc` s lozinkom `654321`.
 
-Druga često korištena tvornička korisnička imena su `user`, `admin` ili `123`. Možete ih isprobati s tipičnim lozinkama kao što su `1234`, `user` ili `password`, ili nekom njihovom varijacijom.
+Druga često korištena zadana korisnička imena su `user`, `admin` ili `123`. Možete ih isprobati s tipičnim lozinkama kao što su `1234`, `user` ili `password`, ili nekom njihovom varijacijom.
 
 Ako je sustav profesionalno instaliran, pitajte instalatera jesu li zadani podaci promijenjeni.
 
 
 ## Korak 3: Dodajte kontroler pristupa u GateTap
 
-Otvorite GateTap i unesite:
+Otvorite GateTap. Ako se stranica za dodavanje kontrolera ne pojavi automatski, prijeđite na karticu "Controller" i dodirnite gumb "+" u navigacijskoj traci gore desno.
+
+Na stranici koja se pojavi unesite:
 
 - IP adresu
 - Korisničko ime
@@ -104,9 +127,9 @@ Koristite iste podatke za prijavu kao za web sučelje kontrolera pristupa.
 
 ## Korak 4: Testirajte vezu
 
-Spremite konfiguraciju i pokušajte otvoriti vrata ili kapiju.
+Spremite konfiguraciju. Aplikacija će se automatski pokušati povezati.
 
-Ako se ništa ne dogodi, provjerite:
+Ako se veza ne može uspostaviti, provjerite:
 
 - Je li vaš uređaj na istoj mreži kao kontroler pristupa
 - Je li IP adresa ispravna
@@ -125,9 +148,9 @@ To se može učiniti tako da:
 
 ## Demo način
 
-GateTap uključuje i demo način. Možete pokrenuti lokalni demo web-poslužitelj iz aplikacije i zatim ga dodati kao običan kontroler.
+GateTap uključuje i demo način. Možete pokrenuti virtualni kontroler pristupa iz aplikacije, koji poslužuje administracijsko sučelje kao pravi sustav. Zatim ga možete dodati kao običan kontroler pomoću prikazane IP adrese i podataka za prijavu.
 
-Tako dobivate poznat ispravan testni put za provjeru radi li GateTap pravilno, čak i ako trenutno nemate pristup fizičkom kontroleru pristupa.
+Tako dobivate poznat ispravan testni put za istraživanje značajki GateTapa, čak i ako trenutno nemate fizički kontroler pristupa.
 
 
 ## Sigurnost

@@ -16,11 +16,23 @@ Language: sk
 
 Pripojte GateTap k ovládaču prístupu
 
+## Čo je prístupový kontrolér?
+
+Prístupový kontrolér je zariadenie, ktoré riadi otváranie dverí, brán, garáží alebo závor — napríklad aktivovaním dverového bzučiaka alebo motora brány.
+Zvyčajne prijíma signál na otvorenie z:
+
+- interkomového systému
+- klávesnice
+- prívesku alebo prístupovej karty
+
+Mnohé moderné systémy kontroly prístupu sú pripojené k lokálnej sieti a dajú sa ovládať cez webové rozhranie v prehliadači. GateTap sa pripája priamo k tomuto systému, aby ste ho mohli pohodlne ovládať zo svojho zariadenia.
+
+
 ## Skôr ako začnete
 
-Uistite sa, že vaše zariadenie je pripojené k rovnakej miestnej sieti ako prístupový kontrolér. Napríklad skontrolujte, že iPhone je na domácej Wi-Fi, nie na mobilných dátach.
+Uistite sa, že vaše zariadenie je pripojené k rovnakej lokálnej sieti ako prístupový kontrolér. Napríklad skontrolujte, že iPhone je pripojený k domácej Wi‑Fi a nepoužíva mobilné dáta.
 
-GateTap funguje úplne v rámci vašej miestnej siete a potrebuje:
+GateTap funguje výhradne vo vašej lokálnej sieti a potrebuje:
 
 - IP adresu kontroléra
 - Používateľské meno a heslo
@@ -28,28 +40,28 @@ GateTap funguje úplne v rámci vašej miestnej siete a potrebuje:
 
 ## Krok 1: Nájdite IP adresu prístupového kontroléra
 
-Na pripojenie GateTap potrebujete IP adresu kontroléra a prihlasovacie údaje - pozrite krok 2.
+Na pripojenie GateTap potrebujete IP adresu kontroléra a prihlasovacie údaje — pozrite krok 2.
 
 Vyberte jednu z nasledujúcich možností:
 
 
 ## Možnosť A: Opýtajte sa svojho inštalatéra (odporúča sa)
 
-Ak systém nainštaloval elektrikár alebo technik, pravdepodobne už všetko nakonfiguroval.
+Ak systém inštaloval elektrikár alebo technik, pravdepodobne už všetko nakonfiguroval.
 
 V mnohých prípadoch:
 
 - Kontrolér používa pevnú IP adresu
-- Alebo smerovač prideľuje rovnakú IP cez rezerváciu DHCP
+- Alebo mu router prideľuje rovnakú IP adresu cez rezerváciu DHCP
 
-Požiadajte ho o IP adresu a prihlasovacie údaje. Zvyčajne je to najjednoduchší a najrýchlejší spôsob.
+Požiadajte ich o IP adresu a prihlasovacie údaje. Zvyčajne je to najjednoduchší a najrýchlejší spôsob.
 
 
 ## Možnosť B: Skontrolujte smerovač
 
-Otvorte konfiguračnú stránku smerovača a vyhľadajte pripojené zariadenia.
+Na prístup k routeru zvyčajne potrebujete jeho lokálnu adresu, napríklad `192.168.1.1` alebo názov ako `fritz.box`, a prihlasovacie údaje routera.
 
-Na prístup k smerovaču zvyčajne potrebujete jeho miestnu adresu, napríklad `192.168.1.1` alebo názov ako `fritz.box`, a prihlasovacie údaje smerovača.
+Otvorte konfiguračnú stránku routera a vyhľadajte pripojené zariadenia.
 
 Táto sekcia sa môže volať:
 
@@ -61,73 +73,84 @@ Táto sekcia sa môže volať:
 Hľadajte:
 
 - Neznáme káblové zariadenia
-- Položky, ktoré by mohli predstavovať váš kontrolér
+- Položky, ktoré môžu predstavovať váš kontrolér
 
 IP adresa zvyčajne vyzerá takto:
 `192.168.x.x` alebo `10.0.x.x`
 
-![Príklad pripojených zariadení v smerovači](../assets/setup-guide/sk/img_01_en_US.png)
+![Príklad pripojených zariadení v routeri](../assets/setup-guide/sk/img_01_en_US.png)
 
 
 ## Možnosť C: Skenovanie siete
 
 Použite aplikáciu na skenovanie siete vo svojom zariadení.
 
-Preskenujte sieť a skúste otvoriť nájdené IP adresy v Safari, napríklad:
+Preskenujte sieť a hľadajte:
+
+- Neznáme káblové zariadenia
+- Položky, ktoré môžu predstavovať váš kontrolér
+
+IP adresa zvyčajne vyzerá takto:
+`192.168.x.x` alebo `10.0.x.x`
+
+
+## Otestujte IP adresu
+
+Skúste otvoriť nájdenú IP adresu v Safari, napríklad:
 
 `http://192.168.1.50`
 
 Ak sa zobrazí prihlasovacia stránka prístupového kontroléra, našli ste správnu adresu.
 
-![Príklad aplikácie na skenovanie siete](../assets/setup-guide/sk/img_02_en_US.png)
-
 
 ## Krok 2: Nájdite prihlasovacie údaje prístupového kontroléra
 
-Niektoré kontroléry stále používajú predvolené prihlasovacie údaje. Bežným príkladom je používateľské meno `abc` s heslom `654321`.
+Niektoré prístupové kontroléry stále používajú predvolené prihlasovacie údaje. Bežným príkladom je používateľské meno `abc` s heslom `654321`.
 
-Ďalšie často používané továrenské používateľské mená sú `user`, `admin` alebo `123`. Môžete ich vyskúšať s typickými heslami ako `1234`, `user` alebo `password`, prípadne s ich obmenou.
+Ďalšie bežné predvolené používateľské mená sú `user`, `admin` alebo `123`. Môžete ich skúsiť s typickými heslami ako `1234`, `user` alebo `password`, prípadne s ich variantom.
 
 Ak bol systém nainštalovaný profesionálne, opýtajte sa inštalatéra, či boli predvolené údaje zmenené.
 
 
 ## Krok 3: Pridajte prístupový kontrolér do GateTap
 
-Otvorte GateTap a zadajte:
+Otvorte GateTap. Ak sa stránka na pridanie kontroléra nezobrazí automaticky, prejdite na kartu "Controller" a klepnite na tlačidlo "+" v navigačnom paneli vpravo hore.
+
+Na zobrazenej stránke zadajte:
 
 - IP adresu
 - Používateľské meno
 - Heslo
 
-Použite rovnaké údaje ako pre webové rozhranie prístupového kontroléra.
+Použite rovnaké prihlasovacie údaje ako pre webové rozhranie prístupového kontroléra.
 
 
 ## Krok 4: Otestujte pripojenie
 
-Uložte konfiguráciu a skúste otvoriť dvere alebo bránu.
+Uložte konfiguráciu. Aplikácia sa automaticky pokúsi pripojiť.
 
-Ak sa nič nestane, skontrolujte:
+Ak sa pripojenie nepodarí vytvoriť, skontrolujte:
 
-- Vaše zariadenie je v rovnakej sieti ako prístupový kontrolér
+- Zariadenie je v rovnakej sieti ako prístupový kontrolér
 - IP adresa je správna
 - Prístupový kontrolér je napájaný a dostupný
 
 
 ## Krok 5: Udržujte stabilnú IP adresu
 
-Aby ste sa neskôr vyhli problémom, kontrolér by mal vždy používať rovnakú IP adresu.
+Aby ste predišli problémom neskôr, kontrolér by mal vždy používať rovnakú IP adresu.
 
 Dá sa to urobiť takto:
 
-- Nastavením statickej IP na kontroléri
-- Vytvorením rezervácie DHCP v smerovači
+- Nastaviť statickú IP na kontroléri
+- Vytvoriť rezerváciu DHCP v routeri
 
 
 ## Demo režim
 
-GateTap obsahuje aj demo režim. Z aplikácie môžete spustiť miestny demo webový server a potom ho pridať ako bežný kontrolér.
+GateTap obsahuje aj demo režim. Z aplikácie môžete spustiť virtuálny prístupový kontrolér, ktorý poskytuje administračné rozhranie tak, ako by to robil skutočný systém kontroly prístupu. Potom ho môžete pridať ako bežný kontrolér pomocou zobrazenej IP adresy a prihlasovacích údajov.
 
-Získate tak známy funkčný testovací postup na overenie, že samotný GateTap funguje správne, aj keď momentálne nemáte prístup k fyzickému prístupovému kontroléru.
+Získate tak overenú testovaciu cestu na preskúmanie funkcií GateTap, aj keď momentálne nemáte fyzický prístupový kontrolér.
 
 
 ## Bezpečnosť

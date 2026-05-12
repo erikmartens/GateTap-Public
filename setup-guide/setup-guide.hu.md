@@ -16,11 +16,23 @@ Language: hu
 
 Csatlakoztassa a GateTap-ot a hozzáférés-vezérlőhöz
 
+## Mi az a hozzáférés-vezérlő?
+
+A beléptetővezérlő olyan eszköz, amely ajtók, kapuk, garázsok vagy sorompók nyitását kezeli — például ajtócsengő vagy kapumotor aktiválásával.
+A nyitási jelet általában innen kapja:
+
+- kaputelefon-rendszer
+- billentyűzet
+- kulcstartó vagy belépőkártya
+
+Sok modern beléptetőrendszer csatlakozik a helyi hálózathoz, és böngészőben elérhető webes felületen keresztül kezelhető. A GateTap közvetlenül ehhez a rendszerhez kapcsolódik, hogy kényelmesen vezérelhesd az eszközödről.
+
+
 ## Mielőtt elkezdené
 
-Győződjön meg róla, hogy az eszköze ugyanahhoz a helyi hálózathoz csatlakozik, mint a hozzáférés-vezérlő. Például ellenőrizze, hogy az iPhone az otthoni Wi-Fi-n van, nem pedig mobiladat-kapcsolaton.
+Győződj meg róla, hogy az eszközöd ugyanahhoz a helyi hálózathoz csatlakozik, mint a beléptetővezérlő. Például ellenőrizd, hogy az iPhone az otthoni Wi‑Fi-hálózaton van, és nem mobiladatot használ.
 
-A GateTap teljes egészében a helyi hálózaton működik, és ezekre van szüksége:
+A GateTap teljes egészében a helyi hálózaton belül működik, és ezekre van szüksége:
 
 - A vezérlő IP-címe
 - Felhasználónév és jelszó
@@ -28,9 +40,9 @@ A GateTap teljes egészében a helyi hálózaton működik, és ezekre van szük
 
 ## 1. lépés: Keresse meg a hozzáférés-vezérlő IP-címét
 
-A GateTap csatlakoztatásához szüksége van a vezérlő IP-címére és a bejelentkezési adatokra - lásd a 2. lépést.
+A GateTap csatlakoztatásához szükséged van a vezérlő IP-címére és a bejelentkezési adatokra — lásd a 2. lépést.
 
-Válasszon az alábbi lehetőségek közül:
+Válassz az alábbi lehetőségek közül:
 
 
 ## A lehetőség: Kérdezze meg a telepítőt (ajánlott)
@@ -40,94 +52,105 @@ Ha a rendszert villanyszerelő vagy technikus telepítette, valószínűleg már
 Sok esetben:
 
 - A vezérlő fix IP-címet használ
-- Vagy a router DHCP-foglalással mindig ugyanazt az IP-t osztja ki
+- Vagy a router DHCP-foglalással mindig ugyanazt az IP-címet adja neki
 
-Kérje el tőle az IP-címet és a bejelentkezési adatokat. Ez általában a legegyszerűbb és leggyorsabb mód.
+Kérd el tőlük az IP-címet és a bejelentkezési adatokat. Ez általában a legegyszerűbb és leggyorsabb módszer.
 
 
 ## B lehetőség: Ellenőrizze az útválasztót
 
-Nyissa meg az útválasztó beállítási oldalát, és keresse meg a csatlakoztatott eszközöket.
+A router eléréséhez általában szükséged van a helyi címére, például `192.168.1.1`, vagy egy névre, például `fritz.box`, valamint a router bejelentkezési adataira.
 
-Az útválasztó eléréséhez általában szükség van a helyi címére, például `192.168.1.1` vagy egy névre, például `fritz.box`, valamint az útválasztó bejelentkezési adataira.
+Nyisd meg a router konfigurációs oldalát, és keresd meg a csatlakoztatott eszközöket.
 
-Ez a szakasz ilyen néven szerepelhet:
+Ez a rész például így szerepelhet:
 
 - Hálózat
 - Csatlakoztatott eszközök
 - LAN
 - DHCP-kliensek
 
-Keresse:
+Ezeket keresd:
 
 - Ismeretlen vezetékes eszközök
-- Olyan bejegyzések, amelyek a vezérlőt jelenthetik
+- Olyan bejegyzések, amelyek a vezérlőt jelölhetik
 
 Az IP-cím általában így néz ki:
 `192.168.x.x` vagy `10.0.x.x`
 
-![Példa az útválasztó csatlakoztatott eszközeire](../assets/setup-guide/hu/img_01_en_US.png)
+![Példa a routerhez csatlakoztatott eszközökre](../assets/setup-guide/hu/img_01_en_US.png)
 
 
 ## C lehetőség: Ellenőrizze a hálózatot
 
-Használjon hálózati szkenner alkalmazást az eszközén.
+Használj hálózatszkenner alkalmazást az eszközödön.
 
-Vizsgálja át a hálózatot, és próbálja megnyitni a talált IP-címeket Safariban, például:
+Vizsgáld át a hálózatot, és keresd:
+
+- Ismeretlen vezetékes eszközök
+- Olyan bejegyzések, amelyek a vezérlőt jelölhetik
+
+Az IP-cím általában így néz ki:
+`192.168.x.x` vagy `10.0.x.x`
+
+
+## Tesztelje az IP-címet
+
+Próbáld meg megnyitni a megtalált IP-címet Safariban, például:
 
 `http://192.168.1.50`
 
-Ha megjelenik a hozzáférés-vezérlő bejelentkezési oldala, megtalálta a megfelelő címet.
-
-![Példa hálózati szkenner alkalmazásra](../assets/setup-guide/hu/img_02_en_US.png)
+Ha megjelenik a beléptetővezérlő bejelentkezési oldala, megtaláltad a megfelelő címet.
 
 
 ## 2. lépés: Keresse meg a hozzáférés-vezérlő bejelentkezési adatait
 
-Egyes vezérlők még mindig alapértelmezett bejelentkezési adatokat használnak. Gyakori példa a `abc` felhasználónév és a `654321` jelszó.
+Egyes beléptetővezérlők még mindig alapértelmezett bejelentkezési adatokat használnak. Gyakori példa a `abc` felhasználónév és a `654321` jelszó.
 
-Más gyakori gyári felhasználónevek: `user`, `admin` vagy `123`. Kipróbálhatja őket tipikus jelszavakkal, például `1234`, `user` vagy `password`, illetve ezek valamelyik változatával.
+További gyakori alapértelmezett felhasználónevek: `user`, `admin` vagy `123`. Ezeket kipróbálhatod tipikus jelszavakkal, például `1234`, `user` vagy `password`, illetve ezek változataival.
 
-Ha a rendszert szakember telepítette, kérdezze meg a telepítőt, hogy módosították-e az alapértelmezett adatokat.
+Ha a rendszert szakember telepítette, kérdezd meg, hogy megváltoztatták-e az alapértelmezett adatokat.
 
 
 ## 3. lépés: Adja hozzá a hozzáférés-vezérlőt a GateTaphez
 
-Nyissa meg a GateTapet, és adja meg:
+Nyisd meg a GateTapet. Ha a vezérlő hozzáadására szolgáló oldal nem jelenik meg automatikusan, válts a "Controller" lapra, és koppints a jobb felső navigációs sávban lévő "+" gombra.
 
-- Az IP-címet
-- A felhasználónevet
-- A jelszót
+A megjelenő oldalon add meg:
 
-Ugyanazokat az adatokat használja, mint a hozzáférés-vezérlő webes felületén.
+- IP-cím
+- Felhasználónév
+- Jelszó
+
+Ugyanazokat a bejelentkezési adatokat használd, mint a beléptetővezérlő webes felületén.
 
 
 ## 4. lépés: Tesztelje a kapcsolatot
 
-Mentse a konfigurációt, és próbáljon meg kinyitni egy ajtót vagy kaput.
+Mentsd a beállításokat. Az alkalmazás automatikusan megpróbál csatlakozni.
 
-Ha semmi sem történik, ellenőrizze:
+Ha a kapcsolat nem hozható létre, ellenőrizd:
 
-- Az eszköz ugyanazon a hálózaton van, mint a hozzáférés-vezérlő
+- Az eszközöd ugyanazon a hálózaton van, mint a beléptetővezérlő
 - Az IP-cím helyes
-- A hozzáférés-vezérlő áram alatt van és elérhető
+- A beléptetővezérlő áram alatt van és elérhető
 
 
 ## 5. lépés: Tartsa stabilan az IP-címet
 
 A későbbi problémák elkerülése érdekében a vezérlőnek mindig ugyanazt az IP-címet kell használnia.
 
-Ezt így lehet megoldani:
+Ez megoldható így:
 
 - Statikus IP beállítása a vezérlőn
-- DHCP-foglalás létrehozása az útválasztóban
+- DHCP-foglalás létrehozása a routerben
 
 
 ## Demó mód
 
-A GateTap demó módot is tartalmaz. Az alkalmazásból elindíthat egy helyi demó webszervert, majd hozzáadhatja úgy, mint egy normál vezérlőt.
+A GateTap demó módot is tartalmaz. Az alkalmazásból elindíthatsz egy virtuális beléptetővezérlőt, amely ugyanazt az adminisztrációs felületet szolgálja ki, mint egy valódi beléptetőrendszer. Ezután a megjelenített IP-cím és bejelentkezési adatok segítségével normál vezérlőként hozzáadhatod.
 
-Ez egy ismerten működő tesztelési utat ad annak ellenőrzésére, hogy maga a GateTap megfelelően működik-e, még akkor is, ha jelenleg nincs hozzáférése fizikai hozzáférés-vezérlőhöz.
+Így egy ismert, működő tesztútvonalon fedezheted fel a GateTap funkcióit akkor is, ha jelenleg nincs fizikai beléptetővezérlőd.
 
 
 ## Biztonság

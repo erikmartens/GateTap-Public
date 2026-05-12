@@ -16,45 +16,57 @@ Language: ms
 
 Sambungkan GateTap kepada pengawal akses anda
 
+## Apakah itu pengawal akses?
+
+Pengawal akses ialah peranti yang mengurus pembukaan pintu, pagar, garaj atau palang — contohnya dengan mengaktifkan buzzer pintu atau motor pagar.
+Biasanya ia menerima isyarat buka daripada:
+
+- sistem interkom
+- papan kekunci
+- fob kunci atau kad akses
+
+Banyak sistem kawalan akses moden disambungkan ke rangkaian setempat dan boleh dikendalikan melalui antara muka web dalam pelayar. GateTap bersambung terus kepada sistem tersebut supaya anda boleh mengendalikannya dengan mudah daripada peranti anda.
+
+
 ## Sebelum anda bermula
 
-Pastikan peranti anda disambungkan ke rangkaian tempatan yang sama seperti pengawal akses anda. Contohnya, pastikan iPhone anda berada pada Wi-Fi rumah dan bukan sambungan data mudah alih.
+Pastikan peranti anda disambungkan ke rangkaian setempat yang sama dengan pengawal akses anda. Contohnya, pastikan iPhone anda disambungkan ke Wi‑Fi rumah dan tidak menggunakan data mudah alih.
 
-GateTap berfungsi sepenuhnya dalam rangkaian tempatan anda dan memerlukan:
+GateTap berfungsi sepenuhnya dalam rangkaian setempat anda dan memerlukan:
 
 - Alamat IP pengawal
 - Nama pengguna dan kata laluan
 
 
-## Langkah 1: Cari alamat IP pengawal akses
+## Langkah 1: Cari alamat IP pengawal akses anda
 
-Untuk menyambungkan GateTap, anda memerlukan alamat IP pengawal dan bukti kelayakan log masuk - lihat Langkah 2.
+Untuk menyambungkan GateTap, anda memerlukan alamat IP pengawal dan kelayakan log masuk — lihat Langkah 2.
 
 Pilih salah satu pilihan berikut:
 
 
 ## Pilihan A: Tanya pemasang anda (disyorkan)
 
-Jika sistem anda dipasang oleh juruelektrik atau juruteknik, mereka mungkin sudah mengkonfigurasi semuanya.
+Jika sistem anda dipasang oleh juruelektrik atau juruteknik, kemungkinan besar mereka sudah mengkonfigurasi semuanya.
 
 Dalam banyak kes:
 
 - Pengawal menggunakan alamat IP tetap
-- Atau penghala memberikan IP yang sama melalui tempahan DHCP
+- Atau penghala memberikan alamat IP yang sama melalui tempahan DHCP
 
-Minta alamat IP dan butiran log masuk. Ini biasanya cara paling mudah dan pantas.
+Minta alamat IP dan maklumat log masuk daripada mereka. Ini biasanya cara yang paling mudah dan cepat.
 
 
 ## Pilihan B: Semak penghala anda
 
-Buka halaman konfigurasi penghala anda dan cari peranti yang disambungkan.
+Untuk mengakses penghala anda, biasanya anda memerlukan alamat setempatnya, contohnya `192.168.1.1` atau nama seperti `fritz.box`, serta kelayakan log masuk penghala.
 
-Untuk mengakses penghala, anda biasanya memerlukan alamat tempatannya, contohnya `192.168.1.1` atau nama seperti `fritz.box`, serta bukti kelayakan log masuk penghala.
+Buka halaman konfigurasi penghala dan cari peranti yang disambungkan.
 
 Bahagian ini mungkin dipanggil:
 
 - Rangkaian
-- Peranti Disambungkan
+- Peranti disambungkan
 - LAN
 - Klien DHCP
 
@@ -66,51 +78,62 @@ Cari:
 Alamat IP biasanya kelihatan seperti:
 `192.168.x.x` atau `10.0.x.x`
 
-![Contoh peranti disambungkan dalam penghala](../assets/setup-guide/ms/img_01_en_US.png)
+![Contoh peranti disambungkan pada penghala](../assets/setup-guide/ms/img_01_en_US.png)
 
 
 ## Pilihan C: Imbas rangkaian anda
 
 Gunakan aplikasi pengimbas rangkaian pada peranti anda.
 
-Imbas rangkaian anda dan cuba buka alamat IP yang ditemui dalam Safari, contohnya:
+Imbas rangkaian anda dan cari:
+
+- Peranti berwayar yang tidak dikenali
+- Entri yang mungkin mewakili pengawal anda
+
+Alamat IP biasanya kelihatan seperti:
+`192.168.x.x` atau `10.0.x.x`
+
+
+## Uji alamat IP
+
+Cuba buka alamat IP yang ditemui dalam Safari, contohnya:
 
 `http://192.168.1.50`
 
 Jika halaman log masuk pengawal akses muncul, anda telah menemui alamat yang betul.
 
-![Contoh aplikasi pengimbas rangkaian](../assets/setup-guide/ms/img_02_en_US.png)
-
 
 ## Langkah 2: Cari bukti kelayakan log masuk pengawal akses
 
-Sesetengah pengawal masih menggunakan bukti kelayakan log masuk lalai. Contoh biasa ialah nama pengguna `abc` dengan kata laluan `654321`.
+Sesetengah pengawal akses masih menggunakan kelayakan log masuk lalai. Contoh biasa ialah nama pengguna `abc` dengan kata laluan `654321`.
 
-Nama pengguna kilang lain yang lazim digunakan ialah `user`, `admin` atau `123`. Anda boleh mencubanya bersama kata laluan biasa seperti `1234`, `user` atau `password`, atau variasinya.
+Nama pengguna lalai lain yang biasa termasuk `user`, `admin` atau `123`. Anda boleh mencubanya dengan kata laluan lazim seperti `1234`, `user` atau `password`, atau variasinya.
 
-Jika sistem anda dipasang secara profesional, tanya pemasang sama ada bukti kelayakan lalai telah ditukar.
+Jika sistem anda dipasang secara profesional, tanya pemasang sama ada kelayakan lalai telah ditukar.
 
 
 ## Langkah 3: Tambah pengawal akses dalam GateTap
 
-Buka GateTap dan masukkan:
+Buka GateTap. Jika halaman untuk menambah pengawal tidak muncul secara automatik, pergi ke tab "Controller" dan ketik butang "+" dalam bar navigasi di bahagian kanan atas.
+
+Pada halaman yang muncul, masukkan:
 
 - Alamat IP
-- Nama pengguna anda
-- Kata laluan anda
+- Nama pengguna
+- Kata laluan
 
-Gunakan bukti kelayakan yang sama seperti antara muka web pengawal akses.
+Gunakan kelayakan log masuk yang sama seperti antara muka web pengawal akses.
 
 
 ## Langkah 4: Uji sambungan
 
-Simpan konfigurasi anda dan cuba buka pintu atau pagar.
+Simpan konfigurasi anda. Aplikasi akan cuba bersambung secara automatik.
 
-Jika tiada apa-apa berlaku, semak:
+Jika sambungan tidak dapat diwujudkan, semak:
 
-- Peranti anda berada pada rangkaian yang sama seperti pengawal akses
-- Alamat IP adalah betul
-- Pengawal akses dihidupkan dan boleh dicapai
+- Peranti anda berada pada rangkaian yang sama dengan pengawal akses
+- Alamat IP betul
+- Pengawal akses mempunyai kuasa dan boleh dicapai
 
 
 ## Langkah 5: Pastikan alamat IP stabil
@@ -125,9 +148,9 @@ Ini boleh dilakukan dengan:
 
 ## Mod demo
 
-GateTap juga menyertakan mod demo. Anda boleh memulakan pelayan web demo setempat dari dalam aplikasi dan kemudian menambahkannya seperti pengawal biasa.
+GateTap juga menyertakan mod demo. Anda boleh memulakan pengawal akses maya dari dalam aplikasi, yang menyediakan antara muka pentadbiran seperti sistem kawalan akses sebenar. Kemudian anda boleh menambahnya seperti pengawal biasa menggunakan alamat IP dan kelayakan yang dipaparkan.
 
-Ini memberi anda laluan ujian yang diketahui berfungsi untuk mengesahkan bahawa GateTap sendiri berfungsi dengan betul, walaupun anda tiada akses kepada pengawal akses fizikal pada masa ini.
+Ini memberi anda laluan ujian yang diketahui berfungsi untuk meneroka ciri GateTap, walaupun anda tidak mempunyai pengawal akses fizikal pada masa ini.
 
 
 ## Keselamatan

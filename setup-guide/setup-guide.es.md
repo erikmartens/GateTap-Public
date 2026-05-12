@@ -16,9 +16,21 @@ Language: es
 
 Conecte GateTap a su controlador de acceso
 
+## ¿Qué es un controlador de acceso?
+
+Un controlador de acceso es un dispositivo que gestiona la apertura de puertas, portones, garajes o barreras — por ejemplo activando un timbre eléctrico o el motor de una puerta.
+Normalmente recibe la señal de apertura de:
+
+- un sistema de intercomunicación
+- un teclado
+- un llavero electrónico o una tarjeta de acceso
+
+Muchos sistemas modernos de control de acceso están conectados a la red local y pueden manejarse mediante una interfaz web en un navegador. GateTap se conecta directamente a tu sistema de control de acceso para que puedas operarlo cómodamente desde tu dispositivo.
+
+
 ## Antes de empezar
 
-Asegúrate de que tu dispositivo esté conectado a la misma red local que tu controlador de acceso. Por ejemplo, comprueba que tu iPhone esté en la Wi-Fi de casa y no usando datos móviles.
+Asegúrate de que tu dispositivo esté conectado a la misma red local que tu controlador de acceso. Por ejemplo, comprueba que tu iPhone esté conectado a la Wi-Fi de casa y no esté usando datos móviles.
 
 GateTap funciona completamente dentro de tu red local y necesita:
 
@@ -26,9 +38,9 @@ GateTap funciona completamente dentro de tu red local y necesita:
 - Un nombre de usuario y una contraseña
 
 
-## Paso 1: busca la dirección IP del controlador de acceso
+## Paso 1: busca la dirección IP de tu controlador de acceso
 
-Para conectar GateTap, necesitas la dirección IP del controlador y las credenciales de inicio de sesión; consulta el paso 2.
+Para conectar GateTap, necesitas la dirección IP del controlador y las credenciales de inicio de sesión — consulta el paso 2.
 
 Elige una de las siguientes opciones:
 
@@ -47,9 +59,9 @@ Pídele la dirección IP y los datos de inicio de sesión. Normalmente es la for
 
 ## Opción B: revisa tu router
 
-Abre la página de configuración de tu router y busca los dispositivos conectados.
-
 Para acceder al router, normalmente necesitas su dirección local, por ejemplo `192.168.1.1` o un nombre como `fritz.box`, y las credenciales del router.
+
+Abre la página de configuración de tu router y busca los dispositivos conectados.
 
 Esta sección puede llamarse:
 
@@ -73,27 +85,38 @@ La dirección IP normalmente tendrá este aspecto:
 
 Usa una app de escaneo de red en tu dispositivo.
 
-Escanea tu red e intenta abrir las direcciones IP encontradas en Safari, por ejemplo:
+Escanea tu red y busca:
+
+- Dispositivos cableados desconocidos
+- Entradas que puedan representar tu controlador
+
+La dirección IP normalmente tendrá este aspecto:
+`192.168.x.x` o `10.0.x.x`
+
+
+## Prueba la dirección IP
+
+Intenta abrir la dirección IP encontrada en Safari, por ejemplo:
 
 `http://192.168.1.50`
 
 Si aparece la página de inicio de sesión del controlador de acceso, encontraste la dirección correcta.
 
-![Ejemplo de app de escaneo de red](../assets/setup-guide/es/img_02_en_US.png)
-
 
 ## Paso 2: busca las credenciales del controlador de acceso
 
-Algunos controladores todavía usan credenciales predeterminadas. Un ejemplo común es el usuario `abc` con la contraseña `654321`.
+Algunos controladores de acceso todavía usan credenciales predeterminadas. Un ejemplo común es el usuario `abc` con la contraseña `654321`.
 
-Otros nombres de usuario de fábrica comunes son `user`, `admin` o `123`. Puedes probarlos con contraseñas típicas como `1234`, `user` o `password`, o alguna variación.
+Otros nombres de usuario predeterminados comunes son `user`, `admin` o `123`. Puedes probarlos con contraseñas típicas como `1234`, `user` o `password`, o alguna variación.
 
 Si tu sistema se instaló profesionalmente, pregunta a tu instalador si se cambiaron las credenciales predeterminadas.
 
 
 ## Paso 3: añade el controlador de acceso en GateTap
 
-Abre GateTap e introduce:
+Abre GateTap. Si la página para añadir un controlador no aparece automáticamente, cambia a la pestaña "Controller" y toca el botón "+" en la barra de navegación de la esquina superior derecha.
+
+En la página que aparece, introduce:
 
 - La dirección IP
 - Tu nombre de usuario
@@ -104,9 +127,9 @@ Usa las mismas credenciales que en la interfaz web del controlador de acceso.
 
 ## Paso 4: prueba la conexión
 
-Guarda la configuración e intenta abrir una puerta o portón.
+Guarda la configuración. La app intentará conectarse automáticamente.
 
-Si no ocurre nada, comprueba:
+Si no se puede establecer la conexión, comprueba:
 
 - Que tu dispositivo esté en la misma red que el controlador de acceso
 - Que la dirección IP sea correcta
@@ -125,9 +148,9 @@ Esto se puede hacer así:
 
 ## Modo demo
 
-GateTap también incluye un modo demo. Puedes iniciar un servidor web demo local desde la app y luego añadirlo como un controlador normal.
+GateTap también incluye un modo demo. Puedes iniciar un controlador de acceso virtual desde la app, que ofrece la interfaz de administración como lo haría un sistema real. Luego puedes añadirlo como un controlador normal usando la dirección IP y las credenciales mostradas.
 
-Esto te da una ruta de prueba conocida y funcional para comprobar que GateTap funciona correctamente, incluso si ahora no tienes acceso a un controlador de acceso físico.
+Esto te da una ruta de prueba conocida y funcional para explorar las funciones de GateTap, incluso si ahora no tienes un controlador de acceso físico.
 
 
 ## Seguridad

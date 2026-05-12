@@ -16,9 +16,21 @@ Language: en
 
 Connect GateTap to your access controller
 
+## What is an access controller?
+
+An access controller is a device that manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer or gate motor.
+It usually receives the opening signal from:
+
+- an intercom system
+- a keypad
+- a key fob or access card
+
+Many modern access control systems are connected to the local network and can be operated through a web interface in a browser. GateTap connects directly to your access control system so you can conveniently operate it from your device.
+
+
 ## Before you start
 
-Make sure your device is connected to the same local network as your access controller. For example ensure your iPhone is on your home WiFi, not on a mobile data connection.
+Make sure your device is connected to the same local network as your access controller. For example, ensure your iPhone is connected to your home Wi-Fi and not using a mobile data connection.
 
 GateTap works entirely within your local network and needs:
 
@@ -26,9 +38,9 @@ GateTap works entirely within your local network and needs:
 - A username and password
 
 
-## Step 1: Find access controller's IP address
+## Step 1: Find your access controller's IP address
 
-To connect GateTap, you need the controller’s IP address (and login credentials - see Step 2).
+To connect GateTap, you need the controller’s IP address (and login credentials — see Step 2).
 
 Choose one of the following options:
 
@@ -47,9 +59,9 @@ Ask them for the IP address and login details. This is usually the easiest and f
 
 ## Option B: Check your router
 
-Open your router’s configuration page and look for connected devices.
-
 To access your router, you usually need its local address (e.g. `192.168.1.1` or a name like `fritz.box`) and the router’s login credentials.
+
+Open your router’s configuration page and look for connected devices.
 
 This section may be called:
 
@@ -73,27 +85,38 @@ The IP address will usually look like:
 
 Use a network scanner app on your device.
 
-Scan your network and try opening discovered IP addresses in Safari, for example:
+Scan your network and look for:
+
+- Unknown wired devices
+- Entries that might represent your controller
+
+The IP address will usually look like:
+`192.168.x.x` or `10.0.x.x`
+
+
+## Test the IP address
+
+Try opening the discovered IP address in Safari, for example:
 
 `http://192.168.1.50`
 
 If the access controller’s login page appears, you’ve found the correct address.
 
-![Network scanner example](../assets/setup-guide/en/img_02_en_US.png)
-
 
 ## Step 2: Find your access controller's login credentials
 
-Some controllers still use default login credentials. Common examples include username `abc` with password `654321`.
+Some access controllers still use default login credentials. Common examples include the username `abc` with the password `654321`.
 
-Other commonly used stock usernames are `user`, `admin`, or `123`. You can try them together with typical passwords such as `1234`, `user`, or `password` or a variation thereof.
+Other commonly used default usernames are `user`, `admin`, or `123`. You can try them together with typical passwords such as `1234`, `user`, or `password`, or a variation thereof.
 
 If your system was installed professionally, ask your installer whether the default credentials were changed.
 
 
 ## Step 3: Add the access controller in GateTap
 
-Open GateTap and enter:
+Open GateTap. If the page for adding a controller does not automatically appear, switch to the "Controller" tab and tap the "+" button in the navigation bar in the top-right corner.
+
+On the page that appears, enter:
 
 - The IP address
 - Your username
@@ -104,9 +127,9 @@ Use the same credentials as for the access controller’s web interface.
 
 ## Step 4: Test the connection
 
-Save your configuration and try opening a door or gate.
+Save your configuration. The app will automatically try to connect.
 
-If nothing happens, check:
+If a connection cannot be established, check:
 
 - Your device is on the same network as the access controller
 - The IP address is correct
@@ -119,15 +142,15 @@ To avoid issues later, the controller should always use the same IP address.
 
 This can be done by:
 
-- Setting a static IP on the controller
+- Setting a static IP address on the controller
 - Creating a DHCP reservation in your router
 
 
 ## Demo mode
 
-GateTap also includes a demo mode. You can start a local demo web server from within the app and then add it like a normal controller.
+GateTap also includes a demo mode. You can start a virtual access controller from within the app, which serves the administration interface that a real access control system would. You can then add it like a normal access controller using the displayed IP address and credentials.
 
-This gives you a known working test path to verify that GateTap itself is functioning correctly, even if you do not currently have access to a physical access controller.
+This gives you a known working test path to explore GateTap’s features, even if you do not currently have a physical access controller.
 
 
 ## Security
