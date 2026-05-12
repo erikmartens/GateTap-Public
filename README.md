@@ -11,7 +11,9 @@
 
 _**A modern iPhone interface for compatible web-managed access control systems.**_
 
-Many access control systems still rely on outdated browser interfaces just to open a gate or trigger a relay. GateTap replaces slow, hard-to-use web pages with a fast, touch-optimized experience designed for iPhone.
+An access controller is a device that electronoically manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer via your intercom. 
+
+Many modern access control systems are connected to the local network and can be controlled through a web interface. BUT THEY STILL RELY ON OUTDATED WEBSITE INTERFACES just to open a gate or trigger a relay. GateTap replaces slow, hard-to-use web pages with a fast, touch-optimized experience designed for iPhone.
 
 Built for local networks, GateTap connects directly to compatible access controllers — without cloud services, subscriptions, or external accounts.
 
