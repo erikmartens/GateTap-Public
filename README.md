@@ -2,7 +2,7 @@
 
 ---
 
-🌍 **This Document is available in other Languages:**  
+🌍 **This document is available in other languages:**  
 🇺🇸 English | [🇩🇪 Deutsch](readme/README.de.md) | [🇸🇦 العربية](readme/README.ar.md) | [🇪🇸 Català](readme/README.ca.md) | [🇨🇿 Čeština](readme/README.cs.md) | [🇩🇰 Dansk](readme/README.da.md) | [🇬🇷 Ελληνικά](readme/README.el.md) | [🇪🇸 Español](readme/README.es.md) | [🇲🇽 Español (México)](readme/README.es-MX.md) | [🇫🇮 Suomi](readme/README.fi.md) | [🇫🇷 Français](readme/README.fr.md) | [🇮🇱 עברית](readme/README.he.md) | [🇮🇳 हिन्दी](readme/README.hi.md) | [🇭🇷 Hrvatski](readme/README.hr.md) | [🇭🇺 Magyar](readme/README.hu.md) | [🇮🇩 Bahasa Indonesia](readme/README.id.md) | [🇮🇹 Italiano](readme/README.it.md) | [🇯🇵 日本語](readme/README.ja.md) | [🇰🇷 한국어](readme/README.ko.md) | [🇲🇾 Bahasa Melayu](readme/README.ms.md) | [🇳🇴 Norsk Bokmål](readme/README.nb.md) | [🇳🇱 Nederlands](readme/README.nl.md) | [🇵🇱 Polski](readme/README.pl.md) | [🇧🇷 Português (Brasil)](readme/README.pt-BR.md) | [🇵🇹 Português (Portugal)](readme/README.pt-PT.md) | [🇷🇴 Română](readme/README.ro.md) | [🇷🇺 Русский](readme/README.ru.md) | [🇸🇰 Slovenčina](readme/README.sk.md) | [🇸🇪 Svenska](readme/README.sv.md) | [🇹🇭 ไทย](readme/README.th.md) | [🇹🇷 Türkçe](readme/README.tr.md) | [🇺🇦 Українська](readme/README.uk.md) | [🇻🇳 Tiếng Việt](readme/README.vi.md) | [🇨🇳 简体中文](readme/README.zh-Hans.md) | [🇹🇼 繁體中文](readme/README.zh-Hant.md)
 
 ---
@@ -11,9 +11,9 @@
 
 _**A modern iPhone interface for compatible web-managed access control systems.**_
 
-An access controller is a device that electronoically manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer via your intercom. 
+An access controller is a device that electronically manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer through your intercom system or controlling a gate motor.
 
-Many modern access control systems are connected to the local network and can be controlled through a web interface. BUT THEY STILL RELY ON OUTDATED WEBSITE INTERFACES just to open a gate or trigger a relay. GateTap replaces slow, hard-to-use web pages with a fast, touch-optimized experience designed for iPhone.
+Many modern access control systems are connected to the local network and can be controlled through a web interface. However, these interfaces are often slow, difficult, and cumbersome to use. GateTap replaces outdated web pages with a fast, touch-optimized experience designed for iPhone.
 
 Built for local networks, GateTap connects directly to compatible access controllers — without cloud services, subscriptions, or external accounts.
 
@@ -22,10 +22,10 @@ Built for local networks, GateTap connects directly to compatible access control
 ## Features
 
 • ☑️ Modern gate & door control  
-• ⚡ Fast login with securely stored credentials (optional)  
-• 🔐 Optional Face ID / Touch ID protection  
+• 📱 Intuitive, touch-optimized interface  
+• ⚡ Fast login with securely stored credentials or temporary session credentials  
+• 🔐 Optional Face ID / Touch ID protection for the app  
 • 📡 Direct local network communication  
-• 📱 Clean, touch-optimized interface  
 • ☁️ No cloud connection required  
 • 🖥️ Designed for embedded web-managed controllers  
 • 🏢 Multi-controller / multi-site support  
@@ -34,7 +34,7 @@ Built for local networks, GateTap connects directly to compatible access control
 
 ## Compatibility
 
-GateTap is designed for certain Ethernet or Wi-Fi enabled access controllers that provide a built-in browser-based management interface.
+GateTap is designed for certain Ethernet- or Wi-Fi-enabled access controllers that provide a built-in browser-based management interface.
 
 Compatible systems typically provide:
 - local IP-based access
@@ -52,10 +52,10 @@ Compatibility depends on:
 
 GateTap is generally **not compatible** with:
 - cloud-only systems
-- Bluetooth-only openers
-- standalone remotes
-- controllers without web interfaces
-- generic readers without network controllers
+- Bluetooth-only systems
+- standalone IR remotes
+- access controllers without web interfaces
+- generic readers without network modules
 
 ---
 
