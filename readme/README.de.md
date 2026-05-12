@@ -11,7 +11,9 @@
 
 _**Eine moderne iPhone-Oberfläche für kompatible webbasierte Zutrittskontrollsysteme.**_
 
-Viele Zutrittskontrollsysteme nutzen noch immer veraltete Weboberflächen, nur um ein Tor oder eine Tür zu öffnen. GateTap ersetzt langsame und umständliche Browserseiten durch eine schnelle und touch-optimierte Bedienung direkt auf dem iPhone.
+Ein Zutritts-Controller ist ein Gerät, welches das Öffnen von Türen, Toren, oder Garagen steuert — beispielsweise durch das Aktivieren eines Türsummers über deine Türsprechanlage.
+
+Viele moderne Zutrittskontrollsysteme sind mit dem lokalen Netzwerk verbunden und können über eine Weboberfläche im Browser gesteuert werden. DIESE BENUTZEROBERFLÄCHE IST JEDOCH OFTMALS UNZUREICHEND GESTALTET UND SCHWER ZU BEDIENEN, nur um ein Tor oder eine Tür zu öffnen. GateTap ersetzt langsame und umständliche Browserseiten durch eine schnelle und touch-optimierte Bedienung direkt auf deinem iPhone.
 
 GateTap wurde für lokale Netzwerke entwickelt und verbindet sich direkt mit kompatiblen Zugangssystemen – ohne Cloud-Dienste, Abonnements oder externe Accounts.
 
