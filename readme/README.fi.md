@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Moderni iPhone-käyttöliittymä yhteensopiville web-hallittaville kulunvalvontajärjestelmille.**_
 
 Kulunvalvontaohjain on laite, joka ohjaa sähköisesti ovien, porttien, autotallien tai puomien avaamista — esimerkiksi aktivoimalla ovensummerin ovipuhelinjärjestelmän kautta tai ohjaamalla portin moottoria.
@@ -56,6 +54,8 @@ GateTap ei yleensä **ole yhteensopiva** seuraavien kanssa:
 - erilliset IR-kaukosäätimet
 - kulunvalvontaohjaimet ilman verkkokäyttöliittymiä
 - yleiset lukijat ilman verkkomoduuleja
+
+[Katso tunnettu luettelo yhteensopivista laitteista.](../support/fi/compatibility.fi.md)
 
 ---
 

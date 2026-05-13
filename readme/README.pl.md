@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Nowoczesny interfejs iPhone’a dla zgodnych, zarządzanych przez web systemów kontroli dostępu.**_
 
 Kontroler dostępu to urządzenie, które elektronicznie zarządza otwieraniem drzwi, bram, garaży lub szlabanów — na przykład przez aktywowanie zaczepu drzwiowego za pośrednictwem domofonu albo sterowanie silnikiem bramy.
@@ -56,6 +54,8 @@ GateTap zasadniczo **nie jest zgodny** z:
 - samodzielnymi pilotami IR
 - kontrolerami dostępu bez interfejsów webowych
 - uniwersalnymi czytnikami bez modułów sieciowych
+
+[Zobacz znaną listę kompatybilnych urządzeń.](../support/pl/compatibility.pl.md)
 
 ---
 

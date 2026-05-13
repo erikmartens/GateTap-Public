@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**A modern iPhone interface for compatible web-managed access control systems.**_
 
 An access controller is a device that electronically manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer through your intercom system or controlling a gate motor.
@@ -56,6 +54,8 @@ GateTap is generally **not compatible** with:
 - standalone IR remotes
 - access controllers without web interfaces
 - generic readers without network modules
+
+[See the known list of compatible devices.](support/en-US/compatibility.md)
 
 ---
 

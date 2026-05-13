@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Moderné rozhranie pre iPhone pre kompatibilné webovo spravované systémy kontroly prístupu.**_
 
 Riadiaca jednotka prístupu je zariadenie, ktoré elektronicky spravuje otváranie dverí, brán, garáží alebo závor — napríklad aktivovaním dverového bzučiaka cez domový telefón alebo ovládaním motora brány.
@@ -56,6 +54,8 @@ GateTap vo všeobecnosti **nie je kompatibilný** s:
 - samostatnými IR ovládačmi
 - riadiacimi jednotkami prístupu bez webových rozhraní
 - generickými čítačkami bez sieťových modulov
+
+[Pozrite si známy zoznam kompatibilných zariadení.](../support/sk/compatibility.sk.md)
 
 ---
 

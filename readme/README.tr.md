@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Uyumlu web üzerinden yönetilen erişim kontrol sistemleri için modern bir iPhone arayüzü.**_
 
 Erişim kontrolörü, kapıların, giriş kapılarının, garajların veya bariyerlerin açılmasını elektronik olarak yöneten bir cihazdır — örneğin interkom sisteminiz üzerinden kapı zilini etkinleştirerek veya bir kapı motorunu kontrol ederek.
@@ -56,6 +54,8 @@ GateTap genel olarak şunlarla **uyumlu değildir**:
 - bağımsız IR kumandalar
 - web arayüzü olmayan erişim kontrolörleri
 - ağ modülü olmayan genel okuyucular
+
+[Uyumlu cihazların bilinen listesini görün.](../support/tr/compatibility.tr.md)
 
 ---
 

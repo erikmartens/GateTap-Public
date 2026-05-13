@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Moderní rozhraní pro iPhone pro kompatibilní webově spravované systémy kontroly přístupu.**_
 
 Řadič přístupu je zařízení, které elektronicky řídí otevírání dveří, bran, garáží nebo závor — například aktivací dveřního bzučáku přes domovní telefon nebo ovládáním motoru brány.
@@ -56,6 +54,8 @@ GateTap obecně **není kompatibilní** s:
 - samostatnými IR ovladači
 - řadiči přístupu bez webového rozhraní
 - obecnými čtečkami bez síťových modulů
+
+[Podívejte se na známý seznam kompatibilních zařízení.](../support/cs/compatibility.cs.md)
 
 ---
 

@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Antarmuka iPhone modern untuk sistem kontrol akses kompatibel yang dikelola melalui web.**_
 
 Kontroler akses adalah perangkat yang secara elektronik mengelola pembukaan pintu, gerbang, garasi, atau palang — misalnya dengan mengaktifkan buzzer pintu melalui sistem interkom Anda atau mengendalikan motor gerbang.
@@ -56,6 +54,8 @@ GateTap umumnya **tidak kompatibel** dengan:
 - remote IR mandiri
 - kontroler akses tanpa antarmuka web
 - reader generik tanpa modul jaringan
+
+[Lihat daftar perangkat kompatibel yang diketahui.](../support/id/compatibility.id.md)
 
 ---
 

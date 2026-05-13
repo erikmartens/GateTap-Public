@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**O interfață modernă pentru iPhone pentru sisteme compatibile de control al accesului administrate prin web.**_
 
 Un controler de acces este un dispozitiv care gestionează electronic deschiderea ușilor, porților, garajelor sau barierelor — de exemplu activând un zăvor electric prin sistemul de interfon sau controlând motorul unei porți.
@@ -56,6 +54,8 @@ GateTap în general **nu este compatibil** cu:
 - telecomenzi IR independente
 - controlere de acces fără interfețe web
 - cititoare generice fără module de rețea
+
+[Vezi lista cunoscută a dispozitivelor compatibile.](../support/ro/compatibility.ro.md)
 
 ---
 

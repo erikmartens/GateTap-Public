@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Giao diện iPhone hiện đại cho các hệ thống kiểm soát ra vào tương thích được quản lý qua web.**_
 
 Bộ điều khiển ra vào là thiết bị quản lý điện tử việc mở cửa, cổng, gara hoặc rào chắn — ví dụ bằng cách kích hoạt chuông mở cửa qua hệ thống liên lạc nội bộ hoặc điều khiển động cơ cổng.
@@ -56,6 +54,8 @@ GateTap nhìn chung **không tương thích** với:
 - điều khiển IR độc lập
 - bộ điều khiển ra vào không có giao diện web
 - đầu đọc chung không có mô-đun mạng
+
+[Xem danh sách thiết bị tương thích đã biết.](../support/vi/compatibility.vi.md)
 
 ---
 

@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Ett modernt iPhone-gränssnitt för kompatibla webbadministrerade passersystem.**_
 
 En passerkontroller är en enhet som elektroniskt hanterar öppning av dörrar, grindar, garage eller bommar — till exempel genom att aktivera en dörröppnare via porttelefonen eller styra en grindmotor.
@@ -56,6 +54,8 @@ GateTap är i allmänhet **inte kompatibel** med:
 - fristående IR-fjärrkontroller
 - passerkontroller utan webbgränssnitt
 - generiska läsare utan nätverksmoduler
+
+[Se den kända listan över kompatibla enheter.](../support/sv/compatibility.sv.md)
 
 ---
 

@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Et moderne iPhone-grensesnitt for kompatible webadministrerte adgangskontrollsystemer.**_
 
 En adgangskontroller er en enhet som elektronisk styrer åpning av dører, porter, garasjer eller bommer — for eksempel ved å aktivere en døråpner via porttelefonsystemet ditt eller styre en portmotor.
@@ -56,6 +54,8 @@ GateTap er generelt **ikke kompatibel** med:
 - frittstående IR-fjernkontroller
 - adgangskontrollere uten webgrensesnitt
 - generiske lesere uten nettverksmoduler
+
+[Se den kjente listen over kompatible enheter.](../support/nb/compatibility.nb.md)
 
 ---
 

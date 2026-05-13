@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Moderno iPhone sučelje za kompatibilne web-upravljane sustave kontrole pristupa.**_
 
 Kontroler pristupa je uređaj koji elektronički upravlja otvaranjem vrata, kapija, garaža ili rampi — primjerice aktiviranjem zvona za vrata putem portafona ili upravljanjem motorom kapije.
@@ -56,6 +54,8 @@ GateTap općenito **nije kompatibilan** s:
 - samostalnim IR daljinskim upravljačima
 - kontrolerima pristupa bez web sučelja
 - generičkim čitačima bez mrežnih modula
+
+[Pogledajte poznati popis kompatibilnih uređaja.](../support/hr/compatibility.hr.md)
 
 ---
 

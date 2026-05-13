@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Een moderne iPhone-interface voor compatibele webbeheerde toegangscontrolesystemen.**_
 
 Een toegangscontroller is een apparaat dat het openen van deuren, poorten, garages of slagbomen elektronisch beheert — bijvoorbeeld door een deuropener via je intercomsysteem te activeren of een poortmotor aan te sturen.
@@ -56,6 +54,8 @@ GateTap is over het algemeen **niet compatibel** met:
 - zelfstandige IR-afstandsbedieningen
 - toegangscontrollers zonder webinterfaces
 - generieke lezers zonder netwerkmodules
+
+[Bekijk de bekende lijst met compatibele apparaten.](../support/nl/compatibility.nl.md)
 
 ---
 

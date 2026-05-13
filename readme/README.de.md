@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Eine moderne iPhone-Oberfläche für kompatible webbasierte Zutrittskontrollsysteme.**_
 
 Ein Zutritts-Controller ist ein Gerät, das das Öffnen von Türen, Toren oder Garagen steuert — beispielsweise durch das Aktivieren eines Türsummers über deine Gegensprechanlage.
@@ -56,6 +54,8 @@ GateTap ist in der Regel **nicht kompatibel** mit:
 - einfachen Funkfernbedienungen
 - Zutritts-Controllern ohne Weboberfläche
 - generischen Lesegeräten ohne Netzwerkmodul
+
+[Sieh dir die bekannte Liste kompatibler Geräte an.](../support/de-DE/compatibility.de.md)
 
 ---
 

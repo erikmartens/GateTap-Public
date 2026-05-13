@@ -7,8 +7,6 @@
 
 ---
 
-# GateTap
-
 _**Modern iPhone-felület kompatibilis, weben kezelt beléptetőrendszerekhez.**_
 
 A beléptetővezérlő olyan eszköz, amely elektronikusan kezeli ajtók, kapuk, garázsok vagy sorompók nyitását — például az ajtónyitó aktiválásával a kaputelefon-rendszeren keresztül, vagy egy kapumotor vezérlésével.
@@ -56,6 +54,8 @@ A GateTap általában **nem kompatibilis**:
 - önálló IR távirányítókkal
 - webes felület nélküli beléptetővezérlőkkel
 - hálózati modul nélküli általános olvasókkal
+
+[Tekintsd meg a kompatibilis eszközök ismert listáját.](../support/hu/compatibility.hu.md)
 
 ---
 
