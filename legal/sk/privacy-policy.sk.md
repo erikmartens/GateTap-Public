@@ -61,5 +61,5 @@ GateTap spolupracuje s hardvérovými systémami tretích strán. Bezpečnosť a
 Tieto Zásady ochrany osobných údajov môžu byť v budúcnosti aktualizované. Zmeny sa prejavia v aplikácii.
 
 ## 9. Kontakt
-V prípade otázok týkajúcich sa ochrany osobných údajov kontaktujte: [erikmartens.developer@gmail.com] (mailto:erikmartens.developer@gmail.com)
+V prípade otázok týkajúcich sa ochrany osobných údajov kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
 
