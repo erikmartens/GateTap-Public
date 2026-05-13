@@ -55,7 +55,7 @@ GateTap is generally **not compatible** with:
 - access controllers without web interfaces
 - generic readers without network modules
 
-[See the known list of compatible devices.](support/en-US/compatibility.md)
+[See the list of known compatible devices.](support/en-US/compatibility.md)
 
 ---
 
