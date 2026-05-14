@@ -79,7 +79,7 @@ Suche nach:
 Die IP-Adresse sieht meist so aus:
 `192.168.x.x` oder `10.0.x.x`
 
-![Beispiel für verbundene Geräte im Router](../assets/setup-guide/de/img_01_de_de.png)
+![Beispiel für verbundene Geräte im Router](../assets/setup-guide/de/img_01_de.png)
 
 
 ## Option C: Netzwerk scannen

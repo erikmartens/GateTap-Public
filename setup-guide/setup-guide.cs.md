@@ -78,7 +78,7 @@ Hledejte:
 IP adresa bude obvykle vypadat takto:
 `192.168.x.x` nebo `10.0.x.x`
 
-![Příklad připojených zařízení v routeru](../assets/setup-guide/cs/img_01_en_US.png)
+![Příklad připojených zařízení v routeru](../assets/setup-guide/cs/img_01_cs.png)
 
 
 ## Možnost C: Prohledejte síť

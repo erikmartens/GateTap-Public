@@ -78,7 +78,7 @@ GateTap 完全在你的本地网络内工作，并需要：
 IP 地址通常类似于：
 `192.168.x.x` 或 `10.0.x.x`
 
-![路由器已连接设备示例](../assets/setup-guide/zh-Hans/img_01_zh_Hans.png)
+![路由器已连接设备示例](../assets/setup-guide/zh-Hans/img_01_zh-Hans.png)
 
 
 ## 选项 C：扫描你的网络

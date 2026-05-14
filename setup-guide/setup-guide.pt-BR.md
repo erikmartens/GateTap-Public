@@ -78,7 +78,7 @@ Procure por:
 O endereço IP normalmente se parece com:
 `192.168.x.x` ou `10.0.x.x`
 
-![Exemplo de dispositivos conectados no roteador](../assets/setup-guide/pt-BR/img_01_en_US.png)
+![Exemplo de dispositivos conectados no roteador](../assets/setup-guide/pt-BR/img_01_pt-BR.png)
 
 
 ## Opção C: verifique sua rede

@@ -78,7 +78,7 @@ Szukaj:
 Adres IP zwykle wygląda tak:
 `192.168.x.x` lub `10.0.x.x`
 
-![Przykład podłączonych urządzeń w routerze](../assets/setup-guide/pl/img_01_en_US.png)
+![Przykład podłączonych urządzeń w routerze](../assets/setup-guide/pl/img_01_pl.png)
 
 
 ## Opcja C: Przeskanuj swoją sieć

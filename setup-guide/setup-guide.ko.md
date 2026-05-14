@@ -78,7 +78,7 @@ IP 주소와 로그인 정보를 요청하세요. 보통 가장 쉽고 빠른 �
 IP 주소는 일반적으로 다음과 같습니다.
 `192.168.x.x` 또는 `10.0.x.x`
 
-![라우터의 연결된 기기 예시](../assets/setup-guide/ko/img_01_en_US.png)
+![라우터의 연결된 기기 예시](../assets/setup-guide/ko/img_01_ko.png)
 
 
 ## 옵션 C: 네트워크 스캔

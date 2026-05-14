@@ -78,7 +78,7 @@ Ezeket keresd:
 Az IP-cím általában így néz ki:
 `192.168.x.x` vagy `10.0.x.x`
 
-![Példa a routerhez csatlakoztatott eszközökre](../assets/setup-guide/hu/img_01_en_US.png)
+![Példa a routerhez csatlakoztatott eszközökre](../assets/setup-guide/hu/img_01_hu.png)
 
 
 ## C lehetőség: Ellenőrizze a hálózatot

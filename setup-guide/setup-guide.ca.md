@@ -78,7 +78,7 @@ Busca:
 L’adreça IP normalment tindrà aquest aspecte:
 `192.168.x.x` o `10.0.x.x`
 
-![Exemple de dispositius connectats a l’encaminador](../assets/setup-guide/ca/img_01_en_US.png)
+![Exemple de dispositius connectats a l’encaminador](../assets/setup-guide/ca/img_01_ca.png)
 
 
 ## Opció C: escaneja la teva xarxa

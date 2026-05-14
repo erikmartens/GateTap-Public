@@ -78,7 +78,7 @@ Cari:
 Alamat IP biasanya kelihatan seperti:
 `192.168.x.x` atau `10.0.x.x`
 
-![Contoh peranti disambungkan pada penghala](../assets/setup-guide/ms/img_01_en_US.png)
+![Contoh peranti disambungkan pada penghala](../assets/setup-guide/ms/img_01_ms.png)
 
 
 ## Pilihan C: Imbas rangkaian anda

@@ -78,7 +78,7 @@ Potražite:
 IP adresa obično izgleda ovako:
 `192.168.x.x` ili `10.0.x.x`
 
-![Primjer povezanih uređaja u usmjerivaču](../assets/setup-guide/hr/img_01_en_US.png)
+![Primjer povezanih uređaja u usmjerivaču](../assets/setup-guide/hr/img_01_hr.png)
 
 
 ## Opcija C: Skenirajte svoju mrežu

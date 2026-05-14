@@ -78,7 +78,7 @@ Cerca:
 L’indirizzo IP di solito ha questo formato:
 `192.168.x.x` o `10.0.x.x`
 
-![Esempio di dispositivi connessi nel router](../assets/setup-guide/it/img_01_en_US.png)
+![Esempio di dispositivi connessi nel router](../assets/setup-guide/it/img_01_it.png)
 
 
 ## Opzione C: scansiona la tua rete

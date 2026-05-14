@@ -78,7 +78,7 @@ Let op:
 Het IP-adres ziet er meestal zo uit:
 `192.168.x.x` of `10.0.x.x`
 
-![Voorbeeld van verbonden apparaten in de router](../assets/setup-guide/nl/img_01_en_US.png)
+![Voorbeeld van verbonden apparaten in de router](../assets/setup-guide/nl/img_01_nl.png)
 
 
 ## Optie C: Scan je netwerk

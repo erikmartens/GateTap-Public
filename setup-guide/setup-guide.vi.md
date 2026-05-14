@@ -78,7 +78,7 @@ Hãy tìm:
 Địa chỉ IP thường trông như:
 `192.168.x.x` hoặc `10.0.x.x`
 
-![Ví dụ thiết bị đã kết nối trong bộ định tuyến](../assets/setup-guide/vi/img_01_en_US.png)
+![Ví dụ thiết bị đã kết nối trong bộ định tuyến](../assets/setup-guide/vi/img_01_vi.png)
 
 
 ## Tùy chọn C: Quét mạng của bạn

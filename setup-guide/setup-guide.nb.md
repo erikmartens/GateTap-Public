@@ -78,7 +78,7 @@ Se etter:
 IP-adressen ser vanligvis slik ut:
 `192.168.x.x` eller `10.0.x.x`
 
-![Eksempel på tilkoblede enheter i ruteren](../assets/setup-guide/nb/img_01_en_US.png)
+![Eksempel på tilkoblede enheter i ruteren](../assets/setup-guide/nb/img_01_nb.png)
 
 
 ## Alternativ C: Skann nettverket ditt

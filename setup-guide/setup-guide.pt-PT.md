@@ -78,7 +78,7 @@ Procura:
 O endereço IP normalmente tem este aspeto:
 `192.168.x.x` ou `10.0.x.x`
 
-![Exemplo de dispositivos ligados no router](../assets/setup-guide/pt-PT/img_01_en_US.png)
+![Exemplo de dispositivos ligados no router](../assets/setup-guide/pt-PT/img_01_pt-PT.png)
 
 
 ## Opção C: verifique a sua rede

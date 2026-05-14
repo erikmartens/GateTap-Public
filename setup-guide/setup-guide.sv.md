@@ -78,7 +78,7 @@ Leta efter:
 IP-adressen ser vanligtvis ut så här:
 `192.168.x.x` eller `10.0.x.x`
 
-![Exempel på anslutna enheter i routern](../assets/setup-guide/sv/img_01_en_US.png)
+![Exempel på anslutna enheter i routern](../assets/setup-guide/sv/img_01_sv.png)
 
 
 ## Alternativ C: Skanna ditt nätverk

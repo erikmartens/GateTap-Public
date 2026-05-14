@@ -78,7 +78,7 @@ Caută:
 Adresa IP arată de obicei astfel:
 `192.168.x.x` sau `10.0.x.x`
 
-![Exemplu de dispozitive conectate în router](../assets/setup-guide/ro/img_01_en_US.png)
+![Exemplu de dispozitive conectate în router](../assets/setup-guide/ro/img_01_ro.png)
 
 
 ## Opțiunea C: Scanați-vă rețeaua

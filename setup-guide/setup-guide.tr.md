@@ -78,7 +78,7 @@ Bu bölüm şu adlarla geçebilir:
 IP adresi genellikle şöyle görünür:
 `192.168.x.x` veya `10.0.x.x`
 
-![Yönlendiricide bağlı cihazlar örneği](../assets/setup-guide/tr/img_01_en_US.png)
+![Yönlendiricide bağlı cihazlar örneği](../assets/setup-guide/tr/img_01_tr.png)
 
 
 ## Seçenek C: Ağınızı tarayın

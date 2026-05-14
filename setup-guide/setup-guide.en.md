@@ -78,7 +78,7 @@ Look for:
 The IP address will usually look like:
 `192.168.x.x` or `10.0.x.x`
 
-![Router connected devices example](../assets/setup-guide/en/img_01_en_US.png)
+![Router connected devices example](../assets/setup-guide/en/img_01_en.png)
 
 
 ## Option C: Scan your network

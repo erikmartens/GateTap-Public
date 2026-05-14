@@ -78,7 +78,7 @@ Recherchez :
 L’adresse IP ressemble généralement à :
 `192.168.x.x` ou `10.0.x.x`
 
-![Exemple d’appareils connectés dans le routeur](../assets/setup-guide/fr/img_01_en_US.png)
+![Exemple d’appareils connectés dans le routeur](../assets/setup-guide/fr/img_01_fr.png)
 
 
 ## Option C : Analysez votre réseau

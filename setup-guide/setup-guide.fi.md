@@ -78,7 +78,7 @@ Etsi:
 IP-osoite näyttää yleensä tältä:
 `192.168.x.x` tai `10.0.x.x`
 
-![Esimerkki reitittimen yhdistetyistä laitteista](../assets/setup-guide/fi/img_01_en_US.png)
+![Esimerkki reitittimen yhdistetyistä laitteista](../assets/setup-guide/fi/img_01_fi.png)
 
 
 ## Vaihtoehto C: Tarkista verkkosi

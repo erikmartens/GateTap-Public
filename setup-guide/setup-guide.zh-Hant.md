@@ -78,7 +78,7 @@ GateTap 完全在你的本機網路內運作，並需要：
 IP 位址通常類似於：
 `192.168.x.x` 或 `10.0.x.x`
 
-![路由器已連線裝置範例](../assets/setup-guide/zh-Hant/img_01_zh_Hant.png)
+![路由器已連線裝置範例](../assets/setup-guide/zh-Hant/img_01_zh-Hant.png)
 
 
 ## 選項 C：掃描網路

@@ -78,7 +78,7 @@ Busca:
 La dirección IP normalmente tendrá este aspecto:
 `192.168.x.x` o `10.0.x.x`
 
-![Ejemplo de dispositivos conectados en el router](../assets/setup-guide/es/img_01_en_US.png)
+![Ejemplo de dispositivos conectados en el router](../assets/setup-guide/es/img_01_es.png)
 
 
 ## Opción C: escanea tu red

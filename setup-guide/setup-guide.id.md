@@ -78,7 +78,7 @@ Cari:
 Alamat IP biasanya terlihat seperti:
 `192.168.x.x` atau `10.0.x.x`
 
-![Contoh perangkat terhubung di router](../assets/setup-guide/id/img_01_en_US.png)
+![Contoh perangkat terhubung di router](../assets/setup-guide/id/img_01_id.png)
 
 
 ## Opsi C: Pindai jaringan Anda
