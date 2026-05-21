@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/hu/screenshots.png)
+
 _**Modern iPhone-felület kompatibilis, weben kezelt beléptetőrendszerekhez.**_
 
 A beléptetővezérlő olyan eszköz, amely elektronikusan kezeli ajtók, kapuk, garázsok vagy sorompók nyitását — például az ajtónyitó aktiválásával a kaputelefon-rendszeren keresztül, vagy egy kapumotor vezérlésével.

@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/ko/screenshots.png)
+
 _**호환되는 웹 관리형 출입 제어 시스템을 위한 현대적인 iPhone 인터페이스입니다.**_
 
 출입 컨트롤러는 문, 게이트, 차고 또는 차단기의 개방을 전자적으로 관리하는 장치입니다. 예를 들어 인터폰 시스템을 통해 도어 버저를 작동시키거나 게이트 모터를 제어할 수 있습니다.

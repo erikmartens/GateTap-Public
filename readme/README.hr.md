@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/hr/screenshots.png)
+
 _**Moderno iPhone sučelje za kompatibilne web-upravljane sustave kontrole pristupa.**_
 
 Kontroler pristupa je uređaj koji elektronički upravlja otvaranjem vrata, kapija, garaža ili rampi — primjerice aktiviranjem zvona za vrata putem portafona ili upravljanjem motorom kapije.

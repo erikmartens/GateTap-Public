@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/sk/screenshots.png)
+
 _**Moderné rozhranie pre iPhone pre kompatibilné webovo spravované systémy kontroly prístupu.**_
 
 Riadiaca jednotka prístupu je zariadenie, ktoré elektronicky spravuje otváranie dverí, brán, garáží alebo závor — napríklad aktivovaním dverového bzučiaka cez domový telefón alebo ovládaním motora brány.

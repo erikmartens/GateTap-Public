@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/ro/screenshots.png)
+
 _**O interfață modernă pentru iPhone pentru sisteme compatibile de control al accesului administrate prin web.**_
 
 Un controler de acces este un dispozitiv care gestionează electronic deschiderea ușilor, porților, garajelor sau barierelor — de exemplu activând un zăvor electric prin sistemul de interfon sau controlând motorul unei porți.

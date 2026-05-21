@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/it/screenshots.png)
+
 _**Un’interfaccia moderna per iPhone per sistemi di controllo accessi compatibili gestiti via web.**_
 
 Un controller di accesso è un dispositivo che gestisce elettronicamente l’apertura di porte, cancelli, garage o barriere — ad esempio attivando un apriporta tramite il sistema citofonico o controllando il motore di un cancello.

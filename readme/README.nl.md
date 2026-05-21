@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/nl/screenshots.png)
+
 _**Een moderne iPhone-interface voor compatibele webbeheerde toegangscontrolesystemen.**_
 
 Een toegangscontroller is een apparaat dat het openen van deuren, poorten, garages of slagbomen elektronisch beheert — bijvoorbeeld door een deuropener via je intercomsysteem te activeren of een poortmotor aan te sturen.

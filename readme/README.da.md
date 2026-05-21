@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/da/screenshots.png)
+
 _**En moderne iPhone-grænseflade til kompatible webadministrerede adgangskontrolsystemer.**_
 
 En adgangscontroller er en enhed, der elektronisk styrer åbning af døre, porte, garager eller bomme — for eksempel ved at aktivere en døråbner via dit dørtelefonsystem eller styre en portmotor.

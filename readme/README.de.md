@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/de/screenshots.png)
+
 _**Eine moderne iPhone-Oberfläche für kompatible webbasierte Zutrittskontrollsysteme.**_
 
 Ein Zutritts-Controller ist ein Gerät, das das Öffnen von Türen, Toren oder Garagen steuert — beispielsweise durch das Aktivieren eines Türsummers über deine Gegensprechanlage.

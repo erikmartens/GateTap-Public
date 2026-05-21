@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/pl/screenshots.png)
+
 _**Nowoczesny interfejs iPhone’a dla zgodnych, zarządzanych przez web systemów kontroli dostępu.**_
 
 Kontroler dostępu to urządzenie, które elektronicznie zarządza otwieraniem drzwi, bram, garaży lub szlabanów — na przykład przez aktywowanie zaczepu drzwiowego za pośrednictwem domofonu albo sterowanie silnikiem bramy.

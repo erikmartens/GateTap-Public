@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/id/screenshots.png)
+
 _**Antarmuka iPhone modern untuk sistem kontrol akses kompatibel yang dikelola melalui web.**_
 
 Kontroler akses adalah perangkat yang secara elektronik mengelola pembukaan pintu, gerbang, garasi, atau palang — misalnya dengan mengaktifkan buzzer pintu melalui sistem interkom Anda atau mengendalikan motor gerbang.

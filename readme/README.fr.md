@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/fr/screenshots.png)
+
 _**Une interface iPhone moderne pour les systèmes de contrôle d’accès compatibles administrés via le web.**_
 
 Un contrôleur d’accès est un appareil qui gère électroniquement l’ouverture de portes, portails, garages ou barrières — par exemple en activant une gâche électrique via votre interphone ou en commandant le moteur d’un portail.

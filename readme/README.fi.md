@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/fi/screenshots.png)
+
 _**Moderni iPhone-käyttöliittymä yhteensopiville web-hallittaville kulunvalvontajärjestelmille.**_
 
 Kulunvalvontaohjain on laite, joka ohjaa sähköisesti ovien, porttien, autotallien tai puomien avaamista — esimerkiksi aktivoimalla ovensummerin ovipuhelinjärjestelmän kautta tai ohjaamalla portin moottoria.

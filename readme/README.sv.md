@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/sv/screenshots.png)
+
 _**Ett modernt iPhone-gränssnitt för kompatibla webbadministrerade passersystem.**_
 
 En passerkontroller är en enhet som elektroniskt hanterar öppning av dörrar, grindar, garage eller bommar — till exempel genom att aktivera en dörröppnare via porttelefonen eller styra en grindmotor.

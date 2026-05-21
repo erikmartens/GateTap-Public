@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/ms/screenshots.png)
+
 _**Antara muka iPhone moden untuk sistem kawalan akses serasi yang diurus melalui web.**_
 
 Pengawal akses ialah peranti yang mengurus pembukaan pintu, pagar, garaj atau palang secara elektronik — contohnya dengan mengaktifkan pembuka pintu melalui sistem interkom anda atau mengawal motor pagar.

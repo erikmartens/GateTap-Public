@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](assets/readme/screenshots/en/screenshots.png)
+
 _**A modern iPhone interface for compatible web-managed access control systems.**_
 
 An access controller is a device that electronically manages the opening of doors, gates, garages, or barriers — for example by activating a door buzzer through your intercom system or controlling a gate motor.

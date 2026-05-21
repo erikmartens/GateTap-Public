@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/cs/screenshots.png)
+
 _**Moderní rozhraní pro iPhone pro kompatibilní webově spravované systémy kontroly přístupu.**_
 
 Řadič přístupu je zařízení, které elektronicky řídí otevírání dveří, bran, garáží nebo závor — například aktivací dveřního bzučáku přes domovní telefon nebo ovládáním motoru brány.

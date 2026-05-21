@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/es/screenshots.png)
+
 _**Una interfaz moderna para iPhone para sistemas de control de acceso compatibles gestionados por web.**_
 
 Un controlador de acceso es un dispositivo que gestiona electrónicamente la apertura de puertas, portones, garajes o barreras; por ejemplo, activando un abrepuertas mediante el sistema de interfono o controlando el motor de un portón.

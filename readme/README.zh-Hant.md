@@ -7,6 +7,8 @@
 
 ---
 
+![GateTap screenshots](../assets/readme/screenshots/zh-Hant/screenshots.png)
+
 _**適用於相容 Web 管理型門禁系統的現代 iPhone 介面。**_
 
 門禁控制器是一種以電子方式管理門、閘門、車庫門或柵欄開啟的裝置，例如透過對講系統啟動門鈴開關，或控制閘門馬達。
