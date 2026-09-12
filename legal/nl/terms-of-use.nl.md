@@ -55,6 +55,3 @@ De ontwikkelaar is niet aansprakelijk voor schade die voortvloeit uit:
 ## 7. Wijzigingen
 Deze Voorwaarden kunnen van tijd tot tijd worden bijgewerkt. Voortgezet gebruik van de app houdt aanvaarding van de bijgewerkte voorwaarden in.
 
-## 8. Contactpersoon
-Voor vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

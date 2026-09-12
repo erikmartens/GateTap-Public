@@ -55,6 +55,3 @@ El promotor no serà responsable de cap dany derivat de:
 ## 7. Canvis
 Aquestes Condicions es poden actualitzar de tant en tant. L'ús continuat de l'aplicació suposa l'acceptació de les Condicions actualitzades.
 
-## 8. Contacte
-Per a preguntes, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

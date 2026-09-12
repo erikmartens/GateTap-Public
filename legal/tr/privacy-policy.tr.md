@@ -60,6 +60,3 @@ GateTap üçüncü taraf donanım sistemleriyle etkileşime girer. Bu sistemleri
 ## 8. Değişiklikler
 Bu Gizlilik Politikası gelecekte güncellenebilir. Değişiklikler Uygulamaya yansıtılacaktır.
 
-## 9. İletişim
-Gizlilikle ilgili sorularınız için şu adresle iletişime geçin: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

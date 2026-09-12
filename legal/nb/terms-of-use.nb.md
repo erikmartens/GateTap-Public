@@ -55,6 +55,3 @@ Utbygger er ikke ansvarlig for skader som oppstår fra:
 ## 7. Endringer
 Disse vilkårene kan bli oppdatert fra tid til annen. Fortsatt bruk av appen innebærer aksept av de oppdaterte vilkårene.
 
-## 8. Kontakt
-For spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

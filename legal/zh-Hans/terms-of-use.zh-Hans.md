@@ -55,6 +55,3 @@ GateTap 会将登录凭据本地保存在你的设备上。你有责任保护你
 ## 7. 变更
 这些条款可能会不时更新。继续使用本 App 即表示接受更新后的条款。
 
-## 8. 联系
-如有问题，请联系：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

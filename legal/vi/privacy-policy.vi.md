@@ -60,6 +60,3 @@ GateTap tương tác với hệ thống phần cứng của bên thứ ba. Tính
 ## 8. Thay đổi
 Chính sách quyền riêng tư này có thể được cập nhật trong tương lai. Những thay đổi sẽ được phản ánh trong Ứng dụng.
 
-##9. Liên hệ
-Đối với các câu hỏi liên quan đến quyền riêng tư, hãy liên hệ: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

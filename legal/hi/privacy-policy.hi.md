@@ -60,6 +60,3 @@ Last updated: 2026-04-27
 ## 8. Changes
 इस गोपनीयता नीति को भविष्य में अद्यतन किया जा सकता है। परिवर्तन ऐप में दिखाई देंगे.
 
-## 9. Contact
-गोपनीयता संबंधी प्रश्नों के लिए संपर्क करें: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

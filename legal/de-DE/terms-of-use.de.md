@@ -55,6 +55,3 @@ Der Entwickler haftet nicht für Schäden, die entstehen durch:
 ## 7. Änderungen
 Diese Nutzungsbedingungen können jederzeit angepasst werden. Die fortgesetzte Nutzung der App gilt als Zustimmung zu den aktualisierten Bedingungen.
 
-## 8. Kontakt
-Bei Fragen kontaktieren Sie: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

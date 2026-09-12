@@ -55,6 +55,3 @@ Izvođač nije odgovoran za bilo kakvu štetu koja proizlazi iz:
 ## 7. Promjene
 Ovi Uvjeti mogu se ažurirati s vremena na vrijeme. Nastavak korištenja aplikacije predstavlja prihvaćanje ažuriranih Uvjeta.
 
-## 8. Kontakt
-Za pitanja kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

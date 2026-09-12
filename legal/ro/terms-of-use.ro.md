@@ -55,6 +55,3 @@ Dezvoltatorul nu va fi răspunzător pentru nicio daune care decurg din:
 ## 7. Schimbări
 Acești Termeni pot fi actualizați din când în când. Utilizarea continuă a Aplicației reprezintă acceptarea Termenilor actualizați.
 
-## 8. Contact
-Pentru întrebări, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

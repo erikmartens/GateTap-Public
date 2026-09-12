@@ -60,6 +60,3 @@ GateTap komunicira s hardverskim sustavima trećih strana. Sigurnost i ponašanj
 ## 8. Promjene
 Ova Pravila privatnosti mogu se ažurirati u budućnosti. Promjene će se odraziti na aplikaciju.
 
-## 9. Kontakt
-Za pitanja vezana uz privatnost kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

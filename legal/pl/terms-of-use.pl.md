@@ -55,6 +55,3 @@ Deweloper nie ponosi odpowiedzialności za szkody powstałe na skutek:
 ## 7. Zmiany
 Niniejsze Warunki mogą być od czasu do czasu aktualizowane. Dalsze korzystanie z Aplikacji oznacza akceptację zaktualizowanego Regulaminu.
 
-## 8. Kontakt
-W przypadku pytań prosimy o kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

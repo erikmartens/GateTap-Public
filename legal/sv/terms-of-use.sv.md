@@ -55,6 +55,3 @@ Byggherren ansvarar inte för skador som uppstår på grund av:
 ## 7. Ändringar
 Dessa villkor kan komma att uppdateras då och då. Fortsatt användning av appen innebär att du accepterar de uppdaterade villkoren.
 
-## 8. Kontakt
-För frågor, kontakta: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

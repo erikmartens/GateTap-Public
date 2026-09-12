@@ -55,6 +55,3 @@ Nhà phát triển sẽ không chịu trách nhiệm về bất kỳ thiệt h�
 ## 7. Thay đổi
 Các Điều khoản này có thể được cập nhật theo thời gian. Việc tiếp tục sử dụng Ứng dụng đồng nghĩa với việc chấp nhận Điều khoản được cập nhật.
 
-##8. Liên hệ
-Nếu có thắc mắc, hãy liên hệ: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

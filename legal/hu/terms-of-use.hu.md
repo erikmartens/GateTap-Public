@@ -55,6 +55,3 @@ A fejlesztő nem vállal felelősséget a következőkből eredő károkért:
 ## 7. Változások
 Ezek a feltételek időről időre frissülhetnek. Az Alkalmazás további használata a frissített Feltételek elfogadását jelenti.
 
-## 8. Kapcsolat
-Kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

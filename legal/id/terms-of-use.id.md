@@ -55,6 +55,3 @@ Pengembang tidak bertanggung jawab atas segala kerugian yang timbul dari:
 ## 7. Perubahan
 Ketentuan ini dapat diperbarui dari waktu ke waktu. Penggunaan Aplikasi yang berkelanjutan merupakan penerimaan terhadap Ketentuan yang diperbarui.
 
-## 8. Kontak
-Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

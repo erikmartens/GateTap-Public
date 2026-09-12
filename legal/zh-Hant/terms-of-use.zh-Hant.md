@@ -55,6 +55,3 @@ GateTap 會將登入憑證本機儲存在你的裝置上。你有責任保護你
 ## 7. 變更
 這些條款可能會不時更新。繼續使用本 App 即表示接受更新後的條款。
 
-## 8. 聯絡
-如有問題，請聯絡：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

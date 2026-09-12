@@ -60,6 +60,3 @@ GateTap interagisce con sistemi hardware di terze parti. La sicurezza e il compo
 ## 8. Modifiche
 La presente Informativa sulla privacy potrebbe essere aggiornata in futuro. Le modifiche si rifletteranno nell'app.
 
-## 9. Contatto
-Per domande relative alla privacy, contattare: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

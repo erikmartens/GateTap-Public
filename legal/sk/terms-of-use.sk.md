@@ -55,6 +55,3 @@ Developer nezodpovedá za žiadne škody spôsobené:
 ## 7. Zmeny
 Tieto Podmienky môžu byť z času na čas aktualizované. Pokračovanie v používaní aplikácie znamená prijatie aktualizovaných podmienok.
 
-## 8. Kontakt
-V prípade otázok kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

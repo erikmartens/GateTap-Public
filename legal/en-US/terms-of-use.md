@@ -55,6 +55,3 @@ The developer shall not be liable for any damages arising from:
 ## 7. Changes
 These Terms may be updated from time to time. Continued use of the App constitutes acceptance of the updated Terms.
 
-## 8. Contact
-For questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

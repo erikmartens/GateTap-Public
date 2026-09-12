@@ -60,6 +60,3 @@ GateTap współdziała z systemami sprzętowymi innych firm. Bezpieczeństwo i z
 ## 8. Zmiany
 Niniejsza Polityka prywatności może być w przyszłości aktualizowana. Zmiany zostaną odzwierciedlone w Aplikacji.
 
-## 9. Kontakt
-W przypadku pytań związanych z prywatnością prosimy o kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-
