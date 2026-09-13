@@ -55,6 +55,3 @@ Rakennuttaja ei ole vastuussa vahingoista, jotka johtuvat:
 ## 7. Muutokset
 Näitä ehtoja voidaan päivittää ajoittain. Sovelluksen käytön jatkaminen merkitsee päivitettyjen ehtojen hyväksymistä.
 
-## 8. Ota yhteyttä
-Jos sinulla on kysyttävää, ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

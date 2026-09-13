@@ -60,6 +60,3 @@ GateTap interacționează cu sisteme hardware terțe. Securitatea și comportame
 ## 8. Schimbări
 Această politică de confidențialitate poate fi actualizată în viitor. Modificările vor fi reflectate în aplicație.
 
-## 9. Contact
-Pentru întrebări legate de confidențialitate, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

@@ -60,6 +60,3 @@ GateTap interagerer med tredjeparts hardwaresystemer. Sikkerheden og adfærden a
 ## 8. Ændringer
 Denne privatlivspolitik kan blive opdateret i fremtiden. Ændringer vil blive afspejlet i appen.
 
-## 9. Kontakt
-For privatlivsrelaterede spørgsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

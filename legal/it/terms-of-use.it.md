@@ -55,6 +55,3 @@ Lo sviluppatore non sarà responsabile per eventuali danni derivanti da:
 ## 7. Modifiche
 I presenti Termini possono essere aggiornati di volta in volta. L'uso continuato dell'App costituisce l'accettazione dei Termini aggiornati.
 
-## 8. Contatto
-Per domande, contattare: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

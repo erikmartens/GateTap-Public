@@ -60,6 +60,3 @@ GateTap interactua amb sistemes de maquinari de tercers. La seguretat i el compo
 ## 8. Canvis
 Aquesta Política de privadesa es pot actualitzar en el futur. Els canvis es reflectiran a l'aplicació.
 
-## 9. Contacte
-Per a preguntes relacionades amb la privadesa, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

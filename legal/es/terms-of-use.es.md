@@ -55,6 +55,3 @@ El promotor no será responsable de los daños derivados de:
 ## 7. Cambios
 Estos Términos pueden actualizarse periódicamente. El uso continuado de la Aplicación constituye la aceptación de los Términos actualizados.
 
-## 8. Contacto
-Si tiene preguntas, comuníquese con: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

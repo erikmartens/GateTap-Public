@@ -60,6 +60,3 @@ GateTap samhandler med tredjeparts maskinvaresystemer. Sikkerheten og oppførsel
 ## 8. Endringer
 Denne personvernerklæringen kan bli oppdatert i fremtiden. Endringer vil gjenspeiles i appen.
 
-## 9. Kontakt
-For personvernrelaterte spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

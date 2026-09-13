@@ -55,6 +55,3 @@ Bygherren er ikke ansvarlig for skader, der opstår som følge af:
 ## 7. Ændringer
 Disse vilkår kan blive opdateret fra tid til anden. Fortsat brug af appen udgør accept af de opdaterede vilkår.
 
-## 8. Kontakt
-For spørgsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

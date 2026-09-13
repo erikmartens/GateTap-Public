@@ -60,6 +60,3 @@ GateTap 会与第三方硬件系统交互。这些系统的安全性和行为不
 ## 8. 变更
 本隐私政策将来可能会更新。变更会在 App 中体现。
 
-## 9. 联系
-如有隐私相关问题，请联系：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

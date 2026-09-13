@@ -60,6 +60,3 @@ GateTap interagit avec des systèmes matériels tiers. La sécurité et le compo
 ## 8. Modifications
 Cette politique de confidentialité peut être mise à jour à l'avenir. Les modifications seront reflétées dans l'application.
 
-## 9. Contacter
-Pour les questions liées à la confidentialité, contactez : [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

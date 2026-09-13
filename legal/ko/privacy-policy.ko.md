@@ -60,6 +60,3 @@ GateTap은 타사 하드웨어 시스템과 상호 작용합니다. 해당 시�
 ## 8. 변경 사항
 본 개인정보 보호정책은 향후 업데이트될 수 있습니다. 변경 사항은 앱에 반영됩니다.
 
-## 9. 연락처
-개인정보 보호 관련 문의사항은 [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)으로 문의하세요.
-

@@ -60,6 +60,3 @@ GateTap on vuorovaikutuksessa kolmannen osapuolen laitteistojärjestelmien kanss
 ## 8. Muutokset
 Tätä tietosuojakäytäntöä voidaan päivittää tulevaisuudessa. Muutokset näkyvät sovelluksessa.
 
-## 9. Ota yhteyttä
-Yksityisyyteen liittyvissä kysymyksissä ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

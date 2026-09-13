@@ -55,6 +55,3 @@ Le développeur ne sera pas responsable des dommages résultant de :
 ## 7. Modifications
 Ces conditions peuvent être mises à jour de temps à autre. L'utilisation continue de l'application constitue l'acceptation des conditions mises à jour.
 
-## 8. Contacter
-Pour toute question, contactez : [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

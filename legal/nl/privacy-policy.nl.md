@@ -60,6 +60,3 @@ GateTap werkt samen met hardwaresystemen van derden. De veiligheid en het gedrag
 ## 8. Wijzigingen
 Dit privacybeleid kan in de toekomst worden bijgewerkt. Wijzigingen worden weergegeven in de app.
 
-## 9. Contactpersoon
-Voor privacygerelateerde vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

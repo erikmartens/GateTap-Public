@@ -55,6 +55,3 @@ Pemaju tidak akan bertanggungjawab ke atas sebarang kerosakan yang timbul daripa
 ## 7. Perubahan
 Syarat ini boleh dikemas kini dari semasa ke semasa. Penggunaan berterusan Apl merupakan penerimaan Syarat yang dikemas kini.
 
-## 8. Hubungi
-Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

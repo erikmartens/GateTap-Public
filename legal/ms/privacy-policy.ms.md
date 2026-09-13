@@ -60,6 +60,3 @@ GateTap berinteraksi dengan sistem perkakasan pihak ketiga. Keselamatan dan ting
 ## 8. Perubahan
 Dasar Privasi ini mungkin dikemas kini pada masa hadapan. Perubahan akan ditunjukkan dalam Apl.
 
-## 9. Hubungi
-Untuk soalan berkaitan privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

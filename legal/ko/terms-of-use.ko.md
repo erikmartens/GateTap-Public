@@ -55,6 +55,3 @@ GateTap은 자격 증명을 장치에 로컬로 저장합니다. 기기 보안(�
 ## 7. 변경 사항
 본 약관은 수시로 업데이트될 수 있습니다. 앱을 계속 사용하면 업데이트된 약관에 동의하는 것으로 간주됩니다.
 
-## 8. 연락처
-질문이 있는 경우 다음으로 문의하세요. [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

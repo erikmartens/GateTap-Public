@@ -55,6 +55,3 @@ GateTap は、資格情報をデバイス上にローカルに保存します。
 ## 7. 変更点
 本規約は随時更新される場合があります。アプリを継続して使用すると、更新された規約に同意したものとみなされます。
 
-## 8. 連絡先
-ご質問がある場合は、[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com) までお問い合わせください。
-

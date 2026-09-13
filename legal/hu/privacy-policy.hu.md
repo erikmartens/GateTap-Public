@@ -60,6 +60,3 @@ A GateTap együttműködik harmadik féltől származó hardverrendszerekkel. Ez
 ## 8. Változások
 Ez az adatvédelmi szabályzat a jövőben frissülhet. A változások az alkalmazásban is megjelennek.
 
-## 9. Kapcsolat
-Adatvédelemmel kapcsolatos kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

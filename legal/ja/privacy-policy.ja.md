@@ -60,6 +60,3 @@ GateTap はサードパーティのハードウェア システムと対話し�
 ## 8. 変更点
 このプライバシーポリシーは将来更新される可能性があります。変更はアプリに反映されます。
 
-## 9. 連絡先
-プライバシー関連の質問については、[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com) までお問い合わせください。
-

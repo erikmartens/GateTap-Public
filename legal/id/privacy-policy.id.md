@@ -60,6 +60,3 @@ GateTap berinteraksi dengan sistem perangkat keras pihak ketiga. Keamanan dan pe
 ## 8. Perubahan
 Kebijakan Privasi ini mungkin diperbarui di masa mendatang. Perubahan akan terlihat di Aplikasi.
 
-## 9. Kontak
-Untuk pertanyaan terkait privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

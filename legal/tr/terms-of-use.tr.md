@@ -55,6 +55,3 @@ Geliştirici aşağıdakilerden kaynaklanan hiçbir zarardan sorumlu olmayacakt�
 ## 7. Değişiklikler
 Bu Şartlar zaman zaman güncellenebilir. Uygulamanın kullanılmaya devam edilmesi, güncellenen Koşulların kabul edildiği anlamına gelir.
 
-## 8. İletişim
-Sorularınız için iletişim kurun: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-

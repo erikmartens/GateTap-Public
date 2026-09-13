@@ -60,6 +60,3 @@ GateTap 會與第三方硬體系統互動。這些系統的安全性與行為不
 ## 8. 變更
 本隱私權政策未來可能會更新。變更會在 App 中顯示。
 
-## 9. 聯絡
-如有隱私相關問題，請聯絡：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
-
