@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Política de privadesa
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versió:** 1.1  
-**Darrera actualització:** 2026-04-27
+**Versió:** 1.2  
+**Darrera actualització:** 2026-10-30
 
 ## 1. Visió general
 GateTap respecta la vostra privadesa. Aquesta aplicació està dissenyada per funcionar principalment al vostre dispositiu i dins de la vostra xarxa local.
@@ -32,18 +32,12 @@ L'aplicació pot emmagatzemar la informació següent localment al vostre dispos
 
 Aquestes dades no surten mai del vostre dispositiu.
 
-## 3. Informes d'error (opcional)
-GateTap utilitza un servei de tercers proporcionat per Google Firebase Crashlytics per recopilar informes d'error anònims per millorar l'estabilitat de l'aplicació.
+## 3. Diagnòstic i informes opcionals
+GateTap desa errors tècnics locals (hora, categoria d’operació, tipus/codi d’error, dispositiu, sistema i versió), inclosos diagnòstics natius diferits de MetricKit. Límits: 7 dies, 512 registres o 1 MiB de dades codificades. Un context local separat conté categories de pantalles/accions i ajustos sense contingut personal: 24 hores, 200 entrades o 256 KiB. En llegir o escriure, el primer límit assolit elimina els registres sencers més antics; l’espai de la base de dades és addicional. El context mai s’envia a Firebase. Cap secció conté credencials, tokens, adreces de controladors, URL, camins, noms/identificadors de portes o controladors, ordres, reptes d’autenticació, historial d’accés ni missatges d’error originals.
 
-Els informes d'error poden incloure:
+Si Firebase està disponible, els informes automàtics continuen activats per defecte. Pots desactivar-los a Privadesa o Ajuda: s’aturen els nous enviaments d’errors de l’app; la captura nativa ja configurada pot requerir el reinici indicat. Els registres locals continuen disponibles. Firebase Crashlytics tracta separadament fallades natives, dades tècniques del dispositiu/sessió i els seus identificadors d’instal·lació/sessió; els informes no són completament anònims. GateTap no afegeix identificadors d’usuari, instal·lació o publicitat ni seguiment entre apps. Desactivar no elimina informes enviats a Google. Consulta [la privadesa de Firebase](https://firebase.google.com/support/privacy).
 
-- Tipus de dispositiu i versió del sistema operatiu
-- Versió de l'aplicació
-- Informació tècnica sobre l'accident
-
-No s'inclouen dades personals ni credencials als informes d'error.
-
-Pots desactivar els informes d'error en qualsevol moment a la configuració de l'aplicació.
+Els registres mostren JSON amb l’opció d’informes confirmada i l’emmagatzematge total/disponible. La capacitat només figura en aquesta exportació sol·licitada, no en la telemetria automàtica de l’app. El correu permet adjuntar registres, continuar sense o cancel·lar; res s’envia automàticament. El context ampliat només es comparteix amb l’adjunt escollit. El proveïdor de correu també tracta el missatge i l’adreça del remitent.
 
 ## 4. Comunicació en xarxa
 GateTap es comunica directament amb els vostres dispositius configurats a través de la vostra xarxa local. No s'encamina cap ordre ni dades de credencials a través de servidors externs.

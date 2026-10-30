@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Kebijakan Privasi
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versi:** 1.1  
-**Terakhir diperbarui:** 27-04-2026
+**Versi:** 1.2  
+**Terakhir diperbarui:** 30-10-2026
 
 ## 1. Ikhtisar
 GateTap menghormati privasi Anda. Aplikasi ini dirancang untuk beroperasi terutama pada perangkat Anda dan dalam jaringan lokal Anda.
@@ -32,18 +32,12 @@ Aplikasi dapat menyimpan informasi berikut secara lokal di perangkat Anda:
 
 Data ini tidak pernah meninggalkan perangkat Anda.
 
-## 3. Pelaporan Kerusakan (Opsional)
-GateTap menggunakan layanan pihak ketiga yang disediakan oleh Google Firebase Crashlytics untuk mengumpulkan laporan kerusakan anonim guna meningkatkan stabilitas aplikasi.
+## 3. Diagnostik dan pelaporan opsional
+GateTap menyimpan kesalahan teknis lokal: waktu, kategori operasi, jenis/kode kesalahan, perangkat, sistem dan versi aplikasi, termasuk diagnostik crash native tertunda dari MetricKit. Batas kesalahan: 7 hari, 512 catatan atau 1 MiB data terenkode. Konteks lokal terpisah memuat kategori layar/tindakan dan pengaturan tanpa konten pribadi: 24 jam, 200 entri atau 256 KiB. Saat membaca atau menulis, batas pertama yang tercapai menghapus seluruh catatan terlama; ruang basis data merupakan tambahan. Konteks tidak pernah dikirim ke Firebase. Kedua bagian tidak memuat kredensial, token, alamat pengontrol, URL, jalur, nama/ID pintu atau pengontrol, perintah, tantangan autentikasi, riwayat akses atau pesan kesalahan mentah.
 
-Laporan kerusakan mungkin mencakup:
+Jika Firebase tersedia, pelaporan otomatis tetap aktif secara default. Anda dapat menonaktifkannya di Privasi atau Bantuan: kesalahan aplikasi baru tidak dikirim; pengumpulan crash native yang sudah dikonfigurasi mungkin memerlukan mulai ulang yang ditampilkan. Log lokal tetap tersedia. Firebase Crashlytics memproses crash native, informasi teknis perangkat/sesi dan pengenal instalasi/sesinya sendiri secara terpisah; laporannya tidak sepenuhnya anonim. GateTap tidak menambahkan pengenal pengguna, instalasi atau iklan maupun pelacakan lintas aplikasi. Menonaktifkan tidak menghapus laporan yang sudah dikirim ke Google. Lihat [privasi Firebase](https://firebase.google.com/support/privacy).
 
-- Jenis perangkat dan versi sistem operasi
-- Versi aplikasi
-- Informasi teknis tentang kecelakaan itu
-
-Tidak ada data pribadi atau kredensial yang disertakan dalam laporan kerusakan.
-
-Anda dapat menonaktifkan pelaporan kerusakan kapan saja di pengaturan aplikasi.
+Log kesalahan menampilkan JSON dengan pengaturan pelaporan yang dikonfirmasi dan penyimpanan total/tersedia. Kapasitas hanya disertakan dalam ekspor yang diminta, bukan telemetri otomatis tambahan aplikasi. Email menawarkan lampirkan log, lanjutkan tanpa log atau batal; tidak ada pengiriman otomatis. Konteks tambahan hanya dibagikan melalui lampiran yang dipilih. Penyedia email juga memproses pesan dan alamat pengirim.
 
 ## 4. Komunikasi Jaringan
 GateTap berkomunikasi langsung dengan perangkat yang dikonfigurasi melalui jaringan lokal Anda. Tidak ada data perintah atau kredensial yang dirutekan melalui server eksternal.

@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Politica de confidențialitate
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versiune:** 1.1  
-**Ultima actualizare:** 2026-04-27
+**Versiune:** 1.2  
+**Ultima actualizare:** 2026-10-30
 
 ## 1. Prezentare generală
 GateTap vă respectă confidențialitatea. Această aplicație este concepută pentru a funcționa în principal pe dispozitivul dvs. și în rețeaua dvs. locală.
@@ -32,18 +32,12 @@ Aplicația poate stoca următoarele informații local pe dispozitivul dvs.:
 
 Aceste date nu părăsesc niciodată dispozitivul dvs.
 
-## 3. Raportarea accidentelor (opțional)
-GateTap utilizează un serviciu terță parte furnizat de Google Firebase Crashlytics pentru a colecta rapoarte anonime de blocare pentru a îmbunătăți stabilitatea aplicației.
+## 3. Diagnosticare și raportare opțională
+GateTap păstrează erori tehnice locale: ora, categoria operației, tipul/codul erorii, dispozitivul, sistemul și versiunea aplicației, inclusiv diagnostice native întârziate de la MetricKit. Limite pentru erori: 7 zile, 512 înregistrări sau 1 MiB de date codificate. Contextul local separat conține categorii de ecrane/acțiuni și setări fără conținut personal: 24 de ore, 200 de intrări sau 256 KiB. La citire sau scriere, prima limită atinsă elimină cele mai vechi înregistrări întregi; spațiul bazei de date este suplimentar. Contextul nu ajunge niciodată la Firebase. Nicio secțiune nu conține date de autentificare, tokenuri, adrese de controlere, URL-uri, căi, nume/ID-uri de uși sau controlere, comenzi, provocări de autentificare, istoric de acces sau mesaje de eroare brute.
 
-Rapoartele de blocare pot include:
+Dacă Firebase este disponibil, raportarea automată rămâne activată implicit. O puteți dezactiva în Confidențialitate sau Ajutor: noile erori ale aplicației nu mai sunt trimise; colectarea nativă deja configurată poate necesita repornirea indicată. Jurnalele locale rămân disponibile. Firebase Crashlytics procesează separat blocările native, datele tehnice ale dispozitivului/sesiunii și propriii identificatori de instalare/sesiune; rapoartele nu sunt complet anonime. GateTap nu adaugă identificatori de utilizator, instalare sau publicitate ori urmărire între aplicații. Dezactivarea nu șterge rapoartele trimise către Google. Consultați [confidențialitatea Firebase](https://firebase.google.com/support/privacy).
 
-- Tipul dispozitivului și versiunea sistemului de operare
-- Versiunea aplicației
-- Informații tehnice despre accident
-
-Nu sunt incluse date personale sau acreditări în rapoartele de blocare.
-
-Puteți dezactiva oricând raportarea erorilor din setările aplicației.
+Jurnalele afișează JSON cu opțiunea de raportare confirmată și stocarea totală/disponibilă. Capacitatea apare doar în exportul cerut, nu în telemetria automată a aplicației. E-mailul permite atașarea jurnalelor, continuarea fără ele sau anularea; nimic nu se trimite automat. Contextul extins este partajat numai prin atașamentul ales. Furnizorul de e-mail procesează și mesajul, și adresa expeditorului.
 
 ## 4. Comunicare în rețea
 GateTap comunică direct cu dispozitivele dvs. configurate prin rețeaua locală. Nicio comandă sau date de acreditări nu sunt direcționate prin servere externe.

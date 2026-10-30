@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Zásady ochrany osobných údajov
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Verzia:** 1.1  
-**Posledná aktualizácia:** 27.04.2026
+**Verzia:** 1.2  
+**Posledná aktualizácia:** 30.10.2026
 
 ## 1. Prehľad
 GateTap rešpektuje vaše súkromie. Táto aplikácia je navrhnutá tak, aby fungovala predovšetkým na vašom zariadení a vo vašej lokálnej sieti.
@@ -32,18 +32,12 @@ Aplikácia môže vo vašom zariadení lokálne ukladať nasledujúce informáci
 
 Tieto údaje nikdy neopustia vaše zariadenie.
 
-## 3. Hlásenie zlyhaní (voliteľné)
-GateTap využíva službu tretej strany poskytovanú spoločnosťou Google Firebase Crashlytics na zhromažďovanie anonymných správ o zlyhaní s cieľom zlepšiť stabilitu aplikácie.
+## 3. Diagnostika a voliteľné hlásenia
+GateTap uchováva miestne technické chyby: čas, kategóriu operácie, typ/kód chyby, zariadenie, systém a verziu aplikácie vrátane oneskorenej diagnostiky pádov MetricKit. Limity chýb: 7 dní, 512 záznamov alebo 1 MiB kódovaných údajov. Samostatný miestny kontext obsahuje kategórie obrazoviek/akcií a nastavenia bez osobného obsahu: 24 hodín, 200 položiek alebo 256 KiB. Pri čítaní či zápise prvý dosiahnutý limit odstráni najstaršie celé záznamy; réžia databázy je navyše. Kontext sa nikdy neposiela do Firebase. Žiadna časť neobsahuje prihlasovacie údaje, tokeny, adresy riadiacich jednotiek, URL, cesty, názvy/ID dverí či jednotiek, príkazy, autentifikačné výzvy, históriu prístupov ani pôvodné chybové správy.
 
-Správy o zlyhaní môžu zahŕňať:
+Ak je Firebase dostupný, automatické hlásenie zostáva predvolene zapnuté. Môžete ho vypnúť v Súkromí alebo Pomoci: nové chyby aplikácie sa neodosielajú; už nastavený natívny zber pádov môže vyžadovať uvedený reštart. Miestne protokoly zostávajú dostupné. Firebase Crashlytics samostatne spracúva natívne pády, technické údaje zariadenia/relácie a vlastné identifikátory inštalácie/relácie; hlásenia nie sú úplne anonymné. GateTap nepridáva používateľské, inštalačné ani reklamné identifikátory či sledovanie medzi aplikáciami. Vypnutie nevymaže hlásenia odoslané Googlu. Pozrite [súkromie Firebase](https://firebase.google.com/support/privacy).
 
-- Typ zariadenia a verzia operačného systému
-- Verzia aplikácie
-- Technické informácie o havárii
-
-Správy o zlyhaní neobsahujú žiadne osobné údaje ani poverenia.
-
-Hlásenie zlyhaní môžete kedykoľvek zakázať v nastaveniach aplikácie.
+Protokoly zobrazia JSON s potvrdeným nastavením hlásenia a celkovou/voľnou kapacitou. Kapacita je len vo vyžiadanom exporte, nie v automatickej telemetrii aplikácie. E-mail ponúka priloženie protokolov, pokračovanie bez nich alebo zrušenie; nič sa neodosiela automaticky. Rozšírený kontext sa zdieľa iba so zvolenou prílohou. Poskytovateľ pošty spracúva aj správu a adresu odosielateľa.
 
 ## 4. Sieťová komunikácia
 GateTap komunikuje priamo s vašimi nakonfigurovanými zariadeniami cez vašu lokálnu sieť. Cez externé servery nie sú smerované žiadne údaje príkazov ani poverení.

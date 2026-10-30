@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Política de Privacidade
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versão:** 1.1  
-**Última atualização:** 27/04/2026
+**Versão:** 1.2  
+**Última atualização:** 30/10/2026
 
 ## 1. Visão geral
 GateTap respeita sua privacidade. Este aplicativo foi projetado para operar principalmente no seu dispositivo e na sua rede local.
@@ -32,18 +32,12 @@ O Aplicativo pode armazenar as seguintes informações localmente no seu disposi
 
 Esses dados nunca saem do seu dispositivo.
 
-## 3. Relatório de falhas (opcional)
-GateTap usa um serviço de terceiros fornecido pelo Google Firebase Crashlytics para coletar relatórios anônimos de falhas a fim de melhorar a estabilidade do aplicativo.
+## 3. Diagnóstico e relatórios opcionais
+O GateTap guarda erros técnicos locais (hora, categoria da operação, tipo/código de erro, dispositivo, sistema e versão), incluindo diagnósticos nativos diferidos do MetricKit. Limites: 7 dias, 512 registos ou 1 MiB de dados codificados. Um contexto local separado contém categorias de ecrãs/ações e definições sem conteúdo pessoal: 24 horas, 200 entradas ou 256 KiB. Na leitura ou escrita, o primeiro limite atingido remove os registos completos mais antigos; o espaço da base de dados é adicional. O contexto nunca é enviado ao Firebase. Nenhuma secção contém credenciais, tokens, endereços de controladores, URL, caminhos, nomes/identificadores de portas ou controladores, comandos, desafios de autenticação, histórico de acesso ou mensagens de erro originais.
 
-Os relatórios de falhas podem incluir:
+Quando o Firebase está disponível, os relatórios automáticos continuam ativos por predefinição. Pode desativá-los em Privacidade ou Ajuda: cessam os novos envios de erros da aplicação; a recolha nativa já configurada pode exigir o reinício indicado. Os registos locais continuam disponíveis. O Firebase Crashlytics trata separadamente falhas nativas, informações técnicas do dispositivo/sessão e os seus identificadores de instalação/sessão; os relatórios não são totalmente anónimos. O GateTap não adiciona identificadores de utilizador, instalação ou publicidade nem rastreio entre aplicações. Desativar não elimina relatórios enviados à Google. Consulte [a privacidade do Firebase](https://firebase.google.com/support/privacy).
 
-- Tipo de dispositivo e versão do sistema operacional
-- Versão do aplicativo
-- Informações técnicas sobre o acidente
-
-Nenhum dado pessoal ou credencial é incluído nos relatórios de falhas.
-
-Você pode desativar o relatório de falhas a qualquer momento nas configurações do aplicativo.
+Os registos mostram JSON com a opção de relatórios confirmada e o armazenamento total/disponível. A capacidade consta apenas desta exportação pedida, não da telemetria automática da aplicação. O correio permite anexar registos, continuar sem eles ou cancelar; nada é enviado automaticamente. O contexto alargado só é partilhado com o anexo escolhido. O fornecedor de correio também trata a mensagem e o endereço do remetente.
 
 ## 4. Comunicação em rede
 GateTap se comunica diretamente com seus dispositivos configurados através de sua rede local. Nenhum dado de comando ou credencial é roteado por meio de servidores externos.

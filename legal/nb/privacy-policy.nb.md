@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Personvernerklæring
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versjon:** 1.1  
-**Sist oppdatert:** 2026-04-27
+**Versjon:** 1.2  
+**Sist oppdatert:** 2026-10-30
 
 ## 1. Oversikt
 GateTap respekterer personvernet ditt. Denne appen er utviklet for å fungere primært på enheten din og i ditt lokale nettverk.
@@ -32,18 +32,12 @@ Appen kan lagre følgende informasjon lokalt på enheten din:
 
 Disse dataene forlater aldri enheten din.
 
-## 3. Krasjrapportering (valgfritt)
-GateTap bruker en tredjepartstjeneste levert av Google Firebase Crashlytics for å samle inn anonyme krasjrapporter for å forbedre appstabiliteten.
+## 3. Diagnostikk og valgfri rapportering
+GateTap lagrer lokale tekniske feil med tidspunkt, operasjonskategori, feiltype/-kode samt enhets-, system- og appversjon, inkludert forsinkede krasjdata fra MetricKit. Feil: høyst 7 dager, 512 poster eller 1 MiB kodede data. Separat lokal kontekst med skjerm-/handlingskategorier og innstillinger uten personlig innhold: 24 timer, 200 poster eller 256 KiB. Ved lesing eller skriving sletter den første nådde grensen de eldste hele postene; databaseplass kommer i tillegg. Kontekst sendes aldri til Firebase. Ingen av delene inneholder påloggingsdata, tokener, kontrolleradresser, URL-er, filbaner, dør-/kontrollernavn eller ID-er, kommandoer, autentiseringsutfordringer, tilgangshistorikk eller rå feilmeldinger.
 
-Krasjrapporter kan omfatte:
+Der Firebase er tilgjengelig, er automatisk rapportering fortsatt på som standard. Slå den av under Personvern eller Hjelp: nye appfeil sendes ikke; allerede konfigurert innebygd krasjrapportering kan kreve den viste omstarten. Lokale logger er fortsatt tilgjengelige. Firebase Crashlytics behandler separat native krasj, tekniske enhets-/øktdata og egne installasjons-/økt-ID-er; rapportene er ikke helt anonyme. GateTap legger ikke til bruker-, installasjons- eller annonse-ID eller sporing mellom apper. Deaktivering sletter ikke rapporter hos Google. Se [Firebase-personvern](https://firebase.google.com/support/privacy).
 
-- Enhetstype og operativsystemversjon
-- Appversjon
-- Teknisk informasjon om ulykken
-
-Ingen personlige data eller legitimasjon er inkludert i krasjrapporter.
-
-Du kan deaktivere krasjrapportering når som helst i appinnstillingene.
+Feillogger viser JSON med det bekreftede rapporteringsvalget og total/ledig lagringsplass. Kapasitet inngår bare i den forespurte eksporten, ikke i appens automatiske telemetri. E-post tilbyr vedlegg, fortsettelse uten eller avbryt; ingenting sendes automatisk. Utvidet kontekst deles bare med det valgte vedlegget. E-postleverandøren behandler også meldingen og avsenderadressen.
 
 ## 4. Nettverkskommunikasjon
 GateTap kommuniserer direkte med de konfigurerte enhetene dine over ditt lokale nettverk. Ingen kommando- eller legitimasjonsdata rutes gjennom eksterne servere.
