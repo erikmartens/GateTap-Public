@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 #Informativa sulla privacy
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versione:** 1.1  
-**Ultimo aggiornamento:** 27-04-2026
+**Versione:** 1.2  
+**Ultimo aggiornamento:** 30-10-2026
 
 ## 1. Panoramica
 GateTap rispetta la tua privacy. Questa App è progettata per funzionare principalmente sul tuo dispositivo e all'interno della tua rete locale.
@@ -32,18 +32,12 @@ L'App potrebbe memorizzare le seguenti informazioni localmente sul tuo dispositi
 
 Questi dati non lasciano mai il tuo dispositivo.
 
-## 3. Segnalazione di arresti anomali (facoltativo)
-GateTap utilizza un servizio di terze parti fornito da Google Firebase Crashlytics per raccogliere rapporti anonimi sugli arresti anomali al fine di migliorare la stabilità dell'app.
+## 3. Diagnostica e segnalazioni facoltative
+GateTap conserva errori tecnici locali (ora, categoria dell’operazione, tipo/codice di errore, dispositivo, sistema e versione), inclusa la diagnostica nativa ritardata di MetricKit. Limiti: 7 giorni, 512 registrazioni o 1 MiB di dati codificati. Un contesto locale separato contiene categorie di schermate/azioni e impostazioni senza contenuti personali: 24 ore, 200 voci o 256 KiB. In lettura o scrittura, il primo limite raggiunto elimina le voci intere più vecchie; lo spazio del database è aggiuntivo. Il contesto non viene mai inviato a Firebase. Nessuna sezione contiene credenziali, token, indirizzi dei controller, URL, percorsi, nomi/ID di porte o controller, comandi, richieste di autenticazione, cronologia degli accessi o messaggi di errore originali.
 
-I rapporti sugli arresti anomali possono includere:
+Se Firebase è disponibile, le segnalazioni automatiche restano attive per impostazione predefinita. Puoi disattivarle in Privacy o Aiuto: cessano i nuovi invii di errori dell’app; la raccolta nativa già configurata può richiedere il riavvio indicato. I registri locali restano disponibili. Firebase Crashlytics tratta separatamente arresti nativi, informazioni tecniche di dispositivo/sessione e i propri identificatori di installazione/sessione; i rapporti non sono completamente anonimi. GateTap non aggiunge identificatori utente, installazione o pubblicità né tracciamento tra app. La disattivazione non elimina rapporti già inviati a Google. Vedi [privacy di Firebase](https://firebase.google.com/support/privacy).
 
-- Tipo di dispositivo e versione del sistema operativo
-- Versione dell'app
-- Informazioni tecniche sull'incidente
-
-Nessun dato personale o credenziale è incluso nei rapporti sugli arresti anomali.
-
-Puoi disattivare la segnalazione degli arresti anomali in qualsiasi momento nelle impostazioni dell'app.
+I registri mostrano JSON con la scelta di segnalazione confermata e lo spazio totale/disponibile. La capacità compare solo nell’esportazione richiesta, non nella telemetria automatica aggiunta dall’app. L’e-mail consente di allegare i registri, proseguire senza o annullare; nessun invio è automatico. Il contesto esteso viene condiviso solo scegliendo l’allegato. Il servizio e-mail tratta anche messaggio e indirizzo del mittente.
 
 ## 4. Comunicazione di rete
 GateTap comunica direttamente con i tuoi dispositivi configurati sulla rete locale. Nessun comando o dato delle credenziali viene instradato attraverso server esterni.

@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Datenschutzbestimmungen
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Version:** 1.1  
-**Zuletzt aktualisiert:** 2026-04-27
+**Version:** 1.2  
+**Zuletzt aktualisiert:** 2026-10-30
 
 ## 1. Überblick
 GateTap respektiert Ihre Privatsphäre. Die App ist so konzipiert, dass sie primär auf Ihrem Gerät und innerhalb Ihres lokalen Netzwerks funktioniert.
@@ -32,18 +32,12 @@ Folgende Daten können lokal auf Ihrem Gerät gespeichert werden:
 
 Diese Daten verlassen Ihr Gerät nicht.
 
-## 3. Absturzberichte (Optional)
-GateTap verwendet einen Drittanbieterdienst (Google Firebase Crashlytics), um anonyme Absturzberichte zu erfassen und die Stabilität der App zu verbessern.
+## 3. Diagnose und optionale Berichte
+GateTap speichert lokale technische Fehlerdaten (Zeitpunkt, Vorgangskategorie, Fehlertyp/-code, Gerät, Betriebssystem und App-Version), einschließlich verzögert zugestellter nativer Absturzdiagnosen von MetricKit. Der Fehlerverlauf ist auf 7 Tage, 512 Einträge oder 1 MiB codierte Daten begrenzt. Separater lokaler Kontext enthält Ansichts-/Aktionskategorien und inhaltsfreie Einstellungen: höchstens 24 Stunden, 200 Einträge oder 256 KiB. Beim Schreiben oder Lesen entfernt die zuerst erreichte Grenze die ältesten vollständigen Einträge; Datenbankaufwand kommt hinzu. Kontext wird niemals an Firebase gesendet. Beide Bereiche enthalten keine Zugangsdaten, Tokens, Controller-Adressen, URLs, Pfade, Tür-/Controllernamen oder -kennungen, Befehle, Authentifizierungsanforderungen, Zutrittsverläufe oder ursprünglichen Fehlermeldungen.
 
-Die Berichte können folgende Informationen enthalten:
+Wenn Firebase verfügbar ist, bleibt die automatische Berichterstattung wie bisher standardmäßig eingeschaltet. Unter Datenschutz oder Hilfe lässt sie sich ausschalten: Neue App-Fehlermeldungen werden nicht mehr gesendet; für die bereits konfigurierte native Absturzerfassung kann der angezeigte Neustart nötig sein. Lokale Protokolle bleiben verfügbar. Firebase Crashlytics verarbeitet native Abstürze, technische Geräte-/Sitzungsinformationen und eigene Installations-/Sitzungskennungen separat; diese Berichte sind nicht vollständig anonym. GateTap ergänzt keine Nutzer-, Installations- oder Werbekennung und kein appübergreifendes Tracking. Ausschalten löscht keine bereits an Google gesendeten Berichte. Siehe [Firebase-Datenschutzinformationen](https://firebase.google.com/support/privacy).
 
-- Gerätetyp und Betriebssystemversion
-- App-Version
-- Technische Informationen zum Absturz
-
-Es werden keine personenbezogenen Daten oder Zugangsdaten übermittelt.
-
-Sie können die Absturzberichterstattung jederzeit in den Einstellungen der App deaktivieren.
+Fehlerprotokolle zeigen JSON mit der bestätigten Berichtseinstellung und dem gesamten/verfügbaren Speicher. Speicherangaben stehen nur in diesem angeforderten Export, nicht in zusätzlicher automatischer App-Telemetrie. Bei E-Mail können Sie Protokolle anhängen, ohne Anhang fortfahren oder abbrechen; nichts wird automatisch gesendet. Ausführlicher Kontext wird nur mit dem gewählten Anhang geteilt. Ihr E-Mail-Anbieter verarbeitet auch Nachricht und Absenderadresse.
 
 ## 4. Netzwerkkommunikation
 GateTap kommuniziert direkt mit Ihren konfigurierten Geräten über das lokale Netzwerk. Es erfolgt keine Weiterleitung von Befehlen oder Zugangsdaten über externe Server.

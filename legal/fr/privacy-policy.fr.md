@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Politique de confidentialité
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Version :** 1.1  
-**Dernière mise à jour :** 2026-04-27
+**Version :** 1.2  
+**Dernière mise à jour :** 2026-10-30
 
 ## 1. Aperçu
 GateTap respecte votre vie privée. Cette application est conçue pour fonctionner principalement sur votre appareil et au sein de votre réseau local.
@@ -32,18 +32,12 @@ L'application peut stocker les informations suivantes localement sur votre appar
 
 Ces données ne quittent jamais votre appareil.
 
-## 3. Rapport d'incident (facultatif)
-GateTap utilise un service tiers fourni par Google Firebase Crashlytics pour collecter des rapports d'erreur anonymes afin d'améliorer la stabilité de l'application.
+## 3. Diagnostics et rapports facultatifs
+GateTap conserve localement des erreurs techniques (heure, catégorie d’opération, type/code d’erreur, appareil, système et version de l’app), y compris les diagnostics natifs différés de MetricKit. Limites : 7 jours, 512 enregistrements ou 1 MiB de données encodées. Un contexte local distinct contient des catégories d’écrans/actions et des réglages sans contenu personnel : 24 heures, 200 entrées ou 256 KiB. À la lecture ou à l’écriture, la première limite atteinte supprime les entrées entières les plus anciennes ; le stockage de la base s’y ajoute. Le contexte n’est jamais envoyé à Firebase. Aucun de ces ensembles ne contient d’identifiants de connexion, jetons, adresses de contrôleurs, URL, chemins, noms/identifiants de portes ou contrôleurs, commandes, demandes d’authentification, historique d’accès ou messages d’erreur bruts.
 
-Les rapports d'erreur peuvent inclure :
+Si Firebase est disponible, les rapports automatiques restent activés par défaut. Vous pouvez les désactiver dans Confidentialité ou Aide : l’envoi de nouvelles erreurs par l’app cesse ; le dispositif natif déjà configuré peut nécessiter le redémarrage indiqué. Les journaux locaux restent disponibles. Firebase Crashlytics traite séparément les plantages natifs, les informations techniques d’appareil/session et ses identifiants d’installation/session ; ses rapports ne sont pas entièrement anonymes. GateTap n’ajoute aucun identifiant utilisateur, d’installation ou publicitaire ni suivi entre apps. Désactiver ne supprime pas les rapports déjà envoyés à Google. Voir [la confidentialité Firebase](https://firebase.google.com/support/privacy).
 
-- Type d'appareil et version du système d'exploitation
-- Version de l'application
-- Informations techniques sur l'accident
-
-Aucune donnée personnelle ni identifiant n'est inclus dans les rapports d'erreur.
-
-Vous pouvez désactiver les rapports d'erreur à tout moment dans les paramètres de l'application.
+Les journaux d’erreurs affichent un JSON avec le choix de rapport confirmé et le stockage total/disponible. La capacité figure uniquement dans cet export demandé, jamais dans la télémétrie automatique ajoutée par l’app. L’e-mail propose de joindre les journaux, de continuer sans pièce jointe ou d’annuler ; aucun envoi automatique. Le contexte étendu n’est partagé que si vous choisissez la pièce jointe. Votre fournisseur de messagerie traite aussi le message et l’adresse d’expédition.
 
 ## 4. Communication réseau
 GateTap communique directement avec vos appareils configurés sur votre réseau local. Aucune donnée de commande ou d'identifiant n'est acheminée via des serveurs externes.

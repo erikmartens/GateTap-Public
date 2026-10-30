@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Adatvédelmi szabályzat
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Verzió:** 1.1  
-**Utolsó frissítés:** 2026-04-27
+**Verzió:** 1.2  
+**Utolsó frissítés:** 2026-10-30
 
 ## 1. Áttekintés
 A GateTap tiszteletben tartja az Ön magánéletét. Ez az alkalmazás elsősorban az Ön készülékén és a helyi hálózaton belül működik.
@@ -32,18 +32,12 @@ Az alkalmazás a következő információkat tárolhatja helyileg az Ön eszköz
 
 Ezek az adatok soha nem hagyják el az eszközt.
 
-## 3. Összeomlási jelentés (opcionális)
-A GateTap a Google Firebase Crashlytics harmadik féltől származó szolgáltatását használja a névtelen hibajelentések gyűjtésére az alkalmazás stabilitásának javítása érdekében.
+## 3. Diagnosztika és választható jelentésküldés
+A GateTap helyi műszaki hibákat tárol: időpont, műveletkategória, hibatípus/-kód, eszköz, rendszer- és alkalmazásverzió, a MetricKit késleltetett natív összeomlási adataival együtt. Hibakorlátok: 7 nap, 512 rekord vagy 1 MiB kódolt adat. A külön helyi kontextus képernyő-/műveletkategóriákat és személyes tartalom nélküli beállításokat tartalmaz: 24 óra, 200 bejegyzés vagy 256 KiB. Olvasáskor vagy íráskor az első elért korlát törli a legrégebbi teljes rekordokat; az adatbázis többlethelye ezen felüli. A kontextus soha nem kerül a Firebase-hez. Egyik rész sem tartalmaz belépési adatokat, tokeneket, vezérlőcímeket, URL-eket, útvonalakat, ajtó-/vezérlőneveket vagy azonosítókat, parancsokat, hitelesítési kihívásokat, belépési előzményeket vagy nyers hibaüzeneteket.
 
-A hibajelentések a következőket tartalmazhatják:
+Ha a Firebase elérhető, az automatikus jelentésküldés továbbra is alapból bekapcsolt. Az Adatvédelem vagy Súgó alatt kikapcsolható: új alkalmazáshibák nem kerülnek elküldésre; a már beállított natív összeomlásjelentéshez a jelzett újraindítás szükséges lehet. A helyi naplók elérhetők maradnak. A Firebase Crashlytics külön kezeli a natív összeomlásokat, műszaki eszköz-/munkamenetadatokat és saját telepítési-/munkamenet-azonosítóit; jelentései nem teljesen névtelenek. A GateTap nem ad hozzá felhasználói, telepítési vagy reklámazonosítót, illetve alkalmazások közti követést. A kikapcsolás nem törli a Google-nak elküldött jelentéseket. Lásd [Firebase-adatvédelem](https://firebase.google.com/support/privacy).
 
-- Eszköz típusa és operációs rendszer verziója
-- App verzió
-- Műszaki információk a balesettel kapcsolatban
-
-A hibajelentések nem tartalmaznak személyes adatokat vagy hitelesítő adatokat.
-
-Bármikor letilthatja a hibajelentést az alkalmazás beállításai között.
+A hibanaplók JSON-ja a visszaigazolt jelentési beállítást és teljes/szabad tárhelyet mutatja. A kapacitás csak a kért exportban szerepel, nem az alkalmazás automatikus telemetriájában. Az e-mailhez csatolhat naplót, folytathatja nélküle vagy megszakíthatja; semmi sem kerül automatikusan elküldésre. A bővített kontextus csak a választott melléklettel osztható meg. A levelezőszolgáltató az üzenetet és a feladó címét is kezeli.
 
 ## 4. Hálózati kommunikáció
 A GateTap közvetlenül kommunikál a konfigurált eszközökkel a helyi hálózaton keresztül. A rendszer semmilyen parancsot vagy hitelesítő adatot nem továbbít külső szervereken.

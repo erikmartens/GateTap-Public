@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Privacy Policy
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Version:** 1.1  
-**Last updated:** 2026-04-27
+**Version:** 1.2  
+**Last updated:** 2026-10-30
 
 ## 1. Overview
 GateTap respects your privacy. This App is designed to operate primarily on your device and within your local network.
@@ -32,18 +32,12 @@ The App may store the following information locally on your device:
 
 This data never leaves your device.
 
-## 3. Crash Reporting (Optional)
-GateTap uses a third-party service provided by Google Firebase Crashlytics to collect anonymous crash reports in order to improve app stability.
+## 3. Diagnostics and Optional Reporting
+GateTap keeps local technical error records (time, operation category, error type/code, device, OS and app version), including delayed native crash diagnostics from MetricKit. Error history is limited to 7 days, 512 records or 1 MiB of encoded data. Separate local context contains scene/action categories and non-content settings, limited to 24 hours, 200 entries or 256 KiB. The first limit reached removes the oldest whole records on writing or reading; database overhead is additional. Context never goes to Firebase. Neither section includes credentials, tokens, controller addresses, URLs, paths, door/controller names or IDs, commands, authentication challenges, access history or raw error messages.
 
-Crash reports may include:
+Where Firebase is available, automatic reporting retains its existing default-on setting. You can disable it in Privacy or Help: new app error submissions stop, while an already configured native crash runtime may require the displayed restart. Local logs remain available. Firebase Crashlytics separately processes native crashes, technical device/session information and its installation/session identifiers; its reports are not fully anonymous. GateTap adds no user or installation identifier, advertising ID or cross-app tracking. Disabling reporting does not delete reports already sent to Google. See [Firebase privacy information](https://firebase.google.com/support/privacy).
 
-- Device type and operating system version
-- App version
-- Technical information about the crash
-
-No personal data or credentials are included in crash reports.
-
-You can disable crash reporting at any time in the app settings.
+Error Logs lets you review JSON with the acknowledged reporting setting and current total/available storage. Storage capacity is included only in this requested export, not app-added automatic telemetry. Email offers attach logs, continue without them or cancel; nothing is sent automatically. Extended context is shared only if you choose the attachment. Your email provider also processes your message and sender address.
 
 ## 4. Network Communication
 GateTap communicates directly with your configured devices over your local network. No command or credential data is routed through external servers.

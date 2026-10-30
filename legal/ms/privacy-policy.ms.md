@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Dasar Privasi
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versi:** 1.1  
-**Terakhir dikemas kini:** 2026-04-27
+**Versi:** 1.2  
+**Terakhir dikemas kini:** 2026-10-30
 
 ## 1. Gambaran keseluruhan
 GateTap menghormati privasi anda. Apl ini direka bentuk untuk beroperasi terutamanya pada peranti anda dan dalam rangkaian tempatan anda.
@@ -32,18 +32,12 @@ Apl boleh menyimpan maklumat berikut secara setempat pada peranti anda:
 
 Data ini tidak pernah meninggalkan peranti anda.
 
-## 3. Pelaporan Ranap Sistem (Pilihan)
-GateTap menggunakan perkhidmatan pihak ketiga yang disediakan oleh Google Firebase Crashlytics untuk mengumpulkan laporan ranap sistem tanpa nama bagi meningkatkan kestabilan apl.
+## 3. Diagnostik dan pelaporan pilihan
+GateTap menyimpan ralat teknikal setempat: masa, kategori operasi, jenis/kod ralat, peranti, sistem dan versi aplikasi, termasuk diagnostik ranap natif tertunda daripada MetricKit. Had ralat: 7 hari, 512 rekod atau 1 MiB data dikodkan. Konteks setempat berasingan mengandungi kategori skrin/tindakan dan tetapan tanpa kandungan peribadi: 24 jam, 200 entri atau 256 KiB. Semasa membaca atau menulis, had pertama yang dicapai membuang rekod tertua sepenuhnya; ruang pangkalan data adalah tambahan. Konteks tidak pernah dihantar ke Firebase. Kedua-dua bahagian tidak mengandungi kelayakan log masuk, token, alamat pengawal, URL, laluan, nama/ID pintu atau pengawal, arahan, cabaran pengesahan, sejarah akses atau mesej ralat mentah.
 
-Laporan ranap sistem mungkin termasuk:
+Jika Firebase tersedia, pelaporan automatik kekal dihidupkan secara lalai. Anda boleh mematikannya dalam Privasi atau Bantuan: ralat aplikasi baharu tidak dihantar; pengumpulan ranap natif yang telah dikonfigurasi mungkin memerlukan mula semula yang dipaparkan. Log setempat kekal tersedia. Firebase Crashlytics memproses ranap natif, maklumat teknikal peranti/sesi dan pengecam pemasangan/sesinya sendiri secara berasingan; laporannya bukan tanpa nama sepenuhnya. GateTap tidak menambah pengecam pengguna, pemasangan atau iklan mahupun penjejakan merentas aplikasi. Mematikan tidak memadam laporan yang sudah dihantar kepada Google. Lihat [privasi Firebase](https://firebase.google.com/support/privacy).
 
-- Jenis peranti dan versi sistem pengendalian
-- Versi apl
-- Maklumat teknikal tentang kemalangan itu
-
-Tiada data peribadi atau bukti kelayakan disertakan dalam laporan ranap sistem.
-
-Anda boleh melumpuhkan pelaporan ranap sistem pada bila-bila masa dalam tetapan apl.
+Log ralat memaparkan JSON dengan tetapan pelaporan yang disahkan dan storan keseluruhan/tersedia. Kapasiti hanya terdapat dalam eksport yang diminta, bukan telemetri automatik tambahan aplikasi. E-mel menawarkan lampiran log, teruskan tanpa log atau batal; tiada penghantaran automatik. Konteks lanjutan hanya dikongsi melalui lampiran yang dipilih. Penyedia e-mel juga memproses mesej dan alamat pengirim.
 
 ## 4. Komunikasi Rangkaian
 GateTap berkomunikasi terus dengan peranti anda yang dikonfigurasikan melalui rangkaian tempatan anda. Tiada arahan atau data kelayakan dihalakan melalui pelayan luaran.

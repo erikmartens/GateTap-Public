@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Privacybeleid
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versie:** 1.1  
-**Laatst bijgewerkt:** 27-04-2026
+**Versie:** 1.2  
+**Laatst bijgewerkt:** 30-10-2026
 
 ## 1. Overzicht
 GateTap respecteert uw privacy. Deze app is ontworpen om voornamelijk op uw apparaat en binnen uw lokale netwerk te werken.
@@ -32,18 +32,12 @@ De app kan de volgende informatie lokaal op uw apparaat opslaan:
 
 Deze gegevens verlaten uw apparaat nooit.
 
-## 3. Crashrapportage (optioneel)
-GateTap maakt gebruik van een externe service van Google Firebase Crashlytics om anonieme crashrapporten te verzamelen om de app-stabiliteit te verbeteren.
+## 3. Diagnostiek en optionele rapportage
+GateTap bewaart lokale technische fouten (tijd, bewerkingscategorie, fouttype/-code, apparaat, systeem en appversie), inclusief vertraagde native crashdiagnostiek van MetricKit. Grenzen: 7 dagen, 512 records of 1 MiB gecodeerde gegevens. Afzonderlijke lokale context bevat scherm-/actiecategorieën en instellingen zonder persoonlijke inhoud: 24 uur, 200 items of 256 KiB. Bij lezen of schrijven verwijdert de eerst bereikte grens de oudste volledige records; databaseopslag komt daarbij. Context gaat nooit naar Firebase. Beide onderdelen bevatten geen inloggegevens, tokens, controlleradressen, URL’s, paden, deur-/controllernamen of ID’s, opdrachten, authenticatieverzoeken, toegangsgeschiedenis of ruwe foutmeldingen.
 
-Crashrapporten kunnen het volgende omvatten:
+Als Firebase beschikbaar is, blijft automatische rapportage standaard ingeschakeld. U kunt dit uitschakelen onder Privacy of Help: nieuwe appfouten worden niet meer verstuurd; reeds ingestelde native crashregistratie kan de aangegeven herstart vereisen. Lokale logs blijven beschikbaar. Firebase Crashlytics verwerkt native crashes, technische apparaat-/sessiegegevens en eigen installatie-/sessie-ID’s afzonderlijk; rapporten zijn niet volledig anoniem. GateTap voegt geen gebruikers-, installatie- of advertentie-ID of tracking tussen apps toe. Uitschakelen verwijdert geen al naar Google gestuurde rapporten. Zie [Firebase-privacy](https://firebase.google.com/support/privacy).
 
-- Apparaattype en versie van het besturingssysteem
-- App-versie
-- Technische informatie over de crash
-
-Er worden geen persoonlijke gegevens of inloggegevens opgenomen in crashrapporten.
-
-U kunt crashrapportage op elk gewenst moment uitschakelen in de app-instellingen.
+Foutlogs tonen JSON met de bevestigde rapportagekeuze en totale/beschikbare opslag. Capaciteit staat alleen in deze aangevraagde export, niet in automatische telemetrie die de app toevoegt. E-mail biedt logs bijvoegen, zonder bijlage doorgaan of annuleren; niets wordt automatisch verstuurd. Uitgebreide context wordt alleen gedeeld als u de bijlage kiest. Uw e-mailprovider verwerkt ook het bericht en afzenderadres.
 
 ## 4. Netwerkcommunicatie
 GateTap communiceert rechtstreeks met uw geconfigureerde apparaten via uw lokale netwerk. Er worden geen opdracht- of inloggegevens via externe servers gerouteerd.

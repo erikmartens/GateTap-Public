@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Tietosuojakäytäntö
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Versio:** 1.1  
-**Viimeksi päivitetty:** 27.4.2026
+**Versio:** 1.2  
+**Viimeksi päivitetty:** 30.10.2026
 
 ## 1. Yleiskatsaus
 GateTap kunnioittaa yksityisyyttäsi. Tämä sovellus on suunniteltu toimimaan ensisijaisesti laitteellasi ja paikallisverkossasi.
@@ -32,18 +32,12 @@ Sovellus voi tallentaa seuraavat tiedot paikallisesti laitteellesi:
 
 Nämä tiedot eivät koskaan poistu laitteestasi.
 
-## 3. Kaatumisraportointi (valinnainen)
-GateTap käyttää Google Firebase Crashlyticsin tarjoamaa kolmannen osapuolen palvelua anonyymien kaatumisraporttien keräämiseen sovelluksen vakauden parantamiseksi.
+## 3. Diagnostiikka ja valinnainen raportointi
+GateTap tallentaa paikalliset tekniset virheet: aika, toimintoluokka, virhetyyppi/-koodi sekä laite-, järjestelmä- ja sovellusversio, myös MetricKitin viivästyneet kaatumistiedot. Virherajat: 7 päivää, 512 tietuetta tai 1 MiB koodattua tietoa. Erillinen paikallinen konteksti sisältää näkymä-/toimintoluokat ja asetukset ilman henkilökohtaista sisältöä: 24 tuntia, 200 merkintää tai 256 KiB. Lukiessa tai kirjoittaessa ensimmäisenä täyttyvä raja poistaa vanhimmat kokonaiset tietueet; tietokannan tilankäyttö tulee lisäksi. Kontekstia ei koskaan lähetetä Firebaseen. Kumpikaan osa ei sisällä kirjautumistietoja, tunnisteavaimia, ohjainosoitteita, URL-osoitteita, polkuja, ovien/ohjainten nimiä tai tunnuksia, komentoja, tunnistautumishaasteita, kulkuhistoriaa tai alkuperäisiä virheviestejä.
 
-Kaatumisraportit voivat sisältää:
+Kun Firebase on saatavilla, automaattiraportointi pysyy oletuksena käytössä. Sen voi poistaa käytöstä Tietosuoja- tai Ohje-osiossa: uusien sovellusvirheiden lähetys loppuu; jo määritetty natiivi kaatumiskeräys voi vaatia ilmoitetun uudelleenkäynnistyksen. Paikalliset lokit säilyvät. Firebase Crashlytics käsittelee erikseen natiivikaatumiset, tekniset laite-/istuntotiedot ja omat asennus-/istuntotunnisteensa; raportit eivät ole täysin anonyymejä. GateTap ei lisää käyttäjä-, asennus- tai mainostunnisteita eikä sovellusten välistä seurantaa. Poistaminen käytöstä ei poista Googlelle lähetettyjä raportteja. Katso [Firebasen tietosuoja](https://firebase.google.com/support/privacy).
 
-- Laitteen tyyppi ja käyttöjärjestelmän versio
-- Sovelluksen versio
-- Tekniset tiedot törmäyksestä
-
-Kaatumisraportit eivät sisällä henkilötietoja tai valtuustietoja.
-
-Voit poistaa kaatumisraportoinnin käytöstä milloin tahansa sovelluksen asetuksista.
+Virhelokien JSON sisältää vahvistetun raportointivalinnan ja tallennustilan kokonais-/vapaan määrän. Kapasiteetti sisältyy vain pyydettyyn vientiin, ei sovelluksen automaattiseen telemetriaan. Sähköpostissa voit liittää lokit, jatkaa ilman tai peruuttaa; mitään ei lähetetä automaattisesti. Laajennettu konteksti jaetaan vain valitsemassasi liitteessä. Sähköpostipalvelu käsittelee myös viestin ja lähettäjän osoitteen.
 
 ## 4. Verkkoviestintä
 GateTap kommunikoi suoraan määritettyjen laitteiden kanssa paikallisverkon kautta. Mitään komentoja tai tunnistetietoja ei reititetä ulkoisten palvelimien kautta.

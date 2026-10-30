@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Politika privatnosti
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Verzija:** 1.1  
-**Zadnje ažuriranje:** 2026-04-27
+**Verzija:** 1.2  
+**Zadnje ažuriranje:** 2026-10-30
 
 ## 1. Pregled
 GateTap poštuje vašu privatnost. Ova je aplikacija dizajnirana za rad prvenstveno na vašem uređaju i unutar vaše lokalne mreže.
@@ -32,18 +32,12 @@ Aplikacija može pohraniti sljedeće informacije lokalno na vašem uređaju:
 
 Ovi podaci nikada ne napuštaju vaš uređaj.
 
-## 3. Izvještavanje o rušenju (nije obavezno)
-GateTap koristi uslugu treće strane koju pruža Google Firebase Crashlytics za prikupljanje anonimnih izvješća o padu radi poboljšanja stabilnosti aplikacije.
+## 3. Dijagnostika i neobavezno izvješćivanje
+GateTap čuva lokalne tehničke pogreške: vrijeme, kategoriju radnje, vrstu/kod pogreške, uređaj, sustav i verziju aplikacije, uključujući odgođenu izvornu dijagnostiku rušenja MetricKita. Ograničenja pogrešaka: 7 dana, 512 zapisa ili 1 MiB kodiranih podataka. Odvojeni lokalni kontekst sadrži kategorije zaslona/radnji i postavke bez osobnog sadržaja: 24 sata, 200 stavki ili 256 KiB. Pri čitanju ili pisanju prvo dosegnuto ograničenje uklanja najstarije cijele zapise; prostor baze podataka je dodatan. Kontekst se nikad ne šalje Firebaseu. Nijedan dio ne sadrži vjerodajnice, tokene, adrese kontrolera, URL-ove, putanje, nazive/ID-jeve vrata ili kontrolera, naredbe, autentifikacijske izazove, povijest pristupa ni izvorne poruke pogrešaka.
 
-Izvješća o rušenju mogu uključivati:
+Kad je Firebase dostupan, automatsko izvješćivanje ostaje zadano uključeno. Možete ga isključiti u Privatnosti ili Pomoći: nove se pogreške aplikacije ne šalju; već postavljeno izvorno izvješćivanje o rušenju može zahtijevati prikazano ponovno pokretanje. Lokalni zapisi ostaju dostupni. Firebase Crashlytics zasebno obrađuje izvorna rušenja, tehničke podatke uređaja/sesije i svoje identifikatore instalacije/sesije; izvješća nisu potpuno anonimna. GateTap ne dodaje identifikatore korisnika, instalacije ili oglasa ni praćenje između aplikacija. Isključivanje ne briše izvješća poslana Googleu. Pogledajte [privatnost Firebasea](https://firebase.google.com/support/privacy).
 
-- Vrsta uređaja i verzija operativnog sustava
-- Verzija aplikacije
-- Tehničke informacije o nesreći
-
-Nikakvi osobni podaci ili vjerodajnice nisu uključene u izvješća o padu programa.
-
-Izvješćivanje o rušenju programa možete onemogućiti u bilo kojem trenutku u postavkama aplikacije.
+Zapisi prikazuju JSON s potvrđenom postavkom izvješćivanja i ukupnim/slobodnim prostorom. Kapacitet je samo u zatraženom izvozu, ne u automatskoj telemetriji aplikacije. E-pošta nudi prilaganje zapisa, nastavak bez njih ili odustajanje; ništa se ne šalje automatski. Prošireni kontekst dijeli se samo odabranim privitkom. Davatelj e-pošte obrađuje i poruku te adresu pošiljatelja.
 
 ## 4. Mrežna komunikacija
 GateTap komunicira izravno s vašim konfiguriranim uređajima preko vaše lokalne mreže. Nikakva naredba ili podaci o vjerodajnicama ne usmjeravaju se preko vanjskih poslužitelja.

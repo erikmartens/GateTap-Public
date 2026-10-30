@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 #Chính sách quyền riêng tư
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Phiên bản:** 1.1  
-**Cập nhật lần cuối:** 2026-04-27
+**Phiên bản:** 1.2  
+**Cập nhật lần cuối:** 2026-10-30
 
 ## 1. Tổng quan
 GateTap tôn trọng quyền riêng tư của bạn. Ứng dụng này được thiết kế để hoạt động chủ yếu trên thiết bị của bạn và trong mạng cục bộ của bạn.
@@ -32,18 +32,12 @@ GateTap không thu thập, lưu trữ hoặc truyền dữ liệu cá nhân đ�
 
 Dữ liệu này không bao giờ rời khỏi thiết bị của bạn.
 
-## 3. Báo cáo sự cố (Tùy chọn)
-GateTap sử dụng dịch vụ của bên thứ ba do Google Firebase Crashlytics cung cấp để thu thập các báo cáo sự cố ẩn danh nhằm cải thiện tính ổn định của ứng dụng.
+## 3. Chẩn đoán và báo cáo tùy chọn
+GateTap lưu lỗi kỹ thuật cục bộ: thời gian, loại thao tác, kiểu/mã lỗi, thiết bị, hệ thống và phiên bản ứng dụng, kể cả chẩn đoán sự cố gốc được MetricKit gửi trễ. Giới hạn lỗi: 7 ngày, 512 bản ghi hoặc 1 MiB dữ liệu mã hóa biểu diễn. Ngữ cảnh cục bộ riêng gồm loại màn hình/hành động và cài đặt không chứa nội dung cá nhân: 24 giờ, 200 mục hoặc 256 KiB. Khi đọc hoặc ghi, giới hạn đạt trước sẽ xóa toàn bộ bản ghi cũ nhất; dung lượng cơ sở dữ liệu là phần bổ sung. Ngữ cảnh không bao giờ được gửi đến Firebase. Cả hai phần không chứa thông tin đăng nhập, mã thông báo, địa chỉ bộ điều khiển, URL, đường dẫn, tên/ID cửa hoặc bộ điều khiển, lệnh, yêu cầu xác thực, lịch sử ra vào hay thông báo lỗi nguyên bản.
 
-Báo cáo sự cố có thể bao gồm:
+Khi Firebase khả dụng, báo cáo tự động vẫn bật theo mặc định. Bạn có thể tắt trong Quyền riêng tư hoặc Trợ giúp: ứng dụng ngừng gửi lỗi mới; cơ chế thu thập sự cố gốc đã thiết lập có thể cần khởi động lại theo thông báo. Nhật ký cục bộ vẫn khả dụng. Firebase Crashlytics xử lý riêng sự cố gốc, thông tin kỹ thuật thiết bị/phiên và mã định danh cài đặt/phiên riêng; báo cáo không hoàn toàn ẩn danh. GateTap không thêm mã người dùng, cài đặt, quảng cáo hay theo dõi giữa ứng dụng. Tắt không xóa báo cáo đã gửi Google. Xem [quyền riêng tư Firebase](https://firebase.google.com/support/privacy).
 
-- Loại thiết bị và phiên bản hệ điều hành
-- Phiên bản ứng dụng
-- Thông tin kỹ thuật về vụ tai nạn
-
-Không có dữ liệu cá nhân hoặc thông tin xác thực nào được đưa vào báo cáo sự cố.
-
-Bạn có thể tắt báo cáo sự cố bất cứ lúc nào trong cài đặt ứng dụng.
+Nhật ký hiển thị JSON với cài đặt báo cáo đã xác nhận và dung lượng tổng/còn trống. Dung lượng chỉ có trong bản xuất được yêu cầu, không trong dữ liệu đo từ xa tự động của ứng dụng. Email cho phép đính kèm nhật ký, tiếp tục không kèm hoặc hủy; không tự động gửi. Ngữ cảnh mở rộng chỉ được chia sẻ qua tệp đính kèm bạn chọn. Nhà cung cấp email cũng xử lý thư và địa chỉ người gửi.
 
 ## 4. Truyền thông mạng
 GateTap giao tiếp trực tiếp với các thiết bị được định cấu hình qua mạng cục bộ của bạn. Không có lệnh hoặc dữ liệu thông tin xác thực nào được định tuyến qua các máy chủ bên ngoài.

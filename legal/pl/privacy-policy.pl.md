@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Polityka prywatności
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Wersja:** 1.1  
-**Ostatnia aktualizacja:** 27.04.2026
+**Wersja:** 1.2  
+**Ostatnia aktualizacja:** 30.10.2026
 
 ## 1. Przegląd
 GateTap szanuje Twoją prywatność. Ta aplikacja została zaprojektowana do działania przede wszystkim na Twoim urządzeniu i w Twojej sieci lokalnej.
@@ -32,18 +32,12 @@ Aplikacja może przechowywać lokalnie na Twoim urządzeniu następujące inform
 
 Te dane nigdy nie opuszczają Twojego urządzenia.
 
-## 3. Zgłaszanie awarii (opcjonalnie)
-GateTap korzysta z usługi strony trzeciej udostępnianej przez Google Firebase Crashlytics w celu gromadzenia anonimowych raportów o awariach w celu poprawy stabilności aplikacji.
+## 3. Diagnostyka i opcjonalne raporty
+GateTap zapisuje lokalne błędy techniczne: czas, kategorię operacji, typ/kod błędu oraz informacje o urządzeniu, systemie i wersji aplikacji, także opóźnione dane awarii MetricKit. Limity błędów: 7 dni, 512 rekordów lub 1 MiB zakodowanych danych. Oddzielny lokalny kontekst obejmuje kategorie ekranów/działań i ustawienia bez treści osobistych: 24 godziny, 200 wpisów lub 256 KiB. Podczas odczytu lub zapisu pierwszy osiągnięty limit usuwa najstarsze całe wpisy; narzut bazy danych jest dodatkowy. Kontekst nigdy nie trafia do Firebase. Żadna część nie zawiera danych logowania, tokenów, adresów kontrolerów, URL, ścieżek, nazw/ID drzwi lub kontrolerów, poleceń, wyzwań uwierzytelniania, historii dostępu ani surowych komunikatów błędów.
 
-Raporty o awariach mogą obejmować:
+Jeśli Firebase jest dostępne, automatyczne raportowanie pozostaje domyślnie włączone. Można je wyłączyć w Prywatności lub Pomocy: nowe błędy aplikacji nie są wysyłane; już skonfigurowane natywne raportowanie awarii może wymagać wskazanego ponownego uruchomienia. Lokalne dzienniki pozostają dostępne. Firebase Crashlytics oddzielnie przetwarza natywne awarie, techniczne dane urządzenia/sesji oraz własne identyfikatory instalacji/sesji; raporty nie są całkowicie anonimowe. GateTap nie dodaje identyfikatorów użytkownika, instalacji, reklam ani śledzenia między aplikacjami. Wyłączenie nie usuwa raportów wysłanych Google. Zobacz [prywatność Firebase](https://firebase.google.com/support/privacy).
 
-- Typ urządzenia i wersja systemu operacyjnego
-- Wersja aplikacji
-- Informacje techniczne o awarii
-
-Raporty o awariach nie zawierają żadnych danych osobowych ani danych uwierzytelniających.
-
-W dowolnym momencie możesz wyłączyć raportowanie awarii w ustawieniach aplikacji.
+Dzienniki pokazują JSON z potwierdzonym ustawieniem raportowania i całkowitą/wolną pamięcią. Pojemność występuje tylko w żądanym eksporcie, nie w automatycznej telemetrii aplikacji. E-mail pozwala dołączyć dzienniki, kontynuować bez nich lub anulować; nic nie jest wysyłane automatycznie. Rozszerzony kontekst jest udostępniany tylko w wybranym załączniku. Dostawca poczty przetwarza też wiadomość i adres nadawcy.
 
 ## 4. Komunikacja sieciowa
 GateTap komunikuje się bezpośrednio ze skonfigurowanymi urządzeniami poprzez sieć lokalną. Żadne dane poleceń ani dane uwierzytelniające nie są przesyłane przez serwery zewnętrzne.

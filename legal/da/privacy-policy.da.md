@@ -1,8 +1,8 @@
 <!--
 Generated from GateTap app legal JSON.
 Do not edit manually.
-Version: 1.1
-Last updated: 2026-04-27
+Version: 1.2
+Last updated: 2026-10-30
 -->
 
 # Privatlivspolitik
@@ -16,8 +16,8 @@ Last updated: 2026-04-27
 
 
 
-**Version:** 1.1  
-**Sidst opdateret:** 2026-04-27
+**Version:** 1.2  
+**Sidst opdateret:** 2026-10-30
 
 ## 1. Oversigt
 GateTap respekterer dit privatliv. Denne app er designet til at fungere primært på din enhed og inden for dit lokale netværk.
@@ -32,18 +32,12 @@ Appen gemmer muligvis følgende oplysninger lokalt på din enhed:
 
 Disse data forlader aldrig din enhed.
 
-## 3. Nedbrudsrapportering (valgfrit)
-GateTap bruger en tredjepartstjeneste leveret af Google Firebase Crashlytics til at indsamle anonyme nedbrudsrapporter for at forbedre appstabiliteten.
+## 3. Diagnostik og valgfri rapportering
+GateTap gemmer lokale tekniske fejl med tidspunkt, operationskategori, fejltype/-kode samt enheds-, system- og appversion, inklusive forsinkede nedbrudsdata fra MetricKit. Fejl: højst 7 dage, 512 poster eller 1 MiB kodede data. Separat lokal kontekst med skærm-/handlingskategorier og indholdsfrie indstillinger: 24 timer, 200 poster eller 256 KiB. Ved læsning eller skrivning sletter den først nåede grænse de ældste hele poster; databaseplads kommer oveni. Kontekst sendes aldrig til Firebase. Ingen af delene indeholder adgangskoder, legitimationsoplysninger, tokens, controlleradresser, URL’er, stier, dør-/controllernavne eller ID’er, kommandoer, autentificeringsudfordringer, adgangshistorik eller rå fejlbeskeder.
 
-Nedbrudsrapporter kan omfatte:
+Hvor Firebase er tilgængeligt, er automatisk rapportering fortsat slået til som standard. Slå den fra under Privatliv eller Hjælp: nye appfejl sendes ikke, mens allerede aktiveret native nedbrudsrapportering kan kræve den viste genstart. Lokale logs bevares. Firebase Crashlytics behandler separat native nedbrud, tekniske enheds-/sessionsdata og egne installations-/sessions-ID’er; rapporterne er ikke fuldt anonyme. GateTap tilføjer ingen bruger-, installations- eller reklame-ID eller sporing på tværs af apps. Deaktivering sletter ikke rapporter hos Google. Se [Firebase-privatliv](https://firebase.google.com/support/privacy).
 
-- Enhedstype og operativsystemversion
-- App version
-- Teknisk information om styrtet
-
-Ingen personlige data eller legitimationsoplysninger er inkluderet i nedbrudsrapporter.
-
-Du kan til enhver tid deaktivere nedbrudsrapportering i appindstillingerne.
+Fejllogs viser JSON med det bekræftede rapporteringsvalg og samlet/ledig lagerplads. Kapacitet indgår kun i den ønskede eksport, ikke i appens automatiske telemetri. E-mail tilbyder vedhæftning, fortsættelse uden eller annullering; intet sendes automatisk. Udvidet kontekst deles kun med den valgte vedhæftning. Din mailudbyder behandler også beskeden og afsenderadressen.
 
 ## 4. Netværkskommunikation
 GateTap kommunikerer direkte med dine konfigurerede enheder over dit lokale netværk. Ingen kommando- eller legitimationsdata dirigeres gennem eksterne servere.
